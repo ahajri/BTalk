@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ahajri.msgsys.domain.UserAuth;
-import com.ahajri.msgsys.service.UserAuthService;
+import com.ahajri.msgsys.data.domain.UserAuth;
+import com.ahajri.msgsys.data.service.UserAuthService;
 
 @RestController
 public class UserController extends AMongoController<UserAuth> {
@@ -38,7 +38,6 @@ public class UserController extends AMongoController<UserAuth> {
 
 	@Override
 	public Integer delete(UserAuth query) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -49,11 +48,22 @@ public class UserController extends AMongoController<UserAuth> {
 		ResponseEntity<UserAuth> response = new ResponseEntity<UserAuth>(model,
 				HttpStatus.CREATED);
 		try {
-			userService.persist(model);
+			if (userService.persist(model) == null) {
+				response = new ResponseEntity<UserAuth>(model,
+						HttpStatus.EXPECTATION_FAILED);
+			}
 		} catch (Exception e) {
 			response = new ResponseEntity<UserAuth>(model, HttpStatus.NOT_FOUND);
 		}
 		return response;
+	}
+
+	@RequestMapping(value = "/msgsys/allUsers", method = RequestMethod.GET)
+	@ResponseStatus(HttpStatus.FOUND)
+	@Override
+	public ResponseEntity<List<UserAuth>> findAll() {
+		return new ResponseEntity<List<UserAuth>>(userService.findAll(),
+				HttpStatus.FOUND);
 	}
 
 }

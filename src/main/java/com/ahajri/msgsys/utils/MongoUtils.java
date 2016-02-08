@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.apache.log4j.Logger;
 import org.springframework.data.mongodb.core.query.Criteria;
 
-import com.ahajri.msgsys.domain.IModel;
+import com.ahajri.msgsys.data.domain.IModel;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;

@@ -11,7 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.ahajri.msgsys.domain.IModel;
+import com.ahajri.msgsys.data.domain.IModel;
 import com.ahajri.msgsys.error.ClientErrorInformation;
 
 /**
@@ -74,5 +74,13 @@ public abstract class AMongoController<T> {
 	 * @return inserted document
 	 */
 	public abstract ResponseEntity<T> create(T model);
+	
+	
+	/**
+	 * 
+	 * @return {@link List}of all found documents
+	 */
+	
+	public abstract ResponseEntity<List<T>> findAll();
 
 }
