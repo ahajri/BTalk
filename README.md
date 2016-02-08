@@ -1,5 +1,7 @@
 #Info
 Using JMS + MongoDB + Spring + ActiveMQ
 # ActiveMQ
-Create queue with name msgQueue
-Create Topic with name msgTopic
+<ul>
+<li>Create queue with name msgQueue</li>
+<li>Create Topic with name msgTopic</li>
+</ul>
