@@ -1,4 +1,4 @@
-package com.ahajri.msgsys.data.service;
+package com.ahajri.btalk.data.service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,8 +23,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.ahajri.msgsys.config.MongoConfig;
-import com.ahajri.msgsys.data.domain.UserAuth;
+import com.ahajri.btalk.config.MongoConfig;
+import com.ahajri.btalk.data.domain.UserAuth;
 import com.google.gson.Gson;
 
 @WebAppConfiguration
@@ -36,7 +36,7 @@ public class UserAuthMongoIntegTests {
 	private static final Logger LOGGER = Logger
 			.getLogger(UserAuthMongoIntegTests.class);
 
-	private static final String BASE_URL = "http://localhost:8282/msgsys/";
+	private static final String BASE_URL = "http://localhost:8282/btalk/";
 
 	private static HttpHeaders httpHeaders;
 	private final static Gson gson = new Gson();

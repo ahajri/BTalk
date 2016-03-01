@@ -1,4 +1,4 @@
-package com.ahajri.msgsys.data.service;
+package com.ahajri.btalk.data.service;
 
 import java.util.Arrays;
 
@@ -25,9 +25,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.ahajri.msgsys.config.AppConfig;
-import com.ahajri.msgsys.data.domain.IModel;
-import com.ahajri.msgsys.data.domain.UserAuth;
+import com.ahajri.btalk.config.AppConfig;
+import com.ahajri.btalk.data.domain.IModel;
+import com.ahajri.btalk.data.domain.UserAuth;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
