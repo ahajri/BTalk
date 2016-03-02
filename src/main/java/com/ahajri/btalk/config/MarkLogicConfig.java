@@ -25,7 +25,7 @@ import com.sun.jersey.api.client.filter.LoggingFilter;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-@PropertySource("classpath:src/main/resources/ml-config.properties")
+@PropertySource("classpath:ml-config.properties")
 public class MarkLogicConfig {
 
 	private static final Logger LOGGER = Logger
