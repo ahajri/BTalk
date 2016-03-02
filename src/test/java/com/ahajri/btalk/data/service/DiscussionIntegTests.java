@@ -1,7 +1,6 @@
 package com.ahajri.btalk.data.service;
 
 import java.util.Arrays;
-import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -23,24 +22,24 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.ahajri.btalk.config.MongoConfig;
-import com.ahajri.btalk.data.domain.UserAuth;
+import com.ahajri.btalk.config.MarkLogicConfig;
+import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.google.gson.Gson;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { MongoConfig.class })
+@ContextConfiguration(classes = { MarkLogicConfig.class })
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class UserAuthMongoIntegTests {
+public class DiscussionIntegTests {
 
 	private static final Logger LOGGER = Logger
-			.getLogger(UserAuthMongoIntegTests.class);
+			.getLogger(DiscussionIntegTests.class);
 
 	private static final String BASE_URL = "http://localhost:8282/btalk/";
 
 	private static HttpHeaders httpHeaders;
 	private final static Gson gson = new Gson();
-	private UserAuth created = null;
+	private DiscussionMember created = null;
 
 	@Autowired
 	private RestTemplate restTemplate;
@@ -57,17 +56,16 @@ public class UserAuthMongoIntegTests {
 	@Test
 	public void aShouldCreate() throws Exception {
 		LOGGER.info("<<<<<<<<<<<<<< Create >>>>>>>>>>>>> ");
-		UserAuth model = new UserAuth();
-		model.setEmail("anis.hajri@gmail.com");
-		model.setPassword("mafhh14$");
-		model.setRoles(Arrays.asList(new String[] { "super-admin" }));
+		DiscussionMember model = new DiscussionMember();
+		model.setIdentity("anis.hajri@gmail.com");
+		model.setStatus("waiting");
 
 		System.out.println(gson.toJson(model));
 		HttpEntity<String> entity = new HttpEntity<String>(gson.toJson(model),
 				httpHeaders);
-		ResponseEntity<UserAuth> responseEntity = restTemplate.exchange(
+		ResponseEntity<DiscussionMember> responseEntity = restTemplate.exchange(
 				BASE_URL + "createUser", HttpMethod.POST, entity,
-				UserAuth.class);
+				DiscussionMember.class);
 		created = responseEntity.getBody();
 		System.out.println("-------------  created  ---------------- "
 				+ created);

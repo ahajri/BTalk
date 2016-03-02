@@ -53,7 +53,7 @@
 			<artifactId>c3p0-oracle-thin-extras</artifactId>
 			<version>0.9.0.2</version>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -184,12 +184,28 @@
 			<artifactId>javax.jms-api</artifactId>
 			<version>2.0.1</version>
 		</dependency>
-<dependency>
-	<groupId>org.apache.activemq</groupId>
-	<artifactId>activemq-core</artifactId>
-	<version>5.7.0</version>
-</dependency>
-
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
+		</dependency>
+		<!-- MarkLogic -->
+		<dependency>
+			<groupId>com.marklogic</groupId>
+			<artifactId>java-client-api</artifactId>
+			<version>3.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.marklogic</groupId>
+			<artifactId>marklogic-jena</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.marklogic</groupId>
+			<artifactId>marklogic-sesame</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- -->
 
 
 	</dependencies>

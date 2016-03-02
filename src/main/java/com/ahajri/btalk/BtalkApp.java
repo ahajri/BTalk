@@ -13,10 +13,10 @@ import org.springframework.context.annotation.ComponentScan;
 		HibernateJpaAutoConfiguration.class,
 		JpaRepositoriesAutoConfiguration.class,
 		DataSourceTransactionManagerAutoConfiguration.class })
-public class MsgSysApp {
+public class BtalkApp {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(MsgSysApp.class, args);
+		SpringApplication.run(BtalkApp.class, args);
 	}
 
 }

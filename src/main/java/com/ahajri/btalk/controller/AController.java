@@ -20,7 +20,7 @@ import com.ahajri.btalk.error.ClientErrorInformation;
  *         ahajri
  *         </p>
  */
-public abstract class AMongoController<T> {
+public abstract class AController<T> {
 
 	private final Logger LOGGER = Logger.getLogger(getClass());
 
@@ -33,7 +33,6 @@ public abstract class AMongoController<T> {
 			HttpServletRequest req, Exception e) {
 		LOGGER.error("Rules For Rest Not Found >>>>> Problem while executing request: "
 				+ e.getMessage());
-
 		ClientErrorInformation error = new ClientErrorInformation(e.toString(),
 				req.getRequestURI());
 		return new ResponseEntity<ClientErrorInformation>(error,

@@ -1,7 +1,5 @@
 package com.ahajri.btalk.data.service;
 
-import java.util.Arrays;
-
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHost;
@@ -26,8 +24,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import com.ahajri.btalk.config.AppConfig;
+import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.data.domain.IModel;
-import com.ahajri.btalk.data.domain.UserAuth;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -74,10 +72,9 @@ public class HttpClientMongoUserIntegTests {
 			// specify the get request
 			HttpPost postRequest = new HttpPost("/msgsys/createUser");
 
-			UserAuth model = new UserAuth();
-			model.setEmail("ahajri@auxia.com");
-			model.setPassword("1234");
-			model.setRoles(Arrays.asList(new String[]{"rest-reader","rest-writer"}));
+			DiscussionMember model = new DiscussionMember();
+			model.setIdentity("ahajri@auxia.com");
+			model.setDiscussRole("");
 
 			StringEntity input = new StringEntity(gson.toJson(model));
 			input.setContentType("application/json");
@@ -98,7 +95,7 @@ public class HttpClientMongoUserIntegTests {
 				String json = EntityUtils.toString(entity, CHARSET);
 				JsonElement jelem = gson.fromJson(json, JsonElement.class);
 				JsonObject jobj = jelem.getAsJsonObject();
-				created = gson.fromJson(jobj, UserAuth.class);
+				created = gson.fromJson(jobj, DiscussionMember.class);
 				System.out.println("created : " + created);
 
 			} else {

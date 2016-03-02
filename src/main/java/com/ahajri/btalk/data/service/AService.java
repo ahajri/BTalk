@@ -2,29 +2,17 @@ package com.ahajri.btalk.data.service;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
-
 import com.ahajri.btalk.data.domain.IModel;
-import com.ahajri.btalk.data.repository.SequenceMongoRepository;
 import com.mongodb.DBObject;
 
 /**
  * 
  * @author ahajri
  */
-public abstract class AMongoService<T extends IModel> {
+public abstract class AService<T extends IModel> {
 
-	protected static final String gt = "$gt";
+	
 
-	@Autowired
-	protected String databaseName;
-
-	@Autowired
-	protected MongoTemplate mongoTemplate;
-
-	@Autowired
-	protected SequenceMongoRepository sequenceRepository;
 
 	/**
 	 * Persist document
