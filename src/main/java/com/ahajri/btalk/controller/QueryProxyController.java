@@ -1,31 +1,31 @@
 package com.ahajri.btalk.controller;
 
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
-import com.sun.jersey.core.util.MultivaluedMapImpl;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import javax.ws.rs.core.MultivaluedMap;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-import javax.ws.rs.core.MultivaluedMap;
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.core.util.MultivaluedMapImpl;
 
-@RestController
+//@RestController
 public class QueryProxyController {
 
-	private static final Logger logger = LoggerFactory
+	private static final Logger LOGGER = Logger
 			.getLogger(JsonDiscussController.class);
 
 	@Autowired
-	protected Client jerseyClient;
+	public Client jerseyClient;
 
 	@Autowired
-	protected String markLogicBaseURL;
+	public String markLogicBaseURL;
 
 	@RequestMapping(value = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<String> query() {

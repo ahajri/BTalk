@@ -2,8 +2,7 @@ package com.ahajri.btalk.controller;
 
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -23,10 +22,10 @@ import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.repository.DiscussionXmlRepository;
 
 @RestController
-public class XmlTalkController {
+public class XmlDiscussController {
 
-	private static final Logger logger = LoggerFactory
-			.getLogger(XmlTalkController.class);
+	private static final Logger logger = Logger
+			.getLogger(XmlDiscussController.class);
 
 	@Autowired
 	protected DiscussionXmlRepository discussionXmlRepository;
@@ -58,11 +57,11 @@ public class XmlTalkController {
 	public List<Discussion> searchProducts(
 			@RequestParam(required = false, value = "name") String name) {
 		if (StringUtils.isEmpty(name)) {
-			logger.info("Lookup all {} products...",
+			logger.info("Lookup all {} products..."+
 					discussionXmlRepository.count());
 			return discussionXmlRepository.findAll();
 		} else {
-			logger.info("Lookup products by name: {}", name);
+			logger.info("Lookup products by name: {}"+ name);
 			return discussionXmlRepository.findByQuery(name);
 		}
 	}

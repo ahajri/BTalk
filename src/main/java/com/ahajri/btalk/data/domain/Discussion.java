@@ -3,6 +3,8 @@ package com.ahajri.btalk.data.domain;
 import java.sql.Timestamp;
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -11,7 +13,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Discussion implements IModel {
 
-	
 	/**
 	 * UID of Serialization
 	 */
@@ -20,7 +21,6 @@ public class Discussion implements IModel {
 	private Timestamp startTime;
 	private Timestamp endTime;
 	private List<DiscussionMember> members;
-	
 
 	public Discussion() {
 		super();
@@ -50,6 +50,8 @@ public class Discussion implements IModel {
 		this.endTime = endTime;
 	}
 
+	@XmlElementWrapper(name = "members")
+	@XmlElement(name = "member")
 	public List<DiscussionMember> getMembers() {
 		return members;
 	}

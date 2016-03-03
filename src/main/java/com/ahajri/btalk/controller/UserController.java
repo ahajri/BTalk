@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.data.service.UserAuthService;
 
-@RestController
+//@RestController
 public class UserController extends AController<DiscussionMember> {
 
 	/** LOGGER */

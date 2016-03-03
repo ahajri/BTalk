@@ -2,15 +2,16 @@ package com.ahajri.btalk.data.repository;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.google.gson.Gson;
 import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
 import com.marklogic.client.io.JacksonHandle;
@@ -23,20 +24,21 @@ import com.marklogic.client.query.StructuredQueryBuilder;
 import com.marklogic.client.query.StructuredQueryDefinition;
 
 /**
- * Sample implementation of the {@link IRepository} making use of
- * MarkLogic's {@link JSONDocumentManager}.
+ * Sample implementation of the {@link IRepository} making use of MarkLogic's
+ * {@link JSONDocumentManager}.
  *
  * @author ahajri
  */
-@Component
+@Component("discussionJsonRepository")
 public class DiscussionJsonRepository implements IRepository<Discussion> {
 
-	private static final Logger logger = LoggerFactory
+	private static final Logger LOGGER = Logger
 			.getLogger(DiscussionJsonRepository.class);
 
-	public static final String COLLECTION_REF = "/products.json";
+	public static final String COLLECTION_REF = "/DiscussionCollection";
 	public static final String OPTIONS_NAME = "price-year-bucketed";
 	public static final int PAGE_SIZE = 10;
+	private Gson gson = new Gson();
 
 	@Autowired
 	protected QueryManager queryManager;
@@ -45,20 +47,23 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	protected JSONDocumentManager jsonDocumentManager;
 
 	@Override
-	public void add(Discussion Discussion) {
+	public void add(Discussion discussion) {
 		// Add this document to a dedicated collection for later retrieval
 		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
-		metadata.getCollections().add(COLLECTION_REF);
+		Iterator<String> iterator = metadata.getCollections().iterator();
+		
+		// metadata.getCollections().add(COLLECTION_REF);
 
 		JacksonHandle writeHandle = new JacksonHandle();
 		JsonNode writeDocument = writeHandle.getMapper().convertValue(
-				Discussion, JsonNode.class);
+				discussion, JsonNode.class);
 		writeHandle.set(writeDocument);
 
 		// TODO: writing JacksonHandle with metadata throws:
 		// java.io.IOException: Attempted write to closed stream.
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
-		jsonDocumentManager.write("{}", metadata, stringHandle);
+		jsonDocumentManager.write("/discuss/discussion.json", metadata,
+				stringHandle);
 	}
 
 	@Override
@@ -122,7 +127,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
 		List<Discussion> products = new ArrayList<>();
 		for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
-			logger.info("  * found {}", summary.getUri());
+			LOGGER.info("  * found {}"+ summary.getUri());
 			// Assumption: summary URI refers to JSON document
 			JacksonHandle jacksonHandle = new JacksonHandle();
 			jsonDocumentManager.read(summary.getUri(), jacksonHandle);

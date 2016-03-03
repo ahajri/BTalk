@@ -7,8 +7,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.namespace.QName;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -29,10 +28,10 @@ import com.marklogic.client.query.StructuredQueryDefinition;
  *
  * @author Niko Schmuck
  */
-@Component
+@Component("discussionXMLRepository")
 public class DiscussionXmlRepository implements IRepository<Discussion> {
 
-    private static final Logger logger = LoggerFactory.getLogger(DiscussionXmlRepository.class);
+    private static final Logger logger = Logger.getLogger(DiscussionXmlRepository.class);
 
     public static final String COLLECTION_REF = "/products.xml";
     public static final int PAGE_SIZE = 10;
@@ -112,7 +111,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
         List<Discussion> products = new ArrayList<>();
         for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
             JAXBHandle contentHandle = getProductHandle();
-            logger.info("  * found {}", summary.getUri());
+            logger.info("  * found {}"+summary.getUri());
             xmlDocumentManager.read(summary.getUri(), contentHandle);
             products.add((Discussion) contentHandle.get(Discussion.class));
         }
