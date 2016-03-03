@@ -25,7 +25,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.ahajri.btalk.config.MarkLogicConfig;
+import com.ahajri.btalk.config.MarkLogicConfigTest;
 import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.utils.DiscussRole;
@@ -35,7 +35,7 @@ import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { MarkLogicConfig.class })
+@ContextConfiguration(classes = { MarkLogicConfigTest.class })
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class DiscussionIntegTests {
 
