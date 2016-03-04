@@ -92,7 +92,6 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 
    
 
-    // ~~
 
     private JAXBHandle getProductHandle() {
         try {
@@ -121,5 +120,10 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 	@Override
 	public Discussion findOne(Object... params) {
 		return null;
+	}
+
+	@Override
+	public void update(Discussion model) {
+		// TODO Auto-generated method stub
 	}
 }

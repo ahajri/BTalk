@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestController;
 
 import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.data.service.UserAuthService;
@@ -64,6 +63,12 @@ public class UserController extends AController<DiscussionMember> {
 	public ResponseEntity<List<DiscussionMember>> findAll() {
 		return new ResponseEntity<List<DiscussionMember>>(userService.findAll(),
 				HttpStatus.FOUND);
+	}
+
+	@Override
+	public ResponseEntity<DiscussionMember> update(DiscussionMember model) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

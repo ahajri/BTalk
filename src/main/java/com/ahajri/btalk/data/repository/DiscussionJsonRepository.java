@@ -11,12 +11,14 @@ import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.google.gson.Gson;
+import com.marklogic.client.document.DocumentPatchBuilder;
+import com.marklogic.client.document.DocumentPatchBuilder.Position;
 import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
 import com.marklogic.client.io.JacksonHandle;
 import com.marklogic.client.io.SearchHandle;
 import com.marklogic.client.io.StringHandle;
+import com.marklogic.client.io.marker.DocumentPatchHandle;
 import com.marklogic.client.query.MatchDocumentSummary;
 import com.marklogic.client.query.QueryManager;
 import com.marklogic.client.query.StringQueryDefinition;
@@ -27,7 +29,7 @@ import com.marklogic.client.query.StructuredQueryDefinition;
  * Sample implementation of the {@link IRepository} making use of MarkLogic's
  * {@link JSONDocumentManager}.
  *
- * @author ahajri
+ * @author <b>ahajri</b>
  */
 @Component("discussionJsonRepository")
 public class DiscussionJsonRepository implements IRepository<Discussion> {
@@ -36,9 +38,10 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 			.getLogger(DiscussionJsonRepository.class);
 
 	public static final String COLLECTION_REF = "/DiscussionCollection";
+	// TODO: later
 	public static final String OPTIONS_NAME = "price-year-bucketed";
+	
 	public static final int PAGE_SIZE = 10;
-	private Gson gson = new Gson();
 
 	@Autowired
 	protected QueryManager queryManager;
@@ -51,8 +54,8 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		// Add this document to a dedicated collection for later retrieval
 		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
 		Iterator<String> iterator = metadata.getCollections().iterator();
-		
-		// metadata.getCollections().add(COLLECTION_REF);
+
+		metadata.getCollections().add(COLLECTION_REF);
 
 		JacksonHandle writeHandle = new JacksonHandle();
 		JsonNode writeDocument = writeHandle.getMapper().convertValue(
@@ -67,16 +70,16 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	}
 
 	@Override
-	public void remove(Discussion sku) {
+	public void remove(Discussion model) {
 		jsonDocumentManager.delete("");
 	}
 
 	/**
 	 * Demonstrates End-to-End JSON direct access.
 	 */
-	public JsonNode rawfindBySku(Long sku) {
+	public JsonNode getById(Discussion model) {
 		JacksonHandle jacksonHandle = new JacksonHandle();
-		jsonDocumentManager.read(getDocId(sku), jacksonHandle);
+		jsonDocumentManager.read(getDocId(model), jacksonHandle);
 		return jacksonHandle.get();
 	}
 
@@ -84,7 +87,6 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public Long count() {
 		StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
 		StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
-
 		SearchHandle resultsHandle = new SearchHandle();
 		queryManager.search(criteria, resultsHandle);
 		return resultsHandle.getTotalResults();
@@ -120,14 +122,14 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	// ~~
 
-	private String getDocId(Long sku) {
-		return String.format("/products/%d.json", sku);
+	private String getDocId(Discussion model) {
+		return String.format("/discussion/%d.json", model.getIdentifier());
 	}
 
 	private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
-		List<Discussion> products = new ArrayList<>();
+		List<Discussion> products = new ArrayList<Discussion>();
 		for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
-			LOGGER.info("  * found {}"+ summary.getUri());
+			LOGGER.info("  * found {}" + summary.getUri());
 			// Assumption: summary URI refers to JSON document
 			JacksonHandle jacksonHandle = new JacksonHandle();
 			jsonDocumentManager.read(summary.getUri(), jacksonHandle);
@@ -136,6 +138,12 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		return null;
 	}
 
+	/**
+	 * 
+	 * @param jacksonHandle
+	 *            {@link JacksonHandle}
+	 * @return {@link Discussion}
+	 */
 	private Discussion fetchProduct(JacksonHandle jacksonHandle) {
 		try {
 			JsonNode jsonNode = jacksonHandle.get();
@@ -150,5 +158,17 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public Discussion findOne(Object... params) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public void update(Discussion model) {
+		DocumentPatchBuilder xmlPatchBldr = jsonDocumentManager.newPatchBuilder();
+		DocumentPatchHandle xmlPatch = 
+		    xmlPatchBldr.insertFragment(
+		        "/data", 
+		        Position.LAST_CHILD,
+		        "<child>the last one</child>")
+		      .build();
+		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 	}
 }

@@ -1,4 +1,4 @@
-package com.ahajri.btalk.controller;
+package com.ahajri.btalk.controller.xml;
 
 import java.util.List;
 

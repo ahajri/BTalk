@@ -14,7 +14,7 @@ public interface IRepository<T> {
 
 	void add(T model);
 
-	void remove(T sku);
+	void remove(T model);
 
 	T findOne(Object... params);
 
@@ -23,5 +23,7 @@ public interface IRepository<T> {
 	List<T> findByQuery(String query);
 
 	Long count();
+	
+	void update(T model);
 
 }

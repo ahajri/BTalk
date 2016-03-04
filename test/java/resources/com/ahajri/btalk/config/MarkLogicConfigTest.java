@@ -6,7 +6,6 @@ import java.util.List;
 import javax.xml.bind.JAXBException;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -37,34 +36,29 @@ import com.sun.jersey.api.client.filter.LoggingFilter;
 		"classpath:application.properties", "classpath:jndi.properties" })
 public class MarkLogicConfigTest {
 
-	public static final Logger LOGGER = Logger
-			.getLogger(MarkLogicConfig.class);
+	public static final Logger LOGGER = Logger.getLogger(MarkLogicConfig.class);
 
-	@Value("${marklogic.host}")
-	public String host;
+	public String host = "localhost";
 
-	//@Value("${marklogic.port}")
 	public String port = "8000";
 
-	@Value("${marklogic.username}")
-	public String username;
+	public String username = "ahajri";
 
-	@Value("${marklogic.password}")
-	public String password;
-	
-	@Value("${marklogic.db}")
-	public String db;
+	public String password = "mafhh14$";
+
+	public String db = "btalkdb";
 
 	@Bean
 	public DatabaseClient getDatabaseClient() {
-		System.out.println("##############dbClient#########"+host);
 		try {
+			System.out.println("#####################################");
 			DatabaseClientFactory.getHandleRegistry().register(
 					JAXBHandle.newFactory(Discussion.class));
 		} catch (JAXBException e) {
 			LOGGER.error(e);
 		}
-		return DatabaseClientFactory.newClient(host, Integer.parseInt(port.trim()),db ,username, password,
+		return DatabaseClientFactory.newClient(host,
+				Integer.parseInt(port.trim()), db, username, password,
 				DatabaseClientFactory.Authentication.DIGEST);
 	}
 
@@ -85,7 +79,8 @@ public class MarkLogicConfigTest {
 
 	@Bean
 	public String getMarkLogicBaseURL() {
-		System.out.println("MarkLogic URL: "+String.format("http://%s:%s", host, port));
+		System.out.println("MarkLogic URL: "
+				+ String.format("http://%s:%s", host, port));
 		return String.format("http://%s:%s", host, port);
 	}
 

@@ -1,6 +1,8 @@
 package com.ahajri.btalk.data.domain;
 
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -17,7 +19,13 @@ public class Discussion implements IModel {
 	 * UID of Serialization
 	 */
 	private static final long serialVersionUID = -8665882915966219907L;
+	/**
+	 * 
+	 */
+	private static final SimpleDateFormat sdf = new SimpleDateFormat(
+			"yyyMMddhhmmss");
 
+	private String identifier;
 	private Timestamp startTime;
 	private Timestamp endTime;
 	private List<DiscussionMember> members;
@@ -26,12 +34,19 @@ public class Discussion implements IModel {
 		super();
 	}
 
-	public Discussion(Timestamp startTime, Timestamp endTime,
-			List<DiscussionMember> members) {
+	public Discussion(List<DiscussionMember> members) {
 		super();
-		this.startTime = startTime;
-		this.endTime = endTime;
+		this.startTime = new Timestamp(System.currentTimeMillis());
 		this.members = members;
+		StringBuffer buffer = new StringBuffer();
+		for (DiscussionMember member : members) {
+			buffer.append(member.getIdentity());
+		}
+		this.identifier = buffer.toString() + sdf.format(new Date());
+	}
+
+	public String getIdentifier() {
+		return identifier;
 	}
 
 	public Timestamp getStartTime() {

@@ -1,4 +1,4 @@
-package com.ahajri.btalk.controller;
+package com.ahajri.btalk.controller.json;
 
 import java.sql.Timestamp;
 import java.util.List;
@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ahajri.btalk.controller.AController;
 import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
 import com.marklogic.client.DatabaseClient;
@@ -31,41 +32,6 @@ public class JsonDiscussController extends AController<Discussion> {
 
 	@Autowired
 	public DatabaseClient databaseClient;
-
-	// @RequestMapping(value = "/discussion", method = RequestMethod.POST,
-	// consumes = MediaType.APPLICATION_JSON_VALUE)
-	// public ResponseEntity<String> create(@RequestBody Discussion Discussion,
-	// UriComponentsBuilder builder) {
-	// discussionJsonRepository.add(Discussion);
-	//
-	// HttpHeaders headers = new HttpHeaders();
-	// headers.setLocation(
-	// builder.path("/discussion/{id}.json")
-	// .buildAndExpand(Discussion.getSku()).toUri());
-	//
-	// return new ResponseEntity<>("", headers, HttpStatus.CREATED);
-	// }
-
-	// @RequestMapping(value = "/discussion/{sku}.json", method =
-	// RequestMethod.DELETE)
-	// @ResponseStatus(HttpStatus.NO_CONTENT)
-	// public void deleteDiscussion(@PathVariable("sku") Long sku) {
-	// discussionJsonRepository.remove(null);
-	// }
-
-	// @RequestMapping(value = "/discussions.json", method = RequestMethod.GET,
-	// produces = MediaType.APPLICATION_JSON_VALUE)
-	// public List<Discussion> search(
-	// @RequestParam(required = false, value = "name") String name) {
-	// if (StringUtils.isEmpty(name)) {
-	// logger.info("Lookup all {} Discussions...",
-	// discussionJsonRepository.count());
-	// return discussionJsonRepository.findAll();
-	// } else {
-	// logger.info("Lookup Discussions by name: {}", name);
-	// return discussionJsonRepository.findByQuery(name);
-	// }
-	// }
 
 	@ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Resource not found")
 	@ExceptionHandler(ResourceNotFoundException.class)
@@ -94,16 +60,18 @@ public class JsonDiscussController extends AController<Discussion> {
 	@ResponseStatus(HttpStatus.CREATED)
 	@Override
 	public ResponseEntity<Discussion> create(@RequestBody Discussion model) {
-		
-		ResponseEntity<Discussion> resul = new ResponseEntity<Discussion>(
-				model, HttpStatus.CREATED);
 		discussionJsonRepository.add(model);
-
-		return resul;
+		return new ResponseEntity<Discussion>(model, HttpStatus.CREATED);
 	}
 
 	@Override
 	public ResponseEntity<List<Discussion>> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseEntity<Discussion> update(Discussion model) {
 		// TODO Auto-generated method stub
 		return null;
 	}

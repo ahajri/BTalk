@@ -70,6 +70,11 @@ public class DiscussionMember implements IModel {
 		this.birthday = birthday;
 	}
 
+	/**
+	 * identity supposed to be Unique 
+	 * 
+	 * @return Unique identifier
+	 */
 	public String getIdentity() {
 		return identity;
 	}

@@ -8,6 +8,7 @@ import javax.xml.bind.JAXBException;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.http.converter.ByteArrayHttpMessageConverter;
@@ -31,7 +32,7 @@ import com.sun.jersey.api.client.filter.HTTPDigestAuthFilter;
 import com.sun.jersey.api.client.filter.LoggingFilter;
 
 @Configuration
-//@ComponentScan
+@ComponentScan
 @PropertySource({ "classpath:ml-config.properties",
 		"classpath:application.properties", "classpath:jndi.properties" })
 public class MarkLogicConfig {

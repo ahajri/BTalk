@@ -20,7 +20,7 @@ import com.ahajri.btalk.error.ClientErrorInformation;
  *         ahajri
  *         </p>
  */
-public abstract class AController<T> {
+public abstract class AController<T extends IModel> {
 
 	private final Logger LOGGER = Logger.getLogger(getClass());
 
@@ -81,5 +81,11 @@ public abstract class AController<T> {
 	 */
 	
 	public abstract ResponseEntity<List<T>> findAll();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public abstract ResponseEntity<T> update(T model);
 
 }

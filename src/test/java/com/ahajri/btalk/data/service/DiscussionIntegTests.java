@@ -31,7 +31,6 @@ import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.utils.DiscussRole;
 import com.ahajri.btalk.utils.DiscussStatus;
 import com.google.gson.Gson;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
