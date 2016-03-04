@@ -79,10 +79,10 @@ public class DiscussionIntegTests {
 		discuss.setMembers(members);
 
 		System.out.println(gson.toJsonTree(discuss));
-		HttpEntity<String> entity = new HttpEntity<String>(gson.toJson(discuss),
+		HttpEntity<Discussion> entity = new HttpEntity<Discussion>(discuss,
 				httpHeaders);
 		ResponseEntity<DiscussionMember> responseEntity = restTemplate.exchange(
-				BASE_URL + "/discuss/create", HttpMethod.POST, entity,
+				BASE_URL + "/discuss/json/create", HttpMethod.POST, entity,
 				DiscussionMember.class);
 		created = responseEntity.getBody();
 		System.out.println("-------------  created  ---------------- "

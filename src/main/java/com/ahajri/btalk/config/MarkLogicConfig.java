@@ -31,7 +31,7 @@ import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.filter.HTTPDigestAuthFilter;
 import com.sun.jersey.api.client.filter.LoggingFilter;
 
-@Configuration
+//@Configuration
 @ComponentScan
 @PropertySource({ "classpath:ml-config.properties",
 		"classpath:application.properties", "classpath:jndi.properties" })

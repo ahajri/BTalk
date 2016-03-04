@@ -51,7 +51,6 @@ public class MarkLogicConfigTest {
 	@Bean
 	public DatabaseClient getDatabaseClient() {
 		try {
-			System.out.println("#####################################");
 			DatabaseClientFactory.getHandleRegistry().register(
 					JAXBHandle.newFactory(Discussion.class));
 		} catch (JAXBException e) {

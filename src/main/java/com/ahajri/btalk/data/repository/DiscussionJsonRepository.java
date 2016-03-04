@@ -165,9 +165,9 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		DocumentPatchBuilder xmlPatchBldr = jsonDocumentManager.newPatchBuilder();
 		DocumentPatchHandle xmlPatch = 
 		    xmlPatchBldr.insertFragment(
-		        "/data", 
+		        "/discuss", 
 		        Position.LAST_CHILD,
-		        "<child>the last one</child>")
+		        "added:new data")
 		      .build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 	}
