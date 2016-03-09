@@ -1,0 +1,93 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Swear 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Swear</songId>
+   <title>I Swear</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/All-4-One</artistId>
+      <artistName>All-4-One</artistName>
+   </artist>
+   <weeks>
+      <week>1994-05-21</week>
+      <week>1994-05-28</week>
+      <week>1994-06-04</week>
+      <week>1994-06-11</week>
+      <week>1994-06-18</week>
+      <week>1994-06-25</week>
+      <week>1994-07-02</week>
+      <week>1994-07-09</week>
+      <week>1994-07-16</week>
+      <week>1994-07-23</week>
+      <week>1994-07-30</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/cf/I_swear_%28JM_Montgomery%29.jpg/200px-I_swear_%28JM_Montgomery%29.jpg</albumImageId>
+      <albumImageUri>/images/All-4-One+I-Swear.jpg</albumImageUri>
+      <albumName>Kickin' It Up</albumName>
+   </album>
+   <released>1993</released>
+   <formats>
+      <format>CD single</format>
+      <format>Cassette single</format>
+      <format>7" vinyl</format>
+   </formats>
+   <recorded>1993</recorded>
+   <genres>
+      <genre>Country</genre>
+   </genres>
+   <label>Atlantic Nashville</label>
+   <writers>
+      <writer>Gary Baker</writer>
+      <writer>Frank J. Myers</writer>
+   </writers>
+   <producers>
+      <producer>Scott Hendricks</producer>
+   </producers>
+   <descr>
+      <p>"I Swear" is a ballad written by Gary Baker and Frank J.
+    Myers that became a hit for two acts in 1994. Initially it was
+    a number one song on the U.S. Hot Country Singles &amp; Tracks
+    chart for John Michael Montgomery at the beginning of the year.
+    His version crossed over to pop radio and climbed to #42 on the
+    Billboard Hot 100. A few months later, All-4-One covered the
+    song and achieved a great success in many countries.</p>
+      <p>Several months after John Michael Montgomery had released
+    his original version, R&amp;B vocal quartet All-4-One recorded
+    their own version with producer David Foster. All-4-One's
+    version hit number one in numerous countries, including the 
+    <i>Billboard</i>Hot 100 in the U.S., where it remained for
+    eleven consecutive weeks. It peaked at number two on the UK
+    Singles Chart and stayed at number two for seven consecutive
+    weeks and spent a total of 18 weeks in the chart. The All-4-One
+    version was slightly different, in that the line "And when
+    there's silver in your hair" from the second verse was replaced
+    by "And when just the two of us are there."</p>
+      <p>This version was ranked at #78 on 
+    <i>Billboard'</i>s Top 100 songs in the 50-year history of the
+    Billboard Hot 100 chart.</p>
+      <p>In Swedish, two lyrics versions exist. One of them, "Jag
+    svär" ("I Swear"), was written by Ingela "Pling" Forsman and
+    recorded by Sten &amp; Stanley on the 1995 album 
+    <i>Musik, dans &amp; party 10</i>. The other, written by Anica
+    Olsson, is called "I dag" ("Today") and was recorded in 1996 by
+    Anders Engbergs as 2nd track on the single "Av hela mitt
+    hjärta", and by Lotta Engberg and Jarl Carlsson i a duet on
+    their 2005 album "Kvinna &amp; man".</p>
+      <p>In 2003, American boy-band group B3 covered the song on
+    their album 
+    <i>N.Y.B3</i>.</p>
+      <p>In 1998, a cover version was recorded by four
+    cantopop/mandopop singers, Sandy Lam, Prudence Liew, Teresa
+    Carpio and Chyi Yu, and was released as a single off Sandy
+    Lam's English album "Love is the Only One". The arrangement is
+    similar to the All-4-One version.</p>
+      <p>In 1995, brazilian duo Leandro &amp; Leonardo covered its
+    own version in Portuguese, called "Eu Juro".</p>
+   </descr>
+</topSong>

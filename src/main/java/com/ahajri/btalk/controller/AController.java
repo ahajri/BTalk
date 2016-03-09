@@ -49,7 +49,7 @@ public abstract class AController<T extends AModel> {
 	 *            : query {@link AModel} Object
 	 * @return: {@link ResponseEntity}
 	 */
-	public abstract ResponseEntity<List<T>> findByQuery(@RequestBody T query);
+	public abstract ResponseEntity<List<T>> findByQuery(@RequestBody String query);
 
 	/**
 	 * find nuique model

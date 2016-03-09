@@ -1,0 +1,62 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow</songId>
+   <title>Will You Love Me Tomorrow</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Shirelles</artistId>
+      <artistName>The Shirelles</artistName>
+   </artist>
+   <weeks>
+      <week>1961-01-30</week>
+      <week>1961-02-06</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/1/14/The_Shirelles_45.jpg/200px-The_Shirelles_45.jpg</albumImageId>
+      <albumImageUri>/images/The-Shirelles+Will-You-Love-Me-Tomorrow.jpg</albumImageUri>
+      <albumName>Tonight's the Night</albumName>
+   </album>
+   <released>1960 (US) , 1961 (UK)</released>
+   <recorded>1960</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>2:43</length>
+   </lengths>
+   <label>Scepter</label>
+   <writers>
+      <writer>Gerry Goffin</writer>
+      <writer>Carole King</writer>
+   </writers>
+   <descr>
+      <p>"Will You Love Me Tomorrow" is the title of a song written
+    by Gerry Goffin and Carole King. It has been recorded by many
+    different artists and was ranked among Rolling Stone's list of
+    The 500 Greatest Songs of All Time at #125. The song is notable
+    for being the first song to reach US #1 by an all-girl
+    group.</p>
+      <p>In 1960, The Shirelles released their version as Scepter
+    single 1211, with Soldier Boy on the B-side. When first
+    presented with the song, lead singer Shirley Owens (later known
+    as Shirley Allston-Reeves) did not want to record it, because
+    she thought it was "too country." She relented after a string
+    arrangement was added. In 1961, the song went to number one on
+    the Billboard Hot 100. However, Owens recalled on Jim Parsons'
+    syndicated oldies radio program, 
+    <i>Shake Rattle Showtime</i>, that some radio stations had
+    banned the record because they had felt the lyrics were too
+    sexually charged.</p>
+      <p>This version of the song is currently ranked as the 101st
+    greatest song of all time, as well as the best song of 1960, by
+    Acclaimed Music.</p>
+      <p>This song has since been remade by many artists. Notable
+    versions include those by these artists:</p>
+   </descr>
+</topSong>

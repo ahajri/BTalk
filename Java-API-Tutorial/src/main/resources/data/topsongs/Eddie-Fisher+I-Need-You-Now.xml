@@ -1,0 +1,30 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Need_You_Now_(1954_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Need_You_Now_(1954_song)</songId>
+   <title>I Need You Now</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Eddie_Fisher_(singer)</artistId>
+      <artistName>Eddie Fisher</artistName>
+   </artist>
+   <weeks>
+      <week>1954-11-13</week>
+   </weeks>
+   <descr>
+      <p>"I Need You Now" is a popular song written by Al Jacobs and
+    Jimmie Crane.</p>
+      <p>The recorded version by Eddie Fisher, issued by RCA Victor
+    Records as catalog number 47-5830, reached #1 on the Billboard
+    and Cash Box charts in 1954.</p>
+      <p>The song was also performed by Russell Arms on several 1954
+    episodes of the popular TV series Your Hit Parade. A kinescope
+    of one of these performances survives and can be viewed
+    online.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,55 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Most_Beautiful_Girl 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Most_Beautiful_Girl</songId>
+   <title>The Most Beautiful Girl</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Charlie_Rich</artistId>
+      <artistName>Charlie Rich</artistName>
+   </artist>
+   <weeks>
+      <week>1973-12-15</week>
+      <week>1973-12-22</week>
+   </weeks>
+   <album>
+      <albumName>Behind Closed Doors</albumName>
+   </album>
+   <released>September 1973</released>
+   <genres>
+      <genre>Country</genre>
+      <genre>Adult Contemporary</genre>
+   </genres>
+   <lengths>
+      <length>2:43</length>
+   </lengths>
+   <label>Epic</label>
+   <writers>
+      <writer>Rory Michael Bourke</writer>
+      <writer>Billy Sherrill</writer>
+      <writer>Norro Wilson</writer>
+   </writers>
+   <producers>
+      <producer>Billy Sherrill</producer>
+   </producers>
+   <descr>
+      <p>"The Most Beautiful Girl" is a song recorded by Charlie Rich
+    and written by Bill Sherrill, Noris Wilson, and Rory Michael
+    Bourke. It reached #1 in the United States in 1973 on three 
+    <i>Billboard</i>music charts: the pop chart (for two weeks);
+    the country chart (for three weeks); and the adult contemporary
+    chart (also for three weeks).</p>
+      <p>Country music boy band South 65 recorded an updated version
+    of the song, titled "The Most Beautiful Girl (2001 Version)",
+    on their 2001 album 
+    <i>Dream Large</i>.</p>
+      <p>It also receives a - very brief - airing by Brenda Fricker
+    in the film 
+    <i>So I Married an Axe Murderer</i>.</p>
+   </descr>
+</topSong>

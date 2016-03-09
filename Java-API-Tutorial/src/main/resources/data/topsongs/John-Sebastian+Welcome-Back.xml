@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Welcome_Back_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Welcome_Back_(song)</songId>
+   <title>Welcome Back</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/John_Sebastian</artistId>
+      <artistName>John Sebastian</artistName>
+   </artist>
+   <weeks>
+      <week>1976-05-08</week>
+   </weeks>
+   <album>
+      <albumName>Welcome Back</albumName>
+   </album>
+   <released>March, 1976</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:51</length>
+   </lengths>
+   <label>Reprise</label>
+   <writers>
+      <writer>John Sebastian</writer>
+   </writers>
+   <producers>
+      <producer>Steve Barri</producer>
+      <producer>John Sebastian</producer>
+   </producers>
+   <descr>
+      <p>"Welcome Back" is a well known record that was the theme
+    song of the 1970s American television sitcom 
+    <i>Welcome Back, Kotter</i>. Written and recorded by former
+    Lovin' Spoonful frontman John Sebastian, it reached number-one
+    on the Billboard Hot 100 chart for one week in the spring of
+    1976 after only five weeks on the chart (the show had become an
+    instant ratings success upon its premiere the previous Fall).
+    The song also topped the Hot Adult Contemporary Singles Chart
+    and #93 on Hot Country Songs.</p>
+      <p>TV producer Alan Sachs wanted a Lovin' Spoonful-like theme
+    song for a new ABC sitcom entitled 
+    <i>Kotter</i>. Sach's agent, Dave Bendet, also represented
+    Sebastian and arranged for a meeting between the two. The
+    producers liked the song so much that they changed the name of
+    the sitcom to 
+    <i>Welcome Back, Kotter</i>. Co-produced by Steve Barri and
+    Sebastian, the song eventually sold over one million
+    copies.</p>
+      <p>The song was sampled by rapper Ma$e for his song, also
+    titled "Welcome Back". Also by hip hop group Onyx in their song
+    "Slam harder".</p>
+   </descr>
+</topSong>

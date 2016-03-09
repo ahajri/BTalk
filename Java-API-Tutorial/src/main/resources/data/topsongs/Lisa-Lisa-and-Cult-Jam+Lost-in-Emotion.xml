@@ -1,0 +1,44 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Lost_in_Emotion 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Lost_in_Emotion</songId>
+   <title>Lost in Emotion</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Lisa_Lisa_and_Cult_Jam</artistId>
+      <artistName>Lisa Lisa and Cult Jam</artistName>
+   </artist>
+   <weeks>
+      <week>1987-10-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Lisa_Lisa_and_Cult_Jam_Lost.jpg/200px-Lisa_Lisa_and_Cult_Jam_Lost.jpg</albumImageId>
+      <albumImageUri>/images/Lisa-Lisa-and-Cult-Jam+Lost-in-Emotion.jpg</albumImageUri>
+      <albumName>Spanish Fly</albumName>
+   </album>
+   <released>1987</released>
+   <genres>
+      <genre>Pop</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <label>Columbia</label>
+   <writers>
+      <writer>Full Force</writer>
+   </writers>
+   <producers>
+      <producer>Full Force</producer>
+   </producers>
+   <descr>
+      <p>"Lost in Emotion" is a song recorded by Lisa Lisa and Cult
+    Jam that appeared on their 1987 album . The song hit number one
+    on the Hot 100 on October 17, 1987. The song was their second
+    number-one single (having scored this first earlier in the year
+    with "Head to Toe"). The song also went to number one on the
+    Black Singles chart, and number eight on the dance chart.</p>
+   </descr>
+</topSong>

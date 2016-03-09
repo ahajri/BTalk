@@ -1,0 +1,26 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/It%27s_Too_Late 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/It%27s_Too_Late</songId>
+   <title>It's Too Late" / "I Feel the Earth Move</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Carole_King</artistId>
+      <artistName>Carole King</artistName>
+   </artist>
+   <weeks>
+      <week>1971-06-19</week>
+      <week>1971-06-26</week>
+      <week>1971-07-03</week>
+      <week>1971-07-10</week>
+      <week>1971-07-17</week>
+   </weeks>
+   <descr>
+      <p>"It's Too Late" may refer to:</p>
+   </descr>
+</topSong>

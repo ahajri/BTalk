@@ -1,0 +1,51 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Sad_Eyes 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Sad_Eyes</songId>
+   <title>Sad Eyes</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Robert_John</artistId>
+      <artistName>Robert John</artistName>
+   </artist>
+   <weeks>
+      <week>1979-10-06</week>
+   </weeks>
+   <album>
+      <albumName>Robert John</albumName>
+   </album>
+   <released>April 1979</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1979</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Ballad</genre>
+   </genres>
+   <lengths>
+      <length>3:11</length>
+   </lengths>
+   <label>EMI Records</label>
+   <writers>
+      <writer>Robert John</writer>
+   </writers>
+   <descr>
+      <p>"Sad Eyes" is a song written and recorded by Robert John,
+    and released in 1979.</p>
+      <p>Released in April 1979, "Sad Eyes" debuted May 19 on the Hot
+    100. The song slowly inched its way up the chart throughout the
+    late spring and summer, finally reaching the top of the chart
+    on October 6 — nearly three weeks into the fall.</p>
+      <p>"Sad Eyes" was one of the few non-disco number-one hits on
+    the Hot 100 during 1979. During the first 10 months of the
+    year, 13 of the year's 16 chart-toppers to the time when "Sad
+    Eyes" reached the top were disco or had strong disco
+    influences.</p>
+   </descr>
+</topSong>

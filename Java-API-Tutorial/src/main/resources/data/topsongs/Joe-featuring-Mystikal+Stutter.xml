@@ -1,0 +1,53 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Stutter_(Joe_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Stutter_(Joe_song)</songId>
+   <title>Stutter</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Joe_(singer)</artistId>
+      <artistName>Joe featuring Mystikal</artistName>
+   </artist>
+   <weeks>
+      <week>2001-02-24</week>
+      <week>2001-03-03</week>
+      <week>2001-03-10</week>
+      <week>2001-03-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Joe-mystikal-stutter.jpg/200px-Joe-mystikal-stutter.jpg</albumImageId>
+      <albumImageUri>/images/Joe-featuring-Mystikal+Stutter.jpg</albumImageUri>
+      <albumName>My Name Is Joe</albumName>
+   </album>
+   <released>January 9, 2001  (2001-01-09)</released>
+   <recorded>2000  (2000)</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Hip Hop</genre>
+   </genres>
+   <writers>
+      <writer>Ernest E. Dixon</writer>
+      <writer>Roy "Royalty" Hamilton</writer>
+   </writers>
+   <producers>
+      <producer>Roy "Royalty" Hamilton</producer>
+      <producer>Teddy Riley</producer>
+   </producers>
+   <descr>
+      <p>"Stutter" is a 2000 song by American R&amp;B singer Joe. The
+    original version of the song was produced by Roy "Royalty"
+    Hamilton and Teddy Riley. Written by Roy "Royalty" Hamilton and
+    Ernest E. Dixon. A remix by Soulstar features rapper Mystikal,
+    and was a number-one hit on the Billboard Hot 100 in the United
+    States for four weeks in 2001. The song refers to Joe's
+    girlfriend "stuttering" because she is lying to him about
+    having an affair. The song samples "Passin' Me By" by The
+    Pharcyde.The song was featured in the 2001 film, 
+    <i>Double Take</i>.</p>
+   </descr>
+</topSong>

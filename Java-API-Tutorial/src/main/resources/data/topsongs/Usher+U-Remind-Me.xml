@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/U_Remind_Me 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/U_Remind_Me</songId>
+   <title>U Remind Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Usher_(entertainer)</artistId>
+      <artistName>Usher</artistName>
+   </artist>
+   <weeks>
+      <week>2001-07-07</week>
+      <week>2001-07-14</week>
+      <week>2001-07-21</week>
+      <week>2001-07-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/28/Usher_-_U_Remind_Me_-_CD_cover.jpg/200px-Usher_-_U_Remind_Me_-_CD_cover.jpg</albumImageId>
+      <albumImageUri>/images/Usher+U-Remind-Me.jpg</albumImageUri>
+      <albumName>8701</albumName>
+   </album>
+   <released>June 19, 2001 [1]</released>
+   <formats>
+      <format>CD</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:27</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Anita McCloud &amp; Edmund "Butler" Clement</writer>
+   </writers>
+   <producers>
+      <producer>Jimmy Jam and Terry Lewis</producer>
+   </producers>
+   <descr>
+      <p>"U Remind Me" is a 2001 single from Usher's 2001 album 
+    <i>8701</i>. It was the first US single from the album (as "Pop
+    Ya Collar" was only included in some editions of 
+    <i>8701</i>). The single topped the United States Billboard Hot
+    100 Singles Chart on July 7, 2001 and reaching the top five in
+    the United Kingdom and Australia.</p>
+      <p>The song is about a man who meets a woman who seems like a
+    nice catch, but he decides not to enter a relationship with her
+    because she looks too much like an ex-girlfriend whom he had a
+    bad breakup with. The video features Chilli of TLC.</p>
+      <p>The song won Usher his first Grammy Award for Best Male
+    R&amp;B Vocal Performance in 2002.</p>
+      <p>There was a remix featuring Blu Cantrell and Method Man.</p>
+      <p>UK CD</p>
+      <p>US Vinyl, 12"</p>
+   </descr>
+</topSong>

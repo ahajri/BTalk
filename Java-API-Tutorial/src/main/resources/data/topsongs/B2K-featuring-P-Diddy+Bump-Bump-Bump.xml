@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Bump,_Bump,_Bump 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Bump,_Bump,_Bump</songId>
+   <title>Bump, Bump, Bump</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/B2K</artistId>
+      <artistName>B2K featuring P. Diddy</artistName>
+   </artist>
+   <weeks>
+      <week>2003-02-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/2/2b/B2k_-_bump%2C_bump%2C_bump.jpg</albumImageId>
+      <albumImageUri>/images/B2K-featuring-P-Diddy+Bump-Bump-Bump.jpg</albumImageUri>
+      <albumName>Pandemonium!</albumName>
+   </album>
+   <released>October 2002</released>
+   <formats>
+      <format>CD single</format>
+      <format>12" maxi</format>
+   </formats>
+   <genres>
+      <genre>Hip Hop</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <writers>
+      <writer>R. Kelly</writer>
+      <writer>Varick Smith</writer>
+   </writers>
+   <producers>
+      <producer>R. Kelly</producer>
+   </producers>
+   <descr>
+      <p>"Bump, Bump, Bump" is a 2003 hit single by B2K featuring P.
+    Diddy, taken from their album "
+    <i>Pandemonium!</i>". It was written by R. Kelly and Varick
+    Smith and produced by R. Kelly. It became B2K's first top 10
+    hit on the Hot 100 singles chart, and reached number one for
+    one week starting on February 1, 2003. The video was released
+    in December 2002 and features the boys and P.Diddy in colorful
+    rooms with female dancers.</p>
+      <p>The song is heavily referenced in the 2005 film 
+    <i>Guess Who</i>which starred Bernie Mac.</p>
+   </descr>
+</topSong>

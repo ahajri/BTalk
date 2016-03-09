@@ -1,0 +1,84 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Gonna_Fly_Now 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Gonna_Fly_Now</songId>
+   <title>Gonna Fly Now (Theme From Rocky)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bill_Conti</artistId>
+      <artistName>Bill Conti</artistName>
+   </artist>
+   <weeks>
+      <week>1977-07-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/7/7a/GonnaFlyNow.gif</albumImageId>
+      <albumImageUri>/images/Bill-Conti+Gonna-Fly-Now-Theme-From-Rocky.gif</albumImageUri>
+      <albumName>Rocky - Original Motion Picture Score</albumName>
+   </album>
+   <released>1976</released>
+   <lengths>
+      <length>2:48</length>
+   </lengths>
+   <writers>
+      <writer>Bill Conti</writer>
+      <writer>Carol Connors</writer>
+      <writer>Ayn Robbins</writer>
+   </writers>
+   <producers>
+      <producer>Bill Conti</producer>
+   </producers>
+   <descr>
+      <p>"Gonna Fly Now", also known as "Theme from Rocky", is the
+    theme song from the movie 
+    <i>Rocky</i>, composed by Bill Conti with lyrics by Carol
+    Connors and Ayn Robbins, and performed by DeEtta Little (the
+    sister of actor Cleavon Little) and Nelson Pigford. Released in
+    1976 with the movie Rocky, the song became part of American
+    popular culture after main character Rocky Balboa completed his
+    daily training regimen while the song played. The song finishes
+    as Rocky completes his famous run up the "Rocky Steps" of the
+    Philadelphia Museum of Art and raises his arms in a victory
+    pose. The song is also often played at sporting events,
+    especially at sporting events in the city of Philadelphia or
+    featuring sports teams from there.</p>
+      <p>The song (whose lyrics have a total count of 30 words) was
+    nominated for an Academy Award for Best Original Song in the
+    49th Academy Awards. The version of the song from the movie,
+    performed by Conti with an orchestra, hit number one on the
+    Billboard Hot 100 chart in 1977, while a version by jazz
+    trumpeter Maynard Ferguson (died in 2006) hit the top 30. Disco
+    versions by Rhythm Heritage and Current were on the chart at
+    the same time. Conti's single was certified gold by the RIAA.
+    The American Film Institute placed it 58th on its AFI's 100
+    Years... 100 Songs list.</p>
+      <p>In 
+    <i>Rocky II</i>, an alternate version of the song was used,
+    with a children's choir singing the chorus. 
+    <i>Rocky III</i>included an updated disco influenced
+    arrangement during the training montage on the beach. This
+    recording is however missing from the soundtrack album, the
+    sleeve notes of which say "All music on this album selected by
+    Sylvester Stallone", who instead opted to reprise the original
+    versions of "Gonna Fly Now" and "Reflections" from the first
+    film and "Conquest" from the second installment. Thus the album
+    fails to present the actual score recorded for Rocky III.</p>
+      <p>Rocky IV was scored by Vince DiCola who mainly introduced
+    new themes of his own but "
+    <i>Gonna Fly Now</i>" returned with its composer for later
+    installments. In 
+    <i>Rocky Balboa</i>, a slightly alternate version of the song
+    used more trumpets and different vocal tones. The soundtrack
+    for that film also includes a vocal remix performed by Natalie
+    Wilde.</p>
+      <p>Due to its original use, the song is used frequently in
+    various forms of popular media where a main character is forced
+    to train hard in order to defeat an opponent, often during a
+    montage sequence.</p>
+   </descr>
+</topSong>

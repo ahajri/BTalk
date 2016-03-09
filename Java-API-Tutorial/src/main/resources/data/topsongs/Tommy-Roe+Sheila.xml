@@ -1,0 +1,47 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Sheila_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Sheila_(song)</songId>
+   <title>Sheila</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Tommy_Roe</artistId>
+      <artistName>Tommy Roe</artistName>
+   </artist>
+   <weeks>
+      <week>1962-09-01</week>
+      <week>1962-09-08</week>
+   </weeks>
+   <released>1962</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1962 (re-recording)</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>2:03</length>
+   </lengths>
+   <label>ABC-Paramount</label>
+   <writers>
+      <writer>Tommy Roe</writer>
+   </writers>
+   <descr>
+      <p>"Sheila" is a song written and recorded by Tommy Roe with
+    the help of Robert Bosch. The single reached number one on the
+    U.S. Billboard Hot 100 on September 1, 1962, remaining in the
+    top position for two weeks and peaking at number six on the
+    R&amp;B charts .</p>
+      <p>The original version of the song was recorded by Roe for
+    Judd Records in 1960 with his then backing group The Satins,
+    but it failed to sell.</p>
+      <p>A build up of global sales of "Sheila" meant that the
+    R.I.A.A. did not present the gold record until 1969.</p>
+   </descr>
+</topSong>

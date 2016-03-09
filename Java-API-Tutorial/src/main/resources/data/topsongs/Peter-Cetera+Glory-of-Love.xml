@@ -1,0 +1,75 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Glory_of_Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Glory_of_Love</songId>
+   <title>Glory of Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Peter_Cetera</artistId>
+      <artistName>Peter Cetera</artistName>
+   </artist>
+   <weeks>
+      <week>1986-08-02</week>
+      <week>1986-08-09</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/99/PeterCeteraGloryOfLove.jpg/200px-PeterCeteraGloryOfLove.jpg</albumImageId>
+      <albumImageUri>/images/Peter-Cetera+Glory-of-Love.jpg</albumImageUri>
+      <albumName>Solitude/Solitaire</albumName>
+   </album>
+   <released>1986</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:20</length>
+   </lengths>
+   <label>Warner Bros.</label>
+   <writers>
+      <writer>Peter Cetera</writer>
+      <writer>David Foster and Diane Nini</writer>
+   </writers>
+   <producers>
+      <producer>Michael Omartian</producer>
+   </producers>
+   <descr>
+      <p>"Glory of Love" is a popular song written by Peter Cetera,
+    David Foster and Cetera's wife at the time, Diane Nini, and
+    recorded by Cetera shortly after he left the band Chicago to
+    pursue a solo career. The song was Cetera's first hit single
+    and was included on his 1986 album, 
+    <i>Solitude/Solitaire</i>.</p>
+      <p>The song was originally recorded for inclusion in the
+    soundtrack for 
+    <i>Rocky IV</i>, but was passed up. It was instead added to the
+    soundtrack for the film 
+    <i>The Karate Kid, Part II</i>.</p>
+      <p>The single peaked at number one on the U.S. Billboard Hot
+    100 chart on August 2, 1986, remaining in that spot for two
+    weeks. It also spent five weeks atop the U.S. adult
+    contemporary chart. The song achieved similar success in the
+    UK, peaking at number three on the UK Singles Chart, where it
+    was the 26th best-selling single of 1986.</p>
+      <p>The version of the song as released as a single and on
+    Cetera's album 
+    <i>Solitude/Solitare</i>is edited, missing the beginning
+    eight-second section of the song's bridge (which is heard in
+    the actual 
+    <i>Karate Kid II</i>film).</p>
+      <p>The song earned nominations in 1987 for an Academy Award for
+    Best Song and a Golden Globe in the category of Best Original
+    Song. It was also nominated for a Grammy Award in 1987 for
+    "Best Pop Vocal Performance by a Male Artist."</p>
+      <p>It went on to win an ASCAP Award for "Most Performed Songs
+    from Motion Pictures" and a BMI Film &amp; TV Award for "Most
+    Performed Song from a Film."</p>
+   </descr>
+</topSong>

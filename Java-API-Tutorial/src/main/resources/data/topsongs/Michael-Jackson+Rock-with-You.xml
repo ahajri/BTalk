@@ -1,0 +1,92 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Rock_with_You_(Michael_Jackson_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Rock_with_You_(Michael_Jackson_song)</songId>
+   <title>Rock with You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Michael_Jackson</artistId>
+      <artistName>Michael Jackson</artistName>
+   </artist>
+   <weeks>
+      <week>1980-01-19</week>
+      <week>1980-01-26</week>
+      <week>1980-02-02</week>
+      <week>1980-02-09</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Rock_With_You.jpg/200px-Rock_With_You.jpg</albumImageId>
+      <albumImageUri>/images/Michael-Jackson+Rock-with-You.jpg</albumImageUri>
+      <albumName>Off the Wall</albumName>
+   </album>
+   <released>November 3, 1979</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1979</recorded>
+   <genres>
+      <genre>Disco</genre>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:39 (Album Version)</length>
+      <length>3:23 (Single/Video Mix)</length>
+   </lengths>
+   <label>Epic Records</label>
+   <writers>
+      <writer>Rod Temperton</writer>
+   </writers>
+   <producers>
+      <producer>Michael Jackson and Quincy Jones</producer>
+   </producers>
+   <descr>
+      <p>"Rock with You" was released on November 3, 1979, as the
+    second single from Michael Jackson's fifth solo LP and
+    breakthrough album, 
+    <i>Off the Wall</i>. Written by Heatwave group member and
+    songwriter Rod Temperton, who also wrote Jackson's song . The
+    song helped Jackson score one of the first 
+    <i>Billboard</i>number-one singles in the 1980s. It reached
+    number one on both the pop and R&amp;B singles chart and became
+    one of Jackson's most-loved songs. A video for the song shows a
+    smiling Jackson dancing in a sequined suit against a background
+    laser. According to Billboard, the song was the fourth biggest
+    single of 1980. It is also considered one of that last big hits
+    of the disco era</p>
+      <p>It was re-released as a single on February 27, 2006, as part
+    of the 
+    <i>Visionary: The Video Singles</i>box set.</p>
+      <p>The song was later covered by singer Brandy in 1995 for
+    Quincy Jones' album, 
+    <i>Q's Jook Joint</i>. It was also covered by Ashanti in 2003
+    as a remix to her single "Rock wit U (Awww Baby)" and performed
+    at the BET Awards. The song was covered by the company
+    Wavegroup for the game Karaoke Revolution Presents: American
+    Idol. Brazilian singer Fernanda Abreu performed a version on
+    the record Um Barzinho Um Violao 4, issued in 2005. House music
+    Japanese band Cargo made a cover of the song in their 2007
+    album "Jewel". Chris Brown performed it on the Essence Music
+    Festival in New Orleans in 2007. Jackson performed the song on
+    the Jacksons Destiny Tour on the second leg. He also performed
+    the song on the Jacksons Triumph Tour, Victory Tour, Bad World
+    Tour, and HIStory World Tour but only part of the Off the Wall
+    Medley on certain concerts. He also would have performed it on
+    This Is It, but the show was cancelled, due to his sudden
+    death. Kelly Clarkson performed the song with Eric Hutchinson
+    on her All I Ever Wanted tour in 2009.</p>
+      <p>In 2008, Michael's sister, Janet, released "Rock with U" (a
+    house / club number), from her 
+    <i>Discipline</i>album. Although similar in name, the songs are
+    completely different in lyrics and music.</p>
+      <p>After his death, R&amp;B singer Frankie J recorded a cover
+    version, which was released on his MySpace. Mariah Carey also
+    performed this song along with Trey Lorenz in her concert "Live
+    At The Pearl" in Vegas in September and October 2009.</p>
+   </descr>
+</topSong>

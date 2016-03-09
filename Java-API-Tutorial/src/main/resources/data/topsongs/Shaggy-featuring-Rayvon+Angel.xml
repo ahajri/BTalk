@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Angel_(Shaggy_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Angel_(Shaggy_song)</songId>
+   <title>Angel</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Rayvon</artistId>
+      <artistName>Shaggy featuring Rayvon</artistName>
+   </artist>
+   <weeks>
+      <week>2001-03-31</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Shaggy-angel.jpg/200px-Shaggy-angel.jpg</albumImageId>
+      <albumImageUri>/images/Shaggy-featuring-Rayvon+Angel.jpg</albumImageUri>
+      <albumName>Hot Shot</albumName>
+   </album>
+   <released>May 28, 2001</released>
+   <formats>
+      <format>CD maxi single</format>
+   </formats>
+   <genres>
+      <genre>Reggae Fusion</genre>
+   </genres>
+   <lengths>
+      <length>3:55 (Album Version)</length>
+      <length>3:31 (Radio Edit)</length>
+   </lengths>
+   <label>MCA</label>
+   <writers>
+      <writer>Ahmet Ertegün</writer>
+      <writer>Eddie Curtis</writer>
+      <writer>Chip Taylor</writer>
+      <writer>Steve Miller</writer>
+   </writers>
+   <producers>
+      <producer>Shaun Pizzonia</producer>
+   </producers>
+   <descr>
+      <p>"Angel" is a 2001 number one hit song by reggae artist
+    Shaggy featuring Rayvon. It was the follow-up to Shaggy's U.S.
+    number-one hit "It Wasn't Me". "Angel" reached number one in
+    the U.S. for the week of 31 March 2001.</p>
+      <p>The song uses the bassline from "The Joker" by Steve Miller
+    (1973), and also borrows from "Angel of the Morning," written
+    by Chip Taylor and best known by the singer Merrilee Rush.</p>
+      <p>The music video was directed by Cameron Casey.</p>
+      <p>The single also reached number one in the UK Singles Chart,
+    as well as number one in Australia, making the song an
+    international chart topper. The success following the release,
+    saw Shaggy clock up his third U.S. and fourth UK number one hit
+    single. It was also a European success, at one point
+    simultaneously topping the charts in the German-speaking
+    territories of Germany, Austria and Switzerland.</p>
+      <p>The song was the 44th best-selling single of the 2000 decade
+    in UK.</p>
+   </descr>
+</topSong>

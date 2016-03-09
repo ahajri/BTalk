@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Crimson_and_Clover 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Crimson_and_Clover</songId>
+   <title>Crimson and Clover</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Tommy_James</artistId>
+      <artistName>Tommy James &amp; the Shondells</artistName>
+   </artist>
+   <weeks>
+      <week>1969-02-01</week>
+      <week>1969-02-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/5/57/Crimson_and_Clover_by_Tommy_James_and_the_Shondells_single_cover.ogg.jpg/200px-Crimson_and_Clover_by_Tommy_James_and_the_Shondells_single_cover.ogg.jpg</albumImageId>
+      <albumImageUri>/images/Tommy-James-the-Shondells+Crimson-and-Clover.jpg</albumImageUri>
+      <albumName>Crimson &amp; Clover</albumName>
+   </album>
+   <released>November 1968</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1968</recorded>
+   <genres>
+      <genre>Psychedelic Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:23 (single version)</length>
+      <length>5:25 (album version)</length>
+   </lengths>
+   <label>Roulette</label>
+   <writers>
+      <writer>Tommy James; Peter Lucia</writer>
+      <writer>Jr.</writer>
+   </writers>
+   <descr>
+      <p>"Crimson and Clover" is a song by Tommy James and the
+    Shondells. It was one of the biggest hits of the 1960s and
+    reached #1 on the U.S. Billboard Hot 100 and #1 in Canada in
+    1969. It dropped from #18 to completely out of the Billboard
+    pop charts in one week, setting a record for the farthest drop
+    out of the charts.</p>
+      <p>"Crimson and Clover" was completely written and recorded by
+    the duo of Tommy James and Peter Lucia Jr., the Shondells
+    drummer. Lucia played drums and delivered backing vocals, while
+    James played all other instruments and sang the lead
+    vocals.</p>
+      <p>The song is famous for a unique "wobbly" vocal effect near
+    the end of the song. To produce this effect, Tommy James
+    plugged his microphone into a guitar amplifier, flipped the
+    tremolo switch, and repeatedly sang the line "crimson and
+    clover, over and over". When it was released in November 1968,
+    some listeners thought he was saying "Christmas is over"
+    instead of "crimson and clover."</p>
+      <p>In a February 2010 promotional talk for his book 
+    <i>Me, The Mob, and The Music</i>, James revealed that he never
+    did finish the song before release. He took a demo into a
+    Chicago radio station that clandestinely taped it. Repeated
+    airings forced the release of that version.</p>
+      <p>There are three releases of "Crimson and Clover".</p>
+      <p>The reissue single of "Crimson And Clover" (Roulette Golden
+    Goodies GG-73) was pressed with the album version although the
+    label shows the single version's playing time of 3:23.</p>
+      <p>The song is often incorrectly attributed to The Velvet
+    Underground, Fleetwood Mac, Simon and Garfunkel or The Hollies
+    on P2P networks and lyrics websites. The Velvet Underground
+    instrumental song "Ride Into the Sun" from the Out-take V.U.
+    album uses the same chords. Lou Reed later used the same chords
+    for "Sweet Jane" on the Velvet Underground's 
+    <i>Loaded</i>album. The similarities are best heard on the
+    "Sweet Jane" cover Version by the Cowboy Junkies from the 
+    <i>Natural Born Killers</i>Soundtrack.</p>
+   </descr>
+</topSong>

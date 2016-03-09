@@ -1,0 +1,32 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Had_the_Craziest_Dream 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Had_the_Craziest_Dream</songId>
+   <title>I Had the Craziest Dream</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Harry_James</artistId>
+      <artistName>Harry James</artistName>
+   </artist>
+   <weeks>
+      <week>1943-02-13</week>
+   </weeks>
+   <descr>
+      <p>"I Had the Craziest Dream" is a popular song.</p>
+      <p>The music was written by Harry Warren, the lyrics by Mack
+    Gordon. The song was published in 1942.</p>
+      <p>The song was introduced by Harry James and his orchestra,
+    with vocals by Helen Forrest, in the film 
+    <i>Springtime in the Rockies.</i>
+      </p>
+      <p>The song was covered in 1953 by the Skylarks, where it was a
+    #28 hit, and again in 1960 on a single by Adam Wade. Astrud
+    Gilberto reached #31 on Billboard's Easy listening survey with
+    her 1967 remake.</p>
+   </descr>
+</topSong>

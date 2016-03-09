@@ -1,0 +1,72 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Cherish_(The_Association_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Cherish_(The_Association_song)</songId>
+   <title>Cherish</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Association</artistId>
+      <artistName>The Association</artistName>
+   </artist>
+   <weeks>
+      <week>1966-09-24</week>
+      <week>1966-10-01</week>
+      <week>1966-10-08</week>
+   </weeks>
+   <album>
+      <albumName>And Then... Along Comes the Association</albumName>
+   </album>
+   <released>1966</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <genres>
+      <genre>Pop Music</genre>
+   </genres>
+   <lengths>
+      <length>3:25 (album)</length>
+      <length>3:00 (single)</length>
+   </lengths>
+   <label>Valiant Records V-747 ( Warner Bros. Records )</label>
+   <writers>
+      <writer>Terry Kirkman</writer>
+   </writers>
+   <producers>
+      <producer>Curt Boettcher</producer>
+   </producers>
+   <descr>
+      <p>
+         <i>Cherish</i>is a pop music song written by Terry Kirkman and
+    recorded by The Association. Released in 1966, the song reached
+    number one on the U.S. Billboard Hot 100 in September of that
+    year and remained in the top position for three weeks. In
+    Canada the song also reached number one. Nina Simone recorded
+    her version on 1967's 
+    <i>Silk and Soul</i>.</p>
+      <p>Session musician Doug Rhodes, also member of The Music
+    Machine, played the Celesta on the recording.</p>
+      <p>David Cassidy recorded his own version on his 1972 album 
+    <i>Cherish</i>; his version of the song reached #9 on the Hot
+    100 chart and spent one week at #1 on the adult contemporary
+    chart (#3 in Canada). Barry Manilow covered this song, along
+    with 
+    <i>Windy</i>, on Manilow's 2006 album, 
+    <i>The Greatest Songs of the Sixties</i>. Other covers have
+    been performed by artists such as The Four Tops and Jodeci, but
+    the original Association version of the song appears at the end
+    of The Simpsons Season 20 Episode 6, entitled "Homer and Lisa
+    Exchange Cross Words", and The Nanny Season 5 Episode 15,
+    entitled "The Engagement". The chords for this song also appear
+    in Spongebob Squarepants Season 5 Episode 13, entitled "Breath
+    of Fresh Squidward".</p>
+      <p>Known for its simple lyrics and complex vocal harmonies,
+    "Cherish" is widely regarded as one of the greatest love songs
+    ever written, and the original version still gets regular
+    airplay today.</p>
+   </descr>
+</topSong>

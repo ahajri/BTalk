@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/All_My_Life_(K-Ci_and_JoJo_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/All_My_Life_(K-Ci_and_JoJo_song)</songId>
+   <title>All My Life</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/K-Ci_and_JoJo</artistId>
+      <artistName>K-Ci and JoJo</artistName>
+   </artist>
+   <weeks>
+      <week>1998-04-04</week>
+      <week>1998-04-11</week>
+      <week>1998-04-18</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f1/All_My_Life_CD_Single_Cover.jpg/200px-All_My_Life_CD_Single_Cover.jpg</albumImageId>
+      <albumImageUri>/images/K-Ci-and-JoJo+All-My-Life.jpg</albumImageUri>
+      <albumName>Love Always</albumName>
+   </album>
+   <released>December 9, 1997</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <genres>
+      <genre>Urban Contemporary</genre>
+   </genres>
+   <lengths>
+      <length>5:30</length>
+      <length>3:42 (radio edit)</length>
+   </lengths>
+   <label>MCA</label>
+   <writers>
+      <writer>JoJo Hailey</writer>
+      <writer>Rory Bennett</writer>
+   </writers>
+   <producers>
+      <producer>JoJo Hailey</producer>
+      <producer>Rory Bennett</producer>
+   </producers>
+   <descr>
+      <p>"All My Life" is a R&amp;B love ballad recorded by Jodeci
+    members (and brothers) K-Ci and JoJo. It was released as a
+    single from the duo's album 
+    <i>Love Always</i>.</p>
+      <p>It was K-Ci and JoJo's second number-one song, following
+    2Pac's "How Do U Want It" (on which they were credited as
+    featured vocalists). "All My Life" had earned enough airplay to
+    debut on the U.S. Billboard Hot 100 at number fifteen on March
+    28, 1998, when the single was released to retail stores. It
+    later jumped to number one and stayed there for three
+    weeks.</p>
+      <p>Shayne Ward recorded a cover version for his debut album, 
+    <i>Shayne Ward</i>.</p>
+      <p>Nelly samples the song in his single "Wadsyaname", as does
+    Plies in his single "Medicine" featuring Keri Hilson.</p>
+      <p>The opening violin of the song is sampled from "P.S. I Love
+    You" by Frank Sinatra, while the piano part interpolates
+    "Cliffs of Dover" by Eric Johnson.</p>
+   </descr>
+</topSong>

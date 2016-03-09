@@ -1,0 +1,86 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Family_Affair_(Mary_J._Blige_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Family_Affair_(Mary_J._Blige_song)</songId>
+   <title>Family Affair</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Mary_J._Blige</artistId>
+      <artistName>Mary J. Blige</artistName>
+   </artist>
+   <weeks>
+      <week>2001-11-03</week>
+      <week>2001-11-10</week>
+      <week>2001-11-17</week>
+      <week>2001-11-24</week>
+      <week>2001-12-01</week>
+      <week>2001-12-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Family_Affair_%28Mary_J._Blige_song%29.jpg/200px-Family_Affair_%28Mary_J._Blige_song%29.jpg</albumImageId>
+      <albumImageUri>/images/Mary-J-Blige+Family-Affair.jpg</albumImageUri>
+      <albumName>No More Drama</albumName>
+   </album>
+   <released>July 17, 2001</released>
+   <formats>
+      <format>CD maxi single</format>
+      <format>12" maxi single</format>
+   </formats>
+   <recorded>2001</recorded>
+   <genres>
+      <genre>Hip Hop Soul</genre>
+      <genre>Dance Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:25</length>
+   </lengths>
+   <label>Geffen</label>
+   <writers>
+      <writer>Mary J. Blige</writer>
+      <writer>Andre Young</writer>
+      <writer>Bruce Wallenstein</writer>
+      <writer>Louis Pierre</writer>
+      <writer>Luchana N. Lodge</writer>
+      <writer>Camara Kambon</writer>
+      <writer>Michael Elizondo</writer>
+      <writer>Melvin Bradford</writer>
+      <writer>Asiah Kewis</writer>
+   </writers>
+   <producers>
+      <producer>Dr. Dre</producer>
+   </producers>
+   <descr>
+      <p>"Family Affair" is a 2001 hit song for Mary J. Blige,
+    produced by Dr. Dre. It was taken from her fifth album, 
+    <i>No More Drama</i>, and was responsible for popularizing the
+    terms "hateration" and "dancery" in the US, as well as
+    contributing to the popularity of the word "crunk".</p>
+      <p>The music for "Family Affair" was originally created in a
+    jam session between Dr. Dre and musicians Mel-Man, Camara
+    Kambon and Mike Elizondo. Later, Blige heard the song and she
+    and her brother Bruce Miller contributed the lyrics and melody.
+    Finally, Dr. Dre produced Blige's vocals, but this was done at
+    a distance because at the time he was busy filming the movie 
+    <i>Training Day</i>. The music video was directed by Dave
+    Meyers.</p>
+      <p>The single topped the Hot 100 for six weeks from November 3,
+    2001. It was Blige's first Hot 100 number-one, although she had
+    previously reached number two with "Not Gon' Cry" in 1996.</p>
+      <p>In 2007, this song was used on a Propel Fitness Water
+    commercial. According to Rolling Stone's Magazine Dr.Dre earned
+    2 million dollars in royalties from the mega-hit.</p>
+      <p>In 2008, for 
+    <i>Billboard</i>magazine's 50th Anniversary, "Family Affair"
+    was listed as the 79th best single on the The Billboard Hot 100
+    All-Time Top Songs. while at the end of 2009 was named the 12th
+    most successful song from 2000 to 2009, on the 
+    <i>Billboard</i>Hot 100 Songs of the Decade. 
+    <i>Rolling Stone</i>ranked it number ninety-five on their list
+    of 100 Best Songs of the 2000s decade.</p>
+   </descr>
+</topSong>

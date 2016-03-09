@@ -1,0 +1,39 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27m_Telling_You_Now 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27m_Telling_You_Now</songId>
+   <title>I'm Telling You Now</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Freddie_and_the_Dreamers</artistId>
+      <artistName>Freddie and the Dreamers</artistName>
+   </artist>
+   <weeks>
+      <week>1965-04-10</week>
+      <week>1965-04-17</week>
+   </weeks>
+   <released>1963</released>
+   <formats>
+      <format>7" 45rpm</format>
+   </formats>
+   <genres>
+      <genre>Beat</genre>
+   </genres>
+   <lengths>
+      <length>2:05</length>
+   </lengths>
+   <label>Columbia (EMI) DB 7086 (UK) , Tower 125 (USA)</label>
+   <writers>
+      <writer>Freddie Garrity and Mitch Murray</writer>
+   </writers>
+   <descr>
+      <p>"I'm Telling You Now" is a song by Freddie Garrity and Mitch
+    Murray, originally performed by Freddie and the Dreamers that
+    hit number one on the Billboard Hot 100.</p>
+   </descr>
+</topSong>

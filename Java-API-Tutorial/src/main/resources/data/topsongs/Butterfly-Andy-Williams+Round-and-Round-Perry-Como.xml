@@ -1,0 +1,28 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Round_and_Round_(Shapiro/Stallman_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Round_and_Round_(Shapiro/Stallman_song)</songId>
+   <title>Round and Round " Perry Como</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Butterfly_(1957_song)</artistId>
+      <artistName>"Butterfly" Andy Williams</artistName>
+   </artist>
+   <weeks>
+      <week>1957-04-06</week>
+   </weeks>
+   <descr>
+      <p>"Round and Round" is a popular song by Joe Shapiro and Lou
+    Stallman published in 1956. A version of the song recorded by
+    Perry Como was a big hit in 1957. The song would prove to be
+    Perry Como's last over-all number one on the Billboard
+    charts.</p>
+      <p>Como's version was featured in the 1999 motion picture 
+    <i>Blast from the Past</i>.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Baby,_Don%27t_Get_Hooked_on_Me 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Baby,_Don%27t_Get_Hooked_on_Me</songId>
+   <title>Baby, Don't Get Hooked on Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Mac_Davis</artistId>
+      <artistName>Mac Davis</artistName>
+   </artist>
+   <weeks>
+      <week>1972-09-23</week>
+      <week>1972-09-30</week>
+      <week>1972-10-07</week>
+   </weeks>
+   <album>
+      <albumName>Baby Don't Get Hooked on Me</albumName>
+   </album>
+   <released>July 1972 ( U.S. )</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1972</recorded>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Soft Rock</genre>
+      <genre>Country</genre>
+   </genres>
+   <lengths>
+      <length>3:06</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Mac Davis</writer>
+   </writers>
+   <descr>
+      <p>"Baby, Don't Get Hooked on Me" was a hit song by country and
+    pop singer-songwriter Mac Davis. Coming from his breakthrough
+    album of the same name, the song reached No. 1 on the Billboard
+    Hot 100 in September 1972, spending three weeks atop that
+    chart. He wrote the song when the record company demanded he
+    write a tune with a "hook".</p>
+      <p>The song was also a modest country hit concurrent with its
+    pop success, reaching No. 26 shortly after the peak of its pop
+    success.</p>
+   </descr>
+</topSong>

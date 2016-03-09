@@ -1,0 +1,41 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Good_Luck_Charm 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Good_Luck_Charm</songId>
+   <title>Good Luck Charm</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Elvis_Presley</artistId>
+      <artistName>Elvis Presley</artistName>
+   </artist>
+   <weeks>
+      <week>1962-04-21</week>
+      <week>1962-04-28</week>
+   </weeks>
+   <released>February 27, 1962</released>
+   <recorded>March 23, 1961</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <writers>
+      <writer>Aaron Schroeder</writer>
+      <writer>Wally Gold</writer>
+   </writers>
+   <producers>
+      <producer>Steve Sholes</producer>
+   </producers>
+   <descr>
+      <p>"Good Luck Charm" is a song performed by Elvis Presley that
+    reached number 1 on the Billboard Hot 100 list in the week
+    ending April 21, 1962. It remained at the top of the list for
+    two weeks. The song was written by Aaron Schroeder and Wally
+    Gold and recorded by Elvis in 1961. Good Luck Charm was covered
+    by Travis &amp; Shook on Cape Cod Covers, Vol. 1 "The
+    King".</p>
+   </descr>
+</topSong>

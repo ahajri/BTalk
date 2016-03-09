@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27m_Sorry_(John_Denver_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27m_Sorry_(John_Denver_song)</songId>
+   <title>I'm Sorry" / "Calypso</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/John_Denver</artistId>
+      <artistName>John Denver</artistName>
+   </artist>
+   <weeks>
+      <week>1975-09-27</week>
+   </weeks>
+   <album>
+      <albumName>Windsong</albumName>
+   </album>
+   <released>July 1975 ( U.S. )</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1975</recorded>
+   <genres>
+      <genre>Country</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:32</length>
+   </lengths>
+   <label>RCA Records</label>
+   <writers>
+      <writer>John Denver</writer>
+   </writers>
+   <descr>
+      <p>"I'm Sorry" is a song written and recorded by American
+    country-folk singer-songwriter John Denver. Released in 1975,
+    it was his final number-one hit released during his career.</p>
+      <p>The song, an apology for forsaken love, first reached number
+    one on the Billboard Hot 100 chart in September 1975. Six weeks
+    later, it topped the 
+    <i>Billboard</i>Hot Country Singles chart. "I'm Sorry" also
+    reached number one on the easy listening chart that same
+    year.</p>
+      <p>The flip side of "I'm Sorry" was "Calypso", and like its
+    A-side, it enjoyed substantial radio airplay on Top 40
+    stations.</p>
+   </descr>
+</topSong>

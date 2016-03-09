@@ -43,7 +43,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     protected XMLDocumentManager xmlDocumentManager;
 
     @Override
-    public void add(Discussion Discussion) {
+    public Discussion add(Discussion Discussion) {
         // Add this document to a dedicated collection for later retrieval
         DocumentMetadataHandle metadata = new DocumentMetadataHandle();
         metadata.getCollections().add(COLLECTION_REF);
@@ -51,6 +51,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
         JAXBHandle contentHandle = getProductHandle();
         contentHandle.set(Discussion);
         xmlDocumentManager.write("{}", metadata, contentHandle);
+        return null;
     }
 
     @Override

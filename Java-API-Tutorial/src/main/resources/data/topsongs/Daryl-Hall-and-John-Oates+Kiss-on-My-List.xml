@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Kiss_on_My_List 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Kiss_on_My_List</songId>
+   <title>Kiss on My List</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Hall_%26_Oates</artistId>
+      <artistName>Daryl Hall and John Oates</artistName>
+   </artist>
+   <weeks>
+      <week>1981-04-11</week>
+      <week>1981-04-18</week>
+      <week>1981-04-25</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/02/KissOnMyListHall%26Oates.jpg/200px-KissOnMyListHall%26Oates.jpg</albumImageId>
+      <albumImageUri>/images/Daryl-Hall-and-John-Oates+Kiss-on-My-List.jpg</albumImageUri>
+      <albumName>Voices</albumName>
+   </album>
+   <released>1980</released>
+   <formats>
+      <format>7"</format>
+      <format>12"</format>
+   </formats>
+   <recorded>1980</recorded>
+   <genres>
+      <genre>Pop / Rock</genre>
+      <genre>Blue Eyed Soul</genre>
+   </genres>
+   <label>RCA</label>
+   <writers>
+      <writer>Janna Allen</writer>
+      <writer>Daryl Hall</writer>
+   </writers>
+   <producers>
+      <producer>Hall &amp; Oates</producer>
+   </producers>
+   <descr>
+      <p>"Kiss on My List" is a 1980 song recorded by Daryl Hall and
+    John Oates. It was the third single from their album 
+    <i>Voices</i>, and became their second Billboard Hot 100
+    number-one single in 1981 (after "Rich Girl" in 1977).</p>
+      <p>It was written by Janna Allen and Daryl Hall, and produced
+    by Hall and Oates.</p>
+      <p>While two other songs from the album had returned the duo to
+    chart activity, it was the success of "Kiss on My List" that
+    confirmed the start of the duo's sustained run as one of
+    American pop's top-selling acts, a run that lasted into
+    1989.</p>
+      <p>According to Daryl Hall, Eddie Van Halen copied the synth
+    part of this song and used it for the song "Jump" by Van
+    Halen.</p>
+   </descr>
+</topSong>

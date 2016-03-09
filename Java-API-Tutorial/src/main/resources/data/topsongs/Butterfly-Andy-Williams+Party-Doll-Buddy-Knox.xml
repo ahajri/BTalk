@@ -1,0 +1,70 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Party_Doll 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Party_Doll</songId>
+   <title>Party Doll " Buddy Knox</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Butterfly_(1957_song)</artistId>
+      <artistName>"Butterfly" Andy Williams</artistName>
+   </artist>
+   <weeks>
+      <week>1957-03-30</week>
+   </weeks>
+   <album>
+      <albumName>???</albumName>
+   </album>
+   <released>1957</released>
+   <formats>
+      <format>45 rpm</format>
+      <format>78 rpm</format>
+   </formats>
+   <genres>
+      <genre>Rockabilly</genre>
+      <genre>Rock And Roll</genre>
+   </genres>
+   <lengths>
+      <length>2:12</length>
+   </lengths>
+   <label>Roulette</label>
+   <writers>
+      <writer>Buddy Knox</writer>
+      <writer>Jimmy Bowen</writer>
+   </writers>
+   <producers>
+      <producer>Norman Petty</producer>
+   </producers>
+   <descr>
+      <p>"Party Doll" is a 1950s rockabilly song written by Buddy
+    Knox and Jimmy Bowen. It was performed by Buddy Knox with the
+    Rhythm Orchids and became a hit on the Roulette label.</p>
+      <p>Buddy Knox was a teenager living near Happy, Texas in 1948
+    when he wrote the original verses of "Party Doll" behind a
+    haystack on his family farm. While attending college at West
+    Texas State University, he and two college friends, Jimmy Bowen
+    and Don Lanier, traveled to Clovis, New Mexico to record the
+    song at the studio of Norman Petty. Knox's sister and two of
+    her friends sang background vocals on the song, and a girl from
+    the marching band of Clovis High School was recruited to play
+    cymbal. After pressing copies of the record, a DJ in Amarillo
+    began playing "Party Doll" in 1956, and it soon became a
+    regional hit. After being contacted by Roulette Records in New
+    York City, the song was distributed around the U.S. and became
+    a chart-topping hit, spending a week at #1 on the Top 100
+    chart, the precursor to the Hot 100, in March 1957.</p>
+      <p>Almost immediately after Roulette released Knox's version of
+    the song, competing versions of "Party Doll" were recorded and
+    released by other record labels. Wingy Manone and Roy Brown
+    recorded R&amp;B versions of the song which saw some success. A
+    less rock and roll version by singer Steve Lawrence (with Dick
+    Jacobs conducting the orchestra) also became a pop hit that
+    year, reaching #5 on the 
+    <i>Billboard</i>Top 100. Lawrence's version was released on the
+    Coral Records label.</p>
+   </descr>
+</topSong>

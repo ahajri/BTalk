@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Silly_Love_Songs 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Silly_Love_Songs</songId>
+   <title>Silly Love Songs</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Wings_(band)</artistId>
+      <artistName>Wings</artistName>
+   </artist>
+   <weeks>
+      <week>1976-05-22</week>
+      <week>1976-06-12</week>
+      <week>1976-06-19</week>
+      <week>1976-06-26</week>
+      <week>1976-07-03</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/dd/62705sls.jpg/200px-62705sls.jpg</albumImageId>
+      <albumImageUri>/images/Wings+Silly-Love-Songs.jpg</albumImageUri>
+      <albumName>Wings at the Speed of Sound</albumName>
+   </album>
+   <released>1 April 1976</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Soft Rock</genre>
+      <genre>Glam Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:53 / 3:22 (Single Edit)</length>
+   </lengths>
+   <label>Capitol Records</label>
+   <writers>
+      <writer>Paul McCartney</writer>
+   </writers>
+   <producers>
+      <producer>Paul McCartney</producer>
+   </producers>
+   <descr>
+      <p>"Silly Love Songs" is a song written and sung by Paul
+    McCartney with his band Wings in 1976. The song was released as
+    a single and included on the album 
+    <i>Wings at the Speed of Sound</i>. The US single was released
+    on 1 April 1976 and reached number one on the Billboard Hot
+    100. The UK single was released on 30 April 1976 and reached
+    number two on the UK Singles Chart.</p>
+      <p>In addition to a comment about "silly love songs" by John
+    Lennon, McCartney had often been teased by music critics for
+    writing lightweight songs, and he wrote this number in
+    response. "Silly Love Songs" was McCartney's first foray into
+    the then-popular disco sound, with his bass guitar taking a
+    lead role against a steady disco-style drumbeat. As such, it
+    was the forerunner for other 1960s-era British musicians trying
+    their hand at disco; examples that followed included The
+    Rolling Stones' "Miss You" and Rod Stewart's "Da Ya Think I'm
+    Sexy?".</p>
+      <p>Linda McCartney and Denny Laine's vocals are heard, doing
+    the counterpoint portions during the "I Love You" parts, while
+    Paul sings lead.</p>
+      <p>The song lists at number 31 on 
+    <i>Billboard's Greatest Songs of All Time</i>.</p>
+   </descr>
+</topSong>

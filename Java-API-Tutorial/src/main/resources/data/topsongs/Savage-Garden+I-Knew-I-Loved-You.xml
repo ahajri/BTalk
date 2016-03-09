@@ -1,0 +1,78 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Knew_I_Loved_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Knew_I_Loved_You</songId>
+   <title>I Knew I Loved You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Savage_Garden</artistId>
+      <artistName>Savage Garden</artistName>
+   </artist>
+   <weeks>
+      <week>2000-01-29</week>
+      <week>2000-02-05</week>
+      <week>2000-02-12</week>
+      <week>2000-02-26</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/3/35/Iknewilovedyou1-single.jpg/200px-Iknewilovedyou1-single.jpg</albumImageId>
+      <albumImageUri>/images/Savage-Garden+I-Knew-I-Loved-You.jpg</albumImageUri>
+      <albumName>Affirmation</albumName>
+   </album>
+   <released>September 28, 1999 ( United States )</released>
+   <formats>
+      <format>Compact Disc</format>
+      <format>vinyl record (7")</format>
+   </formats>
+   <recorded>1999</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:10</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Daniel Jones</writer>
+      <writer>Darren Hayes</writer>
+   </writers>
+   <producers>
+      <producer>Daniel Jones</producer>
+      <producer>Darren Hayes</producer>
+   </producers>
+   <descr>
+      <p>"I Knew I Loved You" is a single by Austrailian pop duo
+    Savage Garden from their album 
+    <i>Affirmation</i>. It was their second number one after "Truly
+    Madly Deeply" and reached the top spot of Hot 100 on the week
+    dated January 29, 2000, staying there for three consecutive
+    weeks. After its third week at number one, the single was
+    knocked off by Mariah Carey's "Thank God I Found You" featuring
+    Joe and 98 Degrees and then returned to the top again the
+    following week for its fourth and final week at the top. The
+    song peaked at #10 in the UK Singles Chart in November
+    1999.</p>
+      <p>The music video was filmed with director Kevin Bray in
+    August 1999 on a New York City Subway set that had previously
+    been used for 
+    <i>Seinfeld</i>.</p>
+      <p>It features the band in a subway station with Hayes playing
+    out a romantic plot on the subway with Kirsten Dunst as the
+    object of his affections. The video shows the band alone in a
+    carriage and also full of people. Then the train seems to stop
+    and the power goes out, a red back up light comes on and
+    everyone in the carriage joins hand. Hayes who is sitting
+    opposite Dunst reaches out his hands to her. As they touch, we
+    are shown the couple walking through a park bathed in sunlight,
+    laughing and holding hands. Then it's back to reality as the
+    train lights come back on and comes to the next station. Both
+    Hayes and Dunst get up to leave, looking at each other as they
+    exit the carriage and part ways. The video ends with Savage
+    Garden performing by themselves in the carriage and subway.</p>
+   </descr>
+</topSong>

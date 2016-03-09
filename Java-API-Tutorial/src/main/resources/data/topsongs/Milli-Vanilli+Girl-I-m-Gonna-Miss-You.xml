@@ -1,0 +1,50 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Girl_I%27m_Gonna_Miss_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Girl_I%27m_Gonna_Miss_You</songId>
+   <title>Girl I'm Gonna Miss You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Milli_Vanilli</artistId>
+      <artistName>Milli Vanilli</artistName>
+   </artist>
+   <weeks>
+      <week>1989-09-23</week>
+      <week>1989-09-30</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/fb/GirlImGonnaMissYou.jpg/200px-GirlImGonnaMissYou.jpg</albumImageId>
+      <albumImageUri>/images/Milli-Vanilli+Girl-I-m-Gonna-Miss-You.jpg</albumImageUri>
+      <albumName>Girl You Know It's True</albumName>
+   </album>
+   <released>1989</released>
+   <formats>
+      <format>CD</format>
+      <format>7" vinyl</format>
+      <format>12" vinyl</format>
+      <format>Cassette</format>
+   </formats>
+   <lengths>
+      <length>4:20</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Frank Farian</writer>
+      <writer>Peter Bischof-Fallenstein</writer>
+      <writer>Dietmar Kawohl</writer>
+   </writers>
+   <producers>
+      <producer>Frank Farian</producer>
+   </producers>
+   <descr>
+      <p>"Girl I'm Gonna Miss You" is a song recorded by Milli
+    Vanilli and released as a single in 1989 off the album 
+    <i>Girl You Know It's True</i>. The single was a big success,
+    hitting the #1 spot on American and European charts.</p>
+   </descr>
+</topSong>

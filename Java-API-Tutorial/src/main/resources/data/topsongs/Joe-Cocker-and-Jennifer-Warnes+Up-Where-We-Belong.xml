@@ -1,0 +1,77 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Up_Where_We_Belong 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Up_Where_We_Belong</songId>
+   <title>Up Where We Belong</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Joe_Cocker</artistId>
+      <artistName>Joe Cocker and Jennifer Warnes</artistName>
+   </artist>
+   <weeks>
+      <week>1982-11-06</week>
+      <week>1982-11-13</week>
+      <week>1982-11-20</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Upwherewebelongcover.jpg/200px-Upwherewebelongcover.jpg</albumImageId>
+      <albumImageUri>/images/Joe-Cocker-and-Jennifer-Warnes+Up-Where-We-Belong.jpg</albumImageUri>
+      <albumName>An Officer and a Gentleman Original Soundtrack</albumName>
+   </album>
+   <released>1982</released>
+   <formats>
+      <format>CD</format>
+      <format>Casette</format>
+   </formats>
+   <recorded>1982</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:58</length>
+   </lengths>
+   <label>Island Records</label>
+   <writers>
+      <writer>Jack Nitzsche</writer>
+      <writer>Buffy Sainte-Marie</writer>
+      <writer>Will Jennings</writer>
+   </writers>
+   <descr>
+      <p>"Up Where We Belong" is a song from the 1982 film 
+    <i>An Officer and a Gentleman</i>. Written by Jack Nitzsche and
+    Buffy Sainte-Marie, with lyrics by Will Jennings, it was
+    performed by Joe Cocker and Jennifer Warnes.</p>
+      <p>The single, released by Island Records in 1982, became a
+    number one on the U.S. Billboard Hot 100 on November 6, 1982
+    and kept the position for three weeks, also reaching number 7
+    in the UK, where the film was less popular.</p>
+      <p>"Up Where We Belong" won the Golden Globe Award for Best
+    Original Song and the Academy Award for Best Original Song in
+    1983. It also won the BAFTA Film Awards for Best Original Song
+    in 1984. Cocker and Warnes also won the Grammy Award for Best
+    Pop Performance by a Duo or Group with Vocal in 1983 for their
+    rendition of this song.</p>
+      <p>The song's composer, Buffy Sainte-Marie, did a cover of the
+    song for her album 
+    <i>Up Where We Belong</i>and the TV special of the same
+    name.</p>
+      <p>Producer Don Simpson unsuccessfully demanded "Up Where We
+    Belong" to be cut from 
+    <i>An Officer and a Gentleman</i>, saying, "The song is no
+    good. It isn't a hit."</p>
+      <p>The song was part of the 
+    <i>An Officer and a Gentleman</i>Original Soundtrack, and was
+    later released as part of 
+    <i>The Best of Joe Cocker</i>(1993).</p>
+      <p>In 1991, it was re-released as a Jennifer Warnes CD-single
+    alongside "First We Take Manhattan" and "(I've Had) The Time of
+    My Life".</p>
+      <p>The song also featured in the TV advertising campaign for
+    Rover's 200 Series range on its launch in 1989.</p>
+   </descr>
+</topSong>

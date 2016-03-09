@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/MMMBop 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/MMMBop</songId>
+   <title>MMMBop</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Hanson_(band)</artistId>
+      <artistName>Hanson</artistName>
+   </artist>
+   <weeks>
+      <week>1997-05-24</week>
+      <week>1997-05-31</week>
+      <week>1997-06-07</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Hanson-mmmbop.jpg/200px-Hanson-mmmbop.jpg</albumImageId>
+      <albumImageUri>/images/Hanson+MMMBop.jpg</albumImageUri>
+      <albumName>Middle of Nowhere</albumName>
+   </album>
+   <released>April 15, 1997  (1997-04-15)</released>
+   <formats>
+      <format>CD</format>
+   </formats>
+   <recorded>1995, 1996</recorded>
+   <genres>
+      <genre>Alternative Rock</genre>
+      <genre>Funk Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:28 (album version)</length>
+      <length>4:01 (single version)</length>
+   </lengths>
+   <label>Mercury / Universal</label>
+   <writers>
+      <writer>Isaac Hanson</writer>
+      <writer>Taylor Hanson</writer>
+      <writer>Zachary Hanson</writer>
+   </writers>
+   <producers>
+      <producer>The Dust Brothers</producer>
+   </producers>
+   <descr>
+      <p>"MMMBop" is a song written and performed by the American pop
+    rock band Hanson from their 1997 album 
+    <i>Middle of Nowhere</i>. "MMMBop" was one of the biggest debut
+    singles of all time; it reached number one in 27 countries,
+    including the United States, the UK, Germany and Australia; in
+    the UK, the song sold 710,000 copies and stayed at number one
+    for 3 weeks. It was voted the best single of the year in 
+    <i>The Village Voice</i>Pazz &amp; Jop critics poll, while also
+    topping critics' polls from such media as 
+    <i>Rolling Stone</i>, 
+    <i>Spin</i>, and VH1. "MMMBop" was nominated for two Grammys at
+    the 40th Annual Grammy Awards in February 1998. It was the
+    band's most successful single to date; "MMMBop" also ranks #20
+    on VH1's "100 Greatest Songs of the 90s".</p>
+      <p>A music video was released to promote the single. It was
+    directed by Tamra Davis, who also directed Hanson's second
+    music video, "Where's the Love".</p>
+      <p>All songs written by Isaac Hanson, Taylor Hanson, and Zac
+    Hanson.</p>
+      <p>
+         <i>3 Car Garage</i>
+         <span style="font-weight:bold;"> ·</span>
+         <i>MMMBop: The Collection</i>
+         <span style="font-weight:bold;"> ·</span>20th Century
+    Masters - The Millennium Collection: The Best of Hanson
+    <i>
+            <span style="font-weight:bold;"> ·</span>Middle of Nowhere
+    Acoustic'</i>
+         <span style="font-weight:bold;"> ·</span>
+      </p>
+   </descr>
+</topSong>

@@ -1,0 +1,46 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Frenesi 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Frenesi</songId>
+   <title>Frenesi</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Artie_Shaw</artistId>
+      <artistName>Artie Shaw</artistName>
+   </artist>
+   <weeks>
+      <week>1940-12-21</week>
+      <week>1940-12-28</week>
+   </weeks>
+   <formats>
+      <format>78rpm phonograph record</format>
+   </formats>
+   <lengths>
+      <length>3:00</length>
+   </lengths>
+   <label>RCA Victor</label>
+   <descr>
+      <p>"Frenesi" is a musical piece originally composed by Alberto
+    Dominguez for the marimba, and adapted as a jazz standard by
+    Leonard Whitcup and others. A hit version recorded by Artie
+    Shaw (with an arrangement by William Grant Still) reached
+    number one on the pop chart on December 21, 1940. Other
+    performers who have recorded the song include Cliff Richard,
+    Harry James, Tommy Dorsey, Glenn Miller, Dave Brubeck, June
+    Christy, The Four Freshmen, Anita O'Day, Betty Carter, Woody
+    Herman, Les Brown, Perez Prado, Linda Ronstadt, Eydie Gorme and
+    Frank Sinatra. Thomas Pynchon's 1990 novel Vineland features a
+    character named Frenesi Gates.</p>
+      <p>The word "frenesi" is the Spanish equivalent of
+    "frenzy".</p>
+      <p>Major Thomas Hayes, WWII flying Ace named his P-51 "Frenesi"
+    after the song. He said it was a tribute to his wife Marie, for
+    the song they listened to. He believed the song's name
+    translated to "Love me Tenderly".</p>
+   </descr>
+</topSong>

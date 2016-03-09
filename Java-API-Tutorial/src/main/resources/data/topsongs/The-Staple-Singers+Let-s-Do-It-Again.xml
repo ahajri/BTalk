@@ -1,0 +1,47 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Let%27s_Do_It_Again_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Let%27s_Do_It_Again_(song)</songId>
+   <title>Let's Do It Again</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Staple_Singers</artistId>
+      <artistName>The Staple Singers</artistName>
+   </artist>
+   <weeks>
+      <week>1975-12-27</week>
+   </weeks>
+   <album>
+      <albumName>Let's Do It Again</albumName>
+   </album>
+   <released>1975</released>
+   <genres>
+      <genre>Soul</genre>
+   </genres>
+   <lengths>
+      <length>4:29</length>
+   </lengths>
+   <label>Curtom</label>
+   <writers>
+      <writer>Curtis Mayfield</writer>
+   </writers>
+   <producers>
+      <producer>Curtis Mayfield</producer>
+   </producers>
+   <descr>
+      <p>"Let's Do It Again" was a hit song for The Staple Singers.
+    Written by Curtis Mayfield, it was part of the soundtrack for
+    the Bill Cosby/Sidney Poitier movie, 
+    <i>Let's Do It Again</i>. The single reached the top of the
+    Billboard Hot 100 singles chart in December 1975, and also
+    spent two non-consecutive weeks at the top of the Hot Soul
+    Singles chart. It was the last major hit by the group.</p>
+      <p>R&amp;B Quartet Xscape sampled the song of the same name on
+    the soundtrack in 1997.</p>
+   </descr>
+</topSong>

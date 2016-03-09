@@ -1,0 +1,37 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/There!_I%27ve_Said_It_Again 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/There!_I%27ve_Said_It_Again</songId>
+   <title>There! I've Said It Again</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bobby_Vinton</artistId>
+      <artistName>Bobby Vinton</artistName>
+   </artist>
+   <weeks>
+      <week>1964-01-04</week>
+      <week>1964-01-11</week>
+      <week>1964-01-18</week>
+      <week>1964-01-25</week>
+   </weeks>
+   <descr>
+      <p>"There! I've Said It Again" is a popular song written by
+    Redd Evans and David Mann popularized originally by Vaughn
+    Monroe in 1945, and then again in late 1963 by Bobby
+    Vinton.</p>
+      <p>Vinton's version topped the Billboard Hot 100 chart on
+    January 4, 1964 and remained there for four weeks. This song is
+    significant because it marks the dividing line between the
+    "innocent years" and Rock and Roll era - more specifically, it
+    was the last song to reach number one on the Hot 100 before "I
+    Want to Hold Your Hand" topped the chart. The song also spent
+    five weeks atop the easy listening chart. It was Vinton's third
+    number-one song on both charts, following "Roses Are Red (My
+    Love)" and "Blue Velvet".</p>
+   </descr>
+</topSong>

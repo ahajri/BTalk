@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/4_Seasons_of_Loneliness 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/4_Seasons_of_Loneliness</songId>
+   <title>4 Seasons of Loneliness</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Boyz_II_Men</artistId>
+      <artistName>Boyz II Men</artistName>
+   </artist>
+   <weeks>
+      <week>1997-10-04</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/4seasonsbIIm.jpg/200px-4seasonsbIIm.jpg</albumImageId>
+      <albumImageUri>/images/Boyz-II-Men+4-Seasons-of-Loneliness.jpg</albumImageUri>
+      <albumName>Evolution</albumName>
+   </album>
+   <released>August 19, 1997 (airplay) , September 9, 1997</released>
+   <formats>
+      <format>CD single</format>
+      <format>CD maxi</format>
+      <format>cassette single</format>
+      <format>7" single</format>
+   </formats>
+   <recorded>1997</recorded>
+   <genres>
+      <genre>Pop / R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:27</length>
+   </lengths>
+   <label>Motown</label>
+   <writers>
+      <writer>James Harris III</writer>
+      <writer>Terry Lewis</writer>
+   </writers>
+   <producers>
+      <producer>Jimmy Jam and Terry Lewis</producer>
+   </producers>
+   <descr>
+      <p>"4 Seasons of Loneliness" is a R&amp;B/pop ballad recorded
+    by Philadelphia-based vocal quartet Boyz II Men. Written and
+    produced by Jimmy Jam and Terry Lewis, the song was issued as
+    the first single from the 
+    <i>Evolution</i>album in 1997.</p>
+      <p>Already a success at U.S. radio, the release of the single
+    prompted a Hot 100 debut at number two. The following week the
+    song moved up to number one, becoming Boyz II Men's fifth and
+    last chart-topper. The song spent one week at the top before
+    being pushed aside by Elton John's massive Princess Diana
+    tribute single "Candle in the Wind 1997". It was also the
+    group's last top ten hit in the UK, debuting at number ten on
+    the singles chart, and dropping off the chart a short time
+    after.</p>
+      <p>Spanish-version, "4 Estaciones de Soledad"</p>
+   </descr>
+</topSong>

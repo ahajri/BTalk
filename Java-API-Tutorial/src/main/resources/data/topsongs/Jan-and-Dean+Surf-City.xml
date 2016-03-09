@@ -1,0 +1,73 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Surf_City_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Surf_City_(song)</songId>
+   <title>Surf City</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jan_and_Dean</artistId>
+      <artistName>Jan and Dean</artistName>
+   </artist>
+   <weeks>
+      <week>1963-07-20</week>
+      <week>1963-07-27</week>
+   </weeks>
+   <album>
+      <albumName>Surf City (#7314)</albumName>
+   </album>
+   <released>June 1963</released>
+   <formats>
+      <format>vinyl single</format>
+   </formats>
+   <genres>
+      <genre>Surf Rock</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>2:42</length>
+   </lengths>
+   <label>Liberty Records (#55580)</label>
+   <writers>
+      <writer>Brian Wilson</writer>
+      <writer>Jan Berry</writer>
+      <writer>Dean Torrence</writer>
+   </writers>
+   <producers>
+      <producer>Jan Berry</producer>
+   </producers>
+   <descr>
+      <p>"Surf City" is a surf song which, as recorded by Jan and
+    Dean, was a #1 hit record in July 1963 for two weeks.</p>
+      <p>The first draft of the song, with the working title "Goody
+    Connie Won't You Come Back Home", was written by Brian Wilson
+    of The Beach Boys. He gave it to Jan Berry and Dean Torrence of
+    Jan and Dean who finished writing and recording it with Wilson
+    in the early 1960s. Although Torrence contributed several
+    important phrases to the song and kept the original lyrics,
+    which were scanned and appear on the official Jan and Dean
+    website, Torrence never insisted that his name should be
+    recognized on the label as one of the authors of the song and
+    his contribution is often overlooked.</p>
+      <p>"Surf City" became the first surf song to reach number one
+    on the U.S. Billboard Hot 100 in 1963. The song also crossed to
+    #3 on Billboard's R&amp;B charts. In 1991, after moving to the
+    city of Huntington Beach, California, Torrence went on to help
+    convince elected officials that his new home town should be
+    officially nicknamed "Surf City". The name was embraced and,
+    and as of 2009, more than 65 businesses in the city include
+    "Surf City" as part of their name.</p>
+      <p>Torrence was also part of the team that developed the Surf
+    City USA brand championed by the Huntington Beach Conference
+    and Visitors Bureau.</p>
+      <p>The Ramones covered "Surf City" on their album 
+    <i>Acid Eaters</i>. The Go-Go's sang a cover version at 
+    <i>An All-Star Tribute to Brian Wilson</i>(2001). They
+    substituted the lyrics "Two girls for every boy" with "Two boys
+    for every girl". The Meteors sang a cover version as well.</p>
+   </descr>
+</topSong>

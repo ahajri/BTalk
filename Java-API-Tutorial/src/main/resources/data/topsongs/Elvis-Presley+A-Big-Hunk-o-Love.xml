@@ -1,0 +1,58 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/A_Big_Hunk_o%27_Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/A_Big_Hunk_o%27_Love</songId>
+   <title>A Big Hunk o' Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Elvis_Presley</artistId>
+      <artistName>Elvis Presley</artistName>
+   </artist>
+   <weeks>
+      <week>1959-08-10</week>
+      <week>1959-08-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/72/ElvisPresleyHunkCover.jpg/200px-ElvisPresleyHunkCover.jpg</albumImageId>
+      <albumImageUri>/images/Elvis-Presley+A-Big-Hunk-o-Love.jpg</albumImageUri>
+      <albumName>50,000,000 Elvis Fans Can't Be Wrong</albumName>
+   </album>
+   <released>June 23, 1959</released>
+   <recorded>June 10, 1958, in Nashville, Tennessee</recorded>
+   <genres>
+      <genre>Rock And Roll</genre>
+   </genres>
+   <lengths>
+      <length>2:12</length>
+   </lengths>
+   <label>RCA 47-7600</label>
+   <writers>
+      <writer>Aaron Schroeder and Sidney Wyche</writer>
+   </writers>
+   <descr>
+      <p>"A Big Hunk o' Love", a song sung by Elvis Presley, was
+    recorded on June 10, 1958 in RCA's Nashville, Tennessee studio,
+    while Presley was on leave from the U.S. Army. It was released
+    as a single A-side on June 23, 1959. Its B-side was "My Wish
+    Came True". It was Presley's twelfth number-one hit (his last
+    of the 1950s), and it reached number four in the United
+    Kingdom. "A Big Hunk o' Love" peaked at number ten on the
+    R&amp;B charts . The song was recorded in four takes, the
+    released version is actually spliced from takes three and
+    four.</p>
+      <p>The song was revived by Presley in 1972 during his
+    engagements at the Las Vegas Hilton in February 1972 and was
+    used in his live shows until mid 1973. It was performed live
+    for the last time on January 26, 1974. The song is included in
+    the 1972 documentary 
+    <i>Elvis On Tour</i>and his 1973 show broadcast via satellite, 
+    <i>Aloha from Hawaii</i>. During this time period, it was
+    played by the Elvis' TCB Band, and featured Glen D. Hardin and
+    James Burton.</p>
+   </descr>
+</topSong>

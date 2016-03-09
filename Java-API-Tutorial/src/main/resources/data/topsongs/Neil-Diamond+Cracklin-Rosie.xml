@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Cracklin%27_Rosie 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Cracklin%27_Rosie</songId>
+   <title>Cracklin' Rosie</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Neil_Diamond</artistId>
+      <artistName>Neil Diamond</artistName>
+   </artist>
+   <weeks>
+      <week>1970-10-10</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/25/Cracklin_Rosie.jpg/200px-Cracklin_Rosie.jpg</albumImageId>
+      <albumImageUri>/images/Neil-Diamond+Cracklin-Rosie.jpg</albumImageUri>
+      <albumName>Tap Root Manuscript</albumName>
+   </album>
+   <released>August, 1970</released>
+   <formats>
+      <format>7" 45 RPM</format>
+   </formats>
+   <genres>
+      <genre>Rock 'N' Roll</genre>
+      <genre>Soft Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:47</length>
+   </lengths>
+   <label>Uni</label>
+   <writers>
+      <writer>Neil Diamond</writer>
+   </writers>
+   <producers>
+      <producer>Tom Catalano</producer>
+   </producers>
+   <descr>
+      <p>"Cracklin' Rosie" is a 1970 song written and performed by
+    Neil Diamond in 1970, from his album 
+    <i>Tap Root Manuscript</i>. This was Neil Diamond's first
+    American #1 hit on the Billboard Hot 100 in October 1970, and
+    his third to sell a million copies. It become Diamond's
+    breakthrough single on the UK Singles Chart in 1970, reaching
+    #3 in December 1970. It also reached #2 on the Australian
+    Singles Chart.</p>
+      <p>Married to a catchy and dynamic melody and arrangement, the
+    lyrics suggested to some a devotion to a woman of the
+    night:</p>
+      <p>But in actuality, Cracklin' Rosie is a type of wine drunk by
+    a native Canadian tribe that Diamond had visited in Canada.
+    Apparently the tribe had more men than women. Cracklin' Rosie
+    was the nickname they used for their homemade alcoholic brew,
+    which the single men, who did not have dates, would sit around
+    the fire and drink together.</p>
+      <p>In terms of wine itself, the title is seen to refer to
+    (misspelled) rosé wine which is "crackling" - a U.S. term
+    equivalent to pétillant or lightly sparkling. A Crackling Rosé
+    is produced by, for example, Paul Masson Vineyards and
+    Beckett's Flat.</p>
+      <p>The single version released by Uni Records in 1970 was in
+    mono, while the album version from 
+    <i>Tap Root Manuscript</i>was in stereo.</p>
+      <p>"Cracklin' Rosie" is heard on the Perth based radio station
+    882 6pr as part of a weather segment.</p>
+   </descr>
+</topSong>

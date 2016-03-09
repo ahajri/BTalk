@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Let_Your_Love_Flow 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Let_Your_Love_Flow</songId>
+   <title>Let Your Love Flow</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bellamy_Brothers</artistId>
+      <artistName>Bellamy Brothers</artistName>
+   </artist>
+   <weeks>
+      <week>1976-05-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Bellamy_LYLF_disc.jpg/200px-Bellamy_LYLF_disc.jpg</albumImageId>
+      <albumImageUri>/images/Bellamy-Brothers+Let-Your-Love-Flow.jpg</albumImageUri>
+      <albumName>Let Your Love Flow</albumName>
+   </album>
+   <released>February 14, 1976 (U.S. Pop Release) , March 13, 1976 (U.S. Country Release) , November 2008 (UK Download Re-Release)</released>
+   <formats>
+      <format>7" (45 RPM)</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Country Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:18</length>
+   </lengths>
+   <label>Warner Bros. / Curb</label>
+   <writers>
+      <writer>Larry E. Williams</writer>
+   </writers>
+   <producers>
+      <producer>Phil Gernhard</producer>
+      <producer>Tony Scotti</producer>
+   </producers>
+   <descr>
+      <p>"Let Your Love Flow" is the title of a pop song written by
+    Larry E. Williams, a former roadie for Neil Diamond, and made
+    popular by the American country music duo The Bellamy Brothers.
+    It was offered to Neil Diamond first, but he turned it down.
+    Howard Bellamy told Songfacts: "Well, it really wasn't in Neil
+    Diamond's vein." He added: "But when we heard it we had an idea
+    of how we wanted to record it because it kind of fit our style,
+    acoustic bass with a groove, and I think that has a lot to do
+    with it. You've got to really match songs with artists, and I
+    think it was the perfect song for us, a great match." This
+    record was a crossover hit in the United States, reaching
+    Number One on the 1976 Billboard Hot 100 charts, #2 on Hot
+    Adult Contemporary Tracks, and #21 on Hot Country Singles. It
+    was also an international hit, landing on the charts in Great
+    Britain, Scandinavia and Germany, where the Bellamy Brothers'
+    record spent five weeks at #1 followed by 
+    <i>"Ein Bett im Kornfeld"</i>, a German language adaptation of
+    the song recorded by Jürgen Drews, which spent the next six
+    weeks at #1. In 2008 the song was used in an advert in the
+    United Kingdom for Barclaycard. Subsequently, the song
+    re-entered the UK Singles Chart and peaked at #21.</p>
+   </descr>
+</topSong>

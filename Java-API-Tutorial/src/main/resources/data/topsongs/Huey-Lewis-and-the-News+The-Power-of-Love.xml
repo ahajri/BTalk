@@ -1,0 +1,76 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Power_of_Love_(Huey_Lewis_and_the_News_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Power_of_Love_(Huey_Lewis_and_the_News_song)</songId>
+   <title>The Power of Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Huey_Lewis_and_the_News</artistId>
+      <artistName>Huey Lewis and the News</artistName>
+   </artist>
+   <weeks>
+      <week>1985-08-24</week>
+      <week>1985-08-31</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Huey_Lewis_Power_of_Love_US_Cover.PNG/200px-Huey_Lewis_Power_of_Love_US_Cover.PNG</albumImageId>
+      <albumImageUri>/images/Huey-Lewis-and-the-News+The-Power-of-Love.PNG</albumImageUri>
+      <albumName>Back to the Future: Music From the Motion Picture Soundtrack</albumName>
+   </album>
+   <released>1985</released>
+   <formats>
+      <format>7-inch</format>
+      <format>12-inch</format>
+   </formats>
+   <genres>
+      <genre>Pop / Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:53</length>
+   </lengths>
+   <label>Chrysalis</label>
+   <writers>
+      <writer>Huey Lewis</writer>
+      <writer>Chris Hayes</writer>
+      <writer>Johnny Colla</writer>
+   </writers>
+   <producers>
+      <producer>Huey Lewis and the News</producer>
+   </producers>
+   <descr>
+      <p>"The Power of Love" is the title of a 1985 single by Huey
+    Lewis and the News written for and featured in the 1985
+    blockbuster film 
+    <i>Back to the Future</i>. It gave the band their first
+    number-one hit on the U.S. Billboard Hot 100, their second
+    number-one hit on the U.S. Top Rock Tracks chart, and was a top
+    ten hit on the UK Singles Chart, where it appeared on UK
+    editions of the band's fourth studio album, 
+    <i>Fore!</i>. The song was nominated for an Academy Award at
+    the 58th Academy Awards.</p>
+      <p>The song appears early in 
+    <i>Back to the Future</i>as Marty McFly (Michael J. Fox)
+    skateboards to school, then when he and his band played the
+    song for a Battle of the Bands auditions (which Lewis, himself,
+    is judging, and tells Marty's group that they "are just too
+    darn loud"), and later when Marty returns to his neighborhood.
+    In the sequel, 
+    <i>Back to the Future Part II</i>, the 2015 version of Marty
+    attempts to play the song on his guitar just after being fired,
+    but ends up playing it very poorly due to his damaged hand from
+    his 1985 accident with a Rolls-Royce. Finally, it can be
+    briefly heard playing in the car where Needles and his buddies
+    are driving when Needles challenges Marty to the
+    fate-determining car race near the end of 
+    <i>Back to the Future Part III</i>.</p>
+      <p>The music video shows the band playing in a nightclub with
+    Dr. Emmett Brown (Christopher Lloyd) showing up in his
+    DeLorean, apparently after time-traveling, and a couple
+    stealing it for a joy ride.</p>
+   </descr>
+</topSong>

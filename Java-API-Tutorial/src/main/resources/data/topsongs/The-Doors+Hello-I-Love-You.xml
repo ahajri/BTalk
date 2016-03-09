@@ -1,0 +1,79 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hello,_I_Love_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hello,_I_Love_You</songId>
+   <title>Hello, I Love You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Doors</artistId>
+      <artistName>The Doors</artistName>
+   </artist>
+   <weeks>
+      <week>1968-08-03</week>
+      <week>1968-08-10</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/e2/HelloILoveYou45.jpg/200px-HelloILoveYou45.jpg</albumImageId>
+      <albumImageUri>/images/The-Doors+Hello-I-Love-You.jpg</albumImageUri>
+      <albumName>Waiting for the Sun</albumName>
+   </album>
+   <released>June 1968</released>
+   <recorded>February–May 1968</recorded>
+   <genres>
+      <genre>Psychedelic Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:22</length>
+   </lengths>
+   <label>Elektra</label>
+   <writers>
+      <writer>Jim Morrison</writer>
+      <writer>Robby Krieger</writer>
+      <writer>Ray Manzarek</writer>
+      <writer>John Densmore</writer>
+   </writers>
+   <producers>
+      <producer>Paul Rothchild</producer>
+   </producers>
+   <descr>
+      <p>"Hello, I Love You" is a song by The Doors from their 1968
+    album 
+    <i>Waiting for the Sun</i>. It was released as a single that
+    same year, reaching number one in the United States and selling
+    over a million copies in the U.S. alone. The single also became
+    the band's first big UK hit, peaking at number fifteen on the
+    chart.</p>
+      <p>This was one of the six songs performed by The Doors on the
+    demo for Aura Records in 1965.</p>
+      <p>Some pressings of the single list the title as "Hello, I
+    Love You (Won't You Tell Me Your Name?)".</p>
+      <p>In the liner notes to The Doors Box set, Robbie Krieger has
+    denied the allegations that the song's musical structure was
+    stolen from Ray Davies, where a riff similar to it is featured
+    in the song "All Day and All of the Night". Instead, he said
+    the song's vibe was taken from Cream's song "Sunshine of Your
+    Love".</p>
+      <p>The last verse was written by Jim Morrison three years prior
+    to the album recordings, while he was observing an attractive
+    African American girl at Venice Beach.</p>
+      <p>"Sidewalk crouches at her feet, Like a dog that begs for
+    something sweet., Do you hope to make her see you, fool?, Do
+    you hope to pluck this dusky jewel?",</p>
+      <p>The song has been covered by Oleander, Alex Nautical, Buddy
+    Rich, Missing Persons, The Cure (on the compilation 
+    <i>Rubaiyat</i>, 1990), Rhythmical, Simple Minds, Anal Cunt,
+    Neil Young, Adam Ant, Adam Freeland, Program the Dead, Siouxie
+    Sioux and Lithuanian postmodernist rock band Antis .</p>
+      <p>It is also referenced in The Dresden Dolls' song "The
+    Perfect Fit" and Pulp's "Dogs Are Everywhere". Hip Hop artist
+    Nero mixed and released this tune as "You Ho".</p>
+      <p>Grindcore band Anal Cunt had a cover of this song as a
+    hidden track on their Morbid Florist EP.</p>
+      <p>phi:Hello, I Love You</p>
+   </descr>
+</topSong>

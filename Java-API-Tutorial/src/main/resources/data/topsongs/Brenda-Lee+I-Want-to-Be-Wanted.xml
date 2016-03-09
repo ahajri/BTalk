@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Want_to_Be_Wanted 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Want_to_Be_Wanted</songId>
+   <title>I Want to Be Wanted</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Brenda_Lee</artistId>
+      <artistName>Brenda Lee</artistName>
+   </artist>
+   <weeks>
+      <week>1960-10-24</week>
+   </weeks>
+   <descr>
+      <p>"I Want to Be Wanted" is a popular song sung by Brenda Lee
+    that was a number-one song in the United States during the year
+    1960. It topped the Hot 100 singles chart for the issue dated
+    October 24, 1960, and remained there for one week. It is an
+    Italian song that was in the original version of 
+    <i>Never on Sunday</i>. This was Brenda Lee's second number-one
+    single, her first being "I'm Sorry". The English lyrics of "I
+    Want to Be Wanted" were written by Kim Gannon.</p>
+   </descr>
+</topSong>

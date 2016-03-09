@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Close_to_You_(Maxi_Priest_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Close_to_You_(Maxi_Priest_song)</songId>
+   <title>Close to You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Maxi_Priest</artistId>
+      <artistName>Maxi Priest</artistName>
+   </artist>
+   <weeks>
+      <week>1990-10-06</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Close_to_you.jpg/200px-Close_to_you.jpg</albumImageId>
+      <albumImageUri>/images/Maxi-Priest+Close-to-You.jpg</albumImageUri>
+      <albumName>Bonafide</albumName>
+   </album>
+   <released>1990</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>CD maxi</format>
+   </formats>
+   <genres>
+      <genre>Reggae Fusion</genre>
+      <genre>Reggae</genre>
+      <genre>R&amp;B</genre>
+      <genre>New Jack Swing</genre>
+      <genre>Dance</genre>
+   </genres>
+   <lengths>
+      <length>5:27</length>
+   </lengths>
+   <label>Ten Records Ltd</label>
+   <writers>
+      <writer>Gary Benson</writer>
+      <writer>Winston Sela</writer>
+      <writer>Max Elliott</writer>
+   </writers>
+   <producers>
+      <producer>Handel Tucker</producer>
+      <producer>Geoffrey Chung</producer>
+      <producer>Lowell "Sly" Dunbar</producer>
+   </producers>
+   <descr>
+      <p>"Close to You" is a song recorded by British reggae singer
+    Maxi Priest. It reached #1 on the Billboard Hot 100 on October
+    6, 1990 and #7 on the UK Singles Chart, and was covered by
+    trance act Origiene in 2003.</p>
+   </descr>
+</topSong>

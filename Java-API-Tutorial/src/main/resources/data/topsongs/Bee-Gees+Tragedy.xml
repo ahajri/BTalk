@@ -1,0 +1,73 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Tragedy_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Tragedy_(song)</songId>
+   <title>Tragedy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bee_Gees</artistId>
+      <artistName>Bee Gees</artistName>
+   </artist>
+   <weeks>
+      <week>1979-03-24</week>
+      <week>1979-03-31</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/1/12/Bee-Gees-Tragedy.jpg/200px-Bee-Gees-Tragedy.jpg</albumImageId>
+      <albumImageUri>/images/Bee-Gees+Tragedy.jpg</albumImageUri>
+      <albumName>Spirits Having Flown</albumName>
+   </album>
+   <released>February 1979</released>
+   <formats>
+      <format>Single</format>
+   </formats>
+   <recorded>March - November 1978</recorded>
+   <genres>
+      <genre>Pop / Disco</genre>
+   </genres>
+   <lengths>
+      <length>5:03</length>
+   </lengths>
+   <label>RSO</label>
+   <writers>
+      <writer>Barry</writer>
+      <writer>Robin &amp; Maurice Gibb</writer>
+   </writers>
+   <producers>
+      <producer>The Bee Gees</producer>
+      <producer>Albhy Galuten</producer>
+      <producer>Karl Richardson</producer>
+   </producers>
+   <descr>
+      <p>"Tragedy" is a song recorded by the Bee Gees, included on
+    their 1979 album 
+    <i>Spirits Having Flown</i>. The single reached number one in
+    the UK in February 1979 and repeated the feat the following
+    month on the U.S. Billboard Hot 100. Though not originally in 
+    <i>Saturday Night Fever</i>, it has subsequently been added to
+    the musical score of the West End version of the
+    movie-musical.</p>
+      <p>The song knocked "I Will Survive" by Gloria Gaynor off the
+    top spot in the U.S. for two weeks before that song again
+    returned to number one for an additional week.</p>
+      <p>In 1979, NBC aired 
+    <i>The Bee Gees Special</i>which showed how the sound effect
+    for the explosion was created. Barry cupped his hands over a
+    microphone and made an exploding sound. Several of these sounds
+    were then mixed together creating one large boom heard on the
+    record.</p>
+      <p>In 1998, Steps covered "Tragedy", releasing it as a double
+    A-side with "Heartbeat". It debuted at number two on the UK
+    Singles Chart before climbing to the top spot, achieving
+    platinum status. A dance step of putting both hands parallel to
+    the sides of the head became the trademark move of the British
+    group. "Tragedy" has sold more copies than all three previous
+    Steps singles combined. It spent eighteen weeks in the Top 20
+    and thirty weeks on the chart in total.</p>
+   </descr>
+</topSong>

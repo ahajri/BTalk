@@ -1,0 +1,45 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Travelin%27_Man 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Travelin%27_Man</songId>
+   <title>Travelin' Man</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ricky_Nelson</artistId>
+      <artistName>Ricky Nelson</artistName>
+   </artist>
+   <weeks>
+      <week>1961-05-29</week>
+      <week>1961-06-12</week>
+   </weeks>
+   <released>1961</released>
+   <lengths>
+      <length>2:24</length>
+   </lengths>
+   <label>Imperial Records</label>
+   <writers>
+      <writer>Jerry Fuller</writer>
+   </writers>
+   <producers>
+      <producer>???</producer>
+   </producers>
+   <descr>
+      <p>"Travelin' Man" was a number-one Billboard Hot 100 song in
+    late-May 1961 by Ricky Nelson. It was written by songwriter
+    Jerry Fuller.The short film made to promote the single has been
+    claimed as the first music video.</p>
+      <p>The song details the loves of a traveling man. They were: a
+    "pretty señorita" in Mexico, an eskimo in Alaska, a fraulein in
+    Berlin, a china doll in Hong Kong, and a Polynesian in Waikiki.
+    There were others as well, "in every port ... at least one,"
+    mentioned obliquely during the opening verse. The song was
+    produced by Joe Johnson who was also famous for The Champs
+    recording of "Tequila". Joe was the owner of 4 star music and
+    Challenge Records in Nashville.</p>
+   </descr>
+</topSong>

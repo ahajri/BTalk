@@ -1,0 +1,28 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Mother-in-Law_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Mother-in-Law_(song)</songId>
+   <title>Mother-in-Law</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ernie_K-Doe</artistId>
+      <artistName>Ernie K-Doe</artistName>
+   </artist>
+   <weeks>
+      <week>1961-05-22</week>
+   </weeks>
+   <descr>
+      <p>"Mother-in-Law" is the name of a hit 1961 single by Ernie
+    K-Doe. The song peaked at number one on the U.S. Billboard Hot
+    100 and R&amp;B chart.. The song was written and produced by
+    Allen Toussaint who also played the piano solo. It was issued
+    by Minit Records. Huey Lewis and the News recorded the song for
+    the 1994 covers album, 
+    <i>Four Chords &amp; Several Years Ago</i>.</p>
+   </descr>
+</topSong>

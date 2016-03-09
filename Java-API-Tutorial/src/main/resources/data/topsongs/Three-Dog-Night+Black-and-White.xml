@@ -1,0 +1,50 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Black_and_White_(Three_Dog_Night_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Black_and_White_(Three_Dog_Night_song)</songId>
+   <title>Black and White</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Three_Dog_Night</artistId>
+      <artistName>Three Dog Night</artistName>
+   </artist>
+   <weeks>
+      <week>1972-09-16</week>
+   </weeks>
+   <album>
+      <albumName>Seven Separate Fools</albumName>
+   </album>
+   <released>1972</released>
+   <lengths>
+      <length>3:51 (album)</length>
+      <length>3:24 (single)</length>
+   </lengths>
+   <label>Dunhill</label>
+   <writers>
+      <writer>David I. Arkin</writer>
+      <writer>Earl Robinson</writer>
+   </writers>
+   <descr>
+      <p>"Black and White" is a song written in 1954 by David I.
+    Arkin and Earl Robinson. The most successful recording of the
+    song was the pop version by Three Dog Night in 1972, when it
+    reached number one on the Billboard Hot 100 chart.</p>
+      <p>The song was inspired by the United States Supreme Court
+    decision of Brown v. Board of Education that outlawed racial
+    segregation of public schools. The original folk song was first
+    recorded by Sammy Davis Jr. in 1957. The original lyrics of the
+    song opened with this verse, in reference to the court:</p>
+      <p>The reggae group Greyhound recorded and had a top ten UK hit
+    with the song in 1971.[1] Having heard the Greyhound version,
+    which did not include the verse referring to the court, Three
+    Dog Night included the song in their 1972 album, 
+    <i>Seven Separate Fools</i>. This version of the song peaked at
+    number one on the U.S. pop chart on September 16, 1972; it also
+    topped the U.S. adult contemporary chart for one week.</p>
+   </descr>
+</topSong>

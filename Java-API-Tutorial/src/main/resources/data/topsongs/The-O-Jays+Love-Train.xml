@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Love_Train 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Love_Train</songId>
+   <title>Love Train</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_O%27Jays</artistId>
+      <artistName>The O'Jays</artistName>
+   </artist>
+   <weeks>
+      <week>1973-03-24</week>
+   </weeks>
+   <album>
+      <albumName>Back Stabbers</albumName>
+   </album>
+   <released>December 1972</released>
+   <recorded>1972</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Philly Soul</genre>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>2:50</length>
+   </lengths>
+   <label>Philadelphia International</label>
+   <writers>
+      <writer>Kenny Gamble</writer>
+      <writer>Leon Huff</writer>
+   </writers>
+   <producers>
+      <producer>Kenny Gamble</producer>
+      <producer>Leon Huff</producer>
+   </producers>
+   <descr>
+      <p>"Love Train" is a song by Kenny Gamble and Leon Huff that
+    was a hit record for The O'Jays. Released in 1973, it reached
+    number one on both the R&amp;B Singles and the Billboard Hot
+    100 charts and was certified gold by the RIAA. It was The
+    O'Jays' first and only number-one record on the U.S. pop chart.
+    The song's lyrics of unity mention a number of countries,
+    including England, Russia, China, Egypt and Israel, as well as
+    the continent of Africa.</p>
+      <p>Besides its release as a single, "Love Train" was the last
+    song on The O'Jays' album 
+    <i>Back Stabbers</i>and also a single from 
+    <i>The Supremes</i>.</p>
+      <p>The song has been used in a series of advertisements for
+    Coors Light beer. It was on the soundtrack to the film, 
+    <i>Hitch</i>. The song was played at the 2008 Democratic
+    National Convention to celebrate unity after Senator Hillary
+    Clinton threw her support to Senator Barack Obama.</p>
+      <p>The Rolling Stones covered "Love Train" on their 2004 DVD
+    called 
+    <i>Four Flicks</i>, as well as Tommy Lee for the 
+    <i>Final Destination 3</i>soundtrack.</p>
+      <p>The Wiggles covered this song on their album, 
+    <i>Racing to the Rainbow</i>.</p>
+   </descr>
+</topSong>

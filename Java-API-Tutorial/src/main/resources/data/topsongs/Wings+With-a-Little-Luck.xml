@@ -1,0 +1,68 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/With_a_Little_Luck 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/With_a_Little_Luck</songId>
+   <title>With a Little Luck</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Wings_(band)</artistId>
+      <artistName>Wings</artistName>
+   </artist>
+   <weeks>
+      <week>1978-05-20</week>
+      <week>1978-05-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/ed/62708wall.jpg/200px-62708wall.jpg</albumImageId>
+      <albumImageUri>/images/Wings+With-a-Little-Luck.jpg</albumImageUri>
+      <albumName>London Town</albumName>
+   </album>
+   <released>17 March 1978</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1977</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:45</length>
+   </lengths>
+   <label>Parlophone / EMI (UK) , Capitol (US)</label>
+   <writers>
+      <writer>Paul McCartney</writer>
+   </writers>
+   <producers>
+      <producer>Paul McCartney</producer>
+   </producers>
+   <descr>
+      <p>"With a Little Luck" is Wings' #1 (U.S.) single from their
+    1978 album 
+    <i>London Town</i>. The song was written by Paul McCartney in
+    Scotland and recorded on board the boat 
+    <i>Fair Carol</i>in the Virgin Islands prior to the departure
+    of lead guitarist Jimmy McCulloch and drummer Joe English from
+    Wings. The song was released on St. Patrick's Day 1978, and hit
+    number one in the United States later that spring. It was
+    featured in the closing credits of the 1979 film 
+    <i>Sunburn</i>starring Farrah Fawcett, Charles Grodin and Art
+    Carney.</p>
+      <p>"With a Little Luck" was also released on 
+    <i>Wings Greatest</i>(1978) and the two-disc compilation, 
+    <i>Wingspan</i>(2001). There were two versions of the song: the
+    original 5:45 version on 
+    <i>London Town</i>, and a DJ Edit, which only runs 3:13.</p>
+      <p>This song was written by Paul during the time his wife,
+    Linda McCartney, was expecting a child. Her pregnancy put Wings
+    on hold for a while and this song is a tribute to this era in
+    their lives. The single version was released in the United
+    States because music radio was not willing to play a "non-disco
+    rock song" longer than 4 minutes. "With a Little Luck" was cut
+    down to 3:13, much to Paul McCartney's dismay.</p>
+   </descr>
+</topSong>

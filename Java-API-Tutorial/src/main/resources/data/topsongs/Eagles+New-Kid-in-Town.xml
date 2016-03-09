@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/New_Kid_in_Town 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/New_Kid_in_Town</songId>
+   <title>New Kid in Town</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Eagles</artistId>
+      <artistName>Eagles</artistName>
+   </artist>
+   <weeks>
+      <week>1977-02-26</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Eaglesnewkidintownsinglecover.jpg/200px-Eaglesnewkidintownsinglecover.jpg</albumImageId>
+      <albumImageUri>/images/Eagles+New-Kid-in-Town.jpg</albumImageUri>
+      <albumName>Hotel California</albumName>
+   </album>
+   <released>December 7, 1976</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Country Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:03</length>
+   </lengths>
+   <label>Asylum</label>
+   <writers>
+      <writer>Don Henley</writer>
+      <writer>Glenn Frey</writer>
+      <writer>J.D. Souther</writer>
+   </writers>
+   <producers>
+      <producer>Bill Szymczyk</producer>
+   </producers>
+   <descr>
+      <p>"New Kid In Town", written by Don Henley, Glenn Frey and
+    J.D. Souther, is a song by the Eagles, from their 1976 album 
+    <i>Hotel California</i>. Released as the first single from the
+    album, the song became a #1 hit in the USA, and #20 in the UK.
+    The single version has an earlier fade-out than the album
+    version does. On 26 February 1977, it reached the Billboard #1.
+    The song features Glenn Frey singing the lead vocals, with Don
+    Henley singing main harmony vocals. Randy Meisner plays the
+    guitarrón mexicano, and Joe Walsh plays the electric piano and
+    organ parts.</p>
+      <p>In 1977, the Eagles won a Grammy Award for Best Arrangement
+    for Voices with "New Kid In Town".</p>
+      <p>On Henley's first solo album, I Can't Stand Still, he
+    references the song by singing the line, "there's a new kid in
+    town" over the rideout of Johnny Can't Read.</p>
+   </descr>
+</topSong>

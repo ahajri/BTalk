@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Baby_Baby_(Amy_Grant_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Baby_Baby_(Amy_Grant_song)</songId>
+   <title>Baby Baby</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Amy_Grant</artistId>
+      <artistName>Amy Grant</artistName>
+   </artist>
+   <weeks>
+      <week>1991-04-27</week>
+      <week>1991-05-04</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/da/Baby_Baby_single.jpg/200px-Baby_Baby_single.jpg</albumImageId>
+      <albumImageUri>/images/Amy-Grant+Baby-Baby.jpg</albumImageUri>
+      <albumName>Heart in Motion</albumName>
+   </album>
+   <released>February 18, 1991</released>
+   <formats>
+      <format>7" single</format>
+      <format>Cassette single</format>
+      <format>Promotional single</format>
+      <format>CD single</format>
+   </formats>
+   <recorded>August 1990</recorded>
+   <genres>
+      <genre>Ccm</genre>
+      <genre>Adult Contemporary</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:57</length>
+   </lengths>
+   <label>A&amp;M Records</label>
+   <writers>
+      <writer>Amy Grant</writer>
+      <writer>Keith Thomas</writer>
+   </writers>
+   <producers>
+      <producer>Brown Bannister</producer>
+   </producers>
+   <descr>
+      <p>"Baby Baby" is a 1991 single by Christian music and pop
+    music singer Amy Grant. It was the theme song to the 
+    <i>Heart In Motion</i>concept album, and was the first single
+    derived from that album. The lyrics are the source of the
+    album's title.</p>
+      <p>The song is featured on the soundtrack to the 2005 film 
+    <i>Mr. &amp; Mrs. Smith</i>(albeit, a cover version). It it
+    also featured in the 2004 film 
+    <i>Harold and Kumar Go to White Castle</i>.</p>
+      <p>"Baby Baby" was Amy Grant's biggest hit since her 1986 duet
+    with Peter Cetera, "The Next Time I Fall." In the United
+    States, "Baby Baby" was Grant's second number-one hit on the
+    pop charts and her first as a solo artist, topping the
+    Billboard Hot 100 and Adult Contemporary charts for two and
+    three weeks, respectively. The single reached the Top Ten in
+    seven countries, in addition to reaching #11 in Switzerland. In
+    Britain, "Baby Baby" was the singer's first (and only) Top Five
+    hit in that country, reaching #2. In the end, "Baby Baby"
+    proved to be Grant's biggest hit and one of the most successful
+    singles of 1991.</p>
+   </descr>
+</topSong>

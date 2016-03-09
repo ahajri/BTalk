@@ -1,0 +1,30 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Ma%C3%B1ana_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Ma%C3%B1ana_(song)</songId>
+   <title>Mañana (Is Soon Enough for Me)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Peggy_Lee</artistId>
+      <artistName>Peggy Lee</artistName>
+   </artist>
+   <weeks>
+      <week>1948-03-13</week>
+   </weeks>
+   <descr>
+      <p>"Mañana (Is Soon Enough for Me)" is a popular song that was
+    written by Peggy Lee and Dave Barbour and published in
+    1947.</p>
+      <p>Peggy Lee also recorded the song, on November 25, 1947, with
+    Dave Barbour's orchestra as backing. It was one of her biggest
+    hits. The recording was released by Capitol Records as catalog
+    number 15022. The record first reached the Billboard magazine
+    charts on January 23, 1948 and lasted 21 weeks on the chart,
+    peaking at number one.</p>
+   </descr>
+</topSong>

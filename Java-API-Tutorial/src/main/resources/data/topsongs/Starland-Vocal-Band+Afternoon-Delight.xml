@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Afternoon_Delight_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Afternoon_Delight_(song)</songId>
+   <title>Afternoon Delight</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Starland_Vocal_Band</artistId>
+      <artistName>Starland Vocal Band</artistName>
+   </artist>
+   <weeks>
+      <week>1976-07-10</week>
+      <week>1976-07-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Afternoon_Delight_by_The_Starland_Vocal_Band.jpg/200px-Afternoon_Delight_by_The_Starland_Vocal_Band.jpg</albumImageId>
+      <albumImageUri>/images/Starland-Vocal-Band+Afternoon-Delight.jpg</albumImageUri>
+      <albumName>Starland Vocal Band</albumName>
+   </album>
+   <released>1976</released>
+   <lengths>
+      <length>3:16</length>
+   </lengths>
+   <writers>
+      <writer>Bill Danoff</writer>
+   </writers>
+   <descr>
+      <p>"Afternoon Delight" is a 1976 song by the Starland Vocal
+    Band, written by Bill Danoff, featuring close harmony and
+    sexually suggestive lyrics. It became a number-one U.S.
+    Billboard Hot 100 single on July 10, 1976. The song has been
+    inducted in the Rock and Roll Hall of Fame</p>
+      <p>Concurrent to the Starland Vocal Band's version, country
+    singer Johnny Carver had a Top 10 version of his own on the 
+    <i>Billboard</i>Hot Country Singles chart.</p>
+      <p>In the 1990s and 2000s, "Afternoon Delight" was featured in
+    several film and television shows, albeit often in an ironic
+    sense, such as 
+    <i>Get a Life</i>(Chris Wins a Celebrity), 
+    <i>Good Will Hunting</i>, 
+    <i>PCU</i>, 
+    <i>Boogie Nights</i>, 
+    <i>The Rules of Attraction</i>, 
+    <i>The Spirit of '76</i>, 
+    <i>Starsky &amp; Hutch</i>, 
+    <i>Arrested Development</i>(as part of a plot point in the
+    episode "Afternoon Delight"), 
+    <i>The Simpsons</i>("The Fat and the Furriest"), 
+    <i>Rules of Engagement</i>, 
+    <i>Sports Night</i>
+         <i>Complete Savages</i>, 
+    <i>South Park</i>and 
+    <i>Anchorman: The Legend of Ron Burgundy</i>; it was featured
+    prominently in a 1991 episode of 
+    <i>Murphy Brown</i>, where a number of the characters flashed
+    back to the Bicentennial Celebration in 1976. In 1983, The
+    Circle Jerks also covered this song as one of the six cover
+    versions on "Golden Shower of Hits (Jerks on 45)", which
+    appears on their third album with the same title. A British
+    experimental folk music band Current 93 used an
+    industrial-style cover version as an introduction to their
+    performances of their 2009 album.</p>
+      <p>The name for the song comes from the name of a special menu
+    of the same name at Clyde's restaurant in Georgetown.</p>
+   </descr>
+</topSong>

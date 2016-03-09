@@ -1,0 +1,69 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Grillz 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Grillz</songId>
+   <title>Grillz</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Nelly</artistId>
+      <artistName>Nelly featuring Paul Wall, Ali and Gipp</artistName>
+   </artist>
+   <weeks>
+      <week>2006-01-21</week>
+      <week>2006-01-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Grillz.jpg/200px-Grillz.jpg</albumImageId>
+      <albumImageUri>/images/Nelly-featuring-Paul-Wall-Ali-and-Gipp+Grillz.jpg</albumImageUri>
+      <albumName>Sweatsuit</albumName>
+   </album>
+   <released>November 8, 2005</released>
+   <formats>
+      <format>Digital download</format>
+   </formats>
+   <recorded>2005</recorded>
+   <genres>
+      <genre>Midwest Hip Hop</genre>
+      <genre>Hip Hop</genre>
+   </genres>
+   <lengths>
+      <length>4:31 (Album Version)</length>
+      <length>3:48 (Int'l Radio Edit)</length>
+   </lengths>
+   <label>Universal</label>
+   <writers>
+      <writer>Jermaine Dupri</writer>
+      <writer>Ali Jones</writer>
+      <writer>Cameron Gipp</writer>
+      <writer>LRoc</writer>
+      <writer>Cornell Haynes</writer>
+      <writer>Jr.</writer>
+      <writer>Paul Slayton</writer>
+      <writer>Beyoncé Knowles</writer>
+   </writers>
+   <producers>
+      <producer>Jermaine Dupri</producer>
+   </producers>
+   <descr>
+      <p>"Grillz" is a 2005 rap single from the album 
+    <i>Sweatsuit</i>by Nelly featuring Paul Wall and Ali &amp; Gipp
+    (a duo composed of Ali from the St. Lunatics and Big Gipp from
+    the Goodie Mob) about grills, cosmetic dental apparatuses.
+    Brandi Williams performs back-up vocals on "Grillz". In six
+    weeks, "Grillz" reached the top five of the Billboard Hot 100,
+    and number one in its tenth week (in 2006), becoming Nelly's
+    fourth number one hit. It also became #1 on the Hot Ringtones
+    chart. In the UK, it became his least successful single since
+    "Iz U" charting at only #24. "Grillz" samples "Soldier" by
+    Destiny's Child, a No. 3 Hot 100 hit for the group. Big Boi of
+    OutKast makes a cameo appearance in the video. There is a remix
+    featuring Chingo Bling on the album Dollarado 2 Texas. Another
+    official remix is West Coast remix and it features Diamonique
+    and Lil' Rob.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Thank_God_I%27m_a_Country_Boy 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Thank_God_I%27m_a_Country_Boy</songId>
+   <title>Thank God I'm a Country Boy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/John_Denver</artistId>
+      <artistName>John Denver</artistName>
+   </artist>
+   <weeks>
+      <week>1975-06-07</week>
+   </weeks>
+   <album>
+      <albumName>Back Home Again</albumName>
+   </album>
+   <released>March 1975</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1974</recorded>
+   <genres>
+      <genre>Country</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:13 (1974 studio version)</length>
+      <length>3:40 (live version)</length>
+   </lengths>
+   <label>RCA Records</label>
+   <writers>
+      <writer>John Sommers</writer>
+   </writers>
+   <descr>
+      <p>"Thank God I'm a Country Boy", also known as "Country Boy"
+    is a song written by John Martin Sommers and recorded by
+    singer/songwriter John Denver.</p>
+      <p>The song was originally included on Denver's 1974 album 
+    <i>Back Home Again</i>. A version recorded live at the
+    Universal Amphitheatre in Los Angeles was included on his 1975
+    album 
+    <i>An Evening With John Denver</i>.</p>
+      <p>The live version was released as a single and went to No. 1
+    on both the 
+    <i>Billboard magazine</i>Hot Country Singles and Billboard Hot
+    100 charts. The song topped both charts for one week each,
+    first the country chart (on May 31), and the Hot 100 chart a
+    week later.</p>
+      <p>"Thank God I'm a Country Boy" was one of six songs released
+    in 1975 that topped both the Billboard Hot 100 and 
+    <i>Billboard</i>Hot Country Singles charts. Denver's two-sided
+    hit "I'm Sorry"/"Calypso" also received that distinction.</p>
+   </descr>
+</topSong>

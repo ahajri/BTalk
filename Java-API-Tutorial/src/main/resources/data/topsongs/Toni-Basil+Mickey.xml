@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Mickey_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Mickey_(song)</songId>
+   <title>Mickey</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Toni_Basil</artistId>
+      <artistName>Toni Basil</artistName>
+   </artist>
+   <weeks>
+      <week>1982-12-11</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/49/Toni_Basil_Mickey.jpg/200px-Toni_Basil_Mickey.jpg</albumImageId>
+      <albumImageUri>/images/Toni-Basil+Mickey.jpg</albumImageUri>
+      <albumName>Word of Mouth</albumName>
+   </album>
+   <released>October 5, 1982</released>
+   <recorded>1981</recorded>
+   <genres>
+      <genre>Bubblegum Pop</genre>
+      <genre>Power Pop</genre>
+      <genre>New Wave</genre>
+   </genres>
+   <lengths>
+      <length>4:18 (album) / 3:36 (single)</length>
+   </lengths>
+   <label>Chrysalis (U.S.) , Radial Choice (U.K.) , Virgin (Canada)</label>
+   <writers>
+      <writer>Mike Chapman</writer>
+      <writer>Nicky Chinn</writer>
+   </writers>
+   <producers>
+      <producer>Mike Chapman</producer>
+   </producers>
+   <descr>
+      <p>"Mickey" is a 1982 successful U.S. popular music song
+    recorded by singer and choreographer Toni Basil. Written by
+    Mike Chapman and Nicky Chinn as "Kitty," it was first recorded
+    by UK popular music group Racey during 1979.</p>
+      <p>Basil's infatuation with actor and singer Monkee Micky
+    Dolenz during her work as a choreographer/dancer on the set of
+    the Monkees 1968 movie 
+    <i>Head</i>prompted her to change the lyrics to "Mickey" to
+    better correspond to her real-life experience, and to change
+    the gender from female to male. The single scored number one on
+    the U.S. Billboard Hot 100 for 1 week and number two in the UK
+    singles chart. The song was Basil's only top 40 success, making
+    her a "one hit wonder".</p>
+   </descr>
+</topSong>

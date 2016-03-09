@@ -1,0 +1,65 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Out_of_Touch 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Out_of_Touch</songId>
+   <title>Out of Touch</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Hall_%26_Oates</artistId>
+      <artistName>Daryl Hall and John Oates</artistName>
+   </artist>
+   <weeks>
+      <week>1984-12-08</week>
+      <week>1984-12-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/bb/OutofTouch.jpg/200px-OutofTouch.jpg</albumImageId>
+      <albumImageUri>/images/Daryl-Hall-and-John-Oates+Out-of-Touch.jpg</albumImageUri>
+      <albumName>Big Bam Boom</albumName>
+   </album>
+   <released>1984</released>
+   <formats>
+      <format>7" 12"</format>
+   </formats>
+   <genres>
+      <genre>Pop / Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:21 (album version)</length>
+      <length>4:07 (single version)</length>
+   </lengths>
+   <label>RCA</label>
+   <writers>
+      <writer>Daryl Hall &amp; John Oates</writer>
+   </writers>
+   <producers>
+      <producer>Daryl Hall &amp; John Oates</producer>
+      <producer>Bob Clearmountain</producer>
+   </producers>
+   <descr>
+      <p>"Out of Touch" is a 1984 song from Hall &amp; Oates. This
+    lead single from their 1984 album 
+    <i>Big Bam Boom</i>was their last Billboard Hot 100 number one,
+    topping the Billboard Hot 100 for two weeks in December
+    1984.</p>
+      <p>"Out of Touch" was covered by Uniting Nations in 2004 and
+    was featured on the compilation CDs 
+    <i>Summer Hits 2005</i>, 
+    <i>Floorfillers Club Classics</i>and 
+    <i>Floorfillers 3</i>amongst others. Uniting Nations' version
+    peaked at #7 on the UK Singles Chart and remained in the Top 75
+    for twenty-one weeks.</p>
+      <p>The song featured in the 2002 console game Grand Theft Auto:
+    Vice City on the radio station Flash FM, and also in the 2008
+    console game Saints Row 2 on the radio station The Mix
+    107.77.</p>
+      <p>John Oates wrote the refrain, "You're Out Of Touch, I'm Out
+    of Time but I'm Out of my head when you're not around." He and
+    Hall collaborated on the music and the rest of the lyrics.</p>
+   </descr>
+</topSong>

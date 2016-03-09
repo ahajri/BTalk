@@ -1,0 +1,62 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Sara_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Sara_(song)</songId>
+   <title>Sara</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jefferson_Airplane</artistId>
+      <artistName>Starship</artistName>
+   </artist>
+   <weeks>
+      <week>1986-03-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/90/Sara_single.jpg/200px-Sara_single.jpg</albumImageId>
+      <albumImageUri>/images/Starship+Sara.jpg</albumImageUri>
+      <albumName>Knee Deep in the Hoopla</albumName>
+   </album>
+   <released>1985</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>?</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:53 (Album Version) 4:25 (7" Edit)</length>
+   </lengths>
+   <label>RCA Records</label>
+   <writers>
+      <writer>Peter Wolf</writer>
+      <writer>Ina Wolf</writer>
+   </writers>
+   <producers>
+      <producer>Peter Wolf</producer>
+      <producer>Jeremy Smith</producer>
+   </producers>
+   <descr>
+      <p>"Sara" is a #1 hit song by the band Starship. It was sung by
+    Mickey Thomas, of the newly renamed band Starship, from their
+    first album 
+    <i>Knee Deep in the Hoopla</i>. The song hit #1 on the
+    Billboard Hot 100 chart on March 15, 1986 staying at that
+    position for one week. It was the band's second #1 hit after
+    the song "We Built This City" hit the mark a few months earlier
+    in 1985. It also became the band's first number-one song on the
+    adult contemporary chart, where it remained for three weeks.
+    Although written by Peter and Ina Wolf, the song was named for
+    Thomas's wife at the time, Sara (née Kendrick).</p>
+      <p>The music video for "Sara" prominently features actor
+    Rebecca De Mornay and Thomas in a storyline about a
+    relationship ending, with frequent flashbacks to what is
+    presumably Thomas's character's childhood and the tornado that
+    wrecked his home.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Nice_and_Slow 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Nice_and_Slow</songId>
+   <title>Nice and Slow</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Usher_(entertainer)</artistId>
+      <artistName>Usher</artistName>
+   </artist>
+   <weeks>
+      <week>1998-02-14</week>
+      <week>1998-02-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/2/26/Usher_Nice_Slow.jpg</albumImageId>
+      <albumImageUri>/images/Usher+Nice-and-Slow.jpg</albumImageUri>
+      <albumName>My Way</albumName>
+   </album>
+   <released>October 23, 1997</released>
+   <formats>
+      <format>CD</format>
+   </formats>
+   <recorded>1997</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>3:48</length>
+   </lengths>
+   <label>LaFace/Arista</label>
+   <writers>
+      <writer>Jagged Edge</writer>
+      <writer>Manuel Seal Jr.</writer>
+      <writer>Jermaine Dupri</writer>
+      <writer>Usher Raymond</writer>
+   </writers>
+   <producers>
+      <producer>Jermaine Dupri</producer>
+   </producers>
+   <descr>
+      <p>"Nice and Slow" is a 1997 single from Usher's second album 
+    <i>My Way</i>. It became his first number-one single on the
+    Billboard Hot 100 singles chart in early 1998. However, in the
+    UK, it did not follow the number one success of "You Make Me
+    Wanna," only peaking at #24, therefore becoming the final
+    single from the album there. The song was written by Brian
+    &amp; Brandon Casey of the R&amp;B group Jagged Edge, Manuel
+    Seal Jr., Jermaine Dupri and Usher Raymond.</p>
+      <p>The music video for the song featured Kimora Lee
+    Simmons.</p>
+      <p>UK CD: 1</p>
+      <p>UK CD: 2</p>
+   </descr>
+</topSong>

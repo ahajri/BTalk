@@ -1,0 +1,65 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/If_Wishes_Came_True 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/If_Wishes_Came_True</songId>
+   <title>If Wishes Came True</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Sweet_Sensation</artistId>
+      <artistName>Sweet Sensation</artistName>
+   </artist>
+   <weeks>
+      <week>1990-09-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Sweet_Sensation_If_Wishes_Came_True.jpeg/200px-Sweet_Sensation_If_Wishes_Came_True.jpeg</albumImageId>
+      <albumImageUri>/images/Sweet-Sensation+If-Wishes-Came-True.jpeg</albumImageUri>
+      <albumName>Love Child</albumName>
+   </album>
+   <released>June 14, 1990</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" single</format>
+      <format>Cassete single</format>
+      <format>CD Maxi single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>5:12 (album version)</length>
+   </lengths>
+   <label>ATCO / Atlantic</label>
+   <writers>
+      <writer>Deena Charles</writer>
+      <writer>Robert Steele</writer>
+      <writer>Russ DeSalvo</writer>
+   </writers>
+   <producers>
+      <producer>Steve Peck</producer>
+   </producers>
+   <descr>
+      <p>"If Wishes Came True" is a song recorded by the
+    R&amp;B/dance group Sweet Sensation on their 1990 album 
+    <i>Love Child</i>. It was the biggest hit of their career and
+    hit number one in the U.S. on September 1, 1990, replacing
+    Mariah Carey's "Vision of Love".</p>
+      <p>The song begins with strings and a flamenco guitar, then
+    quickly picks up into a synthesizer line and the singing begins
+    soon afterward. The song reaches its greatest strength at the
+    chorus. A power ballad, "If Wishes Came True" displayed a
+    different side to the girl group, primarily known for their
+    latin freestyle hits. Accordingly, the song also became Sweet
+    Sensation's only entry on the Billboard Adult Contemporary
+    singles chart, where it reached number eight.</p>
+      <p>According to 
+    <i>Billboard Book of Number One Hits</i>the members of the
+    group cried for days after learning that their song had hit
+    number one.</p>
+   </descr>
+</topSong>

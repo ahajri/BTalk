@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27ll_Be_There_for_You_(Bon_Jovi_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27ll_Be_There_for_You_(Bon_Jovi_song)</songId>
+   <title>I'll Be There for You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bon_Jovi</artistId>
+      <artistName>Bon Jovi</artistName>
+   </artist>
+   <weeks>
+      <week>1989-05-13</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Bonjovi_illbethereforyou.jpg/200px-Bonjovi_illbethereforyou.jpg</albumImageId>
+      <albumImageUri>/images/Bon-Jovi+I-ll-Be-There-for-You.jpg</albumImageUri>
+      <albumName>New Jersey</albumName>
+   </album>
+   <released>1989</released>
+   <formats>
+      <format>CD Single</format>
+   </formats>
+   <recorded>1988</recorded>
+   <genres>
+      <genre>Hard Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:46</length>
+   </lengths>
+   <label>Mercury Records</label>
+   <writers>
+      <writer>Jon Bon Jovi and Richie Sambora</writer>
+   </writers>
+   <producers>
+      <producer>Bruce Fairbairn</producer>
+   </producers>
+   <descr>
+      <p>"I'll Be There for You" is a Billboard Hot 100 number one
+    single written by Jon Bon Jovi and Richie Sambora and performed
+    by American rock band Bon Jovi.</p>
+      <p>Originally released on the 1988 album 
+    <i>New Jersey</i>, it became the band's third single from the
+    album when it was released as a single in 1989. As the band
+    (and hard rock music) was at its peak popularity at this time,
+    the song quickly climbed to the number one position on the
+    Billboard Hot 100, becoming their fourth and final number one
+    single. The song has remained as one of Bon Jovi's signature
+    songs and a classic in the power ballad genre. The song was
+    also a peek into a more mature sound heard on their following
+    albums Keep the Faith and These Days.</p>
+      <p>The video for the song features the band performing on a
+    dark stage with an almost monochromatic blue color due to the
+    stage lighting, with close-ups of each member, most notably
+    lead singer Jon Bon Jovi and guitarist Richie Sambora. The
+    video footage then switches midway to black-and-white footage
+    from a Bon Jovi concert at the old Wembley Arena in London,
+    England.</p>
+   </descr>
+</topSong>

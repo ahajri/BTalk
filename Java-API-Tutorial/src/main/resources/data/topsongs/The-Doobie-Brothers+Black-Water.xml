@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Black_Water_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Black_Water_(song)</songId>
+   <title>Black Water</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Doobie_Brothers</artistId>
+      <artistName>The Doobie Brothers</artistName>
+   </artist>
+   <weeks>
+      <week>1975-03-15</week>
+   </weeks>
+   <album>
+      <albumName>What Were Once Vices Are Now Habits</albumName>
+   </album>
+   <released>November 15, 1974</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1973</recorded>
+   <genres>
+      <genre>Roots Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:18</length>
+   </lengths>
+   <label>Warner Brothers</label>
+   <writers>
+      <writer>Patrick Simmons</writer>
+   </writers>
+   <producers>
+      <producer>Ted Templeman</producer>
+   </producers>
+   <descr>
+      <p>"Black Water" is a song by the American music group The
+    Doobie Brothers from the album 
+    <i>What Were Once Vices Are Now Habits</i>. Released in 1974,
+    it features Patrick Simmons on lead vocals.</p>
+      <p>Introducing a bluegrass sound to traditional rock, "Black
+    Water" hit #1 on the Billboard Hot 100 on 15 March 1975. The
+    song was originally released in early 1974 as the B-side to
+    "Another Park, Another Sunday" but ultimately became the more
+    popular song.</p>
+      <p>The song is characterized by the melodious a cappella
+    section, with lyrics that are perhaps the most well-known in
+    the entire song, which sing: "
+    <i>I'd like to hear some funky Dixieland/Pretty mama, come and
+    take me by the hand.</i>"</p>
+      <p>Discography</p>
+   </descr>
+</topSong>

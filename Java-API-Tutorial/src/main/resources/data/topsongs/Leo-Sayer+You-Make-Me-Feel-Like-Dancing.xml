@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/You_Make_Me_Feel_Like_Dancing 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/You_Make_Me_Feel_Like_Dancing</songId>
+   <title>You Make Me Feel Like Dancing</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Leo_Sayer</artistId>
+      <artistName>Leo Sayer</artistName>
+   </artist>
+   <weeks>
+      <week>1977-01-15</week>
+   </weeks>
+   <album>
+      <albumName>Endless Flight</albumName>
+   </album>
+   <released>1976</released>
+   <formats>
+      <format>7" (45 rpm)</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Disco</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>2:48</length>
+   </lengths>
+   <label>Chrysalis Records (UK) , Warner Bros. Records (USA)</label>
+   <writers>
+      <writer>Leo Sayer</writer>
+      <writer>Vini Poncia</writer>
+   </writers>
+   <producers>
+      <producer>Richard Perry</producer>
+   </producers>
+   <descr>
+      <p>"You Make Me Feel Like Dancing" is a popular song by the
+    British singer Leo Sayer, taken from his 1976 album 
+    <i>Endless Flight</i>. The song reached #1 on the Hot 100
+    chart, making it his first number one single in United States,
+    and #2 on the UK Singles Chart. Songwriters Sayer and Vini
+    Poncia won a Grammy Award for the song in 1978 in the category
+    Best R&amp;B Song.</p>
+      <p>In 2006, the song "I Don't Feel Like Dancin' by the American
+    band Scissor Sisters was often compared with Sayer's song
+    because of its tempo, arrangement and subject matter.</p>
+      <p>Sayer re-recorded the song with The Wiggles in 2008 for a
+    Wiggles DVD, also entitled 
+    <i>You Make Me Feel Like Dancing</i>.</p>
+   </descr>
+</topSong>

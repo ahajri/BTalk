@@ -1,0 +1,68 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Rock_Your_Baby 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Rock_Your_Baby</songId>
+   <title>Rock Your Baby</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/George_McCrae</artistId>
+      <artistName>George McCrae</artistName>
+   </artist>
+   <weeks>
+      <week>1974-07-13</week>
+      <week>1974-07-20</week>
+   </weeks>
+   <album>
+      <albumName>Rock Your Baby</albumName>
+   </album>
+   <released>May 1974</released>
+   <formats>
+      <format>7 inch single</format>
+   </formats>
+   <genres>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>3:14 (radio edit) 6:24 (album version)</length>
+   </lengths>
+   <label>TK Records</label>
+   <writers>
+      <writer>Harry Wayne Casey</writer>
+      <writer>Richard Finch</writer>
+   </writers>
+   <producers>
+      <producer>Harry Wayne Casey</producer>
+      <producer>Richard Finch</producer>
+   </producers>
+   <descr>
+      <p>"Rock Your Baby" is a popular song by George McCrae. Written
+    and produced by Harry Wayne Casey and Richard Finch of KC and
+    the Sunshine Band, "Rock Your Baby" was one of the landmark
+    recordings of early disco music. A massive international hit,
+    the song reached number one on the Billboard Hot 100 singles
+    chart in the USA, spending two weeks at the top in July 1974,
+    number one on the R&amp;B singles chart, . and repeating the
+    feat on the UK singles chart, spending three weeks at the top
+    of the chart in July 1974. In total it sold over 11 million
+    copies internationally.</p>
+      <p>The backing track for the record had been recorded in 45
+    minutes as a demo, and featured guitarist Jerome Smith (June
+    18, 1953 - July 28, 2000) of KC and the Sunshine Band. The
+    track was not originally intended for McCrae, but he happened
+    to be in the studio, added a vocal, and the resultant
+    combination of infectious rhythm and falsetto vocals made it a
+    hit.</p>
+      <p>The hit song later inspired a reply hit "Rockin' Chair" sung
+    by Gwen McCrae then-wife of George McCrae released one year
+    later on TK's Cat subsidiary label with the music and
+    arrangements sounding almost near-similar.</p>
+      <p>The song has been covered by Italian singer Spagna in her
+    2004 album 
+    <i>L'arte di arrangiarsi</i>.</p>
+   </descr>
+</topSong>

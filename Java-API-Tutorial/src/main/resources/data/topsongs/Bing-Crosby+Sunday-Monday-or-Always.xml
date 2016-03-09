@@ -1,0 +1,36 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Sunday,_Monday,_or_Always 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Sunday,_Monday,_or_Always</songId>
+   <title>Sunday, Monday, or Always</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bing_Crosby</artistId>
+      <artistName>Bing Crosby</artistName>
+   </artist>
+   <weeks>
+      <week>1943-09-11</week>
+   </weeks>
+   <descr>
+      <p>"Sunday, Monday, or Always" is a popular song.</p>
+      <p>The music was written by Jimmy Van Heusen, the lyrics by
+    Johnny Burke. The song was published in 1943.</p>
+      <p>The biggest hit version, recorded by Bing Crosby in 1943,
+    was made during a musician's strike, and recorded with a vocal
+    group background instead of an orchestra. This recording was
+    released by Decca Records as catalog number 18561. It first
+    reached the Billboard magazine Best Seller chart on August 19,
+    1943 and lasted 18 weeks on the chart, peaking at #1.</p>
+      <p>The song was also recorded by Frank Sinatra about the same
+    time, with a similar vocal background because of the strike.
+    This version was released by Columbia Records as catalog number
+    36679. It first reached the Billboard magazine Best Seller
+    chart on September 9, 1943 and lasted 4 weeks on the chart,
+    peaking at #9.</p>
+   </descr>
+</topSong>

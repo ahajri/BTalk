@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/ABC_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/ABC_(song)</songId>
+   <title>ABC</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Jackson_5</artistId>
+      <artistName>The Jackson 5</artistName>
+   </artist>
+   <weeks>
+      <week>1970-04-25</week>
+      <week>1970-05-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/7/74/Abc-jackson5.jpg</albumImageId>
+      <albumImageUri>/images/The-Jackson-5+ABC.jpg</albumImageUri>
+      <albumName>ABC</albumName>
+   </album>
+   <released>February 24, 1970 ( U.S. )</released>
+   <formats>
+      <format>Vinyl record (7" 45 RPM)</format>
+   </formats>
+   <recorded>Hitsville West, Los Angeles ; October 1969</recorded>
+   <genres>
+      <genre>Rock And Roll</genre>
+      <genre>Bubblegum Pop</genre>
+      <genre>Soul</genre>
+   </genres>
+   <lengths>
+      <length>2:55</length>
+   </lengths>
+   <label>Motown , M 1163</label>
+   <writers>
+      <writer>The Corporation</writer>
+   </writers>
+   <producers>
+      <producer>The Corporation</producer>
+   </producers>
+   <descr>
+      <p>"ABC" is a 1970 number-one hit song by The Jackson 5. "ABC"
+    was written with the same design as "I Want You Back", and was
+    first heard on American Bandstand in February 1970. "ABC"
+    knocked The Beatles song "Let It Be" out of the number one spot
+    on the Billboard Hot 100 in 1970. "ABC" was also number one on
+    the soul singles chart for four weeks.</p>
+      <p>"ABC" was the first single from the second Jackson 5 album, 
+    <i>ABC</i>. It is considered one of the Jackson 5's signature
+    songs.</p>
+      <p>The song was released as downloadable content for the Rock
+    Band videogame series, and is a playable track on 
+    <i>Band Hero</i>.</p>
+      <p>The song is used on British commercials for Nestle's Aero,
+    and was memorably featured in the 2006 film 
+    <i>Clerks II</i>. IT is also a part of the soundtrack for the
+    Disney Channel Original Series 
+    <i>Lizzie McGuire</i>.</p>
+   </descr>
+</topSong>

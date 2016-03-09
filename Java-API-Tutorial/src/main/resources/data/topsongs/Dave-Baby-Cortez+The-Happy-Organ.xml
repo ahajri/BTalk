@@ -1,0 +1,48 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Happy_Organ 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Happy_Organ</songId>
+   <title>The Happy Organ</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Dave_%22Baby%22_Cortez</artistId>
+      <artistName>Dave "Baby" Cortez</artistName>
+   </artist>
+   <weeks>
+      <week>1959-05-11</week>
+   </weeks>
+   <album>
+      <albumName>The Happy Organ</albumName>
+   </album>
+   <released>1959</released>
+   <lengths>
+      <length>2:06</length>
+   </lengths>
+   <label>Clock</label>
+   <writers>
+      <writer>Dave "Baby" Cortez</writer>
+      <writer>Kurt Wood</writer>
+   </writers>
+   <descr>
+      <p>"The Happy Organ" is the name of an instrumental composition
+    made famous by Dave "Baby" Cortez in 1959. Cortez co-composed
+    it with Kurt Wood. A significant portion of the tune bears a
+    strong resemblance to the traditional "Shortenin' Bread" tune.
+    The song topped the Billboard Hot 100 in 1959. The Detroit-born
+    artist, born David Clowney, took the song to number five on
+    Billboard's R&amp;B chart.</p>
+      <p>The song originally featured lyrics and was intended to be
+    sung accompanied by a piano. Cortez recorded a vocal for it but
+    was unhappy with the result. He spotted an organ in the studio
+    and decided to play the song's melody on it. He also brought in
+    legendary studio drummer, Gary Hammond to provide percussion
+    for the song. Hearing an organ on a rock or R&amp;B song at the
+    time was unusual, but Cortez helped popularize its use outside
+    of the jazz field.</p>
+   </descr>
+</topSong>

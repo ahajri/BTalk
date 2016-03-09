@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Footloose_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Footloose_(song)</songId>
+   <title>Footloose</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Kenny_Loggins</artistId>
+      <artistName>Kenny Loggins</artistName>
+   </artist>
+   <weeks>
+      <week>1984-03-31</week>
+      <week>1984-04-07</week>
+      <week>1984-04-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/0c/KennyLooginsFootlooseSingle.jpg/200px-KennyLooginsFootlooseSingle.jpg</albumImageId>
+      <albumImageUri>/images/Kenny-Loggins+Footloose.jpg</albumImageUri>
+      <albumName>Footloose soundtrack</albumName>
+   </album>
+   <released>February 5, 1984 (U.S.) , July 6, 1984 (U.K.)</released>
+   <formats>
+      <format>CD single</format>
+      <format>7"</format>
+      <format>12"</format>
+   </formats>
+   <recorded>1984</recorded>
+   <genres>
+      <genre>Rock / Dance</genre>
+      <genre>Hard Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:48</length>
+   </lengths>
+   <label>CBS</label>
+   <writers>
+      <writer>Kenny Loggins</writer>
+      <writer>Dean Pitchford</writer>
+   </writers>
+   <producers>
+      <producer>Kenny Loggins</producer>
+   </producers>
+   <descr>
+      <p>"Footloose" is a single by Kenny Loggins which spent three
+    weeks at number one, March 31—April 14, 1984 on the U.S.
+    Billboard Hot 100, and was the first of two number-one hits
+    from the motion picture, 
+    <i>Footloose</i>. The music video features several scenes from
+    the film, in particularly the warehouse where Kevin Bacon's
+    character performs an unorchestrated dance routine (which was
+    actually performed to a different song in the film itself). The
+    lyrics describe a young man who can't stop dancing and he
+    encourages others to do the same: 'Cut Footloose' as the chorus
+    suggests.</p>
+      <p>The song was very well received, and is one of the most
+    recognizable song recorded by Loggins. When the American Film
+    Institute released its 
+    <i>AFI's 100 Years…100 Songs</i>, "Footloose" reached the 96th
+    position.</p>
+   </descr>
+</topSong>

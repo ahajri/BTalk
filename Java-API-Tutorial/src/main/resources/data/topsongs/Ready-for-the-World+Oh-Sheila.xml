@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Oh_Sheila 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Oh_Sheila</songId>
+   <title>Oh Sheila</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ready_for_the_World</artistId>
+      <artistName>Ready for the World</artistName>
+   </artist>
+   <weeks>
+      <week>1985-10-12</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/97/RFTWOhSheila.jpg/200px-RFTWOhSheila.jpg</albumImageId>
+      <albumImageUri>/images/Ready-for-the-World+Oh-Sheila.jpg</albumImageUri>
+      <albumName>Ready for the World</albumName>
+   </album>
+   <released>1985</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" single</format>
+   </formats>
+   <genres>
+      <genre>Funk</genre>
+   </genres>
+   <lengths>
+      <length>4:02</length>
+   </lengths>
+   <label>MCA Records</label>
+   <writers>
+      <writer>Melvin Riley</writer>
+      <writer>Jr.</writer>
+      <writer>Gordon Strozier</writer>
+      <writer>Gerald Valentine</writer>
+   </writers>
+   <producers>
+      <producer>Ready for the World</producer>
+   </producers>
+   <descr>
+      <p>"Oh Sheila" is a 1985 single by Ready for the World. The
+    song went to number one on the Hot 100, the Hot Black Singles
+    and the Hot Dance Club Play charts. It was the first of two
+    chart toppers for the band on the 
+    <i>Billboard</i>R&amp;B chart, preceding their 1986 number-one
+    R&amp;B hit, "Love You Down".</p>
+      <p>The song was covered in 2003 by Eurodance band Angel City.
+    The single, renamed "Love Me Right" with the original title as
+    a subtitle, featured vocals by Lara McAllen. The song was the
+    lead single for the band's 2005 album, Love Me Right.</p>
+      <p>The song reached No. 11 in the U.K charts and No. 1 in the
+    U.K dance charts. The song also reached No. 1 on the U.S dance
+    charts, and this track became their first to enter the US
+    billboard chart.</p>
+   </descr>
+</topSong>

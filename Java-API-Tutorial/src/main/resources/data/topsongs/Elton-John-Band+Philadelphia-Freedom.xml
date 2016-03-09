@@ -1,0 +1,46 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Philadelphia_Freedom_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Philadelphia_Freedom_(song)</songId>
+   <title>Philadelphia Freedom</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Elton_John</artistId>
+      <artistName>Elton John Band</artistName>
+   </artist>
+   <weeks>
+      <week>1975-04-12</week>
+      <week>1975-04-19</week>
+   </weeks>
+   <released>24 February 1975</released>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:38</length>
+   </lengths>
+   <label>MCA (US/Canada) , DJM Records</label>
+   <writers>
+      <writer>Elton John</writer>
+      <writer>Bernie Taupin</writer>
+   </writers>
+   <descr>
+      <p>"Philadelphia Freedom" is a song released by Elton John (as
+    "Elton John Band") as a single in 1975. The song was one of
+    John's numerous number-one U.S. hit singles during the early
+    and mid-1970s, which saw his recordings dominating the charts.
+    The song was written by Elton John and Bernie Taupin as a
+    favour to Elton's friend, tennis star Billie Jean King. King
+    was part of the Philadelphia Freedoms tennis team. The song
+    features orchestral arrangements by Gene Page.</p>
+      <p>This song plays in Philadelphia's Franklin Institute Imax
+    Theater before every show to express the city's love for
+    freedom and impact on shaping the country.</p>
+      <p>Discography</p>
+   </descr>
+</topSong>

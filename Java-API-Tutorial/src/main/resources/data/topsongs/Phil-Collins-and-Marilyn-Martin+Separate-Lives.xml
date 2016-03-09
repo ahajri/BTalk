@@ -1,0 +1,54 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Separate_Lives 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Separate_Lives</songId>
+   <title>Separate Lives</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Marilyn_Martin</artistId>
+      <artistName>Phil Collins and Marilyn Martin</artistName>
+   </artist>
+   <weeks>
+      <week>1985-11-30</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Separate_Lives.jpg/200px-Separate_Lives.jpg</albumImageId>
+      <albumImageUri>/images/Phil-Collins-and-Marilyn-Martin+Separate-Lives.jpg</albumImageUri>
+      <albumName>White Nights</albumName>
+   </album>
+   <released>November 16, 1985</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1985</recorded>
+   <genres>
+      <genre>Soft Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:06</length>
+   </lengths>
+   <label>Atlantic Records , Virgin Records , WEA</label>
+   <writers>
+      <writer>Stephen Bishop</writer>
+   </writers>
+   <producers>
+      <producer>Arif Mardin</producer>
+      <producer>Phil Collins</producer>
+   </producers>
+   <descr>
+      <p>"Separate Lives" is a 1985 song recorded by Phil Collins and
+    Marilyn Martin and featured on the soundtrack to the motion
+    picture 
+    <i>White Nights</i>. It reached #1 on the Billboard Hot 100
+    chart and #4 on the UK Singles Chart. The song also topped the
+    adult contemporary chart in the U.S. for three weeks.</p>
+      <p>Songwriter Stephen Bishop received an Oscar nomination for
+    Best Original Song. It lost to Lionel Richie's "Say You, Say
+    Me" from the same movie.</p>
+   </descr>
+</topSong>

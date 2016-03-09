@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Wanted_(Perry_Como_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Wanted_(Perry_Como_song)</songId>
+   <title>Wanted</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Perry_Como</artistId>
+      <artistName>Perry Como</artistName>
+   </artist>
+   <weeks>
+      <week>1954-04-10</week>
+   </weeks>
+   <descr>
+      <p>"Wanted" is a popular song written by Jack Fulton and Lois
+    Steele. The most popular recorded version, by Perry Como,
+    reached #1 on Billboard magazine's charts in 1954. The song
+    also reached #1 on the Cash Box chart in the same year. Al
+    Martino also had a top 10 hit with the song in the United
+    Kingdom.</p>
+      <p>Anne Murray recorded a cover of the song for her album
+    "Croonin'" (1993).</p>
+   </descr>
+</topSong>

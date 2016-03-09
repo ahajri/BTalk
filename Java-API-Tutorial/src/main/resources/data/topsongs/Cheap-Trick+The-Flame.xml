@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Flame_(Cheap_Trick_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Flame_(Cheap_Trick_song)</songId>
+   <title>The Flame</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Cheap_Trick</artistId>
+      <artistName>Cheap Trick</artistName>
+   </artist>
+   <weeks>
+      <week>1988-07-09</week>
+      <week>1988-07-16</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/b5/TheFlame.jpeg/200px-TheFlame.jpeg</albumImageId>
+      <albumImageUri>/images/Cheap-Trick+The-Flame.jpeg</albumImageUri>
+      <albumName>Lap of Luxury</albumName>
+   </album>
+   <released>July 25, 1988</released>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>05:37 (Album and Single Version) 04:47 (7" Edit)</length>
+   </lengths>
+   <label>Epic</label>
+   <writers>
+      <writer>Bob Mitchell</writer>
+      <writer>Nick Graham</writer>
+   </writers>
+   <producers>
+      <producer>Richie Zito</producer>
+   </producers>
+   <descr>
+      <p>"The Flame" is a hit power ballad by Cheap Trick, released
+    on July 25, 1988. The song was first offered to English singer
+    Elkie Brooks, who turned it down. Written by Bob Mitchell and
+    Nick Graham, the song was initially released on Cheap Trick's 
+    <i>Lap of Luxury</i>album. "The Flame" reached number one on
+    the American Billboard Hot 100 in 1988 when issued as a single;
+    it also reached number one in Australia. The success of the
+    song brought the group out of a years-long commercial slump and
+    back into music industry prominence.</p>
+      <p>According to lead vocalist Robin Zander, "The band was very
+    skeptical about performing this song live, because we only
+    liked to perform songs written by us. However, a young man
+    from, oh, I don't know, somewhere, confirmed to us after a show
+    in Florida about a week after the song was released that the
+    song was great and, get this, would be a #1 single. As we joked
+    about the guy's prediction, we later realized whoa! This guy
+    was right. I thank him for that."</p>
+      <p>"The Flame" was covered in 1998 by electronic dance music
+    singer Erin Hamilton. Included on her 1999 album 
+    <i>One World</i>, the song was a top-twenty hit on the U.S. Hot
+    Dance Club Play chart. Nine years later, the song was remixed
+    and re-released as "The Flame 08" and this version went to
+    number one on the U.S. dance chart, becoming Hamilton's first
+    chart-topper.</p>
+      <p>In 2004, "The Flame" was performed on the second season of 
+    <i>Australian Idol</i>by eventual winner Casey Donovan on the
+    Final 6 80's theme night. Donovan recorded the song as her
+    cover song on the series cast album, 
+    <i>Australian Idol Season 2 The Final 10 Cast Album</i>.</p>
+   </descr>
+</topSong>

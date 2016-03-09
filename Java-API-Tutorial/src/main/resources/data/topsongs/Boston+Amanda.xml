@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Amanda_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Amanda_(song)</songId>
+   <title>Amanda</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Boston_(band)</artistId>
+      <artistName>Boston</artistName>
+   </artist>
+   <weeks>
+      <week>1986-11-08</week>
+      <week>1986-11-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Amanda-Boston.jpg/200px-Amanda-Boston.jpg</albumImageId>
+      <albumImageUri>/images/Boston+Amanda.jpg</albumImageUri>
+      <albumName>Third Stage</albumName>
+   </album>
+   <released>September 26, 1986</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:16</length>
+   </lengths>
+   <label>MCA</label>
+   <writers>
+      <writer>Tom Scholz</writer>
+   </writers>
+   <producers>
+      <producer>Tom Scholz</producer>
+   </producers>
+   <descr>
+      <p>"Amanda" is a popular song by the American rock band Boston.
+    "Amanda" features a mix of acoustic and electric guitars
+    forming a love ballad, a type of song Boston doesn't typically
+    perform. It also ended up being Boston's biggest hit single on
+    the Billboard Hot 100, reaching number one for two weeks in
+    November 1986. The song was written in 1980, and appeared on
+    their 1986 album 
+    <i>Third Stage</i>.</p>
+      <p>Amanda is a relatively rare example of a song that reached
+    #1 on the Top 100 in or after the 1980s without having a
+    performance music video made for it. An interview for British
+    television, made while the band was promoting the 
+    <i>Third Stage</i>album, does show a couple of minutes of a
+    music video near the end. The band does not appear in that
+    video, which intersperses shots of a model smiling for the
+    camera with special effects footage of the band's spaceship
+    logo flying over the Boston skyline. One shot shows the
+    animated spaceship almost colliding with the John Hancock
+    Tower.</p>
+   </descr>
+</topSong>

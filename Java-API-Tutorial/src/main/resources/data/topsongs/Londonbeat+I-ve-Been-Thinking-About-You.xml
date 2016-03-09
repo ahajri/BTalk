@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27ve_Been_Thinking_About_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27ve_Been_Thinking_About_You</songId>
+   <title>I've Been Thinking About You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Londonbeat</artistId>
+      <artistName>Londonbeat</artistName>
+   </artist>
+   <weeks>
+      <week>1991-04-13</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/ff/I%27ve_Been_Thinking_About_You.jpg/200px-I%27ve_Been_Thinking_About_You.jpg</albumImageId>
+      <albumImageUri>/images/Londonbeat+I-ve-Been-Thinking-About-You.jpg</albumImageUri>
+      <albumName>In the Blood</albumName>
+   </album>
+   <released>1990  (1990)</released>
+   <formats>
+      <format>CD single</format>
+      <format>CD maxi</format>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>Cassette</format>
+   </formats>
+   <genres>
+      <genre>Euro Dance</genre>
+      <genre>Dance</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:49</length>
+   </lengths>
+   <label>Anxious</label>
+   <writers>
+      <writer>Jimmy Chambers</writer>
+      <writer>Jimmy Helms</writer>
+      <writer>George Chandler</writer>
+      <writer>William Henshall</writer>
+   </writers>
+   <producers>
+      <producer>Martyn Phillips</producer>
+   </producers>
+   <descr>
+      <p>"I've Been Thinking about You" is a song recorded by
+    Londonbeat. It was released as a single in the last months of
+    1990 in many countries.</p>
+      <p>It hit number one on the Hot 100 on April 13, 1991, having
+    hit number two in the United Kingdom the previous year. The
+    song also topped the singles charts in Spain, Sweden, Germany,
+    Switzerland, Austria, The Netherlands and Australia.</p>
+      <p>Part of the song was sampled and prominently featured in the
+    song "Physical" recorded by Alcazar.</p>
+   </descr>
+</topSong>

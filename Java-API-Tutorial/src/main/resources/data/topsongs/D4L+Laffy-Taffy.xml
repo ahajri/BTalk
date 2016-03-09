@@ -1,0 +1,68 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Laffy_Taffy_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Laffy_Taffy_(song)</songId>
+   <title>Laffy Taffy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/D4L</artistId>
+      <artistName>D4L</artistName>
+   </artist>
+   <weeks>
+      <week>2006-01-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/01/Laffy_Taffy.jpg/200px-Laffy_Taffy.jpg</albumImageId>
+      <albumImageUri>/images/D4L+Laffy-Taffy.jpg</albumImageUri>
+      <albumName>Down for Life</albumName>
+   </album>
+   <released>October 18, 2005</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>2005 in Atlanta, Georgia</recorded>
+   <genres>
+      <genre>Southern Hip Hop</genre>
+      <genre>Snap Music</genre>
+   </genres>
+   <lengths>
+      <length>3:44</length>
+   </lengths>
+   <label>Atlantic / WEA</label>
+   <writers>
+      <writer>Lafabian Williams p/k/a Fabo</writer>
+      <writer>Adrian Parks p/k/a "Stuntman"</writer>
+      <writer>Dennis Butler p/k/a "Mook-B"</writer>
+      <writer>Cory Way p/k/a Born Immaculate</writer>
+      <writer>Broderick Thompson Smith</writer>
+      <writer>Michael Johnson</writer>
+   </writers>
+   <descr>
+      <p>"Laffy Taffy" is a song by Atlanta-based hip-hop group D4L
+    which reached number one on the Hot 100 in January 2006. The
+    song's success on the charts was largely due to its enormous
+    online sales. Produced by Cory Way p/k/a "Born Immaculate,
+    Broderick Thompson Smith and Richard Sims p/k/a "K-Rab". The
+    song samples and interpolates elements of "Candy Girl" by New
+    Edition.</p>
+      <p>There has been some debate regarding the meaning of the
+    phrase "Laffy Taffy." Many understand the term to mean a
+    woman's labia minora because of its resemblance to "stretched
+    out taffy." It is a phrase commonly used by men who attend
+    strip clubs. Women with larger labia minora lips are said to
+    have "laffy taffy". The song's music video is set in a strip
+    club.</p>
+      <p>During "The Champ" from 2006's 
+    <i>Fishscale</i>, Ghostface Killah asks "Y'all stuck on Laffy
+    Taffy/Wonderin' how'd y'all niggas get past me?" Ghostface had
+    mocked the "snap dance" during his 2005 tour. There has also
+    been controversy on who wrote "Laffy Taffy". Rapper Liam "Smack
+    Eyes" Thomas claims that the group had stolen the lyrics from
+    his rhyme book.</p>
+   </descr>
+</topSong>

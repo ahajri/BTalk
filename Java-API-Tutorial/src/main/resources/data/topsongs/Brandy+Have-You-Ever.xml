@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Have_You_Ever%3F 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Have_You_Ever%3F</songId>
+   <title>Have You Ever?</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Brandy_Norwood</artistId>
+      <artistName>Brandy</artistName>
+   </artist>
+   <weeks>
+      <week>1999-01-16</week>
+      <week>1999-01-23</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/9/9f/Brandy-have_you_ever.jpg</albumImageId>
+      <albumImageUri>/images/Brandy+Have-You-Ever.jpg</albumImageUri>
+      <albumName>Never Say Never</albumName>
+   </album>
+   <released>December 29, 1998 (U.S.)</released>
+   <formats>
+      <format>CD single</format>
+      <format>vinyl record</format>
+      <format>compact cassette</format>
+   </formats>
+   <recorded>1997</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+      <genre>Ballad</genre>
+   </genres>
+   <lengths>
+      <length>4:26 (album version)</length>
+      <length>3:32 (radio edit)</length>
+   </lengths>
+   <label>Atlantic</label>
+   <writers>
+      <writer>Diane Warren</writer>
+   </writers>
+   <producers>
+      <producer>David Foster</producer>
+   </producers>
+   <descr>
+      <p>"Have You Ever?" is a pop ballad written by Diane Warren for
+    Brandy's second studio album, 
+    <i>Never Say Never</i>(1998). It was produced by David Foster
+    and released as the album's third single during the fourth
+    quarter of 1998 (see 1998 in music). The single became Brandy's
+    second song to reach the top position on the 
+    <i>Billboard</i>Hot 100. The ballad also reached number one in
+    New Zealand, peaked within the top ten in Australia, and the
+    top 30 in Canada, Ireland and the United Kingdom.</p>
+      <p>"That was the first time I had been in the studio with a
+    producer like David Foster," Brandy said about recording in a
+    2005 interview. "My voice wasn't as developed as it is now and
+    the song required what producers call ‘money notes' - the kind
+    that get you a No. 1 on the charts! I was really nervous but it
+    all worked just fine."</p>
+      <p>These are the formats and track listings of major
+    single-releases of "Have You Ever?."</p>
+   </descr>
+</topSong>

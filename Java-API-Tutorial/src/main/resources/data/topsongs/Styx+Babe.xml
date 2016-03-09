@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Babe_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Babe_(song)</songId>
+   <title>Babe</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Styx_(band)</artistId>
+      <artistName>Styx</artistName>
+   </artist>
+   <weeks>
+      <week>1979-12-08</week>
+      <week>1979-12-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/StyxBabe.jpg/200px-StyxBabe.jpg</albumImageId>
+      <albumImageUri>/images/Styx+Babe.jpg</albumImageUri>
+      <albumName>Cornerstone</albumName>
+   </album>
+   <released>December 1979</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:26</length>
+   </lengths>
+   <label>A&amp;M</label>
+   <writers>
+      <writer>Dennis DeYoung</writer>
+   </writers>
+   <descr>
+      <p>"Babe" was the lead single from Styx's 1979 triple-platinum
+    album 
+    <i>Cornerstone</i>. The song was Styx's first, and only, U.S.
+    number-one single.</p>
+      <p>The song was written by member Dennis DeYoung as a birthday
+    present for his wife Suzanne. The finished track was recorded
+    as a demo with just DeYoung and Styx members John Panozzo and
+    Chuck Panozzo playing on the track, with DeYoung singing all of
+    the harmonies himself.</p>
+      <p>The song was not originally intended to be a Styx track, but
+    Styx members James "J.Y" Young and Tommy Shaw convinced DeYoung
+    to put the song on 
+    <i>Cornerstone</i>. As a result, DeYoung's demo was placed on 
+    <i>Cornerstone</i>with Shaw overdubbing a guitar solo in the
+    song's middle section. The track became a major hit, reaching
+    #1 on the US Billboard Hot 100, and was their only major UK hit
+    single, reaching #6.</p>
+      <p>VH1 ranked it the second most "softsational" soft rock song
+    of all time.</p>
+      <p>Dutch boy band Caught In The Act covered this track to
+    relative success. Alexander O'Neal covered the song on his 2008
+    album, 
+    <i>Alex Loves</i>. Philippine singer April Boy Regino also
+    covered the song in his 2000 album Super Idol. This song is
+    also covered by Piolo Pascual for the movie Babe, I Love You
+    from Star Cinema in the Philippines.</p>
+   </descr>
+</topSong>

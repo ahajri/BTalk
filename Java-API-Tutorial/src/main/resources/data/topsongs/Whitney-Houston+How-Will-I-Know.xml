@@ -1,0 +1,86 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/How_Will_I_Know 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/How_Will_I_Know</songId>
+   <title>How Will I Know</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Whitney_Houston</artistId>
+      <artistName>Whitney Houston</artistName>
+   </artist>
+   <weeks>
+      <week>1986-02-15</week>
+      <week>1986-02-22</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/88/Whitney_Houston_HowWill_IKnow.jpg/200px-Whitney_Houston_HowWill_IKnow.jpg</albumImageId>
+      <albumImageUri>/images/Whitney-Houston+How-Will-I-Know.jpg</albumImageUri>
+      <albumName>Whitney Houston</albumName>
+   </album>
+   <released>November 1985</released>
+   <formats>
+      <format>CD single</format>
+      <format>Cassette single</format>
+      <format>7" single</format>
+   </formats>
+   <recorded>1984</recorded>
+   <genres>
+      <genre>Dance Pop</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:36</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>George Merrill</writer>
+      <writer>Shannon Rubicam</writer>
+   </writers>
+   <producers>
+      <producer>Narada Michael Walden</producer>
+   </producers>
+   <descr>
+      <p>"How Will I Know" is the third hit single from Whitney
+    Houston's self-titled first album. The single was released in
+    November 1985 and was written by George Merrill and Shannon
+    Rubicam of Boy Meets Girl fame, who wrote it for Janet Jackson.
+    The song is an electric dance tune about the singer wondering
+    if a guy she likes feels the same way about her. Houston became
+    a staple on MTV with the release of this hit single.</p>
+      <p>On the U.S. Billboard Hot 100 singles chart, "How Will I
+    Know" reached the #1 spot on February 15, 1986, becoming
+    Houston's second number-one single and third top five single
+    from the same album. The single displaced "That's What Friends
+    Are For" by Houston's cousin Dionne Warwick, thus becoming just
+    the third time (and first time by female artists) in history
+    for relatives to replace each other at number one on the Hot
+    100. It remained at number one for two weeks, and spent fifteen
+    weeks in the top forty. It was ranked #6 on Billboard's top
+    year end pop charts. The song performed extremely well on other
+    Billboard charts as well, climbing to number one on the Adult
+    Contemporary, Hot Black Singles, and Hot Dance Club Play
+    charts, showing Houston's success was not limited to any single
+    genre. Internationally, the single made Houston a noticeable
+    star, reaching number five in the United Kingdom. The song may
+    be heard in its original version, or in an extended percussion
+    intro version (such as in the music video). Later copies of
+    Houston's debut album contain the latter version.</p>
+      <p>The music video for "How Will I Know" was directed by Brian
+    Grant and is set against a fantasy, vividly colored background,
+    with dancers in black outfits and wearing French-style makeup.
+    The video is recognized for the animated paint dripping down
+    the screen. In the video, when Houston sings "I'm asking you
+    'cause you know about these things", there's a brief screencap
+    of singer, close family friend, and godmother Aretha Franklin.
+    Notable, too, is that the melody of "How Will I Know" closely
+    samples the chorus melody of Aretha's earlier 1985 hit, "Who's
+    Zoomin' Who", which was a relatively popular hit and also
+    produced by Narada Michael Walden, hence her paying homage to
+    her as well.</p>
+   </descr>
+</topSong>

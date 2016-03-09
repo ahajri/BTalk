@@ -1,0 +1,73 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Lost_in_Your_Eyes 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Lost_in_Your_Eyes</songId>
+   <title>Lost in Your Eyes</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Deborah_Gibson</artistId>
+      <artistName>Debbie Gibson</artistName>
+   </artist>
+   <weeks>
+      <week>1989-03-04</week>
+      <week>1989-03-11</week>
+      <week>1989-03-18</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/8b/DebbieGibsonLIYE.jpg/200px-DebbieGibsonLIYE.jpg</albumImageId>
+      <albumImageUri>/images/Debbie-Gibson+Lost-in-Your-Eyes.jpg</albumImageUri>
+      <albumName>Electric Youth</albumName>
+   </album>
+   <released>October 1988 (UK) , January 1989 (US)</released>
+   <formats>
+      <format>7" vinyl (7-88970)</format>
+      <format>cassette (4-88970)</format>
+   </formats>
+   <recorded>July-August 1988</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Ballad</genre>
+      <genre>Freestyle</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>3:34</length>
+   </lengths>
+   <label>Atlantic</label>
+   <writers>
+      <writer>Deborah Gibson</writer>
+   </writers>
+   <producers>
+      <producer>Deborah Gibson</producer>
+   </producers>
+   <descr>
+      <p>"Lost in Your Eyes" is the sixth single from American
+    singer-songwriter, Debbie Gibson, and the first from her second
+    album, 
+    <i>Electric Youth</i>. Released in October 1988, the power
+    ballad climbed to number one on the U.S. Billboard Hot 100
+    singles chart and remained there for three weeks, becoming her
+    most successful single. Additionally, it reached number three
+    on the Billboard Adult Contemporary chart. The song was written
+    by Gibson in late 1987 and published by Creative Bloc Music,
+    Ltd. and Deborah Ann's Music in early 1988 (rights now
+    administered by the Music Sales Corporation (ASCAP)). A beta
+    arrangement had been performed on the 
+    <i>Out of the Blue Tour</i>.</p>
+      <p>One variant mixed from the original multitrack, "Lost in
+    Your Eyes" (Piano and Vocal Mix/3:34), was only available in
+    Europe as Track 3 of the CD3 release #A8970CD. The song is
+    mentioned by name in Kimya Dawson's, "Caving in," as the
+    singer's preferred alternative to "Unchained Melody".</p>
+      <p>In 2006, Gibson rearranged her hit song with Tim and Ryan
+    O'Neill for the O'Neill Brothers album 
+    <i>Someone You Love,</i>where the resulting "Lost in Your Eyes
+    (Acoustic Version)" became an album track.</p>
+      <p>Stewie Kills Lois and Lois Kills Stewie</p>
+   </descr>
+</topSong>

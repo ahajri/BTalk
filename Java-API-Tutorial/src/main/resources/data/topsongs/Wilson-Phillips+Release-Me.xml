@@ -1,0 +1,53 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Release_Me_(Wilson_Phillips_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Release_Me_(Wilson_Phillips_song)</songId>
+   <title>Release Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Wilson_Phillips</artistId>
+      <artistName>Wilson Phillips</artistName>
+   </artist>
+   <weeks>
+      <week>1990-09-15</week>
+      <week>1990-09-22</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Releaseme.jpg/200px-Releaseme.jpg</albumImageId>
+      <albumImageUri>/images/Wilson-Phillips+Release-Me.jpg</albumImageUri>
+      <albumName>Wilson Phillips</albumName>
+   </album>
+   <released>July 1990</released>
+   <formats>
+      <format>7" vinyl</format>
+      <format>12" vinyl</format>
+      <format>CD</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:46 (Single Edit)</length>
+      <length>4:56 (Album Version)</length>
+   </lengths>
+   <label>SBK</label>
+   <writers>
+      <writer>Wilson Phillips</writer>
+   </writers>
+   <producers>
+      <producer>Glen Ballard</producer>
+   </producers>
+   <descr>
+      <p>"Release Me" is a song written and recorded by Wilson
+    Phillips, their second single from their debut album 
+    <i>Wilson Phillips</i>. It hit number one on the Billboard Hot
+    100 on September 15, 1990 and spent two weeks at number-one. It
+    also topped the adult contemporary chart for one week that same
+    year.</p>
+   </descr>
+</topSong>

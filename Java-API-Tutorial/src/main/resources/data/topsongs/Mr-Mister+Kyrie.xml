@@ -1,0 +1,84 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Kyrie_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Kyrie_(song)</songId>
+   <title>Kyrie</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Mr._Mister</artistId>
+      <artistName>Mr. Mister</artistName>
+   </artist>
+   <weeks>
+      <week>1986-03-01</week>
+      <week>1986-03-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/84/Mr._Mister.jpg/200px-Mr._Mister.jpg</albumImageId>
+      <albumImageUri>/images/Mr-Mister+Kyrie.jpg</albumImageUri>
+      <albumName>Welcome to the Real World</albumName>
+   </album>
+   <released>January 1986</released>
+   <formats>
+      <format>7"</format>
+      <format>12"</format>
+   </formats>
+   <recorded>December 1985</recorded>
+   <genres>
+      <genre>Pop Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:25</length>
+   </lengths>
+   <label>RCA Records</label>
+   <writers>
+      <writer>R. Page / S. George / J. Lang</writer>
+   </writers>
+   <producers>
+      <producer>Mr. Mister</producer>
+      <producer>Paul DeVilliers</producer>
+   </producers>
+   <descr>
+      <p>"Kyrie" was a #1 hit song by the 1980s pop/rock band Mr.
+    Mister, from their 1985 album 
+    <i>Welcome to the Real World</i>. Released in late 1985, it hit
+    the top spot on the Hot 100 charts in March 1986, where it was
+    #1 for two weeks. It also hit the top spot on the 
+    <i>Billboard</i>Top Rock Tracks chart for one week, and was the
+    band's only #1 single on this chart. In the UK the song peaked
+    at #11 in April 1986.</p>
+      <p>The words to "Kyrie" were written by lyricist John Lang who
+    co-wrote the songs on all of Mr. Mister's albums. The music was
+    composed by Richard Page and Steve George while on tour with
+    Adam Ant.</p>
+      <p>Kýrie, eléison means "Lord, have mercy" in Greek, and is a
+    part of many liturgical rites in Eastern and Western
+    Christianity. 
+    <i>Kýrie, eléison; Christé, eléison; Kýrie, eléison</i>is a
+    prayer that asks "Lord, have mercy; Christ, have mercy; Lord,
+    have mercy". According to Page the entire song is, essentially,
+    a prayer.</p>
+      <p>There is a myth that singer Richard Page wrote this song
+    while lying in a hospital bed following an unprovoked attack.
+    John Lang has stated that he was the one who was attacked,
+    three years before "Kyrie" was written, and that the incident
+    has nothing to do with the song.</p>
+      <p>The video for this song was directed by Nick Morris, and
+    features the band in performance mixed with footage taken at
+    the tail end of their Fall 1985 tour with Tina Turner.</p>
+      <p>The single edit of the song ends with the a cappella phrase
+    "Kýrie, eléison, down the road that I must travel", while the
+    album version simply fades out.</p>
+      <p>In 1993, Acapella Vocal Band, a traditional Southern gospel
+    group, included a version of the song on their album 
+    <i>U And Me And God Make 5 (Word)</i>. The cover turned into a
+    hit on the Contemporary Christian Music charts of 1994, and the
+    group later recorded a Spanish version of the song as well.</p>
+      <p>In 2002, Mark Schultz, made a cover of the song on his Song
+    Cinema CD.</p>
+   </descr>
+</topSong>

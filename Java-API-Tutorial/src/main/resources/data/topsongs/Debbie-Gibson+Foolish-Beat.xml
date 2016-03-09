@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Foolish_Beat 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Foolish_Beat</songId>
+   <title>Foolish Beat</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Deborah_Gibson</artistId>
+      <artistName>Debbie Gibson</artistName>
+   </artist>
+   <weeks>
+      <week>1988-06-25</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Debbie-Gibson-Foolish-Beat.jpg/200px-Debbie-Gibson-Foolish-Beat.jpg</albumImageId>
+      <albumImageUri>/images/Debbie-Gibson+Foolish-Beat.jpg</albumImageUri>
+      <albumName>Out of the Blue</albumName>
+   </album>
+   <released>February 11, 1988</released>
+   <recorded>1987-1988</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Freestyle</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>Album Version 4:20</length>
+   </lengths>
+   <label>Atlantic</label>
+   <writers>
+      <writer>Deborah Gibson</writer>
+   </writers>
+   <producers>
+      <producer>Deborah Gibson</producer>
+   </producers>
+   <descr>
+      <p>"Foolish Beat" (Atlantic 89109; Atlantic UK A9059) is the
+    fourth single, and the first ballad release, from American
+    singer-songwriter-actress Deborah Gibson. Originally recorded
+    in the winter of 1987 for the 
+    <i>Dream Tour,</i>months prior to its inclusion on her album 
+    <i>Out of the Blue</i>(LP 81780), this made Gibson the youngest
+    person to single-handedly write, produce and sing a number-one
+    single entirely on her own when "Foolish Beat" hit the top of
+    the U.S. Billboard Hot 100 singles chart in the summer of
+    1988,a record she would hold for almost 19 years until Soulja
+    Boy Tell 'Em broke it in September of '09 with his song "Crank
+    That" 2 months prior to his 17th birthday.</p>
+      <p>In the United Kingdom, the single reached a peak position of
+    number nine on the UK Singles Chart. The single was released in
+    Japan as the B-side to "Out of the Blue" on Atlantic Japan
+    10SW-15.</p>
+      <p>All songs written by Deborah Gibson - Music Sales Corp.,
+    ASCAP "Foolish Beat"</p>
+      <p>"Only in My Dreams"</p>
+      <p>"Medley: Out of the Blue - Shake Your Love - Only in My
+    Dreams"</p>
+      <p>"Foolish Beat" eventually won a dubious honor at Viacom
+    International: this song actually made number three on VH1's 
+    <i>40 Most Awesomely Bad Break-up Songs...Ever</i>.[1]</p>
+   </descr>
+</topSong>

@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Bump_n%27_Grind 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Bump_n%27_Grind</songId>
+   <title>Bump n' Grind</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/R._Kelly</artistId>
+      <artistName>R. Kelly</artistName>
+   </artist>
+   <weeks>
+      <week>1994-04-09</week>
+      <week>1994-04-16</week>
+      <week>1994-04-23</week>
+      <week>1994-04-30</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/75/Rkelly-bumpngrind.JPG/200px-Rkelly-bumpngrind.JPG</albumImageId>
+      <albumImageUri>/images/R-Kelly+Bump-n-Grind.JPG</albumImageUri>
+      <albumName>12 Play &amp; The R. in R&amp;B Collection, Vol. 1</albumName>
+   </album>
+   <released>January 25, 1994</released>
+   <formats>
+      <format>CD single</format>
+      <format>Cassette single</format>
+      <format>7" vinyl</format>
+   </formats>
+   <recorded>1993</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Slow Jam</genre>
+   </genres>
+   <lengths>
+      <length>4:16</length>
+   </lengths>
+   <label>Jive Records</label>
+   <writers>
+      <writer>R. Kelly</writer>
+   </writers>
+   <producers>
+      <producer>R. Kelly</producer>
+   </producers>
+   <descr>
+      <p>"Bump n' Grind" is a song written, produced and performed by
+    R&amp;B musician R. Kelly. It was the second single released
+    from his first solo album 
+    <i>12 Play</i>in 1994. The track became Kelly's only number one
+    single on the U.S. Billboard Hot 100 (temporarily interrupting
+    the six-week run of Ace of Base's "The Sign") as a solo artist,
+    and it also spent twelve weeks at number one on the U.S. Hot
+    R&amp;B Songs chart, becoming the longest-running number-one
+    U.S. R&amp;B single at that time. The song also reached number
+    eight in the UK charts, following the massive success of his
+    previous single, "She's Got That Vibe" (which was actually a
+    re-release).</p>
+      <p>The song is featured in the movies 
+    <i>Without A Paddle</i>and 
+    <i>The Wackness</i>.</p>
+      <p>In 2008, it was featured in "Grand Theft Auto IV's"
+    fictional Soul/R&amp;B radio station The Vibe 98.8.</p>
+   </descr>
+</topSong>

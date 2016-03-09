@@ -1,0 +1,74 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Grazing_in_the_Grass 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Grazing_in_the_Grass</songId>
+   <title>Grazing in the Grass</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Hugh_Masekela</artistId>
+      <artistName>Hugh Masekela</artistName>
+   </artist>
+   <weeks>
+      <week>1968-07-20</week>
+      <week>1968-07-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/82/GrazingInTheGrassMasekelaSingle.jpg/200px-GrazingInTheGrassMasekelaSingle.jpg</albumImageId>
+      <albumImageUri>/images/Hugh-Masekela+Grazing-in-the-Grass.jpg</albumImageUri>
+      <albumName>The Promise of a Future</albumName>
+   </album>
+   <released>May 1968</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>March 12, 1968</recorded>
+   <genres>
+      <genre>Jazz</genre>
+   </genres>
+   <lengths>
+      <length>2:38</length>
+   </lengths>
+   <label>Uni , 55066</label>
+   <writers>
+      <writer>Philemon Hou</writer>
+   </writers>
+   <producers>
+      <producer>Stewart Levine</producer>
+   </producers>
+   <descr>
+      <p>"Grazing in the Grass" is an instrumental composed by
+    Philemon Hou and first recorded by the South African trumpeter
+    Hugh Masekela. It is recognizable by its prominent cowbell
+    part. Released in the United States as a single in 1968, it
+    became one of the few instrumentals to reach the #1 spot on the
+    Billboard Hot 100 chart. .</p>
+      <p>"Grazing in the Grass" was inspired by an earlier Masekela
+    recording, "Mr. Bull No. 5". Hou, an actor and singer, came up
+    with the melody while the backing track was already being
+    recorded. The session was held at Gold Star Studios in
+    Hollywood.</p>
+      <p>The Friends of Distinction recorded a vocal cover version of
+    the tune in 1969 which was also a Top Ten pop and R&amp;B hit,
+    reaching #3 on the former and #5 on the latter. . The group's
+    Harry Elston penned lyrics for the song and sang lead on
+    it."Grazing in the Grass" has been recorded by many other
+    musicians, including Chet Atkins, Boney James, Rick Braun,
+    Willie Mitchell, The Monitors, Meco, and cc: DIVA. In 2004 it
+    was covered by Raven-Symoné; her version was played on Radio
+    Disney but never received a general commercial release as a
+    single for airplay in other venues. The video for her version
+    features her and dancing extras interacting with scenes from 
+    <i>The Lion King 1½</i>. It is also a staple in the repertoire
+    of New Orleans brass bands.</p>
+      <p>"Grazing in the Grass" was sampled by the hip hop duo Nice
+    &amp; Smooth on the track "One, Two and One More Makes Three"
+    from their album 
+    <i>Ain't a Damn Thing Changed</i>. Also, a sample can be heard
+    in Sugar Ray's 1999 single "Every Morning".</p>
+   </descr>
+</topSong>

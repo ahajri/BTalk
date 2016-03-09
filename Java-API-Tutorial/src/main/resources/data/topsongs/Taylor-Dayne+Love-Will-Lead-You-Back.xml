@@ -1,0 +1,72 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Love_Will_Lead_You_Back 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Love_Will_Lead_You_Back</songId>
+   <title>Love Will Lead You Back</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Taylor_Dayne</artistId>
+      <artistName>Taylor Dayne</artistName>
+   </artist>
+   <weeks>
+      <week>1990-04-07</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/f/fb/Lovewilllead.jpg</albumImageId>
+      <albumImageUri>/images/Taylor-Dayne+Love-Will-Lead-You-Back.jpg</albumImageUri>
+      <albumName>Can't Fight Fate</albumName>
+   </album>
+   <released>1990</released>
+   <formats>
+      <format>Cassette single</format>
+      <format>7" single</format>
+      <format>CD single</format>
+   </formats>
+   <recorded>1989</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>04:24 (Single Version) 04:39 (Album Version)</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Diane Warren</writer>
+   </writers>
+   <producers>
+      <producer>Rick Wake</producer>
+   </producers>
+   <descr>
+      <p>"Love Will Lead You Back" is a song performed by Taylor
+    Dayne. Released as the second single from Dayne's second album 
+    <i>Can't Fight Fate</i>(following the more uptempo "With Every
+    Beat of My Heart"), the ballad debuted on the Billboard Hot 100
+    chart on January 27, 1990. It reached number one on April 7
+    that same year and spent 15 weeks in the Top 40. It also
+    reached number one on the 
+    <i>Billboard</i>Adult Contemporary chart and was certified Gold
+    in the U.S. by the RIAA.</p>
+      <p>The song, written by Diane Warren, is about a woman who is
+    willing to set her lover free because she is confident that one
+    day his love will lead him back to her: "
+    <i>Sometimes it takes some time out on your own now / to find
+    your way back home</i>". Warren has stated that she began
+    writing the song while in a hotel in Russia, and that she had
+    originally intended the song to be offered to R&amp;B singer
+    Whitney Houston, but Arista Records president Clive Davis
+    wanted to let Dayne record the song.</p>
+      <p>The video was very simple; it shows Dayne and her band in a
+    studio performing the song. The video was released both in
+    black-and-white and sepia tones. In the video, Dayne holds in
+    her hand what seems to be the lyrics of the song, or possibly a
+    letter from her lover.</p>
+      <p>The song was covered by Filipina singers Kyla and Nina
+    Girado, by Mexican pop singer Yuri, as well as American R&amp;B
+    singer Patti LaBelle and Australian pop group Young Divas.</p>
+   </descr>
+</topSong>

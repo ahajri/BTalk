@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Here_Comes_the_Hotstepper 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Here_Comes_the_Hotstepper</songId>
+   <title>Here Comes the Hotstepper</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ini_Kamoze</artistId>
+      <artistName>Ini Kamoze</artistName>
+   </artist>
+   <weeks>
+      <week>1994-12-17</week>
+      <week>1994-12-24</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/7/72/Hotsteppercover.jpg</albumImageId>
+      <albumImageUri>/images/Ini-Kamoze+Here-Comes-the-Hotstepper.jpg</albumImageUri>
+      <albumName>Here Comes the Hotstepper</albumName>
+   </album>
+   <released>November 18, 1994</released>
+   <genres>
+      <genre>Dancehall</genre>
+      <genre>Reggae Fusion</genre>
+      <genre>Rap</genre>
+      <genre>Reggae</genre>
+   </genres>
+   <lengths>
+      <length>4:13</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Ini Kamoze</writer>
+      <writer>Chris Kenner</writer>
+      <writer>Kenton Nix</writer>
+      <writer>Salaam Remi</writer>
+   </writers>
+   <producers>
+      <producer>Salaam Remi</producer>
+   </producers>
+   <descr>
+      <p>"Here Comes the Hotstepper" is a dancehall song by musician
+    Ini Kamoze, co-written with Richard Winsland and recorded in
+    1994. It extrapolates the well-known "na na na na na..." chorus
+    from the song "Land of a Thousand Dances" by Cannibal and the
+    Headhunters, later covered by Wilson Pickett. To date it is
+    Kamoze's only US number-one hit. It also made the UK Top 5,
+    peaking at number 4.</p>
+      <p>The song was particularly popular in fashion shows of the
+    1990s. It was also featured in 
+    <i>Prêt-à-Porter</i>and a music video with footage from the
+    film was released and included on the U.S. VHS release of the
+    movie.</p>
+      <p>"Here Comes the Hotstepper" samples various tracks.</p>
+   </descr>
+</topSong>

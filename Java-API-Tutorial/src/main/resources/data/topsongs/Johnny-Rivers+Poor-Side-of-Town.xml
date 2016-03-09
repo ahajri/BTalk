@@ -1,0 +1,48 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Poor_Side_of_Town_(Johnny_Rivers_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Poor_Side_of_Town_(Johnny_Rivers_song)</songId>
+   <title>Poor Side of Town</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Johnny_Rivers</artistId>
+      <artistName>Johnny Rivers</artistName>
+   </artist>
+   <weeks>
+      <week>1966-11-12</week>
+   </weeks>
+   <released>1966</released>
+   <genres>
+      <genre>Rock And Roll</genre>
+   </genres>
+   <lengths>
+      <length>3:48 (album)</length>
+      <length>3:03 (single)</length>
+   </lengths>
+   <writers>
+      <writer>Johnny Rivers</writer>
+      <writer>Lou Adler</writer>
+   </writers>
+   <descr>
+      <p>"Poor Side of Town" is a song by Johnny Rivers, that reached
+    number one on the 
+    <i>Billboard</i>Hot 100 and on the 
+    <i>RPM</i>Canadian Chart on November 1966.</p>
+      <p>It was a very important record for Johnny Rivers and
+    represented a change of his initial music (characterized by a
+    Go Go sound), that provided him with his early hits and
+    acclaim. With "Poor Side of Town", Rivers moved into the
+    pop-soul style.</p>
+      <p>The melody is a soulful version of California-based pop,
+    with some strong folk elements as well. Marty Paich provided
+    the song's string arrangement.</p>
+      <p>In his 2006 live album Eels with Strings: Live at Town Hall,
+    Mark Oliver Everett (better known as Eels) recorded an acoustic
+    version of the song backed by a mini orchestra.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hey_Paula_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hey_Paula_(song)</songId>
+   <title>Hey Paula</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Paul_%26_Paula</artistId>
+      <artistName>Paul &amp; Paula</artistName>
+   </artist>
+   <weeks>
+      <week>1963-02-09</week>
+      <week>1963-02-16</week>
+      <week>1963-02-23</week>
+   </weeks>
+   <released>1962</released>
+   <formats>
+      <format>45</format>
+   </formats>
+   <recorded>1962</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>LeCam, Philips</label>
+   <writers>
+      <writer>Ray Hildebrand</writer>
+   </writers>
+   <producers>
+      <producer>Major Bill Smith</producer>
+      <producer>Marvin "Smokey" Montgomery</producer>
+   </producers>
+   <descr>
+      <p>"Hey Paula" is a song recorded by Paul &amp; Paula. It hit
+    number one on the Billboard Hot 100 on the week ending February
+    9, 1963, and also made it to number one on the Hot R&amp;B
+    Singles chart.. "Paul" was the song's writer, Ray
+    Hildebrand[1], a student at Howard Payne College in Brownwood,
+    Texas. "Paula" was Jill Jackson, the niece of the owner of the
+    boarding house where Ray lived.</p>
+      <p>Hildebrand wrote the song, originally titled "Paul and
+    Paula", taking inspiration from the Annette Funicello hit Tall
+    Paul. Hildebrand and Jackson performed the song on a local
+    radio station and the song soon became popular enough for the
+    duo to try to make a professional recording. They went to a
+    studio in Fort Worth, Texas, and were fortunate enough to find
+    a producer, Major Bill Smith, with studio time and musicians
+    booked and a missing lead vocalist. He recorded their version
+    of the song and released it on his LeCam Records label,
+    changing the name to "Hey Paula", credited to Jill and Ray.
+    When the record became a success, it was picked up by the
+    larger Philips Records, which changed the billing to Paul and
+    Paula.</p>
+      <p>When the song was released on Phillips, it hit the national
+    charts in late 1962, reaching number one on both the pop and
+    R&amp;B charts in 1963. It spawned a follow-up top ten hit,
+    "Young Lovers", and a series of other hits for the duo.</p>
+   </descr>
+</topSong>

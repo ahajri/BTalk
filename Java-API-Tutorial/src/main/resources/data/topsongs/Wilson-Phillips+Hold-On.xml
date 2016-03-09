@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hold_On_(Wilson_Phillips_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hold_On_(Wilson_Phillips_song)</songId>
+   <title>Hold On</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Wilson_Phillips</artistId>
+      <artistName>Wilson Phillips</artistName>
+   </artist>
+   <weeks>
+      <week>1990-06-09</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Wilson_Phillips_Hold_On_single_cover.jpg/200px-Wilson_Phillips_Hold_On_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/Wilson-Phillips+Hold-On.jpg</albumImageUri>
+      <albumName>Wilson Phillips</albumName>
+   </album>
+   <released>February 27, 1990  (1990-02-27)</released>
+   <formats>
+      <format>7" single</format>
+      <format>Cassette</format>
+      <format>CD</format>
+   </formats>
+   <recorded>1989</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:27 (Album Version)</length>
+      <length>3:42 (Single Version)</length>
+   </lengths>
+   <label>SBK</label>
+   <writers>
+      <writer>Chynna Phillips</writer>
+      <writer>Glen Ballard</writer>
+      <writer>additional lyrics by Carnie Wilson</writer>
+   </writers>
+   <producers>
+      <producer>Glen Ballard</producer>
+   </producers>
+   <descr>
+      <p>"Hold On" is the debut single by Wilson Phillips, released
+    in 1990.</p>
+      <p>The song won the Billboard Music Award for Hot 100 Single of
+    the Year for 1990.</p>
+      <p>At the Grammy Awards of 1991, the song received a nomination
+    for Song of the Year, losing to "From a Distance" by Julie Gold
+    and performed by Bette Midler.</p>
+      <p>"Hold On" became Wilson Phillips' first number one single,
+    reaching the top spot of the Billboard Hot 100 on June 9, 1990.
+    The song also spent a week atop the adult contemporary chart
+    that same year. In addition, "Hold On" peaked at number 6 on
+    the UK Singles Chart.</p>
+   </descr>
+</topSong>

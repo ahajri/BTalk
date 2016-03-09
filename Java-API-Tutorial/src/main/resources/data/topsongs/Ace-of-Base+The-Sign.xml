@@ -1,0 +1,73 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Sign_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Sign_(song)</songId>
+   <title>The Sign</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ace_of_Base</artistId>
+      <artistName>Ace of Base</artistName>
+   </artist>
+   <weeks>
+      <week>1994-03-12</week>
+      <week>1994-03-19</week>
+      <week>1994-03-26</week>
+      <week>1994-04-02</week>
+      <week>1994-05-07</week>
+      <week>1994-05-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/f/f6/TheSign.jpg</albumImageId>
+      <albumImageUri>/images/Ace-of-Base+The-Sign.jpg</albumImageUri>
+      <albumName>Happy Nation/The Sign</albumName>
+   </album>
+   <released>January 1994 ( United Kingdom , February 21, 1994 ( United States )</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>1993</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Europop</genre>
+      <genre>Dance Pop</genre>
+      <genre>Reggae</genre>
+   </genres>
+   <lengths>
+      <length>Single Version 3:11</length>
+      <length>Album Version 3:08</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Jonas Berggren</writer>
+   </writers>
+   <descr>
+      <p>"The Sign" is a 1993 dance-pop song by the Swedish band Ace
+    of Base. The song was an international smash hit, spending six
+    non-consecutive weeks as number one on the Billboard Hot 100
+    chart in the United States, also reaching Number two in the
+    United Kingdom. It was on an album called 
+    <i>Happy Nation</i>in most of the world, but 
+    <i>The Sign</i>in North America.</p>
+      <p>The song was the #1 song of 1994 according to Billboard
+    magazine's year-end charts. The song was ranked at #51 on 
+    <i>The Billboard Hot 100 All-Time Top Songs</i>for the first 50
+    years of the Hot 100 chart. The song has been covered by The
+    Mountain Goats.</p>
+      <p>The music video of the song features the pop group singing
+    amidst romantic and frolic images; "The Sign" was depicted as
+    an ankh and a djed. The music video is Directed By: Mathias
+    Julin.</p>
+      <p>Amid the images is a little story of a man and woman sitting
+    side by side until the man leaves, seemingly abandoning the
+    woman. However, he comes back with a rose and offers it to the
+    woman. The woman graciously accepts and takes his hand.
+    However, a bright light shines in the woman's face, drawing her
+    away, abandoning the man and dropping the rose on the
+    chair.</p>
+   </descr>
+</topSong>

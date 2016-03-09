@@ -1,0 +1,47 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Do_Wah_Diddy_Diddy 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Do_Wah_Diddy_Diddy</songId>
+   <title>Do Wah Diddy Diddy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Manfred_Mann</artistId>
+      <artistName>Manfred Mann</artistName>
+   </artist>
+   <weeks>
+      <week>1964-10-17</week>
+      <week>1964-10-24</week>
+   </weeks>
+   <released>July 10, 1964 (UK) , August 3, 1964 (USA)</released>
+   <formats>
+      <format>Vinyl record (7")</format>
+   </formats>
+   <recorded>June 11, 1964</recorded>
+   <genres>
+      <genre>Pop/Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:23</length>
+   </lengths>
+   <label>HMV POP1320 (UK) , Ascot AS 2157 (USA)</label>
+   <writers>
+      <writer>Jeff Barry</writer>
+      <writer>Ellie Greenwich</writer>
+   </writers>
+   <descr>
+      <p>"Do Wah Diddy Diddy" is a song written by Jeff Barry and
+    Ellie Greenwich and originally recorded in 1963 by the American
+    vocal group The Exciters. In 1964, it was covered by British
+    R&amp;B, Beat and pop band Manfred Mann. Manfred Mann's
+    version, which was more commercially successful, was recorded
+    on June 11, 1964, released on July 10 and spent two weeks in
+    August at number one in the UK Singles Chart and in October of
+    that year it spent two weeks at the number one spot in the U.S.
+    Billboard Hot 100 chart.</p>
+   </descr>
+</topSong>

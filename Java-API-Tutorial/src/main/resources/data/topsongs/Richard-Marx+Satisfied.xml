@@ -1,0 +1,49 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Satisfied_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Satisfied_(song)</songId>
+   <title>Satisfied</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Richard_Marx</artistId>
+      <artistName>Richard Marx</artistName>
+   </artist>
+   <weeks>
+      <week>1989-06-24</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Squeeze_satisfied.jpg/200px-Squeeze_satisfied.jpg</albumImageId>
+      <albumImageUri>/images/Richard-Marx+Satisfied.jpg</albumImageUri>
+      <albumName>Play</albumName>
+   </album>
+   <released>July 1991 (US Promo), 4 November 1991 (UK)</released>
+   <formats>
+      <format>7" and 12" vinyl</format>
+      <format>5" CD</format>
+      <format>cassette</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:33</length>
+   </lengths>
+   <label>Reprise Records</label>
+   <producers>
+      <producer>Tony Berg</producer>
+   </producers>
+   <descr>
+      <p>"Satisfied" was the second single released from Squeeze's
+    ninth album, 
+    <i>Play</i>, in the UK, and the first in the United States.
+    Although only a promotional radio single was released in the
+    US, the song climbed to #3 on the Modern Rock charts there. In
+    the band's homeland, a full commercial single release failed to
+    chart at all.</p>
+   </descr>
+</topSong>

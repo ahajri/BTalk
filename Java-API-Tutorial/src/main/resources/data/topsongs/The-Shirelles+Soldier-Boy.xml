@@ -1,0 +1,45 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Soldier_Boy_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Soldier_Boy_(song)</songId>
+   <title>Soldier Boy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Shirelles</artistId>
+      <artistName>The Shirelles</artistName>
+   </artist>
+   <weeks>
+      <week>1962-05-05</week>
+      <week>1962-05-12</week>
+      <week>1962-05-19</week>
+   </weeks>
+   <album>
+      <albumName>Baby It's You</albumName>
+   </album>
+   <released>1962</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>Bell Sound Studios, New York</recorded>
+   <lengths>
+      <length>2:42</length>
+   </lengths>
+   <label>Scepter</label>
+   <writers>
+      <writer>Luther Dixon</writer>
+      <writer>Florence Green</writer>
+   </writers>
+   <descr>
+      <p>"Soldier Boy" is the name of a song written by Luther Dixon
+    and Florence Green. The song was released as a single by The
+    Shirelles in 1962 and met with great success, topping the US
+    Billboard Hot 100. The song's lyrics are a profession of the
+    singer's love for the titular soldier boy in which she promises
+    to remain true to him while he's away.</p>
+   </descr>
+</topSong>

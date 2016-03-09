@@ -1,0 +1,34 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Will_It_Go_Round_in_Circles 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Will_It_Go_Round_in_Circles</songId>
+   <title>Will It Go Round in Circles</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Billy_Preston</artistId>
+      <artistName>Billy Preston</artistName>
+   </artist>
+   <weeks>
+      <week>1973-07-07</week>
+      <week>1973-07-14</week>
+   </weeks>
+   <descr>
+      <p>"Will It Go Round in Circles" is a song written by Bruce
+    Fisher and Billy Preston, and recorded by Preston for his 1972
+    album 
+    <i>Music Is My Life</i>. On its release as a single in 1973,
+    the song was a number-one hit on the Billboard Hot 100 chart,
+    and sold over a million copies.</p>
+      <p>The song was covered in the 2006 television soundtrack, 
+    <i>That's So Raven Too!</i>, and on the 2008 Band From TV
+    album, 
+    <i>Hoggin' All the Covers</i>, with vocals by Hugh Laurie. It
+    also appears on Martin Sexton's 2007 album Seeds and Eric
+    Clapton's 2002 live DVD One More Car, One More Rider.</p>
+   </descr>
+</topSong>

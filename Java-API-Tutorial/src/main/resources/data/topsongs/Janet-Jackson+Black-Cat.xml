@@ -1,0 +1,83 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Black_Cat_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Black_Cat_(song)</songId>
+   <title>Black Cat</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Janet_Jackson</artistId>
+      <artistName>Janet Jackson</artistName>
+   </artist>
+   <weeks>
+      <week>1990-10-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/26/Janet_jackson_black_cat_us_promo_cd_single_cover.jpg/200px-Janet_jackson_black_cat_us_promo_cd_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/Janet-Jackson+Black-Cat.jpg</albumImageUri>
+      <albumName>Janet Jackson's Rhythm Nation 1814</albumName>
+   </album>
+   <released>August 28, 1990</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi single</format>
+      <format>CD single</format>
+      <format>cassette single</format>
+   </formats>
+   <recorded>May 1989 , Flyte Tyme Studios , ( Minneapolis , Minnesota )</recorded>
+   <genres>
+      <genre>Hard Rock</genre>
+      <genre>Post Punk</genre>
+   </genres>
+   <lengths>
+      <length>4:50</length>
+   </lengths>
+   <label>A&amp;M</label>
+   <writers>
+      <writer>Janet Jackson</writer>
+   </writers>
+   <producers>
+      <producer>Janet Jackson</producer>
+      <producer>Jellybean Johnson</producer>
+   </producers>
+   <descr>
+      <p>"Black Cat" is the sixth single from American R&amp;B-pop
+    singer Janet Jackson's fourth studio album, 
+    <i>Janet Jackson's Rhythm Nation 1814</i>(1989).</p>
+      <p>Unlike the R&amp;B- and pop-infused songs that Jackson had
+    been releasing before, this song was strictly a rock and roll
+    production solely written by Jackson and co-produced with one
+    of the song's guitarists, Jellybean Johnson. The song became
+    Jackson's fourth chart-topper on the Hot 100.</p>
+      <p>Jackson has performed the song on all of her tours,
+    including the Rhythm Nation 1814 Tour, janet. Tour, The Velvet
+    Rope Tour, All for You Tour, and Rock Witchu Tour.</p>
+      <p>For the album version of "Black Cat", most of the guitar
+    lines were played by Dave Barry, including the intro, main
+    riff, and a memorable thematic solo. Barry consequently became
+    Janet Jackson's longtime touring guitarist. John McClain,
+    executive for A&amp;M Records, provided the slide-guitar part,
+    while Jellybean Johnson played the funky guitar part that
+    punctuates the album version of the song. Although credited on
+    the album, Jesse Johnson provided a guitar solo that was not
+    used for the album version, but is featured in each of the
+    remixes.</p>
+      <p>Several "Black Cat" remixes include Nuno Bettencourt on
+    rhythm guitar.</p>
+      <p>The B-side on some of the releases features "The 1814
+    Megamix". Remixed by Alan Coulthard, it includes snippets of
+    Jackson's previous hit singles "Alright", "Escapade", "Rhythm
+    Nation", and "Miss You Much". The megamix does not appear on
+    any other release from Jackson.</p>
+      <p>Directed by Wayne Isham, the video for "Black Cat" was a
+    concert video from her Rhythm Nation 1814 Tour. The video
+    appears on the video releases 
+    <i>The Rhythm Nation Compilation</i>and 
+    <i>Design of a Decade 1986/1996</i>. On April 27, 2007, the
+    video was released on the iTunes Store.</p>
+   </descr>
+</topSong>

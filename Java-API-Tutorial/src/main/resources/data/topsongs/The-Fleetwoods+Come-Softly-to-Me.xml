@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Come_Softly_to_Me 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Come_Softly_to_Me</songId>
+   <title>Come Softly to Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Fleetwoods</artistId>
+      <artistName>The Fleetwoods</artistName>
+   </artist>
+   <weeks>
+      <week>1959-04-13</week>
+      <week>1959-04-20</week>
+      <week>1959-04-27</week>
+      <week>1959-05-04</week>
+   </weeks>
+   <released>1959</released>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>Dolphin Records</label>
+   <writers>
+      <writer>Gretchen Christopher</writer>
+   </writers>
+   <producers>
+      <producer>The Fleetwoods</producer>
+   </producers>
+   <descr>
+      <p>"Come Softly to Me" is a popular song originally written as
+    "Come Softly" by Gretchen Christopher, published in 1959, and
+    performed by The Fleetwoods, consisting of Christopher, Gary
+    Troxel and Barbara Ellis. It was the first release for the new
+    Dolphin Records label, as No. 1. This may be the first time
+    that a record label's first issue became a number one hit.</p>
+      <p>The original title was "Come Softly," but was changed en
+    route to its becoming a hit. Recorded at home, they sang it a
+    cappella with the rhythmic shaking of Troxel's car keys. The
+    tape was then sent to Los Angeles where the sparse instrumental
+    accompaniment was added: an acoustic guitar played by Bonnie
+    Guitar.</p>
+      <p>Bob Reisdorf, the owner of Dolphin Records (changed in 1960
+    to Dolton Records), was responsible for the title change. He
+    thought that "Come Softly" might be misunderstood and
+    considered risqué, so he had it changed to "Come Softly to Me".
+    Released in 1959, the single reached number one on the U.S.
+    Billboard Hot 100 in April.</p>
+      <p>The song has been covered by other artists, including Sandy
+    Salisbury, Bob Welch (with Christine McVie on backing vocals),
+    Frankie Vaughan with The Kaye Sisters, who had a chart hit in
+    the United Kingdom with it, and The Seekers, whose version
+    reached #95 on the Billboard Hot 100 and #20 on the UK charts
+    in 1972-73. A cover version, performed by The Roches, is
+    repeated several times on the soundtrack of the movie 
+    <i>Crossing Delancey</i>.</p>
+   </descr>
+</topSong>

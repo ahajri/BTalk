@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Joyride_(Roxette_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Joyride_(Roxette_song)</songId>
+   <title>Joyride</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Roxette</artistId>
+      <artistName>Roxette</artistName>
+   </artist>
+   <weeks>
+      <week>1991-05-11</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Joyride_%28single%29.jpg/200px-Joyride_%28single%29.jpg</albumImageId>
+      <albumImageUri>/images/Roxette+Joyride.jpg</albumImageUri>
+      <albumName>Joyride</albumName>
+   </album>
+   <released>27 February 1991</released>
+   <formats>
+      <format>CD maxi</format>
+      <format>7" single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:22</length>
+   </lengths>
+   <writers>
+      <writer>Per Gessle</writer>
+   </writers>
+   <producers>
+      <producer>Clarence Öfwerman</producer>
+   </producers>
+   <descr>
+      <p>"Joyride", written by Per Gessle, was the first single
+    released from Swedish pop duo Roxette's 1991 album 
+    <i>Joyride</i>, the follow-up to the group's highly successful 
+    <i>Look Sharp!</i>. The single topped the charts across Europe,
+    and in Australia, Canada and the United States, where it spent
+    one week at number one on the Billboard Hot 100, their last to
+    do so, in May 1991. In the UK, "Joyride" peaked at #4.</p>
+      <p>In interviews, Gessle states he got the idea for the opening
+    line of this song from his girlfriend at the time who left a
+    note on his piano that stated, "Hello, you fool, I love
+    you."</p>
+      <p>During the 1994 Stanley Cup playoffs this became the intro
+    anthem to the Vancouver Canucks as they took the ice before
+    each game.</p>
+   </descr>
+</topSong>

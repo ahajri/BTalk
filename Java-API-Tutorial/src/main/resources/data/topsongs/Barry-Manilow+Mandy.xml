@@ -1,0 +1,70 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Mandy_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Mandy_(song)</songId>
+   <title>Mandy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Barry_Manilow</artistId>
+      <artistName>Barry Manilow</artistName>
+   </artist>
+   <weeks>
+      <week>1975-01-18</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Barrysecondalbum.jpg/200px-Barrysecondalbum.jpg</albumImageId>
+      <albumImageUri>/images/Barry-Manilow+Mandy.jpg</albumImageUri>
+      <albumName>Barry Manilow II</albumName>
+   </album>
+   <released>1974</released>
+   <formats>
+      <format>7" vinyl</format>
+   </formats>
+   <recorded>1974</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>Bell</label>
+   <writers>
+      <writer>Scott English</writer>
+      <writer>Richard Kerr</writer>
+   </writers>
+   <descr>
+      <p>"Brandy" is a 1971 hit for songwriters Scott English and
+    Richard Kerr. It reached number 12 in the UK Singles Charts,
+    but the fast-tempo version was a flop in the United States. In
+    1974, recorded by Barry Manilow as "Mandy", the song was
+    Manilow's first number-one hit on the Billboard Hot 100 and
+    Easy Listening charts, and his first gold single.</p>
+      <p>The suggestion that Scott English wrote the song about a
+    favorite dog is apparently an urban legend. English has said
+    that a reporter called him early one morning asking who
+    "Brandy" was, and an irritated English made up the "dog" story
+    to get the reporter off his back.</p>
+      <p>In the three years between English's 1971 recording and
+    Manilow's, Looking Glass had a hit song with "Brandy (You're a
+    Fine Girl)" in 1972. Therefore, to avoid confusion, when
+    Manilow decided to make his record, he changed the title to
+    "Mandy". It was Clive Davis who suggested that Manilow record
+    the song. Manilow originally recorded it as an up-tempo
+    bubblegum pop tune similar to English's original, but he and
+    the producer reportedly hated the way it turned out; thus, he
+    sang it as a ballad and was much more pleased with the results.
+    It was Manilow's first hit single and the first song on Clive
+    Davis' Arista Records label (formerly Bell Records) to hit the
+    Billboard Hot 100.</p>
+      <p>There have been several other notable cover versions,
+    including Andy Williams (1975), Richard Clayderman (1994),
+    Johnny Mathis (1997), Me First and the Gimme Gimmes (1997),
+    Bradley Joseph (2005), Raymond Quinn (X Factor runner-up 2006),
+    Donny Osmond (2007).</p>
+      <p>The song was also a hit for the Irish group Westlife.
+    "Mandy" was the second single released from their album
+    Turnaround.</p>
+   </descr>
+</topSong>

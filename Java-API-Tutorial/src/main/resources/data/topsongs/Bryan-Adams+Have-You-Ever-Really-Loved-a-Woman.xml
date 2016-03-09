@@ -1,0 +1,72 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Have_You_Ever_Really_Loved_a_Woman%3F 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Have_You_Ever_Really_Loved_a_Woman%3F</songId>
+   <title>Have You Ever Really Loved a Woman?</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bryan_Adams</artistId>
+      <artistName>Bryan Adams</artistName>
+   </artist>
+   <weeks>
+      <week>1995-06-03</week>
+      <week>1995-06-10</week>
+      <week>1995-06-17</week>
+      <week>1995-06-24</week>
+      <week>1995-07-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/HaveYouEverLovedAWoman.jpg/200px-HaveYouEverLovedAWoman.jpg</albumImageId>
+      <albumImageUri>/images/Bryan-Adams+Have-You-Ever-Really-Loved-a-Woman.jpg</albumImageUri>
+      <albumName>18 til I Die</albumName>
+   </album>
+   <released>April 14, 1995</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>1994</recorded>
+   <genres>
+      <genre>Soft Rock</genre>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:50</length>
+   </lengths>
+   <label>A&amp;M Records</label>
+   <writers>
+      <writer>Bryan Adams</writer>
+      <writer>Michael Kamen</writer>
+      <writer>Robert John "Mutt" Lange</writer>
+   </writers>
+   <producers>
+      <producer>Adams and Lange</producer>
+   </producers>
+   <descr>
+      <p>"Have You Ever Really Loved a Woman?" is a 1995 song written
+    by Bryan Adams, Michael Kamen and Robert John "Mutt" Lange for
+    the film of the same year 
+    <i>Don Juan DeMarco</i>. The melody is used as a musical motif
+    throughout the film, and the song is featured three times in
+    the movie, twice performed by other artists in Spanish, and
+    finally performed by Adams himself during the closing credits.
+    The Adams version of the song, which features flamenco
+    guitarist Paco de Lucia, is featured on the soundtrack album
+    and also on the album 
+    <i>18 Til I Die</i>. It was at number one for five weeks on the
+    Billboard Hot 100 in the United States, making it the third
+    number one song for the songwriting team, and went on to earn
+    them their second Oscar nomination.</p>
+      <p>Various women's groups contacted Adams when the song became
+    popular, which led to his publishing a series of books of
+    photos, with all proceeds going to breast cancer research.</p>
+      <p>The music video was shot in Spain at Casa las Pavos Reales,
+    Malaga starring Cecilie Thomsen and Amira. It was directed by
+    the music video director Anton Corbijn and released and aired
+    in May 1995.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,41 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Surrender_(Elvis_Presley_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Surrender_(Elvis_Presley_song)</songId>
+   <title>Surrender</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Elvis_Presley</artistId>
+      <artistName>Elvis Presley</artistName>
+   </artist>
+   <weeks>
+      <week>1961-03-20</week>
+      <week>1961-03-27</week>
+   </weeks>
+   <released>7 February 1961</released>
+   <formats>
+      <format>7"</format>
+      <format>45rpm</format>
+   </formats>
+   <recorded>30 October 1960</recorded>
+   <lengths>
+      <length>1:52</length>
+   </lengths>
+   <writers>
+      <writer>Doc Pomus</writer>
+      <writer>Mort Shuman and ???</writer>
+   </writers>
+   <descr>
+      <p>"Surrender" is a rearrangement by Doc Pomus and Mort Shuman
+    of a 1902 Neapolitan ballad by Giambattista and Ernesto de
+    Curtis entitled "Torna a Surriento" ("Come Back to Sorrento").
+    It became a UK and US #1 hit for Elvis Presley in 1961 and has
+    also been recorded by many other artists. This was one of the
+    25 songs Doc Pomus and Mort Shuman wrote for Presley.</p>
+   </descr>
+</topSong>

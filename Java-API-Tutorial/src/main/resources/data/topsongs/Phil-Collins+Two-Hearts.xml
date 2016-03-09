@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Two_Hearts_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Two_Hearts_(song)</songId>
+   <title>Two Hearts</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Phil_Collins</artistId>
+      <artistName>Phil Collins</artistName>
+   </artist>
+   <weeks>
+      <week>1989-01-21</week>
+      <week>1989-01-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/c3/CollinsHearts.jpg/200px-CollinsHearts.jpg</albumImageId>
+      <albumImageUri>/images/Phil-Collins+Two-Hearts.jpg</albumImageUri>
+      <albumName>Buster</albumName>
+   </album>
+   <released>November 29, 1988</released>
+   <formats>
+      <format>7"</format>
+      <format>cassette</format>
+      <format>CD</format>
+   </formats>
+   <recorded>1988</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>Atlantic Records , Virgin Records , WEA</label>
+   <producers>
+      <producer>Phil Collins</producer>
+      <producer>Hugh Padgham</producer>
+   </producers>
+   <descr>
+      <p>"Two Hearts" is a song performed by Phil Collins, written
+    and produced by Collins and Lamont Dozier (of Motown's
+    Holland-Dozier-Holland) for the 1988 crime comedy film 
+    <i>Buster</i>. It won the Golden Globe Award for Best Original
+    Song alongside the Carly Simon song "Let the River Run" from 
+    <i>Working Girl</i>. Two music videos were made: one featuring
+    Phil Collins as all four members in a band, and the other
+    featuring Collins in a wrestling match against the Ultimate
+    Warrior.</p>
+      <p>The song topped the US Hot 100 for two weeks, the US adult
+    contemporary chart for five weeks, and also reached #6 on the
+    UK Singles Chart. It opened the radio station BBC Hereford and
+    Worcester, appropriate in that the station was based in two
+    different places.</p>
+      <p>The B-side features Anne Dudley and the London Film
+    Orchestra performing "The Robbery", also on the 
+    <i>Buster</i>soundtrack.</p>
+   </descr>
+</topSong>

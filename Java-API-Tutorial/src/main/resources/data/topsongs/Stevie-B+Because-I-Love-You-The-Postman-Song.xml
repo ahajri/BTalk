@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Because_I_Love_You_(The_Postman_Song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Because_I_Love_You_(The_Postman_Song)</songId>
+   <title>Because I Love You (The Postman Song)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Stevie_B</artistId>
+      <artistName>Stevie B</artistName>
+   </artist>
+   <weeks>
+      <week>1990-12-08</week>
+      <week>1990-12-15</week>
+      <week>1990-12-22</week>
+      <week>1990-12-29</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Because_I_love_you_%28the_postman_song%29.jpg/200px-Because_I_love_you_%28the_postman_song%29.jpg</albumImageId>
+      <albumImageUri>/images/Stevie-B+Because-I-Love-You-The-Postman-Song.jpg</albumImageUri>
+      <albumName>Love &amp; Emotion</albumName>
+   </album>
+   <released>1990</released>
+   <formats>
+      <format>CD single</format>
+      <format>CD maxi</format>
+      <format>7" single</format>
+      <format>12" maxi</format>
+   </formats>
+   <recorded>1988</recorded>
+   <genres>
+      <genre>Ballad</genre>
+   </genres>
+   <lengths>
+      <length>5:00</length>
+   </lengths>
+   <label>BCM</label>
+   <writers>
+      <writer>Warren Allen Brooks</writer>
+   </writers>
+   <producers>
+      <producer>Stevie B</producer>
+   </producers>
+   <descr>
+      <p>"Because I Love You (The Postman Song)" is a song recorded
+    by Stevie B. The song hit number one on the Billboard Hot 100
+    on December 8, 1990. It also reached number six in the UK
+    Singles Chart and number eight in the Australian Singles
+    Chart.</p>
+      <p>The song listed at number 55 on 
+    <i>Billboard</i>magazines Top 100 songs for the 50th
+    Anniversary of the Hot 100 chart.</p>
+      <p>"Because I Love You" is the first single from German trance
+    group Groove Coverage's 
+    <i>Greatest Hits</i>album. Like most of Groove Coverage's songs
+    it is sung by Mell, with Verena providing haunting vocals
+    during the songs bridge.</p>
+   </descr>
+</topSong>

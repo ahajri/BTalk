@@ -1,0 +1,30 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Reunited_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Reunited_(song)</songId>
+   <title>Reunited</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Peaches_%26_Herb</artistId>
+      <artistName>Peaches &amp; Herb</artistName>
+   </artist>
+   <weeks>
+      <week>1979-05-05</week>
+      <week>1979-05-12</week>
+      <week>1979-05-19</week>
+      <week>1979-05-26</week>
+   </weeks>
+   <descr>
+      <p>"Reunited" was a hit song for R&amp;B vocal duo Peaches
+    &amp; Herb. Released from their 1978 album, 
+    <i>2 Hot</i>, the song was a huge crossover smash, topping both
+    the pop and soul charts. It spent four weeks at number one on
+    both the R&amp;B singles chart and the Billboard Hot 100
+    singles chart and sold over 2 million copies.</p>
+   </descr>
+</topSong>

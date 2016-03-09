@@ -1,0 +1,32 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Love_You_(Cole_Porter_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Love_You_(Cole_Porter_song)</songId>
+   <title>I Love You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bing_Crosby</artistId>
+      <artistName>Bing Crosby</artistName>
+   </artist>
+   <weeks>
+      <week>1944-05-06</week>
+   </weeks>
+   <descr>
+      <p>"I Love You" is a song written by Cole Porter in 1944 for
+    his stage musical 
+    <i>Mexican Hayride</i>. It was popularized by Bing Crosby in
+    the same year. The lyrics of the chorus are satirically and
+    deliberately banal, the verse apologizing for the use of
+    lyrical cliches.</p>
+      <p>Versions have also been recorded by Frank Sinatra, Jo
+    Stafford and John Coltrane.</p>
+      <p>Barbra Streisand performed several lines in her "Color Me
+    Barbra Medley" from the TV special and album "Color Me
+    Barbra".</p>
+   </descr>
+</topSong>

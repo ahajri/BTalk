@@ -1,0 +1,51 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Rock%27n_Me 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Rock%27n_Me</songId>
+   <title>Rock'n Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Steve_Miller_(musician)</artistId>
+      <artistName>Steve Miller Band</artistName>
+   </artist>
+   <weeks>
+      <week>1976-11-06</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Rock_n_Me.jpg/200px-Rock_n_Me.jpg</albumImageId>
+      <albumImageUri>/images/Steve-Miller-Band+Rock-n-Me.jpg</albumImageUri>
+      <albumName>Fly Like an Eagle</albumName>
+   </album>
+   <released>1976</released>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Blues Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:07</length>
+   </lengths>
+   <label>Capitol Records</label>
+   <writers>
+      <writer>Steve Miller</writer>
+   </writers>
+   <producers>
+      <producer>Steve Miller</producer>
+   </producers>
+   <descr>
+      <p>"Rock'n Me" is a number one hit rock song by the Steve
+    Miller Band from their successful album 
+    <i>Fly Like an Eagle</i>. It hit #1 in the U.S. for one week on
+    November 6, 1976. "Rock'n Me" has been featured in a number of
+    commercials and is frequently played on classic rock format
+    radio stations.</p>
+      <p>The main riff is strikingly similar to the Free hit single
+    "All Right Now".</p>
+      <p>The song is a playable track on 
+    <i>Rock Band 2</i>.</p>
+   </descr>
+</topSong>

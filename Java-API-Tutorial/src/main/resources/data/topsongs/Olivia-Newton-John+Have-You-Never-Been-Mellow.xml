@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Have_You_Never_Been_Mellow_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Have_You_Never_Been_Mellow_(song)</songId>
+   <title>Have You Never Been Mellow</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Olivia_Newton-John</artistId>
+      <artistName>Olivia Newton-John</artistName>
+   </artist>
+   <weeks>
+      <week>1975-03-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/bf/HAVE_YOU_NEVER_BEEN_MELLOW.jpg/200px-HAVE_YOU_NEVER_BEEN_MELLOW.jpg</albumImageId>
+      <albumImageUri>/images/Olivia-Newton-John+Have-You-Never-Been-Mellow.jpg</albumImageUri>
+      <albumName>Have You Never Been Mellow</albumName>
+   </album>
+   <released>January 21, 1975</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:31</length>
+   </lengths>
+   <label>MCA</label>
+   <writers>
+      <writer>John Farrar</writer>
+   </writers>
+   <producers>
+      <producer>John Farrar</producer>
+   </producers>
+   <descr>
+      <p>"Have You Never Been Mellow" is a popular song written by
+    John Farrar and recorded by Olivia Newton-John as the title
+    track for her album of the same name.</p>
+      <p>In March 1975, the single became Newton-John's second
+    consecutive number one hit on the U.S. Billboard Hot 100,
+    although it stayed in the top chart position for just one week.
+    The record also received a Grammy nomination for Best Female
+    Pop Vocal Performance. The song also topped the Billboard Hot
+    Adult Contemporary Singles chart and — in her continued success
+    as a crossover artist — peaked at No. 3 on the Hot Country
+    Singles chart.</p>
+      <p>In the United States, it was Newton-John's fourth straight
+    single to be certified gold for sales of one million copies.
+    "Have You Never Been Mellow" also reached number one in Canada
+    and peaked at number 10 in Australia and number 26 in Japan,
+    but was not much of a success elsewhere in the world, failing
+    to chart altogether in the United Kingdom.</p>
+      <p>The song is being performed as part of the 2007 Broadway
+    musical 
+    <i>Xanadu</i>.</p>
+      <p>Along with her later single Xanadu, a remixed version by
+    "The Olivia Project" appears in the Dance Dance Revolution
+    series of video games.</p>
+      <p>The Dutch band Party Animals sampled the song in 1996 on
+    their hit "Have You Ever Been Mellow". The song reached number
+    one on the Netherlands singles chart.</p>
+      <p>The punk band the Feederz covered the song on their 1984
+    debut album "Ever Feel Like Killing Your Boss?".</p>
+   </descr>
+</topSong>

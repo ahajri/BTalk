@@ -1,0 +1,75 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/(They_Long_to_Be)_Close_to_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/(They_Long_to_Be)_Close_to_You</songId>
+   <title>(They Long to Be) Close to You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Carpenters</artistId>
+      <artistName>The Carpenters</artistName>
+   </artist>
+   <weeks>
+      <week>1970-07-25</week>
+      <week>1970-08-01</week>
+      <week>1970-08-08</week>
+      <week>1970-08-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d1/CarpsCloseToYou.jpg/200px-CarpsCloseToYou.jpg</albumImageId>
+      <albumImageUri>/images/The-Carpenters+They-Long-to-Be-Close-to-You.jpg</albumImageUri>
+      <albumName>Close to You</albumName>
+   </album>
+   <released>May 15, 1970</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1970</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:33</length>
+   </lengths>
+   <label>A&amp;M Records , 1183</label>
+   <writers>
+      <writer>Burt Bacharach ; Hal David</writer>
+   </writers>
+   <producers>
+      <producer>Jack Daugherty</producer>
+   </producers>
+   <descr>
+      <p>"(They Long to Be) Close to You" is a popular song written
+    by Burt Bacharach and Hal David. It was first recorded by
+    Richard Chamberlain and released as a single in 1963 as "They
+    Long to Be Close to You," without parentheses. However, it was
+    the single's flip side, "Blue Guitar," that became a hit.
+    Although Richard Chamberlain recorded the first version, the
+    tune was also recorded as a demo by Dionne Warwick in 1963 and
+    re-recorded with a Burt Bacharach arrangement for her 1964
+    album 
+    <i>Make Way for Dionne Warwick</i>, and was released as the
+    B-side of her 1965 single "Here I Am." Bacharach released his
+    own version in 1968. But the version recorded by The Carpenters
+    is the most well known, which became a big hit in 1970.</p>
+      <p>In 1970, it was released by Karen and Richard Carpenter on
+    their album 
+    <i>Close to You</i>, and it became their breakthrough hit. The
+    song stayed at number one on the Hot 100 for four weeks.
+    Richard had stated that when Herb Alpert introduced the song to
+    him back in early 1970, he was a bit apprehensive about the
+    song, and didn't have confidence in it. He and Alpert
+    collaborated on the song, and the finished product was a
+    4-minute, 36-second long song. When A&amp;M Records decided to
+    release it in May 1970, it became A&amp;M's biggest hit since
+    Alpert's "This Guy's in Love with You" from 1968.</p>
+      <p>With "(They Long to Be) Close to You," The Carpenters earned
+    a Grammy Award for Best Contemporary Performance by a Duo,
+    Group or Chorus in 1971. It became the first of three Grammy
+    Awards they would win during their careers.</p>
+   </descr>
+</topSong>

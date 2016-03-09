@@ -100,4 +100,14 @@ public class DiscussionMember extends AModel {
 		this.password = password;
 	}
 
+	@Override
+	public String toString() {
+		return "DiscussionMember [id=" + id + ", password=" + password
+				+ ", discussRole=" + discussRole + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", gender=" + gender + ", status="
+				+ status + ", birthday=" + birthday + "]";
+	}
+
+
+
 }

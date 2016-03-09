@@ -1,0 +1,93 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Rock_Me_Amadeus 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Rock_Me_Amadeus</songId>
+   <title>Rock Me Amadeus</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Falco_(musician)</artistId>
+      <artistName>Falco</artistName>
+   </artist>
+   <weeks>
+      <week>1986-03-29</week>
+      <week>1986-04-05</week>
+      <week>1986-04-12</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Amadeus_.jpg/200px-Amadeus_.jpg</albumImageId>
+      <albumImageUri>/images/Falco+Rock-Me-Amadeus.jpg</albumImageUri>
+      <albumName>Falco 3</albumName>
+   </album>
+   <released>March 28, 1986</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1985</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Hip Hop</genre>
+      <genre>Synth Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:21</length>
+   </lengths>
+   <label>A&amp;M Records</label>
+   <writers>
+      <writer>Rob Bolland</writer>
+      <writer>Ferdi Bolland</writer>
+   </writers>
+   <descr>
+      <p>"Rock Me Amadeus" is a 1986 song by the Austrian pop
+    musician Falco from his album 
+    <i>Falco 3</i>. It topped the singles charts on both sides of
+    the Atlantic. It was Falco's only major hit in the United
+    States and one of only two singles to make the Top Ten in the
+    United Kingdom, despite his popularity in Germany, his native
+    Austria, and much of Europe. The song was written by Dutch
+    music producers Bolland &amp; Bolland.</p>
+      <p>With "Rock Me Amadeus", Falco became the first
+    German-speaking artist to be credited with a #1 single in all
+    mainstream U.S. pop singles charts: the Billboard Hot 100 and
+    Cashbox Top 100 Singles. The single hit number one on the
+    Billboard Hot 100 on 29 March 1986. Falco is erroneously often
+    considered a one-hit wonder for this song in the United States.
+    However, Falco had already had a minor U.S. hit in 1982 with
+    "Der Kommissar" (a hit the following year there for After the
+    Fire), and his follow-up single from 
+    <i>Falco 3</i>, "Vienna Calling", reached #18 on the Hot
+    100.</p>
+      <p>In the United Kingdom, the song hit number one on 10 May
+    1986, becoming the first single by an Austrian act to achieve
+    this distinction. In the UK, where his "Der Kommissar" failed
+    to make the charts, Falco is also often regarded as a one-hit
+    wonder, despite the fact that "Vienna Calling" hit number ten
+    and three subsequent singles briefly charted.</p>
+      <p>In Canada, the song reached #2 in March 1986. (There, "Der
+    Kommissar" had reached #11 in January 1983, and "Vienna
+    Calling" would hit #8 in April 1986.)</p>
+      <p>"Rock Me Amadeus" would later be ranked #87 in VH1's 100
+    Greatest Songs of the 80s and #44 in VH1's 100 Greatest One-Hit
+    Wonders.</p>
+      <p>The song, recorded in German and about Wolfgang Amadeus
+    Mozart, talks about his popularity and his debts. A longer
+    version (eight minutes), named the "Salieri Mix", appeared on
+    the initial U.S. release of the album 
+    <i>Falco 3</i>. The song was inspired by the movie 
+    <i>Amadeus</i>. For the U.S. release, the song was remixed with
+    an English background overlay by L.A. DJ Chris Modig. There was
+    never a full English version.</p>
+      <p>The song's music video mixed elements of Mozart's time with
+    modern times; early on, Falco is shown in a modern dinner
+    jacket walking past people in eighteenth-century formal wear.
+    Later, he is shown dressed as Mozart, with wild colored hair,
+    being held on the shoulders of men dressed in modern
+    motorcycle-riding gear. At the end, the two crowds mix
+    together.</p>
+      <p>The song has been lampooned and paid tribute to by many:</p>
+   </descr>
+</topSong>

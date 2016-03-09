@@ -1,0 +1,46 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Too_Much_(Elvis_Presley_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Too_Much_(Elvis_Presley_song)</songId>
+   <title>Too Much "/ " Playing for Keeps " Elvis Presley</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Young_Love_(1956_song)</artistId>
+      <artistName>"Young Love" Sonny James</artistName>
+   </artist>
+   <weeks>
+      <week>1957-02-09</week>
+   </weeks>
+   <released>January 4, 1957</released>
+   <formats>
+      <format>45"</format>
+      <format>78"</format>
+   </formats>
+   <recorded>September 2, 1956</recorded>
+   <genres>
+      <genre>Rock And Roll</genre>
+   </genres>
+   <lengths>
+      <length>2:33</length>
+   </lengths>
+   <label>RCA Records</label>
+   <writers>
+      <writer>Lee Rosenberg</writer>
+      <writer>Bernard Weinman</writer>
+   </writers>
+   <descr>
+      <p>"Too Much" is a hit song written by Bernard Weinman &amp;
+    Lee Rosenberg. It was first recorded in 1954 by Bernard
+    Hardison on Republic Records. Elvis Presley recorded the song
+    in September 1956 and first performed it on January 6, 1957 on
+    CBS-TV's "The Ed Sullivan Show." Released as a single,
+    Presley's "Too Much" reached number one on both the Cashbox and
+    Billboard sales charts and went to number three on the R&amp;B
+    chart .</p>
+   </descr>
+</topSong>

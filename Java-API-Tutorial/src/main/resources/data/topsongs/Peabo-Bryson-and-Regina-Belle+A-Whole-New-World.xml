@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/A_Whole_New_World 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/A_Whole_New_World</songId>
+   <title>A Whole New World</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Peabo_Bryson</artistId>
+      <artistName>Peabo Bryson and Regina Belle</artistName>
+   </artist>
+   <weeks>
+      <week>1993-03-06</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/b/b0/A_Whole_New_World_Cover.jpg</albumImageId>
+      <albumImageUri>/images/Peabo-Bryson-and-Regina-Belle+A-Whole-New-World.jpg</albumImageUri>
+      <albumName>Aladdin: Original Motion Picture Soundtrack</albumName>
+   </album>
+   <released>November 5, 1992</released>
+   <formats>
+      <format>CD</format>
+      <format>Audio cassette</format>
+      <format>7"</format>
+   </formats>
+   <recorded>1992</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>04:05</length>
+   </lengths>
+   <label>Walt Disney Records</label>
+   <writers>
+      <writer>Alan Menken (music)</writer>
+      <writer>Tim Rice (lyrics)</writer>
+   </writers>
+   <descr>
+      <p>"A Whole New World" is the featured pop single from the
+    soundtrack to the 1992 Disney film 
+    <i>Aladdin</i>. It was composed by Alan Menken with lyrics by
+    Tim Rice. The song is a ballad between the primary characters
+    Aladdin and Jasmine about the new world they are going to
+    discover together. The original version was sung by Brad Kane
+    and Lea Salonga. A single version of the song was later
+    released that year and was performed by Peabo Bryson and Regina
+    Belle. The version heard during the narrative of the film was
+    performed by Brad Kane and Lea Salonga, the singing voices for
+    Aladdin and Princess Jasmine, respectively. They also performed
+    the song in their characters at the 65th Academy Awards.</p>
+      <p>Adam Larke has also done a cover of this song for the Marsh
+    Midday show at the world renowned Mayland House!</p>
+      <p>Some notable artists that have covered this song live
+    include:</p>
+      <p>Like most Disney's songs, "
+    <i>A Whole New World</i>" was translated and adapted for
+    non-English dubbed releases of the film.</p>
+   </descr>
+</topSong>

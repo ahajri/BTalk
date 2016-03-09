@@ -1,0 +1,77 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Escapade_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Escapade_(song)</songId>
+   <title>Escapade</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Janet_Jackson</artistId>
+      <artistName>Janet Jackson</artistName>
+   </artist>
+   <weeks>
+      <week>1990-03-03</week>
+      <week>1990-03-10</week>
+      <week>1990-03-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Janet-Jackson-Escapade-73763.jpg/200px-Janet-Jackson-Escapade-73763.jpg</albumImageId>
+      <albumImageUri>/images/Janet-Jackson+Escapade.jpg</albumImageUri>
+      <albumName>Janet Jackson's Rhythm Nation 1814</albumName>
+   </album>
+   <released>January 18, 1990 (U.S.) , March 3, 1990 (UK)</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi single</format>
+   </formats>
+   <recorded>1989; Flyte Tyme Studios , ( Minneapolis , Minnesota )</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Dance Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:44</length>
+   </lengths>
+   <label>A&amp;M</label>
+   <writers>
+      <writer>Janet Jackson</writer>
+      <writer>James Harris III</writer>
+      <writer>Terry Lewis</writer>
+   </writers>
+   <producers>
+      <producer>Jimmy Jam and Terry Lewis</producer>
+   </producers>
+   <descr>
+      <p>"Escapade" is the third single from American R&amp;B-pop
+    singer Janet Jackson's fourth studio album, 
+    <i>Janet Jackson's Rhythm Nation 1814</i>(1989).</p>
+      <p>"Escapade" was inspired by the Martha &amp; the Vandellas
+    1965 single "Nowhere to Run", which Jackson originally intended
+    to remake, but instead choose to record a new song with a
+    similar feel after a suggestion from producer Jimmy Jam.</p>
+      <p>Written by Jackson, James Harris III, and Terry Lewis, the
+    song peaked at number one on the Hot 100 for three weeks in
+    early March 1990, becoming Jackson's third number-one single.
+    It also topped the Hot R&amp;B/Hip-Hop Songs and Hot Dance Club
+    Play charts, and was certified gold by the RIAA.</p>
+      <p>Jackson has performed the song on all of her tours,
+    including the Rhythm Nation 1814 Tour, janet. Tour, The Velvet
+    Rope Tour, All for You Tour, and Rock Witchu Tour.</p>
+      <p>The music video for the song, directed by Peter Smillie,
+    takes place at a Mardi Gras-like carnival. On April 27, 2007,
+    the video was made available on the iTunes Store.</p>
+      <p>The song was also featured on a Japan Airlines commercial in
+    1990.</p>
+      <p>"Escapade" is set in common time with a key of A major.
+    Jackson's vocal chords ranges between the tonal nodes of
+    high-tone Ab
+    <sub>3</sub>to low-tone Eb
+    <sub>5</sub>. The song is in a medium dance groove tempo of 120
+    beats per minute with the chord progression being set like
+    Am–E–Gb.</p>
+   </descr>
+</topSong>

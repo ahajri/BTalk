@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Look_Away 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Look_Away</songId>
+   <title>Look Away</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Chicago_(band)</artistId>
+      <artistName>Chicago</artistName>
+   </artist>
+   <weeks>
+      <week>1988-12-10</week>
+      <week>1988-12-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Look_Away.JPG/200px-Look_Away.JPG</albumImageId>
+      <albumImageUri>/images/Chicago+Look-Away.JPG</albumImageUri>
+      <albumName>Chicago 19</albumName>
+   </album>
+   <released>September 24, 1988</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1988</recorded>
+   <genres>
+      <genre>Ballad</genre>
+   </genres>
+   <lengths>
+      <length>4:02</length>
+   </lengths>
+   <label>Full Moon / Reprise</label>
+   <writers>
+      <writer>Diane Warren</writer>
+   </writers>
+   <producers>
+      <producer>Ron Nevison</producer>
+   </producers>
+   <descr>
+      <p>"Look Away" is the name of a song written by Diane Warren.
+    It was recorded by the band Chicago for their 1988 album 
+    <i>Chicago 19</i>, with Bill Champlin singing lead vocals. When
+    released as a single that year, the song proved successful,
+    topping the Billboard Hot 100 for two weeks in December 1988,
+    their last song to do so. The single also yielded the band's
+    most successful year-end singles ranking, #1 on Billboard's
+    1989 year-end Hot 100.</p>
+      <p>The song was uncharacteristic of earlier Chicago hits in
+    that it did not prominently feature horns. This song was also
+    the band's first number one hit of the eighties that wasn't
+    sung in a tenor voice. Some members of the band have stated
+    when they would play the song live, the audience would just
+    look confused because they were unfamiliar with the sound of
+    Champlin's voice.</p>
+   </descr>
+</topSong>

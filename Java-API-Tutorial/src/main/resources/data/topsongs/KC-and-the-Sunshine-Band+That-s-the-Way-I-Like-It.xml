@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/That%27s_the_Way_(I_Like_It) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/That%27s_the_Way_(I_Like_It)</songId>
+   <title>That's the Way (I Like It)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/KC_and_the_Sunshine_Band</artistId>
+      <artistName>KC and the Sunshine Band</artistName>
+   </artist>
+   <weeks>
+      <week>1975-11-22</week>
+      <week>1975-12-20</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/fd/ThatsTheWayILikeIt.jpg/200px-ThatsTheWayILikeIt.jpg</albumImageId>
+      <albumImageUri>/images/KC-and-the-Sunshine-Band+That-s-the-Way-I-Like-It.jpg</albumImageUri>
+      <albumName>KC and the Sunshine Band</albumName>
+   </album>
+   <released>September 10, 1975</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>5:10</length>
+   </lengths>
+   <label>TK</label>
+   <writers>
+      <writer>Harry Wayne Casey / Richard Finch</writer>
+   </writers>
+   <producers>
+      <producer>Harry Wayne Casey / Richard Finch</producer>
+   </producers>
+   <descr>
+      <p>"That's the Way (I Like It)" is a song written by H.W. (KC)
+    Casey and Richard Finch, and recorded and released in 1975 by
+    KC and the Sunshine Band for their eponymous second album. The
+    song was considered risque at the time because of the obvious
+    meaning behind the title as well as its chorus with multiple
+    "uh-huhs" and its verses. It became their second number-one hit
+    on the Billboard Hot 100, and is one of the few chart-toppers
+    in history to hit number one on more than one occasion during a
+    one month period which it did between November and December
+    1975. It topped the U.S. pop chart for one week and was
+    replaced by "Fly, Robin, Fly" by Silver Convention. It returned
+    to number one for an additional week after "Fly, Robin, Fly"
+    completed its three-week run. The single also spent one week at
+    number one on the soul singles chart. It is considered by many
+    as one of the most popular of the disco era.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,42 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Like_the_Way_(The_Kissing_Game) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Like_the_Way_(The_Kissing_Game)</songId>
+   <title>I Like the Way (The Kissing Game)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Hi-Five</artistId>
+      <artistName>Hi-Five</artistName>
+   </artist>
+   <weeks>
+      <week>1991-05-18</week>
+   </weeks>
+   <album>
+      <albumName>Hi-Five</albumName>
+   </album>
+   <released>1991</released>
+   <recorded>1991</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <writers>
+      <writer>Teddy Riley</writer>
+      <writer>Bernard Belle</writer>
+      <writer>David Way</writer>
+   </writers>
+   <producers>
+      <producer>Teddy Riley</producer>
+   </producers>
+   <descr>
+      <p>"I Like the Way (The Kissing Game)" is the title of a
+    number-one pop and R&amp;B single by Hi-Five. The hit song
+    spent one week at number-one on the US Billboard Hot 100 and
+    two weeks at number-one on the US R&amp;B chart Sampled by SWV
+    (Coming Home)</p>
+   </descr>
+</topSong>

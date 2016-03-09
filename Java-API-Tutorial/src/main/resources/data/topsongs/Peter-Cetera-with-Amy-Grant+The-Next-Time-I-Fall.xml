@@ -1,0 +1,55 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Next_Time_I_Fall 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Next_Time_I_Fall</songId>
+   <title>The Next Time I Fall</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Amy_Grant</artistId>
+      <artistName>Peter Cetera with Amy Grant</artistName>
+   </artist>
+   <weeks>
+      <week>1986-12-06</week>
+   </weeks>
+   <album>
+      <albumName>Solitude/Solitaire</albumName>
+   </album>
+   <released>1986</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1986</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:43</length>
+   </lengths>
+   <label>Warner Bros.</label>
+   <writers>
+      <writer>Bobby Caldwell and Paul Gordon</writer>
+   </writers>
+   <producers>
+      <producer>Michael Omartian</producer>
+   </producers>
+   <descr>
+      <p>"The Next Time I Fall" is a popular song written by Bobby
+    Caldwell and Paul Gordon, recorded as a duet by Peter Cetera
+    and Amy Grant for Cetera's 1986 album 
+    <i>Solitude/Solitaire</i>. The single reached number one on the
+    U.S. Billboard Hot 100 chart in December 1986, remaining in
+    that position for one week. It was nominated for a Grammy Award
+    for Best Pop Performance by a Duo or Group with Vocals.</p>
+      <p>The song was Grant's first number-one pop single (she had
+    scored several number-one singles in Contemporary Christian
+    Music previously). Grant released the song on her 
+    <i>Greatest Hits 1986-2004</i>album and the music video on the
+    corresponding 
+    <i>Greatest Hits 1986-2004</i>DVD.</p>
+   </descr>
+</topSong>

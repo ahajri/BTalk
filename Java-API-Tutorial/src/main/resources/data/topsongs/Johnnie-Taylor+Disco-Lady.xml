@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Disco_Lady 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Disco_Lady</songId>
+   <title>Disco Lady</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Johnnie_Taylor</artistId>
+      <artistName>Johnnie Taylor</artistName>
+   </artist>
+   <weeks>
+      <week>1976-04-03</week>
+      <week>1976-04-10</week>
+      <week>1976-04-17</week>
+      <week>1976-04-24</week>
+   </weeks>
+   <album>
+      <albumName>Eargasm</albumName>
+   </album>
+   <released>1976</released>
+   <formats>
+      <format>7" 45 RPM</format>
+   </formats>
+   <genres>
+      <genre>Soul</genre>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>4:27 (album version) 4:20 (single version)</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Harvey Scales</writer>
+      <writer>Albert Vance</writer>
+      <writer>Don Davis</writer>
+   </writers>
+   <producers>
+      <producer>Don Davis</producer>
+   </producers>
+   <descr>
+      <p>"Disco Lady" is a 1976 single for Johnnie Taylor that went
+    on to become his biggest hit. It spent four weeks at number one
+    on the Hot 100 and six weeks on the 
+    <i>Billboard</i>R&amp;B chart in the U.S. It was also the first
+    single to be certified platinum by the RIAA. The single was
+    Taylor's first for Columbia Records, where Taylor signed after
+    his long-time label, Stax Records, went bankrupt. The song was
+    produced by Taylor's longtime producer, Don Davis. Among the
+    guests on the song were three members of Parliament-Funkadelic:
+    bassist Bootsy Collins, keyboardist Bernie Worrell and
+    guitarist Glen Goins, and Dawn's Telma Hopkins.</p>
+      <p>"Disco Lady" is the first Hot 100 number-one hit to include
+    the word "disco", though there had been several disco songs
+    that had already reached number one.</p>
+   </descr>
+</topSong>

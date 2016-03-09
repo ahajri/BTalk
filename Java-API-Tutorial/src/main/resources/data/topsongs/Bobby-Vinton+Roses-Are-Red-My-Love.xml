@@ -1,0 +1,51 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Roses_Are_Red_(My_Love) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Roses_Are_Red_(My_Love)</songId>
+   <title>Roses Are Red (My Love)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bobby_Vinton</artistId>
+      <artistName>Bobby Vinton</artistName>
+   </artist>
+   <weeks>
+      <week>1962-07-14</week>
+      <week>1962-07-21</week>
+      <week>1962-07-28</week>
+      <week>1962-08-04</week>
+   </weeks>
+   <album>
+      <albumName>Roses Are Red</albumName>
+   </album>
+   <released>1962</released>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>2:38</length>
+   </lengths>
+   <label>Epic Records</label>
+   <writers>
+      <writer>Paul Evans</writer>
+      <writer>Al Byron</writer>
+   </writers>
+   <producers>
+      <producer>Robert Morgan</producer>
+   </producers>
+   <descr>
+      <p>"Roses Are Red (My Love)" is a popular song composed by Al
+    Byron and Paul Evans. It was recorded by Bobby Vinton and was a
+    number-one song in the United States during the year 1962. It
+    topped the Billboard Hot 100 singles chart on July 15, 1962,
+    and remained there for four weeks. The recording was his first
+    hit. He found the song in a reject pile at Epic Records. He
+    first recorded it as an R&amp;B number but was allowed to
+    record it with a new arrangement including strings. The single
+    was also the first number one hit for Epic.</p>
+   </descr>
+</topSong>

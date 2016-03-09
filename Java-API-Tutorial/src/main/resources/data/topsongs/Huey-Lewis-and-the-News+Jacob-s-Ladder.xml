@@ -1,0 +1,69 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Jacob%27s_Ladder_(Huey_Lewis_and_the_News_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Jacob%27s_Ladder_(Huey_Lewis_and_the_News_song)</songId>
+   <title>Jacob's Ladder</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Huey_Lewis_and_the_News</artistId>
+      <artistName>Huey Lewis and the News</artistName>
+   </artist>
+   <weeks>
+      <week>1987-03-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/71/Jacob%27s_Ladder_Single.JPG/200px-Jacob%27s_Ladder_Single.JPG</albumImageId>
+      <albumImageUri>/images/Huey-Lewis-and-the-News+Jacob-s-Ladder.JPG</albumImageUri>
+      <albumName>Fore!</albumName>
+   </album>
+   <released>1987</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1986</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:33</length>
+   </lengths>
+   <label>Chrysalis</label>
+   <writers>
+      <writer>Bruce Hornsby</writer>
+      <writer>John Hornsby</writer>
+   </writers>
+   <producers>
+      <producer>Huey Lewis and the News</producer>
+   </producers>
+   <descr>
+      <p>"Jacob's Ladder" is a 1986 song, written by Bruce Hornsby
+    and his brother John Hornsby, that was recorded by Huey Lewis
+    and the News and became a number-one hit on the Billboard Hot
+    100 in 1987.</p>
+      <p>Set in Birmingham, Alabama, the song marries the Biblical
+    image of Jacob's Ladder to someone who rejects proselytizing
+    evangelists, and is instead struggling to get through life one
+    day at a time:</p>
+      <p>The song was given by Hornsby to his friend Lewis, and it
+    appeared on the group's September 1986 album 
+    <i>Fore!</i>. It was the third single released from the album,
+    and topped the Billboard Hot 100 chart for a week in March
+    1987.</p>
+      <p>A music video was filmed, of the band performing the song in
+    a live concert.</p>
+      <p>Bruce Hornsby later recorded his own rendition of the song,
+    characteristically a little less pop, to appear on his 1988
+    album, 
+    <i>Scenes from the Southside</i>. It became part of his concert
+    repertoire as well; a live bluegrass-influenced version (very
+    different from the version on 
+    <i>Scenes from the Southside</i>) appears on the 2006 album 
+    <i>Intersections (1985–2005)</i>, which Hornsby performed with
+    his brother John.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,65 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Blue_Velvet_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Blue_Velvet_(song)</songId>
+   <title>Blue Velvet</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bobby_Vinton</artistId>
+      <artistName>Bobby Vinton</artistName>
+   </artist>
+   <weeks>
+      <week>1963-09-21</week>
+      <week>1963-09-28</week>
+      <week>1963-10-05</week>
+   </weeks>
+   <album>
+      <albumName>Blue on Blue</albumName>
+   </album>
+   <released>1963</released>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>Epic</label>
+   <writers>
+      <writer>Bernie Wayne and Lee Morris</writer>
+   </writers>
+   <descr>
+      <p>"Blue Velvet" is a popular song, written by Bernie Wayne and
+    Lee Morris, that has been recorded by several artists. It was
+    first a hit for Tony Bennett in 1951, when it peaked at #16 on
+    the Billboard Best Selling Pop Singles Chart (the predecessor
+    of the Billboard Hot 100). A 1955 version of the song by The
+    Clovers reached #14 on the Billboard Rhythm &amp; Blues chart.
+    Bobby Vinton's version of the song hit number one on the
+    Billboard Hot 100 on September 21, 1963, and held the top spot
+    for three weeks. It also spent eight weeks atop the U.S. adult
+    contemporary chart. Vinton's version of "Blue Velvet" failed to
+    make the British charts when it was first released, but a
+    re-released version in 1990 went to #2 in the United Kingdom.
+    It was #7 in Australia and #9 in Korea.</p>
+      <p>The first public performance of the song was by singer Ray
+    Mason in 1950 at a fashion show in Boston.</p>
+      <p>The song is one of 13 other songs featured in Kenneth
+    Anger's groundbreaking, experimental film, 
+    <i>Scorpio Rising</i>(1964).</p>
+      <p>The song is also featured several times in David Lynch's
+    film, 
+    <i>Blue Velvet</i>(1986).</p>
+      <p>Barry Manilow included "Blue Velvet" on his 2006 album, 
+    <i>The Greatest Songs of the Sixties</i>.</p>
+      <p>"Blue Velvet" was included on the Trini Lopez LP 
+    <i>The Love Album</i>issued by Reprise Records.</p>
+      <p>Jimmy Velvit released a 45rpm single of "Blue Velvet" in the
+    mid-1960s.</p>
+      <p>Australian singer Jason Donovan recorded the song for his
+    album "Let It Be Me" (2008).</p>
+      <p>Singer Thomas Truax included a version of "Blue Velvet" on
+    his 2009 album 'Songs From The Films Of David Lynch'.</p>
+   </descr>
+</topSong>

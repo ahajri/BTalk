@@ -1,0 +1,33 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/(I%27ve_Got_a_Gal_In)_Kalamazoo 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/(I%27ve_Got_a_Gal_In)_Kalamazoo</songId>
+   <title>(I've Got a Gal In) Kalamazoo</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Glenn_Miller</artistId>
+      <artistName>Glenn Miller</artistName>
+   </artist>
+   <weeks>
+      <week>1942-09-12</week>
+      <week>1942-09-19</week>
+      <week>1942-09-26</week>
+      <week>1942-10-03</week>
+      <week>1942-10-10</week>
+      <week>1942-10-17</week>
+      <week>1942-10-24</week>
+   </weeks>
+   <descr>
+      <p>"(I've Got a Gal In) Kalamazoo" is a popular song written by
+    Mack Gordon and Harry Warren published in 1942.</p>
+      <p>It was featured in the musical film 
+    <i>Orchestra Wives</i>and was recorded by Glenn Miller &amp;
+    His Orchestra, featuring Tex Beneke and The Modernaires.</p>
+      <p>Academy Awards,</p>
+   </descr>
+</topSong>

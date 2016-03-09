@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Shot_the_Sheriff 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Shot_the_Sheriff</songId>
+   <title>I Shot the Sheriff</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Eric_Clapton</artistId>
+      <artistName>Eric Clapton</artistName>
+   </artist>
+   <weeks>
+      <week>1974-09-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/79/I_shotthesheriff.jpg/200px-I_shotthesheriff.jpg</albumImageId>
+      <albumImageUri>/images/Eric-Clapton+I-Shot-the-Sheriff.jpg</albumImageUri>
+      <albumName>Burnin'</albumName>
+   </album>
+   <released>1973</released>
+   <formats>
+      <format>12"</format>
+   </formats>
+   <recorded>Harry J. Studios , Kingston, Jamaica , April 1973</recorded>
+   <genres>
+      <genre>Reggae</genre>
+   </genres>
+   <lengths>
+      <length>4:41</length>
+   </lengths>
+   <label>Tuff Gong Records / Island Records</label>
+   <writers>
+      <writer>Bob Marley</writer>
+   </writers>
+   <producers>
+      <producer>Chris Blackwell and The Wailers</producer>
+   </producers>
+   <descr>
+      <p>"I Shot the Sheriff" is a song written by Bob Marley, told
+    from the point of view of a man who admits to having killed the
+    local sheriff, but claims to be falsely accused of having
+    killed the deputy sheriff. The song was first released on The
+    Wailers' album 
+    <i>Burnin'</i>.</p>
+      <p>Eric Clapton recorded a cover version that was included on
+    his album, 
+    <i>461 Ocean Boulevard</i>. It is the most successful version
+    of the song, peaking at #1 on the Billboard Hot 100, becoming
+    Clapton's only chart-topping hit in the U.S.</p>
+      <p>During the controversy over the Body Count song "Cop
+    Killer", it was frequently pointed out that there were no
+    similar complaints about Marley's song even though they had
+    similar themes.</p>
+      <p>On EPMD's 1988 "Strictly Business" LP, the title track uses
+    a sample of "I Shot the Sheriff" (Clapton's Version).</p>
+      <p>In Mary J. Blige's 1992 debut album ("What's the 411?"),
+    Grand Puba declared 
+    <i>"I shot the sheriff but I dint shoot no deputy"</i>in the
+    title track.</p>
+      <p>In 1997, rapper/producer Warren G covered the song for his 
+    <i>Take a Look over Your Shoulder (Reality)</i>album. This
+    version peaked at #20 on the Hot 100. It hit #1 in New
+    Zealand.</p>
+      <p>In 2000, the song has been covered in a ska-punk version by
+    Voodoo Glow Skulls on their album 
+    <i>Symbolic</i>. It was also covered by former 
+    <i>American Idol</i>contestant Jason Castro in 2008.</p>
+      <p>In 2004, Tom Morello, under his persona, The Nightwatchman,
+    borrowed and changed lyrics from the song during his
+    performance of Until the End, as part of the Axis of Justice
+    Concert Series Volume 1. The lyrics he used were: "...three
+    times I shot the sheriff; and did not spare the deputy". A
+    studio version of the song was later released on his album One
+    Man Revolution.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,75 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Big_Girls_Don%27t_Cry_(Four_Seasons_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Big_Girls_Don%27t_Cry_(Four_Seasons_song)</songId>
+   <title>Big Girls Don't Cry</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Four_Seasons_(group)</artistId>
+      <artistName>The Four Seasons</artistName>
+   </artist>
+   <weeks>
+      <week>1962-11-17</week>
+      <week>1962-11-24</week>
+      <week>1962-12-01</week>
+      <week>1962-12-08</week>
+      <week>1962-12-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Big_Girls_Don%27t_Cry.jpg/200px-Big_Girls_Don%27t_Cry.jpg</albumImageId>
+      <albumImageUri>/images/The-Four-Seasons+Big-Girls-Don-t-Cry.jpg</albumImageUri>
+      <albumName>Sherry &amp; 11 Others</albumName>
+   </album>
+   <released>October 1962</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:26</length>
+   </lengths>
+   <label>Vee-Jay Records</label>
+   <writers>
+      <writer>Bob Crewe</writer>
+      <writer>Bob Gaudio</writer>
+   </writers>
+   <producers>
+      <producer>Bob Crewe</producer>
+   </producers>
+   <descr>
+      <p>"Big Girls Don't Cry" is a song written by Bob Crewe and Bob
+    Gaudio and originally recorded by The Four Seasons. It hit
+    number one on the Billboard Hot 100 on November 17, 1962, and,
+    like its predecessor "Sherry", spent five weeks in the top
+    position. The song also made it to number one, for three weeks,
+    on Billboard's Rhythm and Blues survey.</p>
+      <p>According to Gaudio, he was dozing off while watching the
+    John Payne/Rhonda Fleming/Ronald Reagan movie 
+    <i>Tennessee's Partner</i>(1955) when he heard Payne's
+    character slap Fleming in the face. After the slap, Fleming's
+    character replied, "Big girls don't cry." Gaudio wrote the line
+    on a scrap of paper, fell asleep, and wrote the song the next
+    morning.</p>
+      <p>However, the now-famous line does not appear in the Ronald
+    Reagan film. According to Bob Crewe, he himself was dozing off
+    in his Manhattan home with the television on when he awoke to
+    see John Payne manhandling Rhonda Fleming in a 1956 film noir
+    Slightly Scarlet. The line is heard in that film based on a
+    James M. Cain story.</p>
+      <p>Like "Sherry", "Big Girls Don't Cry" is sung mostly in
+    falsetto. The similarity in style was not a coincidence: the
+    two songs were recorded in the same recording session. With
+    "Big Girls Don't Cry", the Four Seasons became the first
+    rock-era act to hit the top spot on the Hot 100 with their
+    first two chart entries (their first single, "Bermuda"/"Spanish
+    Lace", did not appear on any 
+    <i>Billboard</i>chart in 1961).</p>
+   </descr>
+</topSong>

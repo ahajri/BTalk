@@ -1,0 +1,49 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/(I_Love_You)_For_Sentimental_Reasons 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/(I_Love_You)_For_Sentimental_Reasons</songId>
+   <title>(I Love You) For Sentimental Reasons</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Nat_King_Cole</artistId>
+      <artistName>The King Cole Trio</artistName>
+   </artist>
+   <weeks>
+      <week>1947-02-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/6/66/Five-Star-I-Love-You-For-Se-51254.jpg/200px-Five-Star-I-Love-You-For-Se-51254.jpg</albumImageId>
+      <albumImageUri>/images/The-King-Cole-Trio+I-Love-You-For-Sentimental-Reasons.jpg</albumImageUri>
+      <albumName>Heart and Soul</albumName>
+   </album>
+   <released>July 10, 1995</released>
+   <formats>
+      <format>7" single</format>
+      <format>CD single</format>
+      <format>cassette single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:55</length>
+   </lengths>
+   <label>Tent</label>
+   <writers>
+      <writer>Deek Watson</writer>
+      <writer>William Best</writer>
+   </writers>
+   <producers>
+      <producer>Buster Pearson</producer>
+   </producers>
+   <descr>
+      <p>"(I Love You) For Sentimental Reasons" is a popular song.
+    The music was written by William Best, with lyrics by Deek
+    Watson. The song was published in 1945.</p>
+   </descr>
+</topSong>

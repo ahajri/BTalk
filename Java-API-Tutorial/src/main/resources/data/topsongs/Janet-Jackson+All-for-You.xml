@@ -1,0 +1,108 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/All_for_You_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/All_for_You_(song)</songId>
+   <title>All for You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Janet_Jackson</artistId>
+      <artistName>Janet Jackson</artistName>
+   </artist>
+   <weeks>
+      <week>2001-04-14</week>
+      <week>2001-04-21</week>
+      <week>2001-04-28</week>
+      <week>2001-05-05</week>
+      <week>2001-05-12</week>
+      <week>2001-05-19</week>
+      <week>2001-05-26</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/41/Janet_Jackson_-_All_For_You_single.jpg/200px-Janet_Jackson_-_All_For_You_single.jpg</albumImageId>
+      <albumImageUri>/images/Janet-Jackson+All-for-You.jpg</albumImageUri>
+      <albumName>All for You</albumName>
+   </album>
+   <released>December 13, 2000 (airplay) , March 13, 2001 (CD)</released>
+   <formats>
+      <format>CD single</format>
+      <format>CD maxi single</format>
+      <format>12" single</format>
+   </formats>
+   <recorded>2000; Flyte Tyme Studios , ( Edina , Minnesota )</recorded>
+   <genres>
+      <genre>Dance Pop</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>5:30 (album version)</length>
+      <length>4:24 (radio edit)</length>
+   </lengths>
+   <label>Virgin</label>
+   <writers>
+      <writer>Janet Jackson</writer>
+      <writer>James Harris III</writer>
+      <writer>Terry Lewis</writer>
+      <writer>David Romani</writer>
+      <writer>Wayne Garfield</writer>
+      <writer>Mauro Malavasi</writer>
+   </writers>
+   <producers>
+      <producer>Janet Jackson</producer>
+      <producer>Jimmy Jam and Terry Lewis</producer>
+   </producers>
+   <descr>
+      <p>"All for You" is a song by American R&amp;B and pop singer
+    Janet Jackson from her seventh studio album, 
+    <i>All for You</i>(2001). Released as the album's lead single
+    in March 2001, the song went on to top the Hot 100 for seven
+    weeks, and also reached the top five and the top ten of the
+    majority of the charts. "All for You" remains Jackson's last
+    Hot 100 number-one single so far.</p>
+      <p>The song is based upon a sample from Change's 1980 song "The
+    Glow of Love"—composed by Mauro Malavasi and David Romani, with
+    lyrics by Wayne Garfield—, which featured lead vocals by Luther
+    Vandross. It made history by being the first single ever to be
+    added to every major format of radio on the day of its release.
+    The song became Jackson's tenth number one on the Hot 100,
+    staying there for seven weeks, in addition of topping the Hot
+    R&amp;B/Hip-Hop Songs and Hot Dance Club Play charts. It became
+    the longest-running number-one single on the Hot 100 of 2001.
+    To date it is Jackson's latest song to top the charts. The song
+    was also an international success, reaching number one in
+    Canada and charting inside the top ten of almost all European
+    countries and the top five in Australia and New Zealand. The
+    song won several music awards, including a 2002 Grammy Award
+    for Best Dance Recording.</p>
+      <p>Jackson performed the song on the All for You Tour and Rock
+    Witchu Tour.</p>
+      <p>"All for You" is set in common time with a key of G major.
+    Jackson's vocal chords ranges between the tonal nodes of G
+    <sub>3</sub>to E
+    <sub>5</sub>. The song is in a moderate tempo of 112 beats per
+    minute with the chord progression being set like
+    Em–Am–D–Em–Am.</p>
+      <p>The video, directed by Dave Meyers, takes place in a
+    colorful two-dimensional world. Released in March 2001, it
+    revolves around Jackson flirting with a man whom she first
+    meets on the subway. Jackson and her dancers perform
+    high-octane choreography throughout the video which also
+    features a dance break containing samples of a few different
+    songs: her sister Rebbie Jackson's 1984 song "Centipede",
+    Jackson's own 1986 hit song "The Pleasure Principle", her 1998
+    single "Go Deep", and Shannon's 1983 song "Let the Music Play".
+    The video ends with Jackson spotting the same man near a
+    nightclub, who smiles at her; she waves at him before turning
+    to leave.</p>
+      <p>The video was nominated for Video of the Year, Best Female
+    Video, Best Dance Video, and Best Choreography at the 2001 MTV
+    Video Music Awards. It appears on the DVD edition of 
+    <i>All for You</i>—which also contains an exclusive live
+    performance of the song from mtvICON—as well as the 2004 DVD 
+    <i>From janet. to Damita Jo: The Videos</i>.</p>
+   </descr>
+</topSong>

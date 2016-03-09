@@ -1,0 +1,91 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Night_Fever 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Night_Fever</songId>
+   <title>Night Fever</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bee_Gees</artistId>
+      <artistName>Bee Gees</artistName>
+   </artist>
+   <weeks>
+      <week>1978-03-18</week>
+      <week>1978-03-25</week>
+      <week>1978-04-01</week>
+      <week>1978-04-08</week>
+      <week>1978-04-15</week>
+      <week>1978-04-22</week>
+      <week>1978-04-29</week>
+      <week>1978-05-06</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/90/Nightfevercover.jpg/200px-Nightfevercover.jpg</albumImageId>
+      <albumImageUri>/images/Bee-Gees+Night-Fever.jpg</albumImageUri>
+      <albumName>Saturday Night Fever: The Original Movie Sound Track</albumName>
+   </album>
+   <released>February 7, 1978  (1978-02-07)</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>Le Château, Hérouville , France about April 1977 and , Criteria Studios , Miami, Florida , United States in September 1977</recorded>
+   <genres>
+      <genre>Disco</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:31</length>
+   </lengths>
+   <label>RSO</label>
+   <writers>
+      <writer>Barry</writer>
+      <writer>Robin</writer>
+      <writer>&amp; Maurice Gibb</writer>
+   </writers>
+   <producers>
+      <producer>Bee Gees</producer>
+      <producer>Albhy Galuten</producer>
+      <producer>Karl Richardson</producer>
+   </producers>
+   <descr>
+      <p>"Night Fever", is a disco song, written and performed by The
+    Bee Gees. It first appeared on the soundtrack to 
+    <i>Saturday Night Fever</i>. Producer Robert Stigwood wanted to
+    call the film 
+    <i>Saturday Night</i>, but singer Robin Gibb expressed
+    hesitation at the title. Stigwood liked the title 
+    <i>Night Fever</i>but was wary of marketing a movie with that
+    name. He combined the two suggestions and the idea for 
+    <i>Saturday Night Fever</i>as a motion picture was born.</p>
+      <p>"Night Fever" remained the number one Billboard Hot 100
+    single for over two months in 1978. It also replaced Andy
+    Gibb's "Love Is Thicker Than Water" at number one, and was in
+    turn replaced by Yvonne Elliman's "If I Can't Have You" - all
+    of which were written and produced by the Gibb brothers.</p>
+      <p>After the success of "Night Fever," the Governor of Florida,
+    Reubin O'Donovan Askew, made the three men "honorary citizens"
+    of the state, due to the amount of time they spent each year
+    recording singles in Miami.</p>
+      <p>In addition to Saturday Night Fever, the song has also
+    appeared in the movie and on the soundtrack for Mystery
+    Men.</p>
+      <p>A rare music video was made for the song in 1978, however it
+    wasn't shown to the public until 2004 despite the fact the
+    video didn't contain any uncensored content. It features the
+    brothers singing the song in a dark studio cut with images from
+    New York City streets. An interesting note, in the video Barry
+    Gibb was shown without his trademark beard.</p>
+      <p>The song lists at #33 on 
+    <i>Billboard's All Time Top 100.</i>[1]</p>
+      <p>Texan punk rock band The Dicks covered this song on the
+    B-side of their 1980 debut single "Hate the Police" under the
+    title "All Night Fever".</p>
+      <p>In 2008, Australian singer and songwriter Tina Arena
+    performed a cover version of "Night Fever" for the French film 
+    <i>Disco</i>.</p>
+   </descr>
+</topSong>

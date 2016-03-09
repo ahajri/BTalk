@@ -1,0 +1,77 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Love_You_Save 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Love_You_Save</songId>
+   <title>The Love You Save</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Jackson_5</artistId>
+      <artistName>The Jackson 5</artistName>
+   </artist>
+   <weeks>
+      <week>1970-06-27</week>
+      <week>1970-07-04</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/e/e7/Love-u-save-jackson5.jpg</albumImageId>
+      <albumImageUri>/images/The-Jackson-5+The-Love-You-Save.jpg</albumImageUri>
+      <albumName>ABC</albumName>
+   </album>
+   <released>May 16, 1970 (U.S.)</released>
+   <formats>
+      <format>Vinyl record (7" 45 RPM)</format>
+   </formats>
+   <recorded>Hitsville West, Los Angeles ; 1970</recorded>
+   <genres>
+      <genre>Bubblegum Pop / Soul</genre>
+   </genres>
+   <lengths>
+      <length>3:00</length>
+   </lengths>
+   <label>Motown , M 1166</label>
+   <writers>
+      <writer>The Corporation</writer>
+   </writers>
+   <producers>
+      <producer>The Corporation</producer>
+   </producers>
+   <descr>
+      <p>"The Love You Save" is a 1970 number-one hit single recorded
+    by The Jackson 5 for the Motown label. It held the number-one
+    spot on the soul singles chart for six weeks. It held the
+    number-one position on the Billboard Hot 100 singles chart for
+    two weeks, from June 27 to July 4, 1970. It is the third of
+    four Jackson 5 number ones released in a row (the others being
+    "I Want You Back", "ABC", and "I'll Be There"). "The Love You
+    Save" also features side vocals of Jermaine Jackson singing
+    alongside Michael in the final "Stop! The love you save may be
+    your own" besides Marlon and Tito Jackson.</p>
+      <p>"The Love You Save" has one of the most distinctive melodies
+    and is the most musically complex of the four number-one
+    singles by The Jackson 5. The song's lyrics feature Michael and
+    Jermaine Jackson warning a "fast" girl to slow down and "stop!"
+    because "the love you save may be your own!"</p>
+      <p>The opening exclamation of "stop" and the footstomps that
+    complement the rhythm during the latter part of the song are
+    allusions to the 1965 number-one Motown single by The Supremes,
+    "Stop! In the Name of Love". The Jackson 5 essentially replaced
+    The Supremes as Motown's main focus in the early 1970s,
+    although Diana Ross, who left the group for a solo career not
+    long before the release of this single, was publicized as
+    having discovered the Jackson 5.</p>
+      <p>Like most of the other early Jackson 5 hits, "The Love You
+    Save" was written and produced by The Corporation, a team
+    composed of Motown chief Berry Gordy, Freddie Perren, Alphonzo
+    Mizell, and Deke Richards and recorded in Los Angeles,
+    California, away from the old Motown studio at Hitsville USA in
+    Detroit, Michigan.</p>
+      <p>"The Love You Save" was the second single from the second
+    Jackson 5 album, 
+    <i>ABC</i>.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/This_Is_How_We_Do_It 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/This_Is_How_We_Do_It</songId>
+   <title>This Is How We Do It</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Montell_Jordan</artistId>
+      <artistName>Montell Jordan</artistName>
+   </artist>
+   <weeks>
+      <week>1995-04-15</week>
+      <week>1995-04-22</week>
+      <week>1995-04-29</week>
+      <week>1995-05-06</week>
+      <week>1995-05-13</week>
+      <week>1995-05-20</week>
+      <week>1995-05-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/c/c9/ThisIsHowWeDoIt.jpg</albumImageId>
+      <albumImageUri>/images/Montell-Jordan+This-Is-How-We-Do-It.jpg</albumImageUri>
+      <albumName>This Is How We Do It</albumName>
+   </album>
+   <released>February 6, 1995</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>1994–1995</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>New Jack Swing</genre>
+      <genre>House</genre>
+   </genres>
+   <lengths>
+      <length>3:59</length>
+   </lengths>
+   <label>Def Jam</label>
+   <writers>
+      <writer>Montell Jordan</writer>
+      <writer>Oji Pierce</writer>
+      <writer>Ricky Walters</writer>
+   </writers>
+   <producers>
+      <producer>Montell Jordan</producer>
+      <producer>Oji Pierce</producer>
+   </producers>
+   <descr>
+      <p>"This Is How We Do It" is a 1995 song by American R&amp;B
+    singer Montell Jordan. This song, Jordan's first single, is
+    representative of the new jack swing style popular at the time,
+    featuring Jordan singing over an enhanced sample of Slick
+    Rick's "Children's Story." "This is How We Do It" was
+    number-one on the Billboard Hot 100 for seven weeks from April
+    15 to May 27, 1995, and was number one for seven weeks on the
+    R&amp;B singles chart. Montell Jordan made history as he became
+    the first male artist to have a debut single reach #1 on the
+    Hot 100.</p>
+      <p>The song has appeared on many dance compilations, including 
+    <i>Jock Jams volume 2</i>, for example. When played on Top 40
+    radio, the song's rap bridge is often edited out. The song
+    ranked #95 on VH1's 100 Greatest Songs of the 90s.</p>
+      <p>"This Is How We Do It" can be heard in numerous films,
+    including 
+    <i>The Nutty Professor</i>, 
+    <i>To Gillian on Her 37th Birthday</i>, 
+    <i>Multiplicity</i>, 
+    <i>How High</i>, 
+    <i>8 Mile</i>, 
+    <i>Ali G Indahouse</i>(covered by Mis-teeq), and 
+    <i>Freedom Writers</i>. It was also used as the theme song for
+    the 2009 TV series 
+    <i>Howie Do It</i>.</p>
+   </descr>
+</topSong>

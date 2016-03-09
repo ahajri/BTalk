@@ -1,0 +1,81 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Rich_Girl_(Hall_%26_Oates_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Rich_Girl_(Hall_%26_Oates_song)</songId>
+   <title>Rich Girl</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Hall_%26_Oates</artistId>
+      <artistName>Daryl Hall and John Oates</artistName>
+   </artist>
+   <weeks>
+      <week>1977-03-26</week>
+      <week>1977-04-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/a/a8/RichGirlHall%26Oates.jpg/200px-RichGirlHall%26Oates.jpg</albumImageId>
+      <albumImageUri>/images/Daryl-Hall-and-John-Oates+Rich-Girl.jpg</albumImageUri>
+      <albumName>Bigger Than Both of Us</albumName>
+   </album>
+   <released>1977</released>
+   <formats>
+      <format>7"</format>
+      <format>12"</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Pop / Rock</genre>
+   </genres>
+   <label>RCA</label>
+   <writers>
+      <writer>Daryl Hall</writer>
+   </writers>
+   <producers>
+      <producer>Hall &amp; Oates</producer>
+   </producers>
+   <descr>
+      <p>
+         <i>Rich Girl</i>is a song by Daryl Hall and John Oates. On
+    March 26, 1977, it became their first (of six) number one
+    singles on 
+    <i>Billboard</i>
+         <span style="padding-left:0.1em;">'</span>s Hot 100 chart. The
+    single originally appeared on the 1976 album 
+    <i>Bigger Than Both of Us</i>.</p>
+      <p>The song's lyrics are about a spoiled girl who can rely on
+    her parents' money to do whatever she wants. The song was
+    rumored to be about the then-scandalous newspaper heiress Patty
+    Hearst. In fact, the title character in the song is based on a
+    spoiled heir to a fast-food chain who was an ex-boyfriend of
+    Daryl Hall's girlfriend, Sara Allen. "But you can't write,
+    'You're a rich boy' in a song, so I changed it to a girl," Hall
+    told Rolling Stone.</p>
+      <p>Hall elaborated on the song in an interview with American
+    Songwriter: "Rich Girl” was written about an old boyfriend of
+    Sara’s [Allen] from college that she was still friends with at
+    the time. His name is Victor Walker. He came to our apartment,
+    and he was acting sort of strange. His father was quite rich. I
+    think he was involved with some kind of a fast-food chain. I
+    said, “This guy is out of his mind, but he doesn’t have to
+    worry about it because his father’s gonna bail him out of any
+    problems he gets in.” So I sat down and wrote that chorus.
+    [Sings] “He can rely on the old man’s money/he can rely on the
+    old man’s money/he’s a rich guy.” I thought that didn’t sound
+    right, so I changed it to “Rich Girl.” He knows the song was
+    written about him."</p>
+      <p>Several years later, Hall read an interview with David
+    Berkowitz, the Son of Sam killer, in which Berkowitz claimed
+    that "Rich Girl" had motivated him to murder (though
+    interestingly, the song was not released until after the Son of
+    Sam murders had already begun, casting doubts on that
+    suggestion). Hall &amp; Oates later reflected this disturbing
+    fact in the lyrics of the song "Diddy Doo Wop (I Hear Voices)"
+    on the album 
+    <i>Voices</i>.</p>
+   </descr>
+</topSong>

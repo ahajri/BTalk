@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/U_Got_It_Bad 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/U_Got_It_Bad</songId>
+   <title>U Got It Bad</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Usher_(entertainer)</artistId>
+      <artistName>Usher</artistName>
+   </artist>
+   <weeks>
+      <week>2001-12-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Usher_-_U_Got_It_Bad_-_CD_cover.jpg/200px-Usher_-_U_Got_It_Bad_-_CD_cover.jpg</albumImageId>
+      <albumImageUri>/images/Usher+U-Got-It-Bad.jpg</albumImageUri>
+      <albumName>8701</albumName>
+   </album>
+   <released>September 4, 2001 ( United States ) , December 24, 2001 ( Australia ) , , January 1, 2002 ( Germany )</released>
+   <formats>
+      <format>CD</format>
+   </formats>
+   <recorded>2001</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>Album Version 4:07</length>
+      <length>Radio Version 4:07</length>
+   </lengths>
+   <label>Arista</label>
+   <descr>
+      <p>"U Got It Bad" is a 2001 single from Usher's 2001 album 
+    <i>8701</i>. It was the second US single from the album and the
+    third international single, reaching number 1 on the United
+    States Billboard Hot 100 Singles Chart, and reaching the top 5
+    in the United Kingdom and Australia.</p>
+      <p>The single hit number one on December 15, 2001 but remained
+    for only one week after being temporarily replaced by
+    Nickelback's "How You Remind Me". "U Got It Bad" then returned
+    to the number one spot on January 19, 2002 and spent five more
+    weeks at the top of the chart.</p>
+      <p>This song was produced by Jermaine Dupri and co-produced by
+    Bryan-Michael Cox. The Soulpower remix, which incorporated some
+    2-step garage elements, received significantly more airplay
+    than the Dupri-produced version in some territories.</p>
+      <p>The song is listed at #99 on the 
+    <i>Billboard: All-Time Hot 100 Top Songs</i>[1], which is
+    compiled by sales data. It was also named the 15th most
+    successful song from 2000 to 2009, on the 
+    <i>Billboard</i>Hot 100 Songs of the Decade.</p>
+      <p>UK CD: 1</p>
+      <p>UK CD: 2</p>
+   </descr>
+</topSong>

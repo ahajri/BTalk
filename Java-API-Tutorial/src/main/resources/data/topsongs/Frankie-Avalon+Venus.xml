@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Venus_(Frankie_Avalon_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Venus_(Frankie_Avalon_song)</songId>
+   <title>Venus</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Frankie_Avalon</artistId>
+      <artistName>Frankie Avalon</artistName>
+   </artist>
+   <weeks>
+      <week>1959-03-09</week>
+      <week>1959-03-16</week>
+      <week>1959-03-23</week>
+      <week>1959-03-30</week>
+      <week>1959-04-06</week>
+   </weeks>
+   <released>1959</released>
+   <formats>
+      <format>7" (45 rpm)</format>
+   </formats>
+   <lengths>
+      <length>2:20</length>
+   </lengths>
+   <label>Chancellor</label>
+   <writers>
+      <writer>Ed Marshall</writer>
+   </writers>
+   <descr>
+      <p>"Venus" is the name of a song written by Ed Marshall and
+    Peter DeAngelis. The most successful and well-known recording
+    of it was done by Frankie Avalon and released in 1959 (see 1959
+    in music). It became Avalon's first number-one hit on the
+    Billboard Hot 100 chart, where it spent five weeks atop the
+    survey; the song also reached #10 on the R&amp;B chart. The
+    song's lyrics detail a man's plea to Venus, the Roman goddess
+    of love and beauty, to send him a girl to love and one who will
+    love him as well.</p>
+      <p>The song was covered in the United Kingdom by Dickie
+    Valentine who spent seven days at No 20 in the Singles Chart in
+    May 1959 the week before Frankie Avalon reached the Top 20 with
+    his original version.</p>
+      <p>In 1976, Avalon released a new disco version of "Venus".
+    This helped revive the singer's career, as his success had been
+    waning prior to its release. The re-recording of "Venus" was
+    Avalon's last Hot 100 hit, peaking at #46. It did, however,
+    reach #1 on the adult contemporary chart. Avalon was quoted
+    describing the remake: "It was all right, but I still prefer
+    the original."</p>
+      <p>Barry Manilow covered the song in 2006 on his album 
+    <i>The Greatest Songs of the Fifties</i>. Johnny Mathis also
+    released a cover version of the song and, although it failed to
+    reach the Hot 100, it "bubbled under" the chart at #111 in
+    1968. On April 8, 2009, Avalon sang "Venus" live on American
+    Idol's top 8 show in a tribute to Simon Cowell's 1959 birth
+    year.</p>
+   </descr>
+</topSong>

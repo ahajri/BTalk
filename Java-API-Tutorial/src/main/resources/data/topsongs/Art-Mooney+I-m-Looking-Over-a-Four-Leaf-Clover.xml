@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27m_Looking_Over_a_Four_Leaf_Clover 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27m_Looking_Over_a_Four_Leaf_Clover</songId>
+   <title>I'm Looking Over a Four Leaf Clover</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Art_Mooney</artistId>
+      <artistName>Art Mooney</artistName>
+   </artist>
+   <weeks>
+      <week>1948-02-21</week>
+   </weeks>
+   <descr>
+      <p>"I'm Looking Over a Four Leaf Clover" is a song from 1927,
+    written by Mort Dixon with music by Harry M. Woods. It was a
+    hit for Art Mooney in 1948 and was largely popularized by him.
+    In modern times the song is perhaps most associated with 
+    <i>Merrie Melodies</i>cartoons, as it appeared in several of
+    them. The Sons of Ben, the official supporters' group of Major
+    League Soccer's Philadelphia Union, have adopted the song as
+    one of their chants.</p>
+   </descr>
+</topSong>

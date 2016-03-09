@@ -1,0 +1,30 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Still_(Commodores_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Still_(Commodores_song)</songId>
+   <title>Still</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Commodores</artistId>
+      <artistName>Commodores</artistName>
+   </artist>
+   <weeks>
+      <week>1979-11-17</week>
+   </weeks>
+   <descr>
+      <p>"Still" is a song by the soul music group the Commodores. It
+    reached number one in the U.S. in 1979. The song appears on
+    their hit album 
+    <i>Midnight Magic</i>. The song reached the top of both the pop
+    and R&amp;B charts. It is one of the group's most popular
+    singles. The song is also notable for being their last big hit
+    before Lionel Richie went solo.</p>
+      <p>In 1981, actor-singer John Schneider took a cover version to
+    #69 on the pop charts.</p>
+   </descr>
+</topSong>

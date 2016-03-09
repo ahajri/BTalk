@@ -1,0 +1,19 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Too_Much,_Too_Little,_Too_Late 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Too_Much,_Too_Little,_Too_Late</songId>
+   <title>Too Much, Too Little, Too Late</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Johnny_Mathis</artistId>
+      <artistName>Johnny Mathis and Deniece Williams</artistName>
+   </artist>
+   <weeks>
+      <week>1978-06-03</week>
+   </weeks>
+</topSong>

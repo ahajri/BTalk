@@ -1,0 +1,73 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Baby_Got_Back 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Baby_Got_Back</songId>
+   <title>Baby Got Back</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Sir_Mix-a-Lot</artistId>
+      <artistName>Sir Mix-a-Lot</artistName>
+   </artist>
+   <weeks>
+      <week>1992-07-04</week>
+      <week>1992-07-11</week>
+      <week>1992-07-18</week>
+      <week>1992-07-25</week>
+      <week>1992-08-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/b0/BabyGotBack.jpg/200px-BabyGotBack.jpg</albumImageId>
+      <albumImageUri>/images/Sir-Mix-a-Lot+Baby-Got-Back.jpg</albumImageUri>
+      <albumName>Mack Daddy</albumName>
+   </album>
+   <released>February 27, 1992 [1]</released>
+   <formats>
+      <format>7"</format>
+      <format>12"</format>
+      <format>Cassette single</format>
+      <format>CD single</format>
+   </formats>
+   <recorded>1991</recorded>
+   <genres>
+      <genre>Hip Hop</genre>
+      <genre>Rap</genre>
+   </genres>
+   <lengths>
+      <length>4:22</length>
+   </lengths>
+   <label>Def American</label>
+   <writers>
+      <writer>Sir Mix-a-Lot</writer>
+   </writers>
+   <producers>
+      <producer>Sir Mix-a-Lot</producer>
+   </producers>
+   <descr>
+      <p>"Baby Got Back" is a 1992 hip hop song by Sir Mix-a-Lot from
+    his album 
+    <i>Mack Daddy</i>. The song memorably starts with a discussion
+    between two thin, white valley girls, with one girl remarking
+    to the other "Oh my God, Becky! Look at her butt! It is so big.
+    She looks like one of those rap guys' girlfriends." At the time
+    of its original release, the song caused controversy with its
+    outspoken and blatantly sexual lyrics about the female anatomy,
+    and the video was briefly banned by MTV. However, it has
+    remained very popular over time. It samples Channel One's
+    "Technicolor".</p>
+      <p>In 2008, it was ranked number 17 on VH1's 100 Greatest Songs
+    of Hip Hop.</p>
+      <p>Sir Mix-a-Lot's best known song, "Baby Got Back" reached
+    number 1 on the United States' 
+    <i>Billboard</i>Hot 100 chart for five weeks in the summer of
+    1992, and won a 1993 Grammy Award for Best Rap Solo
+    Performance. It is known to be a fairly common song over a
+    decade later in many movies, shows, music videos, even
+    commercials. It was placed at number 6 on Vh1's Greatest Songs
+    of the '90s.</p>
+   </descr>
+</topSong>

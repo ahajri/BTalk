@@ -1,0 +1,85 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/You_Don%27t_Bring_Me_Flowers 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/You_Don%27t_Bring_Me_Flowers</songId>
+   <title>You Don't Bring Me Flowers</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Barbra_Streisand</artistId>
+      <artistName>Barbra Streisand and Neil Diamond</artistName>
+   </artist>
+   <weeks>
+      <week>1978-12-02</week>
+      <week>1978-12-16</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/72/YDBMF_single.jpg/200px-YDBMF_single.jpg</albumImageId>
+      <albumImageUri>/images/Barbra-Streisand-and-Neil-Diamond+You-Don-t-Bring-Me-Flowers.jpg</albumImageUri>
+      <albumName>"Barbra Streisand's Greatest Hits Volume 2" Barbra Streisand / "You Don't Bring Me Flowers" Neil Diamond</albumName>
+   </album>
+   <released>October 1978</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <genres>
+      <genre>Easy Listening</genre>
+   </genres>
+   <lengths>
+      <length>3:25</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Alan Bergman and Marilyn Bergman</writer>
+   </writers>
+   <descr>
+      <p>"You Don't Bring Me Flowers" is a song that hit the top of
+    the Billboard Hot 100 charts in 1978. It is a song about two
+    lovers who have drifted apart while they "go through the
+    motions" and heartache of life together.</p>
+      <p>The song was written by Alan Bergman and Marilyn Bergman for
+    the ill-fated TV show 
+    <i>All That Glitters</i>. The song was intended to be a theme
+    song, but Norman Lear changed the concept of the show so that
+    the song no longer fit. Eventually, Neil Diamond and several
+    collaborators came upon the song (then only 45 seconds long)
+    and expanded it with instrumental sections. The Bergmans
+    expanded the song to full length with an additional verse, and
+    the composition took form.</p>
+      <p>In 1977, Diamond released the album 
+    <i>I'm Glad You're Here With Me Tonight</i>, which included the
+    track. "You Don't Bring Me Flowers" which was also covered by
+    Barbra Streisand on her album 
+    <i>Songbird</i>and sung in the same key (C major). This led
+    Gary Guthrie, then Program Director at WAKY (an AM radio
+    station in Louisville, Kentucky) to combine the two in a
+    "virtual" duet.</p>
+      <p>The popularity of the virtual duet motivated Diamond and
+    Streisand to record the real thing, and it became a very large
+    hit. The song reached number one on the Hot 100 chart for two
+    non-consecutive weeks in December 1978; this was the third #1
+    hit for both singers. Their performance of the song during the
+    1980 Grammy Awards show has been featured on live music
+    performance highlight reels ever since.</p>
+      <p>Diamond and Streisand had planned to star in a motion
+    picture based on the song, but such plans were cancelled when
+    Diamond starred in a remake of 
+    <i>The Jazz Singer</i>, which was less successful than hoped at
+    the box office.</p>
+      <p>Concurrent with the success of Diamond and Streisand's
+    version of the song, country singers Jim Ed Brown and Helen
+    Cornelius released a country version of the song which reached
+    #10 on the Hot Country Singles chart in early 1979.</p>
+      <p>In 1980, a cover version of the song was recorded by
+    expatriate American singer Dean Reed and Hungarian vocalist
+    Kati Kovács. [1]</p>
+      <p>In 1996, the song was also sung by rappers Ice T and an
+    embarrassed Tupac Shakur during a 
+    <i>Saturday Night Live</i>show. It was also infamously covered
+    in spoken-word form by pianist Liberace.</p>
+   </descr>
+</topSong>

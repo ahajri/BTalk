@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Walk_Like_a_Man_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Walk_Like_a_Man_(song)</songId>
+   <title>Walk Like a Man</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Four_Seasons_(group)</artistId>
+      <artistName>The Four Seasons</artistName>
+   </artist>
+   <weeks>
+      <week>1963-03-02</week>
+      <week>1963-03-09</week>
+      <week>1963-03-16</week>
+   </weeks>
+   <album>
+      <albumName>Big Girls Don't Cry And Twelve Others</albumName>
+   </album>
+   <released>January 1963</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:17</length>
+   </lengths>
+   <label>Vee-Jay Records</label>
+   <writers>
+      <writer>Bob Crewe</writer>
+      <writer>Bob Gaudio</writer>
+   </writers>
+   <producers>
+      <producer>Bob Crewe</producer>
+   </producers>
+   <descr>
+      <p>"Walk Like a Man" is a song written by Bob Crewe and Bob
+    Gaudio and originally recorded by The Four Seasons.</p>
+      <p>The song features the counterpoint of Nick Massi's bass
+    voice and the falsetto of lead singer Frankie Valli. It was
+    their third number one hit, initially reaching the top of the
+    Billboard Hot 100 on March 2, 1963, remaining there for three
+    weeks.</p>
+      <p>During the sessions that produced the hit recording, the
+    fire department received an emergency call from the Abbey
+    Victoria Hotel (the building that housed the Stea-Phillips
+    Recording Studios). As producer Bob Crewe was insisting upon
+    recording the perfect take, smoke and water started to seep
+    into the studio as the group repeated their efforts upon
+    Crewe's insistence: the room directly above the studio was on
+    fire, yet Crewe blocked the studio door and continued recording
+    until a few firemen used their axes on it and pulled Crewe
+    out.</p>
+      <p>Cover versions of the song have been recorded by other
+    musicians such as the Mary Jane Girls and Divine.</p>
+   </descr>
+</topSong>

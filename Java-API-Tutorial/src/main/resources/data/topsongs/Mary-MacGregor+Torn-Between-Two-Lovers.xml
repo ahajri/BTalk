@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Torn_Between_Two_Lovers 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Torn_Between_Two_Lovers</songId>
+   <title>Torn Between Two Lovers</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Mary_MacGregor</artistId>
+      <artistName>Mary MacGregor</artistName>
+   </artist>
+   <weeks>
+      <week>1977-02-05</week>
+      <week>1977-02-12</week>
+   </weeks>
+   <album>
+      <albumName>Torn Between Two Lovers</albumName>
+   </album>
+   <released>U.S.</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:40</length>
+   </lengths>
+   <label>Ariola America</label>
+   <writers>
+      <writer>Peter Yarrow</writer>
+      <writer>Phillip Jarrell</writer>
+   </writers>
+   <producers>
+      <producer>Peter Yarrow</producer>
+      <producer>Barry Beckett</producer>
+   </producers>
+   <descr>
+      <p>"Torn Between Two Lovers" is the title of a pop song written
+    by Peter Yarrow (of the folk music trio Peter, Paul &amp; Mary)
+    and Phillip Jarrell. It was inspired by Boris Pasternak's 1957
+    novel, 
+    <i>Dr. Zhivago</i>, which featured a man in love with two
+    women. Yarrow originally intended the song to be sung by a man.
+    It was recorded by St. Paul, Minnesota-born singer Mary
+    MacGregor in 1976, and was #1 on the U.S. pop and adult
+    contemporary charts for two weeks in February of 1977. The song
+    inspired the title of a TV movie aired in 1979, starring Lee
+    Remick, George Peppard, and Joseph Bologna in which the song is
+    played three times (over both credit sequences and during the
+    actual film).</p>
+      <p>The song was mentioned in Dolly Parton's 1984 top-twenty
+    country single, "God Won't Get Ya'".</p>
+   </descr>
+</topSong>

@@ -23,6 +23,7 @@ import org.springframework.web.client.RestTemplate;
 import com.ahajri.btalk.data.domain.Discussion;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
+import com.marklogic.client.admin.QueryOptionsManager;
 import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.document.XMLDocumentManager;
 import com.marklogic.client.io.JAXBHandle;
@@ -38,13 +39,12 @@ import com.sun.jersey.api.client.filter.LoggingFilter;
 		"classpath:application.properties", "classpath:jndi.properties" })
 public class MarkLogicConfig {
 
-	public static final Logger LOGGER = Logger
-			.getLogger(MarkLogicConfig.class);
+	public static final Logger LOGGER = Logger.getLogger(MarkLogicConfig.class);
 
 	@Value("${marklogic.host}")
 	public String host;
 
-	//@Value("${marklogic.port}")
+	// @Value("${marklogic.port}")
 	public String port = "8000";
 
 	@Value("${marklogic.username}")
@@ -52,7 +52,7 @@ public class MarkLogicConfig {
 
 	@Value("${marklogic.password}")
 	public String password;
-	
+
 	@Value("${marklogic.db}")
 	public String db;
 
@@ -64,7 +64,8 @@ public class MarkLogicConfig {
 		} catch (JAXBException e) {
 			LOGGER.error(e);
 		}
-		return DatabaseClientFactory.newClient(host, Integer.parseInt(port.trim()),db ,username, password,
+		return DatabaseClientFactory.newClient(host,
+				Integer.parseInt(port.trim()), db, username, password,
 				DatabaseClientFactory.Authentication.DIGEST);
 	}
 
@@ -74,9 +75,16 @@ public class MarkLogicConfig {
 	}
 
 	@Bean
-	public StructuredQueryBuilder getQueryBuilder(){
+	public QueryOptionsManager getQueryOptionsManager() {
+		return getDatabaseClient().newServerConfigManager()
+				.newQueryOptionsManager();
+	}
+
+	@Bean
+	public StructuredQueryBuilder getQueryBuilder() {
 		return new StructuredQueryBuilder();
 	}
+
 	@Bean
 	public XMLDocumentManager getXMLDocumentManager() {
 		return getDatabaseClient().newXMLDocumentManager();
@@ -89,7 +97,8 @@ public class MarkLogicConfig {
 
 	@Bean
 	public String getMarkLogicBaseURL() {
-		System.out.println("MarkLogic URL: "+String.format("http://%s:%s", host, port));
+		System.out.println("MarkLogic URL: "
+				+ String.format("http://%s:%s", host, port));
 		return String.format("http://%s:%s", host, port);
 	}
 

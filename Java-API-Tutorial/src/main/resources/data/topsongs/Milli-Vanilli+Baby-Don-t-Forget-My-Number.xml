@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Baby_Don%27t_Forget_My_Number 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Baby_Don%27t_Forget_My_Number</songId>
+   <title>Baby Don't Forget My Number</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Milli_Vanilli</artistId>
+      <artistName>Milli Vanilli</artistName>
+   </artist>
+   <weeks>
+      <week>1989-07-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/a/a5/BabyDontForgetMyNumber.jpg</albumImageId>
+      <albumImageUri>/images/Milli-Vanilli+Baby-Don-t-Forget-My-Number.jpg</albumImageUri>
+      <albumName>Girl You Know It's True</albumName>
+   </album>
+   <released>December 10, 1988</released>
+   <formats>
+      <format>CD Single</format>
+      <format>7" single</format>
+      <format>12" maxi</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Pop Rap</genre>
+   </genres>
+   <lengths>
+      <length>4:16</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Frank Farian</writer>
+      <writer>B. Nail</writer>
+   </writers>
+   <producers>
+      <producer>Frank Farian</producer>
+   </producers>
+   <descr>
+      <p>"Baby Don't Forget My Number" is a song by Milli Vanilli and
+    the second U.S single release from their album 
+    <i>Girl You Know It's True</i>. It became the first of their
+    three number one hits in the Billboard Hot 100 chart in
+    1989.</p>
+   </descr>
+</topSong>

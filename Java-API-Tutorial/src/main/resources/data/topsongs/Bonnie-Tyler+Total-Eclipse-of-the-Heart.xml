@@ -1,0 +1,101 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Total_Eclipse_of_the_Heart 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Total_Eclipse_of_the_Heart</songId>
+   <title>Total Eclipse of the Heart</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bonnie_Tyler</artistId>
+      <artistName>Bonnie Tyler</artistName>
+   </artist>
+   <weeks>
+      <week>1983-10-01</week>
+      <week>1983-10-08</week>
+      <week>1983-10-15</week>
+      <week>1983-10-22</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/09/Total_Eclipse_of_the_Heart_-_single_cover.jpg/200px-Total_Eclipse_of_the_Heart_-_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/Bonnie-Tyler+Total-Eclipse-of-the-Heart.jpg</albumImageUri>
+      <albumName>Faster Than the Speed of Night</albumName>
+   </album>
+   <released>5 March 1983</released>
+   <formats>
+      <format>7"</format>
+      <format>12"</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>7:02 (Album version)</length>
+      <length>4:30 (Single version)</length>
+      <length>5:32 (Music video version)</length>
+      <length>3:49 (2005 re-recording for the album Wings )</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Jim Steinman</writer>
+   </writers>
+   <producers>
+      <producer>Jim Steinman</producer>
+   </producers>
+   <descr>
+      <p>"Total Eclipse of the Heart" is a song written and produced
+    by Jim Steinman and recorded by Welsh singer Bonnie Tyler in
+    1983 on her fifth studio album 
+    <i>Faster Than the Speed of Night</i>. The song was the first
+    single release from the album and is Tyler's biggest hit.</p>
+      <p>The song remains Tyler's most successful song, peaking at #1
+    in the United States, Australia, Canada, and the United
+    Kingdom. At its peak, it sold 60,000 copies per day, and
+    approximately 6 million copies in total. It won the Variety
+    Club award in the UK for best single of 1983.</p>
+      <p>According to Meat Loaf, Steinman had given the song, along
+    with "Making Love (Out of Nothing At All)", to Meat Loaf for
+    his 
+    <i>Midnight at the Lost and Found</i>album. However, Meat
+    Loaf's record company refused to pay for Steinman and he wrote
+    separate songs himself. "Total Eclipse of the Heart" was then
+    given to Bonnie Tyler and "Making Love (Out of Nothing At All)"
+    to Air Supply.</p>
+      <p>The music video for "Total Eclipse of the Heart" was
+    directed by Russell Mulcahy. It was story-boarded by Jim
+    Steinman and drew inspiration from the 1976 film 
+    <i>Futureworld</i>. The Gothic themed video features Bonnie
+    Tyler clad in white, apparently having a dream or fantasy about
+    her students in a boys' boarding school. Young men are seen
+    dancing and participating in various school activities such as
+    swim team, karate, fencing, football, and singing in a choir.
+    The video was shot at Holloway Sanatorium.</p>
+      <p>The original version of the song, on 
+    <i>Faster Than the Speed of Night</i>, was just over seven
+    minutes in length. Thus, an edited version was, and still is
+    most commonly played on radio. The radio version is four and a
+    half minutes, and removes the entire third verse and trims the
+    extended fade-out ending. The music video version is roughly
+    one minute longer than the radio version.</p>
+      <p>In November 2002, it was voted the #72 in "The Greatest
+    Number Ones Of All Time" in UK. It was also voted #94 in the
+    "Greatest Music Videos of All Time" poll held by Channel 4. In
+    October, 2006, VH1's "100 Greatest Songs of the 80s" special
+    included "Total Eclipse of the Heart" at #56. MuchMoreMusic
+    aired a four-episode series in 2006 titled 
+    <i>Top 50 Guilty Pleasures</i>, and listed the song at #9.</p>
+      <p>It has been covered several times, and rewritten with
+    Michael Kunze for the musical 
+    <i>Tanz der Vampire</i>as "Totale Finsternis".</p>
+      <p>Nicki French released a dance cover of the song in 1994,
+    which was also a worldwide hit. In the United States, French's
+    version peaked at #2 on the Hot 100 and garnered frequent
+    airplay on CHR and AC radio. It also reached #5 in the UK
+    Singles Chart after being re-issued in 1995. On June 2006 Nicki
+    French released an updated version of the track with the Diva
+    DJs.</p>
+   </descr>
+</topSong>

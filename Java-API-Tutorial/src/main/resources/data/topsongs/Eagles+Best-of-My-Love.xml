@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Best_of_My_Love_(Eagles_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Best_of_My_Love_(Eagles_song)</songId>
+   <title>Best of My Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Eagles</artistId>
+      <artistName>Eagles</artistName>
+   </artist>
+   <weeks>
+      <week>1975-03-01</week>
+   </weeks>
+   <album>
+      <albumName>On the Border</albumName>
+   </album>
+   <released>November 5, 1974</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Country Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:25</length>
+   </lengths>
+   <label>Asylum</label>
+   <writers>
+      <writer>Don Henley</writer>
+      <writer>Glenn Frey</writer>
+      <writer>J.D. Souther</writer>
+   </writers>
+   <producers>
+      <producer>Glyn Johns</producer>
+   </producers>
+   <descr>
+      <p>"Best of My Love" is a song written by Don Henley, Glenn
+    Frey and J.D. Souther. It was originally recorded by the Eagles
+    (with Henley singing lead vocals), and included on their 1974
+    album 
+    <i>On the Border</i>. The band's first Billboard Hot 100 #1
+    single in March of 1975, the song also topped the adult
+    contemporary chart for one week in 1975. The shorter single
+    version features minor edits throughout as well as a sloppy and
+    abrupt cut of the final "Here in my heart, I give you the best
+    of my love" line following the line "I guess that wasn't
+    enough, whoa whoa, but", plus an earlier fade-out. The 45
+    version, despite hitting number one, is not available in any CD
+    format.</p>
+      <p>The song has been covered by John Lees of Barclay James
+    Harvest fame and released as a solo single in 1974; by reggae
+    group Aswad on their 1990 album, 
+    <i>Too Wicked</i>; By [Backstreet Boys On Never Gone But Didn't
+    Make The Album] Rod Stewart on his 2006 album 
+    <i>Still the Same... Great Rock Classics of Our Time</i>; and
+    by Yvonne Elliman, who recorded a version for her 1975 album 
+    <i>Rising Sun</i>. It was also recorded by Brooks &amp; Dunn
+    for the album 
+    <i>Common Thread: The Songs of the Eagles</i>.</p>
+   </descr>
+</topSong>

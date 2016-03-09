@@ -1,0 +1,61 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/To_Sir,_with_Love_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/To_Sir,_with_Love_(song)</songId>
+   <title>To Sir, with Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Lulu_(singer)</artistId>
+      <artistName>Lulu</artistName>
+   </artist>
+   <weeks>
+      <week>1967-10-21</week>
+      <week>1967-10-28</week>
+      <week>1967-11-04</week>
+      <week>1967-11-11</week>
+      <week>1967-11-18</week>
+   </weeks>
+   <album>
+      <albumName>To Sir, with Love</albumName>
+   </album>
+   <released>1967</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>2:47</length>
+   </lengths>
+   <label>Epic</label>
+   <writers>
+      <writer>Don Black</writer>
+      <writer>Mark London</writer>
+   </writers>
+   <producers>
+      <producer>Peter Sullivan</producer>
+   </producers>
+   <descr>
+      <p>"To Sir, with Love" is the theme from the 1967 film 
+    <i>To Sir, with Love</i>. The song was written by Don Black and
+    Mark London.</p>
+      <p>"To Sir, with Love" was initially recorded by Lulu (with The
+    Mindbenders, who also acted in the film). Her single was
+    released in 1967 and reached number one on the Billboard Hot
+    100, remaining in the top position for five weeks and earning
+    the number one position for the entire year. "To Sir With Love"
+    also peaked at number nine on the R&amp;B charts .</p>
+      <p>In Lulu's native UK, the song was never released in its own
+    right, instead appearing as the B-side to the 1967 #11 hit
+    "Let's Pretend."</p>
+      <p>Australian singer Tina Arena released her version of the
+    song as the first single from her 2007 album 
+    <i>Songs of Love &amp; Loss</i>.</p>
+   </descr>
+</topSong>

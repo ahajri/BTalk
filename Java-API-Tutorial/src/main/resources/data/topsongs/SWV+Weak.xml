@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Weak_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Weak_(song)</songId>
+   <title>Weak</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/SWV</artistId>
+      <artistName>SWV</artistName>
+   </artist>
+   <weeks>
+      <week>1993-07-10</week>
+      <week>1993-07-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/8/8b/Sweak.gif</albumImageId>
+      <albumImageUri>/images/SWV+Weak.gif</albumImageUri>
+      <albumName>It's About Time</albumName>
+   </album>
+   <released>May 6, 1993</released>
+   <formats>
+      <format>CD single</format>
+      <format>7" single</format>
+      <format>cassette single</format>
+   </formats>
+   <recorded>1992</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Ballad</genre>
+      <genre>New Jack Swing</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:51</length>
+   </lengths>
+   <label>RCA</label>
+   <writers>
+      <writer>Brian Alexander Morgan</writer>
+   </writers>
+   <producers>
+      <producer>Brian Alexander Morgan</producer>
+   </producers>
+   <descr>
+      <p>"Weak" is an R&amp;B ballad recorded by the girl group SWV
+    for their debut album, 
+    <i>It's About Time</i>(1992). It was written and produced by
+    Brian Alexander Morgan, who composed the lyrics based upon his
+    feelings towards R&amp;B singer Chanté Moore.</p>
+      <p>The song was released as the third single from SWV's album,
+    following the top-ten success of "I'm So Into You". "Weak" hit
+    number one on the U.S. Hot 100 in July 1993 for two weeks, and
+    is one of SWV's biggest hits. It also topped the Hot R&amp;B
+    Singles chart for two weeks. Teen singer JoJo covered "Weak" in
+    2004 on her self-titled debut album.</p>
+      <p>At seven, "Weak" set a record for the fewest number of
+    characters needed to make up a title and artist's name on an
+    American number-one single.</p>
+   </descr>
+</topSong>

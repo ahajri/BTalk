@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Over_and_Over_(The_Dave_Clark_Five_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Over_and_Over_(The_Dave_Clark_Five_song)</songId>
+   <title>Over and Over</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Dave_Clark_Five</artistId>
+      <artistName>The Dave Clark Five</artistName>
+   </artist>
+   <weeks>
+      <week>1965-12-25</week>
+   </weeks>
+   <descr>
+      <p>"Over and Over", written by Bobby Day and sung by lead
+    singer and keyboardist Mike Smith, was the only U.S. #1 hit for
+    the Dave Clark Five, one of the early British Invasion bands of
+    the mid-1960s. It followed the group's signature sound of
+    thumping, 4/4 drum beats accompanied by a wailing saxophone.
+    Despite its success in the USA and the popularity of the group
+    on both sides of the Atlantic, the single only reached number
+    45 in the band's native United Kingdom.</p>
+   </descr>
+</topSong>

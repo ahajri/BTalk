@@ -1,0 +1,50 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Stuck_on_You_(Elvis_Presley_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Stuck_on_You_(Elvis_Presley_song)</songId>
+   <title>Stuck on You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Elvis_Presley</artistId>
+      <artistName>Elvis Presley</artistName>
+   </artist>
+   <weeks>
+      <week>1960-04-25</week>
+      <week>1960-05-02</week>
+      <week>1960-05-09</week>
+      <week>1960-05-16</week>
+   </weeks>
+   <released>April, 1960</released>
+   <formats>
+      <format>Vinyl single</format>
+   </formats>
+   <recorded>March 20, 1960</recorded>
+   <genres>
+      <genre>Rock And Roll</genre>
+   </genres>
+   <label>RCA</label>
+   <writers>
+      <writer>J. Leslie McFarland and Aaron Schroeder</writer>
+   </writers>
+   <descr>
+      <p>"Stuck on You" was Elvis Presley's first hit single after
+    ending his two-year stint in the US Army. He recorded the song
+    during March 1960, and the single was released within weeks and
+    went to number one on the Billboard Hot 100 chart in late-April
+    1960, becoming his first number-one single of the 1960s, and
+    thirteenth overall. "Stuck on You" also peaked at number six on
+    the R&amp;B charts . The song knocked Percy Faith's "Theme from
+    A Summer Place" which had spent nine weeks at number one on the
+    chart.</p>
+      <p>In New Zealand (and perhaps other countries), the single had
+    a special paper sleeve with the usual RCA logo top left and 45
+    R.P.M. bottom left and included, in large letters, "ELVIS" top
+    right and bottom left: "Elvis' 1st new recording for his
+    50,000,000 fans all over the world."</p>
+   </descr>
+</topSong>

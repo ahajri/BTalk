@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Looks_Like_We_Made_It 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Looks_Like_We_Made_It</songId>
+   <title>Looks Like We Made It</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Barry_Manilow</artistId>
+      <artistName>Barry Manilow</artistName>
+   </artist>
+   <weeks>
+      <week>1977-07-23</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Barryfourthalbum.jpg/200px-Barryfourthalbum.jpg</albumImageId>
+      <albumImageUri>/images/Barry-Manilow+Looks-Like-We-Made-It.jpg</albumImageUri>
+      <albumName>This One's For You</albumName>
+   </album>
+   <released>20 April 1977</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <lengths>
+      <length>3:33</length>
+   </lengths>
+   <label>Arista , AS 0244 (USA, 7")</label>
+   <writers>
+      <writer>Richard Kerr and Will Jennings</writer>
+   </writers>
+   <producers>
+      <producer>Ron Dante</producer>
+   </producers>
+   <descr>
+      <p>"Looks Like We Made It" is a song by American singer Barry
+    Manilow, from his 1976 album, 
+    <i>This One's For You</i>, composed by Richard Kerr with lyrics
+    by Will Jennings. It was released as a single on 20 April
+    1977.</p>
+      <p>The song was first released in 1976 on his album 
+    <i>This One's For You</i>, and it was released as a single in
+    1977 where it reached the number one spot on both the U.S.
+    Billboard Hot 100, and the U.S. Adult Contemporary chart.</p>
+      <p>Despite the optimism suggested by the song's title, the
+    narrator is actually ruminating on the fact that he and his
+    ex-lover have finally found happiness and fulfillment—though
+    not with each other. They have, indeed, "made it," but apart,
+    not together. In 
+    <i>The Billboard Book of Number One Adult Contemporary
+    Hits</i>by Wesley Hyatt (p. 208), songwriter Will Jennings
+    commented, "Richard [Kerr] and I have often remarked on the
+    people, millions of them in the world, who misunderstood the
+    lyric of 'Looks Like We Made It.' It is a rather sad and ironic
+    lyric about making it apart and not together, and of course
+    everyone thinks it is a full on, positive statement. I don't
+    know. Perhaps it is... in a way."</p>
+      <p>Hyatt, Wesley. 
+    <i>The Billboard Book of Number One Adult Contemporary
+    Hits.</i>"Looks Like We Made It," page 208. Billboard Books,
+    1999.</p>
+   </descr>
+</topSong>

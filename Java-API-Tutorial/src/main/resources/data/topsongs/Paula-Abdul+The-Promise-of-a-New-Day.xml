@@ -1,0 +1,71 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Promise_of_a_New_Day 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Promise_of_a_New_Day</songId>
+   <title>The Promise of a New Day</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Paula_Abdul</artistId>
+      <artistName>Paula Abdul</artistName>
+   </artist>
+   <weeks>
+      <week>1991-09-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/42/Paula_Abdul_The_Promise.jpg/200px-Paula_Abdul_The_Promise.jpg</albumImageId>
+      <albumImageUri>/images/Paula-Abdul+The-Promise-of-a-New-Day.jpg</albumImageUri>
+      <albumName>Spellbound</albumName>
+   </album>
+   <released>1991</released>
+   <formats>
+      <format>cassette</format>
+      <format>vinyl</format>
+      <format>CD</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>Album Version 4:32</length>
+      <length>Single Version 4:17</length>
+   </lengths>
+   <label>Virgin</label>
+   <writers>
+      <writer>Peter Lord</writer>
+      <writer>V. Jeffrey Smith</writer>
+   </writers>
+   <descr>
+      <p>"The Promise of a New Day" is the second single (and
+    lead-off track) from American artist Paula Abdul's album 
+    <i>Spellbound</i>. The song was written by Peter Lord and V.
+    Jeffrey Smith. The single was released to radio while the hit
+    "Rush Rush" was still at the top of radio airplay and the pop
+    charts.</p>
+      <p>The song hit #1 on the Billboard Hot 100 on September 14,
+    1991, becoming Abdul's sixth chart-topping single, and her last
+    #1 hit to date.</p>
+      <p>The video for the song was recorded in front of a green
+    screen in Hawaii. However, since Abdul was unable to film the
+    clip due to other commitments, she shot the necessary scenes
+    elsewhere, which were then edited into the video.</p>
+      <p>The video caused controversy when originally aired mainly
+    because it appeared to make Abdul look thinner than she
+    actually was. However, on Pop Up Video, VH1 (and Abdul in a
+    filmed segment) secured that the clip had been edited in such a
+    way as to make the dancers appear closer together.</p>
+      <p>In that same episode, Abdul admitted that she fell in heels
+    during filming of the dance sequences.</p>
+      <p>US Promo 5" CD</p>
+      <p>UK 12" Record</p>
+      <p>US Cassette</p>
+      <p>The song was covered by American indie band Mirror Ball
+    Associates for the album 
+    <i>Covers Vol. 1</i>, which features Paul Durham (lead singer
+    of Black Lab) on vocals.</p>
+   </descr>
+</topSong>

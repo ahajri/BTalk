@@ -1,0 +1,47 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/How_Do_You_Talk_to_an_Angel 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/How_Do_You_Talk_to_an_Angel</songId>
+   <title>How Do You Talk to an Angel</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Heights_(TV_series)</artistId>
+      <artistName>The Heights</artistName>
+   </artist>
+   <weeks>
+      <week>1992-11-14</week>
+      <week>1992-11-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/ee/The_Height_-_How_to_Talk_to_an_Angel.jpg/200px-The_Height_-_How_to_Talk_to_an_Angel.jpg</albumImageId>
+      <albumImageUri>/images/The-Heights+How-Do-You-Talk-to-an-Angel.jpg</albumImageUri>
+      <albumName>The Heights (Music from the Television Show)</albumName>
+   </album>
+   <released>1992</released>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:50</length>
+   </lengths>
+   <writers>
+      <writer>Steve Tyrell (composer)</writer>
+      <writer>Barry Coffing (composer)</writer>
+      <writer>Stephanie Tyrell (lyricist)</writer>
+   </writers>
+   <descr>
+      <p>"How Do You Talk to an Angel", the single version of the
+    theme for the TV series 
+    <i>The Heights</i>, with Jamie Walters as lead singer, hit
+    number one on the Billboard Hot 100 on November 14, 1992,
+    exactly one week after the series was canceled.</p>
+      <p>In 1993, the song was nominated for an Emmy Award for
+    "Outstanding Individual Achievement in Music and Lyrics". The
+    Emmy went to the song "Sorry I Asked" by Liza Minnelli.</p>
+   </descr>
+</topSong>

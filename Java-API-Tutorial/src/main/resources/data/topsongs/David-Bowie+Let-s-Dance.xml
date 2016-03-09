@@ -1,0 +1,87 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Let%27s_Dance_(David_Bowie_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Let%27s_Dance_(David_Bowie_song)</songId>
+   <title>Let's Dance</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/David_Bowie</artistId>
+      <artistName>David Bowie</artistName>
+   </artist>
+   <weeks>
+      <week>1983-05-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/41/LetsDance.jpg/200px-LetsDance.jpg</albumImageId>
+      <albumImageUri>/images/David-Bowie+Let-s-Dance.jpg</albumImageUri>
+      <albumName>Let's Dance</albumName>
+   </album>
+   <released>March 17, 1983  (1983-03-17)</released>
+   <formats>
+      <format>7"/12" single</format>
+   </formats>
+   <recorded>Power Station , New York , December 1982</recorded>
+   <genres>
+      <genre>Pop / Dance</genre>
+   </genres>
+   <lengths>
+      <length>7:37 (Album version)</length>
+      <length>4:10 (Single edit)</length>
+   </lengths>
+   <label>EMI America Records - EA152</label>
+   <writers>
+      <writer>David Bowie</writer>
+   </writers>
+   <producers>
+      <producer>Nile Rodgers</producer>
+   </producers>
+   <descr>
+      <p>"Let’s Dance" is the title album track on David Bowie's
+    album 
+    <i>Let's Dance</i>. It was also released as the first single
+    from that album in 1983, and went on to become one of his
+    biggest-selling tracks.</p>
+      <p>The single was one of Bowie’s fastest selling to date,
+    entering the UK singles chart at number five on its first week
+    of release, and deposing Duran Duran’s “Is There Something I
+    Should Know?” two weeks later, staying at the top of the charts
+    for three weeks. Soon afterwards, the single would top the
+    Billboard Hot 100, Bowie’s only single to reach number one on
+    both sides of the Atlantic. It narrowly missed topping the
+    Australian charts, peaking at number two. Let's Dance is the
+    fourth best-selling single of 1983 in the UK, selling over
+    500,000 copies.</p>
+      <p>“Let’s Dance” would introduce Bowie to a new younger
+    audience oblivious to his former career in the '70s. The track
+    was a regular on the Serious Moonlight Tour (the name derived
+    from a lyric in “Let’s Dance”), the 1987 Glass Spider Tour and
+    the 1990 Sound + Vision Tour, and was then reworked for the
+    2000 tour. Most recently a remix version of it appears on a
+    commercial for the March 22nd 2010 season of the ABC television
+    show Dancing With The Stars.</p>
+      <p>Heavily influenced by producer Nile Rodgers’ work with his
+    band Chic, “Let’s Dance" features a thumping bassline, and was
+    arguably Bowie’s most commercial record up to that point. While
+    the lyrics are ostensibly just those of a dance song, there is
+    some discord struck by lines such as “Let’s dance, for fear
+    tonight is all”. The 7:38 album version was heavily edited for
+    single release, though the 12” single retained the full
+    length.</p>
+      <p>This loneliness and desperation seeps into the music video,
+    made with David Mallet on location in Australia including
+    Sydney Harbour, which features Bowie watching an Aboriginal
+    couple’s struggles against metaphors of Western cultural
+    imperialism impassively while playing with his band.</p>
+      <p>Bowie featured blues guitarist Stevie Ray Vaughan on the
+    track. Vaughan was asked to go on tour with Bowie, but declined
+    so he could continue to play with his band Double Trouble.
+    Reportedly, Vaughan, who was still driving a delivery truck to
+    support himself, was furious when he saw Bowie pantomiming over
+    Vaughan's guitar solo in the video.</p>
+   </descr>
+</topSong>

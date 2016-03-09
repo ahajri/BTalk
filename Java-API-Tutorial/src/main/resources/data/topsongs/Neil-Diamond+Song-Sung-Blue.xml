@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Song_Sung_Blue 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Song_Sung_Blue</songId>
+   <title>Song Sung Blue</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Neil_Diamond</artistId>
+      <artistName>Neil Diamond</artistName>
+   </artist>
+   <weeks>
+      <week>1972-07-01</week>
+   </weeks>
+   <album>
+      <albumName>Moods</albumName>
+   </album>
+   <released>1972</released>
+   <formats>
+      <format>7" (45 rpm)</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Adult Contemporary</genre>
+      <genre>Country</genre>
+   </genres>
+   <lengths>
+      <length>3:15</length>
+   </lengths>
+   <label>Uni Records</label>
+   <writers>
+      <writer>Neil Diamond</writer>
+   </writers>
+   <producers>
+      <producer>Tom Catalano</producer>
+   </producers>
+   <descr>
+      <p>"Song Sung Blue" is a 1972 song written and recorded by Neil
+    Diamond. The song was released off his album, 
+    <i>Moods</i>and later appeared on many of Diamond's live and
+    compilation albums.</p>
+      <p>It was his second #1 hit on the Hot 100 chart in the United
+    States, after 1970's "Cracklin' Rosie". The song spent twelve
+    weeks in the Top 40. In addition, "Song Sung Blue" spent seven
+    weeks at #1 on the adult contemporary chart. In addition, the
+    song made the pop chart in the United Kingdom, reaching #14 on
+    the UK Singles Chart. The song has become one of Diamond's
+    standards, and he often performs this song during concerts.</p>
+      <p>"Song Sung Blue" was nominated for two Grammy Awards in
+    1973, Record of the Year and Song of the Year. Both awards that
+    year were won by Roberta Flack's rendition of Ewan McColl's
+    song, "The First Time Ever I Saw Your Face".</p>
+      <p>Diamond described "Song Sung Blue" in the liner notes to his
+    1996 compilation album, 
+    <i>In My Lifetime</i>, as a "very basic message, unadorned. I
+    didn't even write a bridge to it. I never expected anyone to
+    react to "Song Sung Blue" the way they did. I just like it, the
+    message and the way a few words said so many things."</p>
+   </descr>
+</topSong>

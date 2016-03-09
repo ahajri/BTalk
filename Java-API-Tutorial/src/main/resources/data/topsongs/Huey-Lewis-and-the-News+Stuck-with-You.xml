@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Stuck_with_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Stuck_with_You</songId>
+   <title>Stuck with You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Huey_Lewis_and_the_News</artistId>
+      <artistName>Huey Lewis and the News</artistName>
+   </artist>
+   <weeks>
+      <week>1986-09-20</week>
+      <week>1986-09-27</week>
+      <week>1986-10-04</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Stuck_With_You_Single.jpg/200px-Stuck_With_You_Single.jpg</albumImageId>
+      <albumImageUri>/images/Huey-Lewis-and-the-News+Stuck-with-You.jpg</albumImageUri>
+      <albumName>Fore!</albumName>
+   </album>
+   <released>1986</released>
+   <formats>
+      <format>7" Vinyl record</format>
+   </formats>
+   <recorded>1986</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:29</length>
+   </lengths>
+   <label>Chrysalis</label>
+   <writers>
+      <writer>Chris Hayes</writer>
+      <writer>Huey Lewis</writer>
+   </writers>
+   <producers>
+      <producer>Huey Lewis and the News</producer>
+   </producers>
+   <descr>
+      <p>"Stuck with You" is the title of a hit single by Huey Lewis
+    and the News, written by guitarist Chris Hayes and lead singer
+    Huey Lewis, from 1986. It was the first single from the band's
+    fourth album, 
+    <i>Fore!</i>. The song spent three weeks at number one on the
+    Billboard Hot 100 from September 20, 1986, through October 10,
+    1986. The single was the band's second number-one hit on the
+    Hot 100 chart, following "The Power of Love" in 1985. The song
+    reached number 12 on the UK Singles Chart.</p>
+      <p>The music video for "Stuck with You" was filmed in the
+    Bahamas and features Keely Shaye Smith. The island that Lewis
+    and Smith wind up on is a small island about ten miles from
+    Paradise Island in Nassau. The video was filmed on land, on
+    water, underwater and from the air. The band, the crew and all
+    the extras used in the island BBQ scene had to stay on a barge
+    moored off the island so that they wouldn't be seen.</p>
+      <p>The video was directed by Edd Griles, who had previously
+    directed the band's video for "The Heart of Rock &amp; Roll" as
+    well as Cyndi Lauper's "Girls Just Want to Have Fun" and "Time
+    After Time".</p>
+   </descr>
+</topSong>

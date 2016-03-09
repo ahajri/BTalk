@@ -1,0 +1,51 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Get_Outta_My_Dreams,_Get_into_My_Car 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Get_Outta_My_Dreams,_Get_into_My_Car</songId>
+   <title>Get Outta My Dreams, Get into My Car</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Billy_Ocean</artistId>
+      <artistName>Billy Ocean</artistName>
+   </artist>
+   <weeks>
+      <week>1988-04-09</week>
+      <week>1988-04-16</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Get_Outta_My_Dreams.jpg/200px-Get_Outta_My_Dreams.jpg</albumImageId>
+      <albumImageUri>/images/Billy-Ocean+Get-Outta-My-Dreams-Get-into-My-Car.jpg</albumImageUri>
+      <albumName>Tear Down These Walls</albumName>
+   </album>
+   <released>1988</released>
+   <recorded>1987</recorded>
+   <lengths>
+      <length>08:59 (Extended Version)</length>
+      <length>05:36 (Original Album Version)</length>
+      <length>05:29 (Instrumental Version)</length>
+      <length>04:43 (Single Version)</length>
+   </lengths>
+   <label>Jive</label>
+   <writers>
+      <writer>Billy Ocean</writer>
+      <writer>Robert John "Mutt" Lange</writer>
+   </writers>
+   <producers>
+      <producer>Robert John "Mutt" Lange</producer>
+   </producers>
+   <descr>
+      <p>"Get Outta My Dreams, Get into My Car" is a number one
+    single by singer Billy Ocean. Part of its popularity lay in its
+    cutting-edge (for the time) video, which featured cartoon mixed
+    with live-action sequences. The song went to number one on the
+    U.S. Billboard Hot 100 and the Hot Black Singles chart. . It
+    also peaked at three on the UK Singles Chart. The title was
+    inspired by a line in the song "You're Sixteen", "you stepped
+    out of my dreams, and into my car".</p>
+   </descr>
+</topSong>

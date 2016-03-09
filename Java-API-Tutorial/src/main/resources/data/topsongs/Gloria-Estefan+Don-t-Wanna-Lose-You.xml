@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Don%27t_Wanna_Lose_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Don%27t_Wanna_Lose_You</songId>
+   <title>Don't Wanna Lose You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Gloria_Estefan</artistId>
+      <artistName>Gloria Estefan</artistName>
+   </artist>
+   <weeks>
+      <week>1989-09-16</week>
+   </weeks>
+   <album>
+      <albumName>Cuts Both Ways</albumName>
+   </album>
+   <released>June 21, 1989  (1989-06-21) , (see Release history )</released>
+   <formats>
+      <format>CD Single</format>
+      <format>CD maxi single</format>
+      <format>Cassette Single</format>
+      <format>7-inch single</format>
+      <format>12-inch single</format>
+   </formats>
+   <genres>
+      <genre>Pop / Ballad</genre>
+   </genres>
+   <lengths>
+      <length>04:12</length>
+   </lengths>
+   <label>Epic Records</label>
+   <writers>
+      <writer>Gloria Estefan</writer>
+   </writers>
+   <descr>
+      <p>"Don't Wanna Lose You" is a song written and recorded by
+    Gloria Estefan. It was released in 1989 as the first single
+    from the album 
+    <i>Cuts Both Ways</i>and reached number one in the U.S., where
+    it became her second number-one single on the U.S. Billboard
+    Hot 100. The single was certified Gold.</p>
+      <p>The song earned a Grammy Award nomination for Best Female
+    Pop Vocal Performance but lost against Bonnie Raitt's "Nick of
+    Time". It also received an American Music Award for Favorite
+    Pop/Rock Single but lost to Milli Vanilli's "Girl I'm Gonna
+    Miss You".</p>
+      <p>Estefan also recorded "Si Voy a Perderte"; which is the
+    Spanish version of this song. "Si Voy a Perderte" hit number
+    one on Billboard's Hot Latin Tracks chart. "Se Tenho que
+    Perder" is the Portuguese version of this song, and was
+    released as a single in Brazil.</p>
+      <p>UK Maxi-CD single ()</p>
+      <p>U.S. cassette single () and 7" single ()</p>
+   </descr>
+</topSong>

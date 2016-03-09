@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Shadow_Dancing_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Shadow_Dancing_(song)</songId>
+   <title>Shadow Dancing</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Andy_Gibb</artistId>
+      <artistName>Andy Gibb</artistName>
+   </artist>
+   <weeks>
+      <week>1978-06-17</week>
+      <week>1978-06-24</week>
+      <week>1978-07-01</week>
+      <week>1978-07-08</week>
+      <week>1978-07-15</week>
+      <week>1978-07-22</week>
+      <week>1978-07-29</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/6/68/Andy_Gibb_g_%283%29.jpg/200px-Andy_Gibb_g_%283%29.jpg</albumImageId>
+      <albumImageUri>/images/Andy-Gibb+Shadow-Dancing.jpg</albumImageUri>
+      <albumName>Shadow Dancing</albumName>
+   </album>
+   <released>1978</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1978</recorded>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Soft Rock</genre>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>3:45</length>
+   </lengths>
+   <label>RSO Records</label>
+   <writers>
+      <writer>Barry Gibb</writer>
+      <writer>Robin Gibb</writer>
+      <writer>Maurice Gibb</writer>
+      <writer>Andy Gibb</writer>
+   </writers>
+   <producers>
+      <producer>Barry Gibb</producer>
+      <producer>Albhy Galuten</producer>
+      <producer>and Karl Richardson</producer>
+   </producers>
+   <descr>
+      <p>"Shadow Dancing" is a song by Andy Gibb that reached number
+    one for seven weeks on the Billboard Hot 100 in 1978. According
+    to 
+    <i>Billboard's Book Of Number One Hits</i>, Gibb became the
+    first solo artist in the history of the U.S. pop charts to have
+    his first three singles hit the number-one spot. Additionally,
+    "Shadow Dancing" was listed by Billboard as being the number
+    one single of 1978. In additon the song peaked at number eleven
+    on the soul chart .</p>
+      <p>The song was written by Andy and his brothers (Barry,
+    Maurice and Robin Gibb) in Los Angeles, while the trio of
+    brothers were working on the film Sgt. Pepper's Lonely Hearts
+    Club Band. "And one night," Andy would recall, "while we were
+    relaxing, we sat down and we had to start getting tracks
+    together for the album" (also titled Shadow Dancing, which
+    would eventually hit #7 on the U.S. album charts). "So we
+    literally sat down and in ten minutes, we had a group going,
+    (singing) the chorus part. As it says underneath the song, we
+    all wrote it, the four of us."</p>
+      <p>While Andy Gibb would have three more Top 10 hits in the
+    U.S., this would be his final chart-topping hit in America.</p>
+      <p>The song lists at #40 on 
+    <i>Billboard's All Time Top 100.</i>[1]</p>
+   </descr>
+</topSong>

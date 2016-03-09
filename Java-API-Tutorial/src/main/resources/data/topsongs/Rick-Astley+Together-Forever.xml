@@ -1,0 +1,50 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Together_Forever_(Rick_Astley_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Together_Forever_(Rick_Astley_song)</songId>
+   <title>Together Forever</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Rick_Astley</artistId>
+      <artistName>Rick Astley</artistName>
+   </artist>
+   <weeks>
+      <week>1988-06-18</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/78/RickAstleyTogetherForevercover.jpg/200px-RickAstleyTogetherForevercover.jpg</albumImageId>
+      <albumImageUri>/images/Rick-Astley+Together-Forever.jpg</albumImageUri>
+      <albumName>Whenever You Need Somebody</albumName>
+   </album>
+   <released>February 1988</released>
+   <recorded>1987</recorded>
+   <genres>
+      <genre>Dance Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:24</length>
+   </lengths>
+   <label>PWL / RCA</label>
+   <writers>
+      <writer>Stock Aitken Waterman</writer>
+   </writers>
+   <producers>
+      <producer>Stock Aitken Waterman</producer>
+   </producers>
+   <descr>
+      <p>"Together Forever" is a song recorded by Rick Astley, which
+    ascended to number one on the Hot 100 on June 18, 1988. It was
+    Astley's second and final U.S. chart-topper. It reached number
+    2 in Britain, being denied the top spot by 
+    <i>Neighbours</i>star Kylie Minogue with her debut single 
+    <i>I Should Be So Lucky</i>. It uses a similar chord structure
+    and melody to "Never Gonna Give You Up" (as with most songs
+    produced by Stock Aitken Waterman at the time), but different
+    lyrics.</p>
+   </descr>
+</topSong>

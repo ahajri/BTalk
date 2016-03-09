@@ -1,0 +1,87 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Lady_(Kenny_Rogers_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Lady_(Kenny_Rogers_song)</songId>
+   <title>Lady</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Kenny_Rogers</artistId>
+      <artistName>Kenny Rogers</artistName>
+   </artist>
+   <weeks>
+      <week>1980-11-15</week>
+      <week>1980-11-22</week>
+      <week>1980-11-29</week>
+      <week>1980-12-06</week>
+      <week>1980-12-13</week>
+      <week>1980-12-20</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/1/17/Kenny_Rogers_%282%29.jpg/200px-Kenny_Rogers_%282%29.jpg</albumImageId>
+      <albumImageUri>/images/Kenny-Rogers+Lady.jpg</albumImageUri>
+      <albumName>Kenny Rogers Greatest Hits</albumName>
+   </album>
+   <released>September 1980 ( U.S. )</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1980</recorded>
+   <genres>
+      <genre>Country</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:51</length>
+   </lengths>
+   <label>Liberty Records 1380</label>
+   <writers>
+      <writer>Lionel Richie</writer>
+   </writers>
+   <producers>
+      <producer>Lionel Richie</producer>
+   </producers>
+   <descr>
+      <p>"Lady" is a song made famous by American country and pop
+    music singer Kenny Rogers.</p>
+      <p>It is listed at #47 on 
+    <i>Billboard's All Time Top 100.</i>[1]</p>
+      <p>The song was written and produced by Lionel Richie, and
+    ranks among Rogers' biggest hits. Recorded in 1980, Rogers once
+    told an interviewer, "The idea was that Lionel would come from
+    R&amp;B and I'd come from country, and we'd meet somewhere in
+    pop."</p>
+      <p>The success of "Lady" also proved instrumental to Richie's
+    career. The production work on the song was his first outside
+    the Commodores and foreshadowed his success as a solo act
+    during the 1980s. Rogers was also a featured vocalist on "We
+    Are the World," co-written by Richie.</p>
+      <p>Since his breakup with the First Edition, Rogers had tasted
+    considerable success as a solo act, with nine No. 1 entries on
+    the 
+    <i>Billboard magazine</i>Hot Country Singles chart (prior to
+    the release of "Lady"), plus several Top 10 hits on the
+    Billboard Hot 100 and Adult Contemporary Singles charts.</p>
+      <p>"Lady," according to music historian Fred Bronson, would
+    prove to be an important record for both Richie and Rogers. It
+    became the first record of the 1980s to chart on all four of 
+    <i>Billboard magazine's</i>singles charts - country, Hot 100,
+    adult contemporary and Top Black Singles.</p>
+      <p>It reached No. 1 on three of those charts in late 1980,
+    including a six-week run on the Hot 100 and one week on the Hot
+    Country Singles chart. "Lady" also peaked at number forty-two
+    on the Top Black Singles chart..</p>
+      <p>As a country entry, "Lady" was Rogers' 10th chart-topping
+    hit in a career that saw him collect 20 No. 1 songs between
+    1977 and 2000. On the Hot 100, it was his only solo
+    chart-topping song, although Rogers would have a duet No. 1
+    three years later (1983's "Islands in the Stream" with Dolly
+    Parton). On the Adult Contemporary Singles chart, "Lady" was
+    Rogers' second (of eight) songs that reached the chart's
+    summit.</p>
+   </descr>
+</topSong>

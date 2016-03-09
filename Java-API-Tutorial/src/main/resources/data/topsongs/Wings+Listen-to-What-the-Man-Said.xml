@@ -1,0 +1,68 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Listen_to_What_the_Man_Said 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Listen_to_What_the_Man_Said</songId>
+   <title>Listen to What the Man Said</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Wings_(band)</artistId>
+      <artistName>Wings</artistName>
+   </artist>
+   <weeks>
+      <week>1975-07-19</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Listen_to_What_the_Man_Said.jpg/200px-Listen_to_What_the_Man_Said.jpg</albumImageId>
+      <albumImageUri>/images/Wings+Listen-to-What-the-Man-Said.jpg</albumImageUri>
+      <albumName>Venus and Mars</albumName>
+   </album>
+   <released>16 May 1975</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1975</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:57</length>
+   </lengths>
+   <label>Capitol Records</label>
+   <writers>
+      <writer>Paul McCartney</writer>
+   </writers>
+   <producers>
+      <producer>Paul McCartney</producer>
+   </producers>
+   <descr>
+      <p>"Listen to What the Man Said" is a hit single from Wings'
+    1975 album 
+    <i>Venus and Mars</i>. The song featured new member Joe English
+    on drums, with guest musicians Dave Mason on guitar and Tom
+    Scott on soprano saxophone.</p>
+      <p>"Listen to What the Man Said" was recorded in early 1975 by
+    Wings during their New Orleans sessions for 
+    <i>Venus and Mars</i>. The 
+    <i>Venus and Mars</i>sessions directly succeeded their
+    Nashville sessions, where Wings recorded their hit single
+    "Junior's Farm" and its relatively successful B-side, "Sally
+    G".</p>
+      <p>The song was also included on the greatest hits compilations
+    
+    <i>All the Best!</i>and 
+    <i>Wingspan: Hits and History</i>. Even though it reached #1 in
+    the US (#8 easy listening) and #6 in the UK, it was not
+    included on the first Wings compilation, 
+    <i>Wings Greatest</i>.</p>
+      <p>Band member Denny Laine covered "Listen to What the Man
+    Said" in 2007 on his album 
+    <i>Chronicles of Wings</i>. The same year, Freedy Johnston
+    covered this song as well in his album 
+    <i>My Favourite Waste of Time</i>.</p>
+   </descr>
+</topSong>

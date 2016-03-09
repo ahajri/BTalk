@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Knock_on_Wood_(Amii_Stewart_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Knock_on_Wood_(Amii_Stewart_song)</songId>
+   <title>Knock on Wood</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Amii_Stewart</artistId>
+      <artistName>Amii Stewart</artistName>
+   </artist>
+   <weeks>
+      <week>1979-04-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/71/Image_Knock_On_Wood_cover.jpg.jpg/200px-Image_Knock_On_Wood_cover.jpg.jpg</albumImageId>
+      <albumImageUri>/images/Amii-Stewart+Knock-on-Wood.jpg</albumImageUri>
+      <albumName>Knock On Wood</albumName>
+   </album>
+   <released>1966</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1966</recorded>
+   <genres>
+      <genre>Soul</genre>
+   </genres>
+   <lengths>
+      <length>3:05</length>
+   </lengths>
+   <label>Stax Records S-194</label>
+   <writers>
+      <writer>Eddie Floyd</writer>
+      <writer>Steve Cropper</writer>
+   </writers>
+   <producers>
+      <producer>Steve Cropper</producer>
+   </producers>
+   <descr>
+      <p>"Knock on Wood" is a hit 1966 song written by Eddie Floyd
+    and Steve Cropper and originally performed by Eddie Floyd. The
+    Eddie Floyd version peaked at number twenty-eight on the Hot
+    100, and spent one week at number one on the soul singles.</p>
+      <p>The song has been frequently covered, firstly by Otis
+    Redding and Carla Thomas, and with charting singles by David
+    Bowie and Amii Stewart.</p>
+      <p>David Bowie's 1974 single is taken from the live album 
+    <i>David Live</i>.</p>
+      <p>Amii Stewart recorded a disco version of the song which
+    reached #1 in the U.S. charts in April 1979, as well as
+    charting on the soul singles and disco charts, becoming the
+    most well-known version of the song. It also reached the Top 10
+    twice in the UK, first in 1979 (#6) and a remixed version
+    reached #7 in 1985.</p>
+   </descr>
+</topSong>

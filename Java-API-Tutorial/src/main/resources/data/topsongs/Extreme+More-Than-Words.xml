@@ -1,0 +1,77 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/More_Than_Words 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/More_Than_Words</songId>
+   <title>More Than Words</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Extreme_(band)</artistId>
+      <artistName>Extreme</artistName>
+   </artist>
+   <weeks>
+      <week>1991-06-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/25/More_than_words.jpg/200px-More_than_words.jpg</albumImageId>
+      <albumImageUri>/images/Extreme+More-Than-Words.jpg</albumImageUri>
+      <albumName>Extreme II: Pornograffiti</albumName>
+   </album>
+   <released>1991</released>
+   <formats>
+      <format>CD maxi</format>
+      <format>7"</format>
+   </formats>
+   <recorded>1990</recorded>
+   <genres>
+      <genre>Folk Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:33 (More Than Words)</length>
+      <length>12:53 (CD maxi single)</length>
+      <length>6:59 (7" single)</length>
+   </lengths>
+   <label>A&amp;M Records</label>
+   <writers>
+      <writer>Nuno Bettencourt</writer>
+      <writer>Gary Cherone</writer>
+   </writers>
+   <producers>
+      <producer>Michael Wagener</producer>
+   </producers>
+   <descr>
+      <p>"More Than Words" is a ballad written by and originally
+    performed by the rock band Extreme. It is built around acoustic
+    guitar work by Nuno Bettencourt and the vocals of Gary Cherone
+    (with harmony vocals from Bettencourt), it was released in 1990
+    on the album 
+    <i>Extreme II: Pornograffiti</i>. The song was a departure from
+    the funk metal that had permeated the band's style previous to
+    its release.</p>
+      <p>The song itself asks the person to whom it is addressed to
+    show love through "more than words."</p>
+      <p>The video for "More Than Words" was parodied by "Weird Al"
+    Yankovic for his original song, "You Don't Love Me Anymore."
+    Also Amateur Transplants wrote a comedic song to the same tune
+    as "More Than Words" entitled "Northern Birds" which may be
+    found on their 2006 album "We Are So Bad". The video was also
+    parodied by Jason Segel and the cast of 
+    <i>How I Met Your Mother</i>in an online tie-in music video for
+    the episode "The Sexless Innkeeper".</p>
+      <p>On March 23, 1991, "More Than Words" entered the U.S. Hot
+    100 at number 81 and soon after reached number one. It also
+    reached number two in the UK Singles Chart, where the group had
+    had success before its American breakthrough. Though they had
+    made a few European charts before, this brought the band to
+    their first mainstream success in the United States. Extreme
+    followed "More Than Words" with another power ballad, "Hole
+    Hearted," which was slightly faster paced than "More Than
+    Words", but nevertheless topped at number 4 in the United
+    States and number 3 in Canada.</p>
+      <p>Cover versions include:</p>
+   </descr>
+</topSong>

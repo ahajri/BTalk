@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Oh_Girl 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Oh_Girl</songId>
+   <title>Oh Girl</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Chi-Lites</artistId>
+      <artistName>The Chi-Lites</artistName>
+   </artist>
+   <weeks>
+      <week>1972-05-27</week>
+   </weeks>
+   <album>
+      <albumName>A Lonely Man</albumName>
+   </album>
+   <released>March 2, 1972</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" single</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B / Soul</genre>
+   </genres>
+   <lengths>
+      <length>3:43 (album version)</length>
+      <length>3:16 (single edit)</length>
+   </lengths>
+   <label>Brunswick</label>
+   <writers>
+      <writer>Barbara Acklin</writer>
+      <writer>Eugene Record</writer>
+   </writers>
+   <producers>
+      <producer>Eugene Record</producer>
+   </producers>
+   <descr>
+      <p>"Oh Girl" is a number one single recorded by the soul vocal
+    group, The Chi-Lites and released on Brunswick Records in 1972.
+    Included on the group's 1972 album 
+    <i>A Lonely Man</i>, "Oh Girl" centers around a relationship on
+    the verge of break-up. The narrator, portrayed by the song's
+    author Eugene Record, expresses concern that the break-up may
+    prove unbearable for him (
+    <i>"Oh girl/I'd be in trouble if you left me now/'Cause I don't
+    know where to look for love/I just don't know how"</i>), while
+    knowing that staying will be no better (
+    <i>"I could save myself a lot of useless tears/Girl I've got to
+    get away from here"</i>; 
+    <i>"Better be on my way, I can't stay here"</i>).</p>
+      <p>"Oh Girl" was the Chi-Lites' first and only number one
+    single on the Billboard Hot 100, peaking at that position in
+    May 1972 for one week. The single also reached the top position
+    of Billboard's R&amp;B Singles chart the following month,
+    remaining in that position for two weeks. In addition, it
+    reached number fourteen on the UK Singles Chart in July
+    1972.</p>
+   </descr>
+</topSong>

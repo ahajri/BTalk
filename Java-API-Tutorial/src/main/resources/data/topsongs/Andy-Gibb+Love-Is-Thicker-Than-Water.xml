@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/(Love_Is)_Thicker_Than_Water 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/(Love_Is)_Thicker_Than_Water</songId>
+   <title>(Love Is) Thicker Than Water</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Andy_Gibb</artistId>
+      <artistName>Andy Gibb</artistName>
+   </artist>
+   <weeks>
+      <week>1978-03-04</week>
+      <week>1978-03-11</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/3/33/Andy_Gibbq_%282%29.jpg/200px-Andy_Gibbq_%282%29.jpg</albumImageId>
+      <albumImageUri>/images/Andy-Gibb+Love-Is-Thicker-Than-Water.jpg</albumImageUri>
+      <albumName>Flowing Rivers</albumName>
+   </album>
+   <released>1977</released>
+   <formats>
+      <format>45</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:18</length>
+   </lengths>
+   <label>RSO</label>
+   <writers>
+      <writer>Barry Gibb and Andy Gibb</writer>
+   </writers>
+   <producers>
+      <producer>Barry Gibb</producer>
+      <producer>Albhy Galuten</producer>
+      <producer>and Karl Richardson</producer>
+   </producers>
+   <descr>
+      <p>"(Love Is) Thicker Than Water" is a 1977 song by Andy
+    Gibb.</p>
+      <p>A demonstration of the Gibb brothers' U.S. chart domination
+    in 1978, this song replaced the song by Andy's brothers, the
+    Bee Gees, with their #1 single "Stayin' Alive", when it reached
+    #1 on the Hot 100 on March 4. This song was replaced at number
+    one by the Bee Gees' own "Night Fever". This was then replaced
+    by Yvonne Elliman's "If I Can't Have You". Since Barry Gibb had
+    a hand in writing all four of these songs, he became the only
+    person in history to write four consecutive US Number One
+    singles; this feat has not been matched to this day.</p>
+   </descr>
+</topSong>

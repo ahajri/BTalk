@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/You_Needed_Me 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/You_Needed_Me</songId>
+   <title>You Needed Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Anne_Murray</artistId>
+      <artistName>Anne Murray</artistName>
+   </artist>
+   <weeks>
+      <week>1978-11-04</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/b/b5/You_Needed_Me.jpg</albumImageId>
+      <albumImageUri>/images/Anne-Murray+You-Needed-Me.jpg</albumImageUri>
+      <albumName>By Request</albumName>
+   </album>
+   <released>May 10, 1999</released>
+   <formats>
+      <format>CD single</format>
+      <format>Cassette</format>
+   </formats>
+   <recorded>London , England</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:27</length>
+   </lengths>
+   <label>Polydor</label>
+   <descr>
+      <p>"You Needed Me" is a song written by Randy Goodrum, who
+    describes it as being about "unconditional undeserved love." It
+    was a number one single in the United States in 1978 for
+    Canadian singer Anne Murray. The song, included on her 1978
+    album 
+    <i>Let's Keep It That Way</i>, was also a top-five country
+    single and won Song of the Year at the Academy of Country Music
+    awards. The Anne Murray version was number one in Malaysia for
+    ten weeks. Although the song reached number one on the
+    Billboard Hot 100, it never topped the two 
+    <i>Billboard</i>charts where Murray had the most success -
+    Country and Adult Contemporary.</p>
+      <p>In 1979, Kenny Rogers and Dottie West released a cover on
+    their album 
+    <i>Classics</i>.</p>
+      <p>Anne Murray re-recorded the song with Shania Twain for
+    Murray's 2007 album Anne Murray Duets: Friends &amp;
+    Legends.</p>
+      <p>The song was featured in an ongoing storyline on the CBS
+    soap 
+    <i>Guiding Light</i>in 1980-81, as a theme song for the
+    characters Kelly Nelson and Morgan Richards.</p>
+      <p>You Needed Me became the second single for Irish Boyband
+    Boyzone from their album By Request. The single became number
+    #1 on the UK Singles Chart, beating the debut solo single of
+    Spice Girl Geri Halliwell, outselling her by just 700 copies.
+    The song has received a Silver sales status certification for
+    sales of over 200,000 copies in the UK.</p>
+   </descr>
+</topSong>

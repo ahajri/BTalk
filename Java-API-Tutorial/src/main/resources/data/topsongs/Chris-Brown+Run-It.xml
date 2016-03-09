@@ -1,0 +1,81 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Run_It! 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Run_It!</songId>
+   <title>Run It!</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Chris_Brown_(American_singer)</artistId>
+      <artistName>Chris Brown</artistName>
+   </artist>
+   <weeks>
+      <week>2005-11-26</week>
+      <week>2005-12-03</week>
+      <week>2005-12-10</week>
+      <week>2005-12-17</week>
+      <week>2005-12-24</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Chris_Brown_-_Run_It_single_cover.jpg/200px-Chris_Brown_-_Run_It_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/Chris-Brown+Run-It.jpg</albumImageUri>
+      <albumName>Chris Brown</albumName>
+   </album>
+   <released>August 9, 2005  (2005-08-09) ( U.S. ) , 2006 (worldwide)</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>2005</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+      <genre>Hip Hop</genre>
+   </genres>
+   <lengths>
+      <length>3:49 (Main/Album Version)</length>
+      <length>4:04 (Remix)</length>
+      <length>3:12 (Radio/No Rap Version)</length>
+   </lengths>
+   <label>Jive</label>
+   <writers>
+      <writer>Scott Storch</writer>
+      <writer>Sean Garrett</writer>
+      <writer>LaRon James</writer>
+   </writers>
+   <producers>
+      <producer>Scott Storch</producer>
+   </producers>
+   <descr>
+      <p>"Run It!" is the debut single by American R&amp;B singer
+    Chris Brown, featuring American rapper Juelz Santana in the
+    remix. It was written by Santana, Sean Garrett and Scott
+    Storch, and produced by the latter. It was released in 2005 and
+    is Brown's first career single, off his debut album 
+    <i>Chris Brown</i>. The song was a smash hit the United States,
+    spending five consecutive weeks atop of the Billboard Hot 100,
+    making Brown the second male act (Montell Jordan was the first
+    in 1995) to have his debut single reach the spot. "Run It" also
+    peaked number one in Australia and New Zealand and number two
+    in the United Kingdom. It has been certified Platinum by the
+    RIAA. A remixed version of "Run It!" appears on the album,
+    featuring producer Jermaine Dupri and rapper Bow Wow.</p>
+      <p>The music video, directed by Erik White, portrays a school
+    dance inside a gym, where Brown meets a girl that he is
+    suddenly attracted to and with whom he wants to dance. The
+    video gives long dance sequences throughout. At the end, the
+    security guards arrive, and the whole gym is evacuated.
+    However, as soon as the guards find nobody there, they start
+    dancing. Brown says the solo dances were freestyles. The video
+    received nominations for Best New Artist and Viewer's Choice at
+    the 2006 MTV Video Music Awards, but did not win either of
+    these.</p>
+      <p>In the United States "Run It" climbed to the top spot of the
+    Billboard Hot 100. If also peaked at #1 in Austrailia and New
+    Zealand, and reached the top 5, 10, and 20 on multiple other
+    charts.</p>
+   </descr>
+</topSong>

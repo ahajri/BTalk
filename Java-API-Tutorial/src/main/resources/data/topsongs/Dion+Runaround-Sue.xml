@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Runaround_Sue 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Runaround_Sue</songId>
+   <title>Runaround Sue</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Dion_DiMucci</artistId>
+      <artistName>Dion</artistName>
+   </artist>
+   <weeks>
+      <week>1961-10-23</week>
+      <week>1961-10-30</week>
+   </weeks>
+   <released>September 1961</released>
+   <genres>
+      <genre>Doo Wop</genre>
+   </genres>
+   <lengths>
+      <length>2:41</length>
+   </lengths>
+   <label>Laurie 3110</label>
+   <producers>
+      <producer>Gene Schwartz</producer>
+   </producers>
+   <descr>
+      <p>"Runaround Sue" is a pop song, originally a US #1 hit for
+    the singer Dion during 1961. The song ranked #342 on 
+    <i>Rolling Stone</i>magazine's list of The 500 Greatest Songs
+    of All Time.</p>
+      <p>The song was written by Ernie Maresca and Dion DiMucci. It
+    was recorded in 1961 by Dion, backed by vocal group The
+    Del-Satins. Released on Laurie Records, it topped the Billboard
+    Hot 100 for one week in October of that year, and also reached
+    number 11 in the UK charts.</p>
+      <p>It is a song about a man whose ex-girlfriend had commitment
+    trouble and "ran around" (hence the name of the song) with
+    other people in the city. The song caught on with millions for
+    its catchy hook "Hey, hey, hum-ba-diddy-diddy".</p>
+      <p>In the liner notes of Dion's box set 
+    <i>King Of The New York Streets</i>, he writes:</p>
+      <p>Co-writer Ernie Maresca said:</p>
+      <p>The song's melody is very similar to "Quarter to Three", a
+    song released by Gary U.S. Bonds a few months prior to the
+    release of "Runaround Sue."</p>
+   </descr>
+</topSong>

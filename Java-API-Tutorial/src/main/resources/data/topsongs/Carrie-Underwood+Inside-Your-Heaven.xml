@@ -1,0 +1,81 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Inside_Your_Heaven 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Inside_Your_Heaven</songId>
+   <title>Inside Your Heaven</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Carrie_Underwood</artistId>
+      <artistName>Carrie Underwood</artistName>
+   </artist>
+   <weeks>
+      <week>2005-07-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Carrie_Underwood-Inside_Your_Heaven.jpg/200px-Carrie_Underwood-Inside_Your_Heaven.jpg</albumImageId>
+      <albumImageUri>/images/Carrie-Underwood+Inside-Your-Heaven.jpg</albumImageUri>
+      <albumName>Some Hearts</albumName>
+   </album>
+   <released>June 14, 2005 ( U.S. )</released>
+   <formats>
+      <format>CD single</format>
+      <format>digital download</format>
+      <format>7" vinyl single</format>
+   </formats>
+   <genres>
+      <genre>Country</genre>
+   </genres>
+   <lengths>
+      <length>3:45</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Andreas Carlsson</writer>
+      <writer>Pelle Nylén</writer>
+      <writer>Savan Kotecha</writer>
+   </writers>
+   <producers>
+      <producer>Desmond Child</producer>
+   </producers>
+   <descr>
+      <p>"Inside Your Heaven" is a song written by Andreas Carlsson,
+    Pelle Nylén, Savan Kotecha and produced by Desmond Child. Two
+    versions of the song were released as singles in 2005 (see 2005
+    in music): one by 
+    <i>American Idol</i>winner Carrie Underwood, and another by 
+    <i>Idol</i>runner-up Bo Bice.</p>
+      <p>Underwood's recording of the song, released on June 14, 2005
+    in the U.S., debuted at number one on the Canadian Singles
+    Chart and on the U.S. Hot 100, where it remained for seven and
+    one week, consecutively, atop the charts. It was the longest
+    running single of 2005 in Canada. It was certified gold by the
+    RIAA and two times platinum by the CRIA, and it was later
+    included on her debut album, 
+    <i>Some Hearts</i>. The B-side is a cover of the Martina
+    McBride song "Independence Day". The song entered the UK
+    Singles Chart at number forty-nine and moved up to forty-six
+    the following week.</p>
+      <p>Bice's version of "Inside Your Heaven" was released on June
+    21, 2005 and peaked at number two on the Hot 100. It became the
+    first 
+    <i>American Idol</i>single in the history of 
+    <i>Billboard</i>to replace the winner's song at number one on
+    the Hot 100 Single Sales chart. It was certified gold by the
+    RIAA. The B-side is a cover of the song "Vehicle" by Ides of
+    March.</p>
+      <p>The song won the Billboard Music Awards for "Top-Selling
+    Country Single of the Year" and "Top-Selling Hot 100 Song of
+    the Year" (Bice's version was also nominated in this category).
+    It also helped Underwood win the award for "Country Single
+    Sales Artist of the Year". Carrie Underwood's version sold
+    821,000 copies, while Bo Bice's version sold 401,000.</p>
+      <p>Inside Your Heaven was never released to country radio,
+    however it charted on the Billboard Hot Country Songs chart due
+    to unsolicited airplay.</p>
+   </descr>
+</topSong>

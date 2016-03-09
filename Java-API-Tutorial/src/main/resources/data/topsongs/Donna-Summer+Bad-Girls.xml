@@ -1,0 +1,74 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Bad_Girls_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Bad_Girls_(song)</songId>
+   <title>Bad Girls</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Donna_Summer</artistId>
+      <artistName>Donna Summer</artistName>
+   </artist>
+   <weeks>
+      <week>1979-07-14</week>
+      <week>1979-07-21</week>
+      <week>1979-07-28</week>
+      <week>1979-08-04</week>
+      <week>1979-08-11</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Bad_Girls_%28France%29.jpg/200px-Bad_Girls_%28France%29.jpg</albumImageId>
+      <albumImageUri>/images/Donna-Summer+Bad-Girls.jpg</albumImageUri>
+      <albumName>Bad Girls</albumName>
+   </album>
+   <released>1979</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" single</format>
+   </formats>
+   <recorded>1979</recorded>
+   <genres>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>4:55 (Album version)</length>
+      <length>3:56 (7" version)</length>
+   </lengths>
+   <label>Casablanca</label>
+   <writers>
+      <writer>Donna Summer</writer>
+      <writer>Eddie Hokenson</writer>
+      <writer>Bruce Sudano</writer>
+      <writer>Joe "Bean" Esposito</writer>
+   </writers>
+   <producers>
+      <producer>Giorgio Moroder</producer>
+      <producer>Pete Belotte</producer>
+   </producers>
+   <descr>
+      <p>"Bad Girls" is a critically acclaimed 1979 single released
+    by American singer Donna Summer. Co-written by Summer and the
+    Brooklyn Dreams. The inspiration for her to write the song came
+    after one of her assistants was offended by a police officer
+    who thought she was a street prostitute. A rough version of the
+    song had originally been written a couple of years before its
+    release. Neil Bogart, upon hearing it, wanted Donna to give it
+    to Cher for her upcoming album. Donna refused and put it away
+    for a couple of years.</p>
+      <p>The song became a number-one hit on the 
+    <i>Billboard</i>pop, R&amp;B and dance singles charts
+    simultaneously becoming, alongside "Hot Stuff", her most
+    successful single. The song helped the the album of the same
+    name to reach the multi-platinum status in the United States. A
+    12" single of the song was released as a medley with "Hot
+    Stuff". Although "Hot Stuff" was extended for the 12" single,
+    "Bad Girls" remained in the 4:55 album version. A "Bad Girls"
+    12" single with a time of 6:55 was produced but never released
+    commercially. A demo version of the song was released on the
+    "Deluxe Edition" of the "Bad Girls" cd.</p>
+   </descr>
+</topSong>

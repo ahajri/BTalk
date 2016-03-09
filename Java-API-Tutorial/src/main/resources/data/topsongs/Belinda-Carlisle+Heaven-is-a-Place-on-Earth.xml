@@ -1,0 +1,74 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Heaven_is_a_Place_on_Earth 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Heaven_is_a_Place_on_Earth</songId>
+   <title>Heaven is a Place on Earth</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Belinda_Carlisle</artistId>
+      <artistName>Belinda Carlisle</artistName>
+   </artist>
+   <weeks>
+      <week>1987-12-05</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/b/b2/HeavenIsAPlaceOnEarth.jpg</albumImageId>
+      <albumImageUri>/images/Belinda-Carlisle+Heaven-is-a-Place-on-Earth.jpg</albumImageUri>
+      <albumName>Heaven on Earth</albumName>
+   </album>
+   <released>September 18, 1987</released>
+   <formats>
+      <format>CD single</format>
+      <format>7" single</format>
+      <format>12" single</format>
+   </formats>
+   <recorded>1987</recorded>
+   <genres>
+      <genre>Pop Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:06 (Album Version)</length>
+      <length>3:35 (Radio Mix)</length>
+   </lengths>
+   <label>MCA Records</label>
+   <writers>
+      <writer>Rick Nowels</writer>
+      <writer>Ellen Shipley</writer>
+   </writers>
+   <producers>
+      <producer>Rick Nowels</producer>
+   </producers>
+   <descr>
+      <p>"Heaven Is a Place on Earth" is a song recorded by Belinda
+    Carlisle, the lead singer of The Go-Go's. Written by Rick
+    Nowels and Ellen Shipley, and interpolating the aria "Schlafe,
+    mein Liebster, genieße der Ruh'" from Johann Sebastian Bach's 
+    <i>Christmas Oratorio</i>, it hit Number One on the Billboard
+    Hot 100 on December 5, 1987, becoming Carlisle's only U.S.
+    chart-topper with or without The Go-Go's. A month later it hit
+    number one on the UK Singles Chart and held the spot for two
+    weeks. The song reached number one in many other countries,
+    among them Switzerland, Ireland, Sweden, South Africa and
+    Norway. The song also reached number three in Germany, number
+    two in Australia, and number six in Italy. It is widely
+    considered to be Carlisle's signature song due to its success
+    on the charts, and how it has remained relevant even today. The
+    song was nominated for the Grammy Award for Best Female Pop
+    Vocal Performance.</p>
+      <p>The promotional video was directed by Academy Award-winning
+    actress Diane Keaton and features an appearance of Carlisle's
+    husband Morgan Mason. Carlisle appeared wearing a sampo and
+    later changed to a black off-the-shoulder blouse. The video was
+    partially filmed at Six Flags Magic Mountain theme park in
+    Valencia, California, on the Spin Out ride.</p>
+      <p>Carlisle's backup vocalists on the track include songwriters
+    Nowels and Shipley as well as Michelle Phillips of The Mamas
+    &amp; the Papas and songwriter Diane Warren. It also featured
+    Thomas Dolby on keyboards.</p>
+   </descr>
+</topSong>

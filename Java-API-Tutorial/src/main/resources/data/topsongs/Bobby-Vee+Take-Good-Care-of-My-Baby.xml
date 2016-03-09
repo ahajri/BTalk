@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Take_Good_Care_of_My_Baby 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Take_Good_Care_of_My_Baby</songId>
+   <title>Take Good Care of My Baby</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bobby_Vee</artistId>
+      <artistName>Bobby Vee</artistName>
+   </artist>
+   <weeks>
+      <week>1961-09-18</week>
+      <week>1961-09-25</week>
+      <week>1961-10-02</week>
+   </weeks>
+   <album>
+      <albumName>Take Good Care of My Baby</albumName>
+   </album>
+   <released>1968</released>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>Epic</label>
+   <writers>
+      <writer>Carole King and Gerry Goffin</writer>
+   </writers>
+   <descr>
+      <p>"Take Good Care of My Baby" is a song written by Carole King
+    and Gerry Goffin and made famous by Bobby Vee, when it was
+    released in 1961. It quickly became popular, reaching #1 on the
+    U.S. Billboard Hot 100 in September. The song was covered by
+    The Beatles during their audition at Decca Records on January
+    1, 1962. Dion also recorded a version, though it was not
+    released as a single. Gary Lewis &amp; The Playboys recorded a
+    cover version in 1965 on their 
+    <i>She's Just My Style</i>album. In 1968, it became a hit
+    again, this time for Bobby Vinton, but his version reached only
+    #33 on the U.S. Billboard Hot 100 in comparison. Vee
+    re-recorded the song as a ballad in 1973 on his album 
+    <i>Ain't Nothing Like a Sunny Day</i>(released under his real
+    name, Robert Thomas Velline). However, it's his original
+    version, along with Vinton's, that remain as staples of oldies
+    radio stations.</p>
+      <p>It has also been covered by Smokie (Solid Ground, 1981) and
+    German Pop Star Sasha (Dick Brave and the Backbeats, 2003).</p>
+   </descr>
+</topSong>

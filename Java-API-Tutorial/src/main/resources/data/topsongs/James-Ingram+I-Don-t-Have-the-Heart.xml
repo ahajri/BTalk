@@ -1,0 +1,54 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Don%27t_Have_the_Heart 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Don%27t_Have_the_Heart</songId>
+   <title>I Don't Have the Heart</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/James_Ingram</artistId>
+      <artistName>James Ingram</artistName>
+   </artist>
+   <weeks>
+      <week>1990-10-20</week>
+   </weeks>
+   <album>
+      <albumName>It's Real</albumName>
+   </album>
+   <released>1990</released>
+   <recorded>1989</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+      <genre>Adult Contemporary</genre>
+   </genres>
+   <lengths>
+      <length>4:14</length>
+   </lengths>
+   <label>Warner Bros. Records</label>
+   <writers>
+      <writer>Allan Rich</writer>
+      <writer>Jud Friedman</writer>
+   </writers>
+   <producers>
+      <producer>Thom Bell</producer>
+      <producer>James Ingram</producer>
+   </producers>
+   <descr>
+      <p>"I Don't Have the Heart" is the title of a popular song that
+    was written by Allan Rich and Jud Friedman and recorded by
+    American pop-R&amp;B singer James Ingram.</p>
+      <p>Released as the fourth single from Ingram's 1989 album 
+    <i>It's Real</i>, "I Don't Have the Heart" reached the top of
+    the Hot 100 chart on October 20, 1990. The ballad remained at
+    #1 for one week. Singer Stacy Lattisaw recorded the song as
+    well, and her version was released on Motown Records at the
+    same time as Ingram's, although it was not as commercially
+    successful. According to songwriter Rich, "the record company
+    was not behind her."</p>
+   </descr>
+</topSong>

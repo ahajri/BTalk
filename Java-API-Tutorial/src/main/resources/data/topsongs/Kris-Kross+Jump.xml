@@ -1,0 +1,95 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Jump_(Kris_Kross_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Jump_(Kris_Kross_song)</songId>
+   <title>Jump</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Kris_Kross</artistId>
+      <artistName>Kris Kross</artistName>
+   </artist>
+   <weeks>
+      <week>1992-04-25</week>
+      <week>1992-05-02</week>
+      <week>1992-05-09</week>
+      <week>1992-05-16</week>
+      <week>1992-05-23</week>
+      <week>1992-05-30</week>
+      <week>1992-06-06</week>
+      <week>1992-06-13</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Kris_Kross_Jump.jpg/200px-Kris_Kross_Jump.jpg</albumImageId>
+      <albumImageUri>/images/Kris-Kross+Jump.jpg</albumImageUri>
+      <albumName>Totally Krossed Out</albumName>
+   </album>
+   <released>May 7, 1992</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>CD single</format>
+      <format>CD maxi</format>
+   </formats>
+   <recorded>1991</recorded>
+   <genres>
+      <genre>Hip Hop</genre>
+      <genre>Pop Rap</genre>
+   </genres>
+   <lengths>
+      <length>3:17</length>
+   </lengths>
+   <label>So So Def Recordings , Ruffhouse Records</label>
+   <writers>
+      <writer>Anthony "Treach" Ciss</writer>
+   </writers>
+   <producers>
+      <producer>Jermaine Dupri</producer>
+   </producers>
+   <descr>
+      <p>"Jump" is a 1992 song by the hip hop duo Kris Kross. It was
+    release as a single in early 1992 from their album 
+    <i>Totally Krossed Out</i>. It achieved great success in many
+    countries where it topped the charts, including Australia,
+    Switzerland and the U.S.</p>
+      <p>Kris Kross's members were only 12 and 13 years old when they
+    recorded their hit song. Written by Treach of Naughty By
+    Nature, and produced by Jermaine Dupri, "Jump" was the fastest
+    selling single in fifteen years and stayed on top of the Hot
+    100 for eight weeks. Kris Kross's debut album 
+    <i>Totally Krossed Out</i>, which features "Jump", sold over
+    four million copies. It also reached number one in Australia
+    and New Zealand, and number 2 in the United Kingdom, held off
+    the top by KWS' cover song "Please Don't Go". This song kept En
+    Vogue's "My Lovin' (You're Never Gonna Get It)" from the top
+    spot on the Billboard Hot 100 which the song peaked at number
+    2.</p>
+      <p>The song samples The Honeydrippers' "Impeach The President",
+    Ohio Players' "Funky Worm" and Jackson 5's "I Want You Back";
+    Kris Kross later toured Europe together with Michael Jackson.
+    At the beginning of their song they dissed another kid group
+    Another Bad Creation when Chris "Mac Daddy" Kelly said "don't
+    try to compare us to another bad little fad". 
+    <span class="referencenecessary" style="border-bottom: 1px #CCC dotted;">
+The original song's introduction contained a sample of ABC's song
+"Playground" which was followed by a scratching sound giving the
+effect that their record was being taken off to play "Jump". This
+was soon removed due to copyright infringement.
+</span>
+      </p>
+      <p>It ranked #75 on "VH1's 100 greatest songs of the 90's", and
+    #2 on their "Child Stars" Top 10 list.</p>
+      <p>The official remix features reggae artist Super Cat.</p>
+      <p>There have been many covers or parodies of this
+    song :</p>
+      <p>The song was used in a British advertisement to promote
+    Corbin Bleu's new Disney Channel Original Movie, Jump In!.</p>
+      <p>The song was performed on season 7 of Kids Incorporated.</p>
+      <p>According to Infodisc website, the song was sold about
+    132,000 copies in France.</p>
+   </descr>
+</topSong>

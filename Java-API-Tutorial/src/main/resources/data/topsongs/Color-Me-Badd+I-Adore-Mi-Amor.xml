@@ -1,0 +1,56 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Adore_Mi_Amor 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Adore_Mi_Amor</songId>
+   <title>I Adore Mi Amor</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Color_Me_Badd</artistId>
+      <artistName>Color Me Badd</artistName>
+   </artist>
+   <weeks>
+      <week>1991-09-21</week>
+      <week>1991-09-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/3/36/IAdoreMiAmor.jpg/200px-IAdoreMiAmor.jpg</albumImageId>
+      <albumImageUri>/images/Color-Me-Badd+I-Adore-Mi-Amor.jpg</albumImageUri>
+      <albumName>C.M.B.</albumName>
+   </album>
+   <released>July 17, 1991</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>New Jack Swing</genre>
+   </genres>
+   <lengths>
+      <length>4:49</length>
+   </lengths>
+   <label>Giant Records</label>
+   <writers>
+      <writer>Hamza Lee</writer>
+      <writer>Color Me Badd</writer>
+   </writers>
+   <producers>
+      <producer>Hamza Lee &amp; Royal Bayyan</producer>
+   </producers>
+   <descr>
+      <p>"I Adore Mi Amor" is the title of a number-one R&amp;B
+    single by group Color Me Badd, released as the second single
+    from their debut album 
+    <i>C.M.B.</i>The hit song spent one week at number-one on the
+    US R&amp;B chart. It was also number one on the Hot 100 chart
+    the week of September 21, 1991 for two weeks and spent 20 weeks
+    overall in the list. It also ended the year at number 18 on the
+    annual recap for 1991. In 1992, saxophonist Najee covers the
+    song.</p>
+      <p>US Vinyl, 12"</p>
+   </descr>
+</topSong>

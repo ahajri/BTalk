@@ -1,0 +1,46 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Bad_Blood_(Neil_Sedaka_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Bad_Blood_(Neil_Sedaka_song)</songId>
+   <title>Bad Blood</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Neil_Sedaka</artistId>
+      <artistName>Neil Sedaka</artistName>
+   </artist>
+   <weeks>
+      <week>1975-10-11</week>
+      <week>1975-10-18</week>
+      <week>1975-10-25</week>
+   </weeks>
+   <album>
+      <albumName>The Hungry Years</albumName>
+   </album>
+   <released>1975</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:09</length>
+   </lengths>
+   <label>Rocket</label>
+   <writers>
+      <writer>Neil Sedaka</writer>
+      <writer>Phil Cody</writer>
+   </writers>
+   <descr>
+      <p>"Bad Blood" was a popular song written by Neil Sedaka and
+    Phil Cody. Sedaka's single, on which Elton John sang the
+    backing vocal, reached number one on the Billboard Hot 100 in
+    1975, remaining in the top position for three weeks. It was
+    replaced at the #1 spot by John's single, "Island Girl".</p>
+   </descr>
+</topSong>

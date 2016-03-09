@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Windy 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Windy</songId>
+   <title>Windy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Association</artistId>
+      <artistName>The Association</artistName>
+   </artist>
+   <weeks>
+      <week>1967-07-01</week>
+      <week>1967-07-08</week>
+      <week>1967-07-15</week>
+      <week>1967-07-22</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/f/f0/Windy_by_The_Association_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/The-Association+Windy.jpg</albumImageUri>
+      <albumName>Insight Out</albumName>
+   </album>
+   <released>1967</released>
+   <genres>
+      <genre>Sunshine Pop</genre>
+   </genres>
+   <lengths>
+      <length>2:53</length>
+   </lengths>
+   <label>Warner Bros. Records</label>
+   <writers>
+      <writer>Ruthann Friedman</writer>
+   </writers>
+   <descr>
+      <p>"Windy" is a pop music song written by Ruthann Friedman and
+    recorded by The Association. Released in 1967, the song reached
+    number one on the Billboard Hot 100 in July of that year. Later
+    in 1967, an instrumental version by jazz guitarist Wes
+    Montgomery became his biggest Hot 100 hit when it peaked at
+    number forty-four. "Windy" was The Association's second U.S.
+    number-one, following "Cherish" in 1966.</p>
+      <p>According to rumor, the original lyrics by Ruthann Friedman
+    were about a man, and The Association changed them to be about
+    a woman.</p>
+      <p>"There are many explanations of who Windy actually was in
+    Ruthann's life. She would have you know, she being me Ruthann
+    Friedman, that none of them are true. Windy was, indeed, a
+    female and purely a fictitious character who popped into my
+    head one fine day in 1967...</p>
+      <p>During the recording session the Association members, sure
+    that they were in the middle of recording a hit,called the song
+    writer, me again, in to sing on the fade at the end. I can be
+    heard singing a blues harmony as the song fades out..."</p>
+      <p>Session musician Hal Blaine was brought in to play
+    drums.</p>
+      <p>The song was featured in an episode of 
+    <i>The Drew Carey Show</i>, where the character Nigel Wick
+    (played by Craig Ferguson) played it on the harp. It was also
+    featured recently in the second season finale of HBO's 
+    <i>Big Love</i>, where Teeny Henrickson leads a children's
+    dance troupe while the song is playing for the annual Pioneers
+    Festival. In 2009 the song, with slightly altered lyrics, was
+    sung by actor Brad Garrett in an advertisement for 7-Up.</p>
+      <p>A version of the song was used as the theme tune on the
+    nightly 
+    <i>Today</i>programme broadcast on Thames Television from 1968
+    to 1977.</p>
+      <p>Comedy rockers Paul and Storm did a parody version called
+    “Lindsay“ about Lindsay Lohan.</p>
+      <p>Barry Manilow and The Association covered this song along
+    with "Cherish" on the 2006 album 
+    <i>The Greatest Songs of the Sixties</i>. Also recorded by
+    Astrud Gilberto on her album 
+    <i>Windy</i>.</p>
+   </descr>
+</topSong>

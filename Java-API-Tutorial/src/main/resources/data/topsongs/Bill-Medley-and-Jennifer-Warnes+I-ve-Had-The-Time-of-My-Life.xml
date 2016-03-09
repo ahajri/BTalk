@@ -1,0 +1,68 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/(I%27ve_Had)_The_Time_of_My_Life 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/(I%27ve_Had)_The_Time_of_My_Life</songId>
+   <title>(I've Had) The Time of My Life</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bill_Medley</artistId>
+      <artistName>Bill Medley and Jennifer Warnes</artistName>
+   </artist>
+   <weeks>
+      <week>1987-11-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Bill_Medley_%26_Jennifer_Warnes_-_%28I%27ve_Had%29_The_Time_of_My_Life_single_cover.jpg/200px-Bill_Medley_%26_Jennifer_Warnes_-_%28I%27ve_Had%29_The_Time_of_My_Life_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/Bill-Medley-and-Jennifer-Warnes+I-ve-Had-The-Time-of-My-Life.jpg</albumImageUri>
+      <albumName>Dirty Dancing</albumName>
+   </album>
+   <released>1987  (1987)</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>Cassette single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:47 [LP Version]</length>
+      <length>6:46 [Extended]</length>
+   </lengths>
+   <label>RCA</label>
+   <writers>
+      <writer>Franke Previte</writer>
+      <writer>John DeNicola</writer>
+      <writer>Donald Markowitz</writer>
+   </writers>
+   <producers>
+      <producer>Michael Lloyd</producer>
+   </producers>
+   <descr>
+      <p>"(I've Had) The Time of My Life" is a song composed by
+    Franke Previte, John DeNicola, and Donald Markowitz. It was
+    recorded by Bill Medley and Jennifer Warnes, after having been
+    selected to be the finale song for the 1987 film 
+    <i>Dirty Dancing</i>by choreographer Kenny Ortega and his
+    assistant Miranda Garrison (who also played Vivian in the
+    film).</p>
+      <p>Due to the massive success of 
+    <i>Dirty Dancing</i>, the single topped the Billboard Hot 100
+    chart in November for one week. In the United Kingdom the song
+    had two chart outings. Firstly, in November 1987 after the
+    film's initial release the song peaked at #6, and again when
+    the film was shown on mainstream television the song reached as
+    high as #8 (January 1991).</p>
+      <p>A parody was made in the animated comedy series 
+    <i>The Simpsons</i>. The season 11 episode, "Faith Off" altered
+    the chorus during a football game's half-time rendition,
+    lending support to Homer's alma mater, Springfield University.
+    It sings: "I had the halftime of my life, and I owe it all to
+    S.U."</p>
+   </descr>
+</topSong>

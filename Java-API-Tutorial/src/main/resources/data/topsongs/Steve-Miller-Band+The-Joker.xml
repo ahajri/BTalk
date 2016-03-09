@@ -1,0 +1,76 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_Joker_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_Joker_(song)</songId>
+   <title>The Joker</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Steve_Miller_(musician)</artistId>
+      <artistName>Steve Miller Band</artistName>
+   </artist>
+   <weeks>
+      <week>1974-01-12</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/db/Steve_Miller_Band_The_Joker_1973_single_cover.jpg/200px-Steve_Miller_Band_The_Joker_1973_single_cover.jpg</albumImageId>
+      <albumImageUri>/images/Steve-Miller-Band+The-Joker.jpg</albumImageUri>
+      <albumName>The Joker</albumName>
+   </album>
+   <released>1973</released>
+   <formats>
+      <format>7" vinyl</format>
+      <format>12" vinyl</format>
+      <format>CD</format>
+   </formats>
+   <genres>
+      <genre>Heartland Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:41</length>
+   </lengths>
+   <label>Capitol</label>
+   <writers>
+      <writer>Eddie Curtis</writer>
+      <writer>Ahmet Ertegün</writer>
+      <writer>Steve Miller</writer>
+   </writers>
+   <producers>
+      <producer>Steve Miller</producer>
+   </producers>
+   <descr>
+      <p>"The Joker" is a song by the Steve Miller Band from their
+    1973 album 
+    <i>The Joker</i>. The song is one of two Steve Miller Band
+    songs that feature the neologism "pompatus". The song topped
+    the US Hot 100 in early 1974.</p>
+      <p>More than 16 years later, in September 1990, it reached
+    number one in the UK Singles Chart for two weeks after being
+    used in a Levi's television advertisement, thus holding the
+    record for the longest gap between transatlantic chart-toppers.
+    This reissue of "The Joker" also topped the Irish Singles
+    Chart, the New Zealand RIANZ Singles Chart, the Dutch Nationale
+    Top 100 and the Dutch Top 40.</p>
+      <p>The song is sometimes misidentified by the title "Space
+    Cowboy" because of the first line of the lyrics, which actually
+    refer to an earlier song by that title from Miller's 
+    <i>Brave New World</i>album. The following lines refer to two
+    other earlier songs, "Gangster of Love" from 
+    <i>Sailor</i>, and "Enter Maurice" from 
+    <i>Recall the Beginning...A Journey from Eden</i>.</p>
+      <p>During the song, Steve Miller thrice references lines from
+    the 1954 The Clovers song "Lovey Dovey" when he sings "You're
+    the cutest thing that I ever did see/ Really love your peaches,
+    wanna shake your tree / Lovey dovey, lovey dovey all the time
+    <i>"; the second of these mentions is during the
+    fade-out.</i>
+      </p>
+      <p>The song is also known for the wolf whistle performed on a
+    slide guitar after the line "some people call me Maurrice
+    [sic]" and the "Lovey Dovey" line.</p>
+   </descr>
+</topSong>

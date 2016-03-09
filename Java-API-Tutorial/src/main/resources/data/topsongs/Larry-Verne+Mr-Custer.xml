@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Mr._Custer 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Mr._Custer</songId>
+   <title>Mr. Custer</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Larry_Verne</artistId>
+      <artistName>Larry Verne</artistName>
+   </artist>
+   <weeks>
+      <week>1960-10-10</week>
+   </weeks>
+   <descr>
+      <p>"Mr. Custer" is a novelty song, sung by Larry Verne, and
+    written by Al DeLory, Fred Darian and Joseph Van Winkle that
+    was a number-one song in the United States during the year
+    1960. It topped the Hot 100 singles chart for the issue dated
+    October 10, 1960, and remained there for one week. It is a
+    comical song about a soldier's plea to Custer at the climatic
+    Battle of the Little Bighorn against the Sioux that he did not
+    want to fight.</p>
+   </descr>
+</topSong>

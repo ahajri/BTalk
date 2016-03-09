@@ -1,0 +1,75 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Informer_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Informer_(song)</songId>
+   <title>Informer</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Snow_(musician)</artistId>
+      <artistName>Snow</artistName>
+   </artist>
+   <weeks>
+      <week>1993-03-13</week>
+      <week>1993-03-20</week>
+      <week>1993-03-27</week>
+      <week>1993-04-03</week>
+      <week>1993-04-10</week>
+      <week>1993-04-17</week>
+      <week>1993-04-24</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Snow_Informer_%28Single_Cover%29.jpg/200px-Snow_Informer_%28Single_Cover%29.jpg</albumImageId>
+      <albumImageUri>/images/Snow+Informer.jpg</albumImageUri>
+      <albumName>12 Inches of Snow</albumName>
+   </album>
+   <released>September 30, 1992</released>
+   <formats>
+      <format>CD single</format>
+      <format>CD maxi</format>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>Cassette</format>
+   </formats>
+   <recorded>1992</recorded>
+   <genres>
+      <genre>Reggae</genre>
+      <genre>Hip Hop</genre>
+   </genres>
+   <lengths>
+      <length>4:05</length>
+   </lengths>
+   <label>EastWest Records America, Atlantic</label>
+   <writers>
+      <writer>Edmond Leary</writer>
+      <writer>Darrin O'Brien</writer>
+      <writer>Shawn Moltke</writer>
+   </writers>
+   <producers>
+      <producer>M.C. Shan</producer>
+   </producers>
+   <descr>
+      <p>"Informer" is a 1992 single by Canadian reggae musician
+    Snow, featuring MC Shan as guest artist and producer, from his
+    debut album 
+    <i>12 Inches of Snow</i>. The single was released shortly
+    before Snow was imprisoned for a year on an assault charge.
+    Upon his release from prison, it became a chart topping hit,
+    spending seven consecutive weeks at Number 1 on the 
+    <i>Billboard</i>Hot 100. It was his biggest hit in the UK,
+    where it reached Number 2, behind two different number one
+    singles.</p>
+      <p>"Informer" is a slang term, usually derogatory, for a police
+    informant, who is protected in exchange for information used to
+    solve cases. Another term for it would be snitch.</p>
+      <p>"Informer" won a Juno Award for Best Reggae Recording in
+    1994. It reached 40th on MuchMoreMusic's list of the top "50
+    Guilty Pleasures" and was 84th on VH1's "100 Greatest Songs of
+    the '90s." It also reached 28th on VH1's "Final Countdown
+    Greatest Hip-Hop of All Time".</p>
+   </descr>
+</topSong>

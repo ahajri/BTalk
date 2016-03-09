@@ -1,0 +1,67 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Everytime_You_Go_Away 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Everytime_You_Go_Away</songId>
+   <title>Everytime You Go Away</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Paul_Young</artistId>
+      <artistName>Paul Young</artistName>
+   </artist>
+   <weeks>
+      <week>1985-07-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Every_time_you_go_away.jpg/200px-Every_time_you_go_away.jpg</albumImageId>
+      <albumImageUri>/images/Paul-Young+Everytime-You-Go-Away.jpg</albumImageUri>
+      <albumName>The Secret of Association</albumName>
+   </album>
+   <released>25 February 1985</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi</format>
+   </formats>
+   <recorded>1984</recorded>
+   <genres>
+      <genre>Ballad</genre>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:15 (radio edit)</length>
+      <length>7:32 (extended)</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Daryl Hall</writer>
+   </writers>
+   <producers>
+      <producer>Laurie Latham</producer>
+   </producers>
+   <descr>
+      <p>"Everytime You Go Away" is a song written by Daryl Hall and
+    covered by Paul Young in 1985 (see 1985 in music).</p>
+      <p>The original appeared on Hall &amp; Oates's 1980 album, 
+    <i>Voices,</i>although it was not released as a single. Hall
+    &amp; Oates also recorded it for their 1985 concert album 
+    <i>Live at the Apollo</i>. Young's version hit number one on
+    the Billboard Hot 100 on July 27, 1985. It remains his only
+    number-one hit and one of only two top 10 hits he had on the
+    U.S. pop singles chart. It also topped the U.S. adult
+    contemporary chart for two weeks. The song peaked at No. 4 in
+    the UK, Young's home country. The song won Best British Video
+    at the 1986 Brit Awards.</p>
+      <p>Young's version features a haunting combination of echoed
+    piano, Pino Palladino's distinctive fretless bass and an
+    electric sitar, the latter a long-neglected instrument by the
+    mid-1980s.</p>
+      <p>At the end of the 1987 movie, 
+    <i>Planes, Trains and Automobiles</i>, the song is performed by
+    Blue Room. In 2006, Clay Aiken covered the song on his CD 
+    <i>A Thousand Different Ways</i>.</p>
+   </descr>
+</topSong>

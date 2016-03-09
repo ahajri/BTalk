@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Sundown_(Gordon_Lightfoot_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Sundown_(Gordon_Lightfoot_song)</songId>
+   <title>Sundown</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Gordon_Lightfoot</artistId>
+      <artistName>Gordon Lightfoot</artistName>
+   </artist>
+   <weeks>
+      <week>1974-06-29</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Sundown45.jpg/200px-Sundown45.jpg</albumImageId>
+      <albumImageUri>/images/Gordon-Lightfoot+Sundown.jpg</albumImageUri>
+      <albumName>Sundown</albumName>
+   </album>
+   <released>1974</released>
+   <formats>
+      <format>7" 45 RPM</format>
+   </formats>
+   <genres>
+      <genre>Folk</genre>
+   </genres>
+   <lengths>
+      <length>3:37</length>
+   </lengths>
+   <label>Reprise</label>
+   <writers>
+      <writer>Gordon Lightfoot</writer>
+   </writers>
+   <producers>
+      <producer>Lenny Waronker</producer>
+   </producers>
+   <descr>
+      <p>"Sundown" is one of the most popular songs by Canadian folk
+    artist Gordon Lightfoot. Released in 1974, "Sundown" allowed
+    Lightfoot to regain the momentum that his career had taken
+    three years earlier with "If You Could Read My Mind" and other
+    songs.</p>
+      <p>It reached number one on the U.S. Billboard Hot 100 and
+    adult contemporary charts, as well as number thirteen on the
+    country chart.</p>
+      <p>"Sundown" was inspired by his then girlfriend, Cathy Smith,
+    later more infamously known for her involvement in the death of
+    John Belushi. Lightfoot has commented in interviews that she
+    was "the one woman in my life who most hurt me."</p>
+      <p>Engineered by Lee Herschberg, Recorded at Eastern Sound
+    Studios, Toronto, Ontario, Canada.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,74 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Grease_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Grease_(song)</songId>
+   <title>Grease</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Frankie_Valli</artistId>
+      <artistName>Frankie Valli</artistName>
+   </artist>
+   <weeks>
+      <week>1978-08-26</week>
+      <week>1978-09-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Grease_single.png/200px-Grease_single.png</albumImageId>
+      <albumImageUri>/images/Frankie-Valli+Grease.png</albumImageUri>
+      <albumName>Grease: The Original Soundtrack from the Motion Picture</albumName>
+   </album>
+   <released>May 1978</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>3:24</length>
+   </lengths>
+   <label>RSO</label>
+   <writers>
+      <writer>Barry Gibb</writer>
+   </writers>
+   <producers>
+      <producer>Albhy Galuten</producer>
+      <producer>Barry Gibb</producer>
+      <producer>Karl Richardson</producer>
+   </producers>
+   <descr>
+      <p>"Grease" is the title song for the musical motion picture 
+    <i>Grease</i>, which was based on the stage play of the same
+    name. The song was sung by Frankie Valli and was featured twice
+    on the film's soundtrack; as the first track, and reprised as
+    the final track. It became a number one single in the United
+    States during 1978 and it also became a Top 30 R&amp;B hit in
+    the same year. The song was written by Barry Gibb of the Bee
+    Gees; that group would later perform the song in concert, as
+    captured on their live offering 
+    <i>One Night Only</i>. After "Grease" hit #1 on the Billboard
+    Hot 100, Barry broke the record for '#1 Songs Written in a
+    Calendar Year.' He was responsible for writing or co-writing 7
+    #1 songs in 1978, breaking the record of 6 set by
+    Lennon/McCartney in 1964. The other songs were "If I Can't Have
+    You" (an Yvonne Elliman hit), "Stayin' Alive", "Night Fever",
+    "How Deep is Your Love" (Bee Gees hits), "(Love Is) Thicker
+    Than Water", and "Shadow Dancing" (Andy Gibb hits.)</p>
+      <p>"Grease" was covered by experimental rock band Dog Fashion
+    Disco and included as a hidden track on their album 
+    <i>Committed to a Bright Future</i>and sampled in the track "I
+    Want You" by Paris Hilton on her first studio album as well as
+    "Rock The Party", a 2001 single by UK boy band Five. Part of
+    the song was also interpolated in "Joints &amp; Jam", a 1998
+    single by Black Eyed Peas as well as being heard in the song
+    Blue Angels by Pras released in the same year. The song was
+    also covered by UK girl group Girls Aloud. The song was also
+    sampled by De La Soul on their 1991 song "A Roller Skating Jam
+    Named 'Saturdays'".</p>
+   </descr>
+</topSong>

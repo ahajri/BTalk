@@ -1,0 +1,58 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/All_4_Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/All_4_Love</songId>
+   <title>All 4 Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Color_Me_Badd</artistId>
+      <artistName>Color Me Badd</artistName>
+   </artist>
+   <weeks>
+      <week>1992-01-25</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/6/6d/All_4_Love.jpg</albumImageId>
+      <albumImageUri>/images/Color-Me-Badd+All-4-Love.jpg</albumImageUri>
+      <albumName>C.M.B.</albumName>
+   </album>
+   <released>November 7, 1991</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>New Jack Swing</genre>
+   </genres>
+   <lengths>
+      <length>3:30</length>
+   </lengths>
+   <label>Giant Records</label>
+   <writers>
+      <writer>Howard Thompson</writer>
+      <writer>Color Me Badd</writer>
+   </writers>
+   <producers>
+      <producer>Sam Watters</producer>
+   </producers>
+   <descr>
+      <p>"All 4 Love" (also known as "All for Love") is a number-one
+    single by the music group Color Me Badd released in 1991 as the
+    third single from their debut album 
+    <i>C.M.B.</i>As a number-one single, it replaced Michael
+    Jackson's "Black or White" and was then replaced by Elton John
+    and George Michael's "Don't Let the Sun Go Down on Me" in early
+    1992. It was the band's second number-one single in the US, and
+    also their last one. The recording contains elements and/or
+    samples of the 1966 minor R&amp;B hit "Patch My Heart" by The
+    Mad Lads. In 2002, Stevie Brock covered it as his first
+    single.</p>
+      <p>Single</p>
+      <p>, Maxi-CD</p>
+   </descr>
+</topSong>

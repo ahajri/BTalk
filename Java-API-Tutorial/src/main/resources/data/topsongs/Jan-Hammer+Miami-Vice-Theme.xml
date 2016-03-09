@@ -1,0 +1,80 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Miami_Vice_Theme 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Miami_Vice_Theme</songId>
+   <title>Miami Vice Theme</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jan_Hammer</artistId>
+      <artistName>Jan Hammer</artistName>
+   </artist>
+   <weeks>
+      <week>1985-11-09</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/2b/MiamiViceThemejap.jpg/200px-MiamiViceThemejap.jpg</albumImageId>
+      <albumImageUri>/images/Jan-Hammer+Miami-Vice-Theme.jpg</albumImageUri>
+      <albumName>Miami Vice soundtrack</albumName>
+   </album>
+   <released>1985</released>
+   <recorded>1984</recorded>
+   <genres>
+      <genre>Electronic</genre>
+   </genres>
+   <lengths>
+      <length>2:26</length>
+   </lengths>
+   <label>MCA Records</label>
+   <producers>
+      <producer>Jan Hammer</producer>
+   </producers>
+   <descr>
+      <p>The musical piece Miami Vice Theme was created and performed
+    by Jan Hammer as the theme to the television series 
+    <i>Miami Vice</i>. It was first presented as part of the
+    television broadcast of the show in September 1984 and released
+    as a single in 1985, peaking at the number one spot on the
+    Billboard Hot 100. It is the last instrumental to have topped
+    the chart to date. It also peaked at number 5 in the UK. In
+    1986, it won Grammy Awards for "Best Instrumental Composition"
+    and "Best Pop Instrumental Performance." This song, along with
+    Glenn Frey's number-two hit "You Belong to the City", put the 
+    <i>Miami Vice</i>soundtrack on the top of the U.S. album chart
+    for eleven weeks in 1985, making it the most successful TV
+    soundtrack of all time until 2006 when Disney Channel's 
+    <i>High School Musical</i>beat its record.</p>
+      <p>
+         <i>Miami Vice's</i>pilot episode, made as a two-hour TV movie,
+    did not originally have a theme, but the musical sounds and
+    notation that would become the theme were present as background
+    score. When the series got picked up, Hammer created the sixty
+    second version of the theme. The synth-guitar lead was missing
+    in the aired version of the pilot and the first batch of
+    episodes, and this unfinished version of the theme has remained
+    attached to those episodes, even on the DVD video box set
+    released in 2005.</p>
+      <p>The theme is also remembered as the song played during the
+    first few three-point competitions at the NBA All-Star Weekend,
+    including the one in 1986 where Larry Bird famously walked into
+    the locker room and told all his competitors they were playing
+    for second place.</p>
+      <p>From 1992 until 1997, it was used as the theme music for
+    Westwood One's 
+    <i>Radio Free D. C.: The G. Gordon Liddy Show</i>. (From 1992
+    until 1996, an announcer would introduce the show during the
+    music bed, saying, "From Washington D. C., Radio Free D.C.,
+    with G. Gordon Liddy".)</p>
+      <p>The music video of the theme is a mini-episode of the TV
+    series with Hammer as a fugitive on the run from James "Sonny"
+    Crockett and Ricardo Tubbs. Throughout majority of the video,
+    Hammer performs the theme in front of a projector screen
+    playing footage from the TV series - including scenes of the
+    Vice duo chasing him. In the end of the video, he boards a
+    helicopter and escapes from Crockett's sight.</p>
+   </descr>
+</topSong>

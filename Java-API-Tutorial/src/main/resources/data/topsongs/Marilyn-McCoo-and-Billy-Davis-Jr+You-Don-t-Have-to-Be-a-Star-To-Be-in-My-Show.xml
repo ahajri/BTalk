@@ -1,0 +1,53 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/You_Don%27t_Have_to_Be_a_Star_(To_Be_in_My_Show) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/You_Don%27t_Have_to_Be_a_Star_(To_Be_in_My_Show)</songId>
+   <title>You Don't Have to Be a Star (To Be in My Show)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Marilyn_McCoo</artistId>
+      <artistName>Marilyn McCoo and Billy Davis, Jr.</artistName>
+   </artist>
+   <weeks>
+      <week>1977-01-08</week>
+   </weeks>
+   <album>
+      <albumName>I Hope We Get to Love in Time</albumName>
+   </album>
+   <released>1976</released>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Soul</genre>
+   </genres>
+   <lengths>
+      <length>4:41</length>
+   </lengths>
+   <label>ABC Records</label>
+   <writers>
+      <writer>James Dean</writer>
+      <writer>John Glover</writer>
+   </writers>
+   <producers>
+      <producer>Don Davis</producer>
+   </producers>
+   <descr>
+      <p>"You Don't Have to Be a Star (To Be in My Show)" is a song
+    by the husband/wife duo of Marilyn McCoo and Billy Davis, Jr.,
+    former members of the vocal group The 5th Dimension. Released
+    from their album, 
+    <i>I Hope We Get to Love in Time</i>, it became a crossover
+    success soaring to number one on both the Billboard Hot 100 and
+    Hot Soul Singles charts during late 1976 and early 1977. . The
+    song also reached #6 on Billboard's Easy Listening chart. It
+    would eventually be certified Gold, selling over one million
+    singles, and win them a Grammy Award for Best R&amp;B
+    Performance by a Duo or Group with Vocals. The song features
+    the final studio performance of bassist James Jamerson on a
+    Billboard number one song.</p>
+   </descr>
+</topSong>

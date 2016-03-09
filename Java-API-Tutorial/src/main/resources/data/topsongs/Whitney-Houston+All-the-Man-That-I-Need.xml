@@ -1,0 +1,77 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/All_the_Man_That_I_Need 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/All_the_Man_That_I_Need</songId>
+   <title>All the Man That I Need</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Whitney_Houston</artistId>
+      <artistName>Whitney Houston</artistName>
+   </artist>
+   <weeks>
+      <week>1991-02-23</week>
+      <week>1991-03-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/cf/All_The_Man_That_I_Need_US_Promo_CD_Cover.jpg/200px-All_The_Man_That_I_Need_US_Promo_CD_Cover.jpg</albumImageId>
+      <albumImageUri>/images/Whitney-Houston+All-the-Man-That-I-Need.jpg</albumImageUri>
+      <albumName>I'm Your Baby Tonight</albumName>
+   </album>
+   <released>December 4 , 1990</released>
+   <formats>
+      <format>CD single</format>
+      <format>Cassette single</format>
+      <format>7" single</format>
+   </formats>
+   <recorded>1990</recorded>
+   <genres>
+      <genre>Pop / R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:41</length>
+   </lengths>
+   <label>Arista Records</label>
+   <writers>
+      <writer>Dean Pitchford</writer>
+      <writer>Michael Gore</writer>
+   </writers>
+   <producers>
+      <producer>Narada Michael Walden</producer>
+   </producers>
+   <descr>
+      <p>"All the Man That I Need" is the second single from pop
+    singer Whitney Houston's third album 
+    <i>I'm Your Baby Tonight</i>.</p>
+      <p>The song was written by Dean Pitchford and Michael Gore; a
+    version was released by Linda Clifford a decade earlier.
+    Houston's music video for this song was directed by Peter
+    Israelson (the same director for her videos "Greatest Love of
+    All" and "Where Do Broken Hearts Go.") Sister Sledge also had a
+    minor R&amp;B hit with the song in 1982 peaking at number
+    forty-five on the soul charts..</p>
+      <p>Released in December 1990, "All the Man That I Need" entered
+    the Billboard Hot 100 Singles Chart at number fifty-three.
+    Within four weeks of its release, it ascended to the top of the
+    charts, becaming Houston's ninth number one Hot 100 single. It
+    held the summit for two weeks, from February 23 to March 8. It
+    remained in the Top 40 for fifteen weeks. It also topped the
+    Hot 100 Single Sales and Hot 100 Airplay charts, her first song
+    to achieve this feat since "Where Do Broken Hearts Go" in 1988.
+    Additionally, the single also reached number one for four weeks
+    on the Adult Contemporary Chart, and for two weeks on the
+    R&amp;B Chart. Also, the song was notable as being Houston's
+    first release to top all the charts it was eligible on. It was
+    ranked sixteen on the Billboard Hot 100 Year End Charts for
+    1991.</p>
+      <p>Internationally, the song was more moderately successful,
+    except in the UK, where it reached #13. It reached twenty-eight
+    in both France and Switzerland, and number thirty-seven in
+    Germany.</p>
+      <p>The single was also certified Gold by the RIAA.</p>
+   </descr>
+</topSong>

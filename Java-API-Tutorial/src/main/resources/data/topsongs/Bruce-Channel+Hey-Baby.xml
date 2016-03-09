@@ -1,0 +1,36 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hey!_Baby 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hey!_Baby</songId>
+   <title>Hey! Baby</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bruce_Channel</artistId>
+      <artistName>Bruce Channel</artistName>
+   </artist>
+   <weeks>
+      <week>1962-03-10</week>
+      <week>1962-03-17</week>
+      <week>1962-03-24</week>
+   </weeks>
+   <descr>
+      <p>"Hey! Baby" is a song written by Margaret Cobb and Bruce
+    Channel, who recorded the song in 1961. Channel co-produced the
+    song with Major Bill Smith and released it on Mercury Records'
+    Smash label. The song reached number one on the Hot 100 for
+    three weeks, starting the week ending March 10, 1962.</p>
+      <p>The song features a prominent riff from well-known harmonica
+    player Delbert McClinton. According to a CNN article from 2002,
+    "while touring the U.K. in 1962 with a little known group
+    called The Beatles, harmonica player Delbert McClinton met John
+    Lennon and gave him some harmonica tips. Lennon put the lessons
+    to use right away on "Love Me Do" and later "Please Please Me".
+    Lennon included the song in his jukebox, and it is also
+    featured on the related compilation album.</p>
+   </descr>
+</topSong>

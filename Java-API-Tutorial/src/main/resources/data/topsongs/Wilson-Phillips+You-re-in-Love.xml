@@ -1,0 +1,54 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/You%27re_in_Love_(Wilson_Phillips_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/You%27re_in_Love_(Wilson_Phillips_song)</songId>
+   <title>You're in Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Wilson_Phillips</artistId>
+      <artistName>Wilson Phillips</artistName>
+   </artist>
+   <weeks>
+      <week>1991-04-20</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/41/Youreinlove.jpg/200px-Youreinlove.jpg</albumImageId>
+      <albumImageUri>/images/Wilson-Phillips+You-re-in-Love.jpg</albumImageUri>
+      <albumName>Wilson Phillips</albumName>
+   </album>
+   <released>January 1991</released>
+   <formats>
+      <format>CD Single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <label>SBK Records</label>
+   <writers>
+      <writer>Glen Ballard</writer>
+      <writer>Wilson Phillips</writer>
+   </writers>
+   <producers>
+      <producer>Glen Ballard</producer>
+   </producers>
+   <descr>
+      <p>"You're in Love" was a single released by Wilson Phillips,
+    their fourth single from their debut album 
+    <i>Wilson Phillips</i>.</p>
+      <p>"You're in Love" was number one on the Billboard Hot 100 for
+    one week, ending April 20, 1991. It was the their third number
+    one hit and fourth top 5 single. It also spent four weeks atop
+    the adult contemporary chart in 1991, the group's longest stay
+    at #1 on this chart (both "Hold On" and "Release Me" reached #1
+    on the AC chart for one week each).</p>
+      <p>With this single, the group received a nomination on the
+    Grammy Awards of 1992 in the Best Pop Vocal Performance by a
+    Duo or Group category, losing to R.E.M.'s "Losing My Religion"
+    .</p>
+   </descr>
+</topSong>

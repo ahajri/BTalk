@@ -1,0 +1,75 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Forever_Your_Girl_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Forever_Your_Girl_(song)</songId>
+   <title>Forever Your Girl</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Paula_Abdul</artistId>
+      <artistName>Paula Abdul</artistName>
+   </artist>
+   <weeks>
+      <week>1989-05-20</week>
+      <week>1989-05-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/7/72/ForeverYourGirlSingle.jpg/200px-ForeverYourGirlSingle.jpg</albumImageId>
+      <albumImageUri>/images/Paula-Abdul+Forever-Your-Girl.jpg</albumImageUri>
+      <albumName>Forever Your Girl</albumName>
+   </album>
+   <formats>
+      <format>CD Single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>Album Version 4:57</length>
+      <length>Single Version 4:15</length>
+   </lengths>
+   <label>Virgin</label>
+   <writers>
+      <writer>Oliver Leiber</writer>
+   </writers>
+   <producers>
+      <producer>Oliver Leiber</producer>
+   </producers>
+   <descr>
+      <p>"Forever Your Girl" is a 1989 hit song by Paula Abdul, taken
+    from the album of the same name. It was written and produced by
+    Oliver Leiber.</p>
+      <p>After the sudden massive success of "Straight Up", Virgin
+    Records quickly released another single to satisfy the public's
+    newfound interest in Paula Abdul. It became the second #1 from
+    her debut album, which would eventually yield a record of four
+    #1 singles.</p>
+      <p>The song is about loyalty in a relationship. The female
+    vocalist proclaims that, despite rumors that others may be
+    interested in her, none of those matter because she will remain
+    faithful to the man she loves; she will remain "forever his
+    girl." The single version differs slightly from the album
+    version, as it uses more of the background male vocal and
+    denser instrumentation.</p>
+      <p>The song was part of a medley Abdul sang at the 1989 MTV
+    Music Video Awards.</p>
+      <p>"Forever Your Girl" spent two weeks at the top of the
+    Billboard Hot 100 in May 1989, and charted at #24 in the UK and
+    #17 in Germany.</p>
+      <p>The video was directed by David Fincher, and featured Abdul
+    acting as a choreographer and director of a children's
+    performance (a 7-year-old Trevor Wright, 8-year-old Elijah Wood
+    and 10-year-old Nikki Cox were among them). The "Forever Your
+    Girl" video spent two weeks at number one on MTV's video
+    rotation and helped establish Abdul as a leading visual
+    entertainer.</p>
+      <p>The video also satirized Robert Palmer videos, having three
+    little girls dressed like the three women who play backup
+    guitars in his videos (black dresses, red lipstick, white
+    makeup, and hair tied in buns).</p>
+   </descr>
+</topSong>

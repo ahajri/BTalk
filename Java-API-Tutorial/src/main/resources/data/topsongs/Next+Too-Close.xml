@@ -1,0 +1,58 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Too_Close 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Too_Close</songId>
+   <title>Too Close</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Next_(band)</artistId>
+      <artistName>Next</artistName>
+   </artist>
+   <weeks>
+      <week>1998-04-25</week>
+      <week>1998-05-02</week>
+      <week>1998-05-09</week>
+      <week>1998-05-16</week>
+      <week>1998-05-30</week>
+   </weeks>
+   <album>
+      <albumName>Rated Next</albumName>
+   </album>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:20</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Kay Gee</writer>
+      <writer>Terry Brown</writer>
+      <writer>Robert Huggar</writer>
+      <writer>Raphael Brown</writer>
+   </writers>
+   <producers>
+      <producer>Kay Gee</producer>
+   </producers>
+   <descr>
+      <p>"Too Close" was the second single lifted from UK boy band
+    Blue's debut album All Rise. The track is a cover version of US
+    R&amp;B group Next's number one U.S. hit.</p>
+      <p>The track was released in August, 2001 and became their
+    first number one UK single produced by multi-platinum producer
+    Ray Ruffin (Anastasia/Ne-Yo). It also reached number five in
+    Australia and number seventeen in Ireland, and number one in
+    New Zealand, where the Next version had also been a number one
+    hit.</p>
+      <p>The song has received a Platinum sales status certification
+    for sales of over 600,000 copies in the UK.</p>
+   </descr>
+</topSong>

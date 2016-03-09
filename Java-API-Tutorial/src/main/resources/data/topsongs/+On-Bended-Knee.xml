@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/On_Bended_Knee 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/On_Bended_Knee</songId>
+   <title>On Bended Knee</title>
+   <weeks>
+      <week>1994-12-03</week>
+      <week>1994-12-10</week>
+      <week>1994-12-31</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/7/7c/Onbendedkneecover.jpg</albumImageId>
+      <albumImageUri>/images/+On-Bended-Knee.jpg</albumImageUri>
+      <albumName> II </albumName>
+   </album>
+   <released>November 1, 1994</released>
+   <recorded>1994</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>5:29</length>
+   </lengths>
+   <label>Motown</label>
+   <writers>
+      <writer>Jimmy Jam and Terry Lewis</writer>
+   </writers>
+   <producers>
+      <producer>Jimmy Jam and Terry Lewis</producer>
+   </producers>
+   <descr>
+      <p>"On Bended Knee" is a 1994 number-one hit single by Boyz II
+    Men for the Motown label.</p>
+      <p>Written and produced by Jimmy Jam and Terry Lewis, the
+    single is notable for having replaced the previous Boyz II Men
+    single, "I'll Make Love to You", as the top song on the
+    Billboard Hot 100 in the United States. This was the first time
+    that an act had replaced itself at number one since the
+    Beatles' heyday, when "I Want to Hold Your Hand", "She Loves
+    You", and "Can't Buy Me Love" monopolized the top of the chart
+    for a total of twelve weeks.</p>
+      <p>The song also reached #1 on the Hot 100 Airplay and #2 on
+    the Hot Singles Sales on December 3, 1994.</p>
+      <p>US Maxi-CD</p>
+      <p>US Vinyl, 12", Promo</p>
+      <p>France Vinyl, 12", Promo</p>
+      <p>Germany Single</p>
+      <p>Europe Maxi-CD</p>
+      <p>The music video featured the band members and their break up
+    and eventual reconciliation with four famous actresses: Kim
+    Fields, Renée Jones, Lark Voorhies, and Victoria Rowell.</p>
+   </descr>
+</topSong>

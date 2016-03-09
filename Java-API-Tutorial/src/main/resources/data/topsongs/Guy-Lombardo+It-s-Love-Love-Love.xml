@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/It%27s_Love-Love-Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/It%27s_Love-Love-Love</songId>
+   <title>It's Love-Love-Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Guy_Lombardo</artistId>
+      <artistName>Guy Lombardo</artistName>
+   </artist>
+   <weeks>
+      <week>1944-04-22</week>
+   </weeks>
+   <descr>
+      <p>"It's Love, Love, Love" is a popular song.</p>
+      <p>The music was written by Joan Whitney and Alex Kramer, with
+    lyrics by Mack David, and published in 1943.</p>
+      <p>The best-known recording was by Guy Lombardo and his Royal
+    Canadians. It was recorded on January 7, 1944, and released by
+    Decca Records as catalog number 18589. It first reached the
+    Billboard magazine Best Seller chart on April 6, 1944 and
+    lasted 10 weeks on the chart, peaking at #1.</p>
+   </descr>
+</topSong>

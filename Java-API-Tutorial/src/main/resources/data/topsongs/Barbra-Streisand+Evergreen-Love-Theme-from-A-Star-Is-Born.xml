@@ -1,0 +1,75 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Evergreen_(Love_Theme_from_A_Star_Is_Born) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Evergreen_(Love_Theme_from_A_Star_Is_Born)</songId>
+   <title>Evergreen (Love Theme from A Star Is Born)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Barbra_Streisand</artistId>
+      <artistName>Barbra Streisand</artistName>
+   </artist>
+   <weeks>
+      <week>1977-03-05</week>
+      <week>1977-03-12</week>
+      <week>1977-03-19</week>
+   </weeks>
+   <album>
+      <albumName>A Star Is Born: Original Motion Picture Soundtrack</albumName>
+   </album>
+   <released>December 1976</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:04</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Barbra Streisand</writer>
+      <writer>Paul Williams</writer>
+   </writers>
+   <producers>
+      <producer>Barbra Streisand</producer>
+      <producer>Phil Ramone</producer>
+   </producers>
+   <descr>
+      <p>"Evergreen (Love Theme from )" is the well known theme song
+    from the 1976 film 
+    <i>A Star Is Born</i>. It was composed and performed by Barbra
+    Streisand with lyrics by Paul Williams. The song was released
+    on the soundtrack to 
+    <i>A Star Is Born</i>.</p>
+      <p>Streisand earned an Academy Award for Best Original Song,
+    her second overall, as composer of the song. With "Evergreen",
+    Streisand earned a Grammy Award for Song of the Year as well.
+    She and Williams also won Golden Globes in the category of Best
+    Original Song for the song.</p>
+      <p>The single was a worldwide success, spending three weeks at
+    #1 on the Billboard Hot 100 and six weeks atop the adult
+    contemporary chart. This was Streisand's second Hot 100 #1 song
+    (following "The Way We Were" in 1974), and her third
+    chart-topper on the adult contemporary chart ("The Way We Were"
+    and 1964's "People").</p>
+      <p>Streisand also recorded versions of the song in Spanish
+    ("Tema de Amor de Nace Una Estrella"), French ( "De Reve en
+    Reverie"), and Italian ("Sempreverde"). Of these versions, only
+    the Spanish version of the song has been released commercially
+    as a track on the CD single, "I Finally Found Someone", a duet
+    with Bryan Adams and on the import CD version of the "A Star is
+    Born" remastered soundtrack.</p>
+      <p>Songwriter Paul Williams recorded the song for his album
+    "Classics" (1977). British singer Hazell Dean recorded a dance
+    version of the song. It was released as a single in 1984.
+    Luther Vandross recorded the song for his
+    album"Songs"(1994).</p>
+   </descr>
+</topSong>

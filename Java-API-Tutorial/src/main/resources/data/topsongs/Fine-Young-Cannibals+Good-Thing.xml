@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Good_Thing_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Good_Thing_(song)</songId>
+   <title>Good Thing</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Fine_Young_Cannibals</artistId>
+      <artistName>Fine Young Cannibals</artistName>
+   </artist>
+   <weeks>
+      <week>1989-07-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Good_thing.jpg/200px-Good_thing.jpg</albumImageId>
+      <albumImageUri>/images/Fine-Young-Cannibals+Good-Thing.jpg</albumImageUri>
+      <albumName>The Raw &amp; the Cooked</albumName>
+   </album>
+   <released>June 14, 1989</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>CD maxi</format>
+   </formats>
+   <recorded>1989</recorded>
+   <genres>
+      <genre>Pop Music</genre>
+   </genres>
+   <lengths>
+      <length>3:24</length>
+   </lengths>
+   <label>London Records</label>
+   <writers>
+      <writer>Fine Young Cannibals</writer>
+   </writers>
+   <producers>
+      <producer>Fine Young Cannibals</producer>
+   </producers>
+   <descr>
+      <p>"Good Thing" is a song recorded by Fine Young Cannibals, the
+    second single pulled from their album 
+    <i>The Raw &amp; the Cooked</i>. The song was their second U.S.
+    number one, topping the Billboard Hot 100 on July 8, 1989. It
+    also peaked at #7 on the UK singles chart.</p>
+      <p>The song made its first appearance in the 1987 film 
+    <i>Tin Men</i>. Fine Young Cannibals portrayed a nightclub band
+    in the movie, performing this song and three others (including
+    the single's b-side "Social Security"). The film is set in
+    Baltimore in 1963, and the song's retro-soul style is
+    consistent with that setting.</p>
+      <p>The video features many scenes with motor scooters, both at
+    rest and in motion as well as scooter culture. The scooters
+    featured include stock scooters, as well as highly stylized
+    scooters and minimalist cutdown scooters.</p>
+      <p>The song was used in an advert for the Chevrolet Captiva SUV
+    automobile in the United Kingdom. It was also used in the 2008
+    film 
+    <i>Doomsday</i>, starring Rhona Mitra, in a surreal scene
+    involving the film's main antagonist.</p>
+   </descr>
+</topSong>

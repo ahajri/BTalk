@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Shakedown_(Bob_Seger_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Shakedown_(Bob_Seger_song)</songId>
+   <title>Shakedown</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bob_Seger</artistId>
+      <artistName>Bob Seger</artistName>
+   </artist>
+   <weeks>
+      <week>1987-08-01</week>
+   </weeks>
+   <album>
+      <albumName>Beverly Hills Cop II</albumName>
+   </album>
+   <released>May 23, 1987</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:59</length>
+   </lengths>
+   <label>MCA</label>
+   <writers>
+      <writer>Harold Faltermeyer</writer>
+      <writer>Keith Forsey</writer>
+      <writer>Bob Seger</writer>
+   </writers>
+   <producers>
+      <producer>Keith Forsey</producer>
+   </producers>
+   <descr>
+      <p>"Shakedown" is a 1987 single by Bob Seger that is from the
+    soundtrack of the film 
+    <i>Beverly Hills Cop II</i>. The music was written by Harold
+    Faltermeyer, who wrote the score for the film, and Keith
+    Forsey, and the lyrics by Seger.</p>
+      <p>The music video featured scenes from the film intercut with
+    Seger and the band performing it, with some members approaching
+    glam metal moves. "Shakedown" became a number-one hit on the
+    Billboard Hot 100, Seger's only such top mark singles-wise, as
+    well as the Album Rock Tracks chart, where it became his second
+    number-one hit, spending four weeks at the top.</p>
+      <p>Cover versions by an uncredited artist appeared in two
+    episodes of the animated series 
+    <i>Captain N: The Game Master</i>. However, due to legal
+    issues, these songs have been edited out of the DVD releases of
+    the show.</p>
+   </descr>
+</topSong>

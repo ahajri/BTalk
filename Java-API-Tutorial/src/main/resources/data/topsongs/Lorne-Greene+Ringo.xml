@@ -1,0 +1,62 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Ringo_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Ringo_(song)</songId>
+   <title>Ringo</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Lorne_Greene</artistId>
+      <artistName>Lorne Greene</artistName>
+   </artist>
+   <weeks>
+      <week>1964-12-05</week>
+   </weeks>
+   <released>1964</released>
+   <formats>
+      <format>7" vinyl</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Western Ballad</genre>
+   </genres>
+   <lengths>
+      <length>3:14</length>
+   </lengths>
+   <label>RCA Victor</label>
+   <writers>
+      <writer>Don Robertson</writer>
+      <writer>Hal Blair</writer>
+   </writers>
+   <descr>
+      <p>"Ringo" is a hit single for the Canadian actor Lorne Greene
+    in 1964.</p>
+      <p>The song's lyrics —spoken rather than sung— tell the story
+    of a Western lawman and his relationship with a notorious
+    gunfighter, Ringo, presumably based on the outlaw Johnny Ringo.
+    It has been pointed out that the song does not fit the known
+    historical facts of the life of Johnny Ringo; this did not
+    damage the song's popularity, as it shot to the top of the US 
+    <i>Billboard</i>charts on December 5, 1964. It also peaked at
+    #1 on the "Easy Listening" chart, where it remained at the top
+    for six weeks, and at #21 on Hot Country Singles chart. (The
+    fact the song had the same name as a Beatle didn't hurt.) The
+    song was written by Don Robertson and Hal Blair.</p>
+      <p>The 'B' side of the disc was an extended version of the
+    theme song of Greene's TV show 
+    <i>Bonanza</i>, with lyrics that were never used on TV. Greene
+    also recorded a French version of the song, in 1965.</p>
+      <p>The song was parodied by Frank Gallop in his 1966 hit
+    single, "The Ballad of Irving"; by Dutch comedian Andre van
+    Duin in the 1980s ("Bingo"); and by Country Yossi and the
+    Shteeble Hoppers ("Shlomo").</p>
+      <p>The 2005 short film "Ringo", which used the song along with
+    public domain footage of John Wayne and Roy Rogers, won the
+    Short Film Award for animated film at the 2005 Seattle
+    International Film Festival.</p>
+   </descr>
+</topSong>

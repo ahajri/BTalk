@@ -1,0 +1,89 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Missing_You_(John_Waite_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Missing_You_(John_Waite_song)</songId>
+   <title>Missing You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/John_Waite</artistId>
+      <artistName>John Waite</artistName>
+   </artist>
+   <weeks>
+      <week>1984-09-22</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/43/John_Waite_-_Missing_You.jpg/200px-John_Waite_-_Missing_You.jpg</albumImageId>
+      <albumImageUri>/images/John-Waite+Missing-You.jpg</albumImageUri>
+      <albumName>No Brakes</albumName>
+   </album>
+   <released>1984</released>
+   <formats>
+      <format>Cassette</format>
+      <format>vinyl</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:01</length>
+   </lengths>
+   <label>EMI</label>
+   <writers>
+      <writer>John Waite</writer>
+      <writer>Mark Leonard</writer>
+      <writer>Chas Sandford</writer>
+   </writers>
+   <producers>
+      <producer>John Waite</producer>
+      <producer>David Thoener</producer>
+      <producer>Gary Gersh</producer>
+   </producers>
+   <descr>
+      <p>"Missing You" is a song by British musician John Waite and
+    was included in the album 
+    <i>No Brakes</i>. It peaked at number one on the Billboard Hot
+    100 during the week of September 22, 1984, and number nine on
+    the UK Singles Chart.</p>
+      <p>John Waite re-recorded the song with country/bluegrass
+    artist Alison Krauss which appeared on her album 
+    <i>A Hundred Miles or More: A Collection</i>, and released it
+    to country music radio in 2007. The re-recording peaked at #34
+    on the Hot Country Songs chart. It was also featured in the
+    popular 1980s inspired video game 
+    <i>Grand Theft Auto: Vice City</i>and the second episode of the
+    TV series Miami Vice ("Heart of Darkness" - originally aired
+    September 28, 1984).</p>
+      <p>This song was also recorded by Tina Turner in 1996, and was
+    released as the third single from the album 
+    <i>Wildest Dreams</i>. When Waite's original version of
+    "Missing You" topped Billboard's Hot 100 in late 1984, the song
+    that it knocked out of a 3-week reign at the top was none other
+    than Tina Turner's "What's Love Got to Do with It". Turner's
+    version of Waite's "Missing You" hit #12 in the UK and #84 in
+    the U.S.</p>
+      <p>The single "Missing You" included an edited single version
+    of the track, an alternative mix and certain formats also the
+    European non-album track "The Difference Between Us", later
+    featured on the U.S. edition of the 
+    <i>Wildest Dreams</i>album.</p>
+      <p>"Missing You" was recorded by American folk-pop musician
+    David Wilcox for his 1994 album "Big Horizon."</p>
+      <p>The song was also recorded by Evan Dando and Tom Morgan as a
+    part of Triple J's Live at The Wireless.</p>
+      <p>It was also recorded by country music duo Brooks &amp; Dunn
+    in 1999 on their 
+    <i>Tightrope</i>album; their version peaked at #15 on the
+    country chart.</p>
+      <p>Another cover came from Rod Stewart in 2006 on his album, 
+    <i>Still the Same... Great Rock Classics of Our Time</i>.</p>
+      <p>A cover has also been made by actor/musician Tyler Hilton,
+    exclusively for the soundtrack of One Tree Hill.</p>
+      <p>Declan Galbraith recorded a cover version on his album 
+    <i>You and Me</i>.</p>
+   </descr>
+</topSong>

@@ -12,7 +12,7 @@ import com.ahajri.btalk.data.domain.AModel;
  */
 public interface IRepository<T> {
 
-	void add(T model) throws Exception;
+	T add(T model) throws Exception;
 
 	void remove(T model) throws Exception;
 

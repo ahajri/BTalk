@@ -1,0 +1,82 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Abracadabra_(Steve_Miller_Band_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Abracadabra_(Steve_Miller_Band_song)</songId>
+   <title>Abracadabra</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Steve_Miller_(musician)</artistId>
+      <artistName>Steve Miller Band</artistName>
+   </artist>
+   <weeks>
+      <week>1982-09-04</week>
+      <week>1982-09-25</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/91/Abracadabra_Steve_Miller_Band.jpg/200px-Abracadabra_Steve_Miller_Band.jpg</albumImageId>
+      <albumImageUri>/images/Steve-Miller-Band+Abracadabra.jpg</albumImageUri>
+      <albumName>Abracadabra</albumName>
+   </album>
+   <released>1982</released>
+   <formats>
+      <format>7"</format>
+      <format>CD single</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+      <genre>New Wave</genre>
+   </genres>
+   <lengths>
+      <length>5:08 (album)</length>
+      <length>3:34 (single)</length>
+   </lengths>
+   <label>Capitol Records</label>
+   <writers>
+      <writer>Steve Miller</writer>
+   </writers>
+   <producers>
+      <producer>Steve Miller</producer>
+      <producer>Gary Mallaber</producer>
+   </producers>
+   <descr>
+      <p>"Abracadabra" is a well-recognized song recorded by the
+    Steve Miller Band.</p>
+      <p>Released as the main single from 
+    <i>Abracadabra</i>in June 1982, it became a number-one hit on
+    the United States 
+    <i>Billboard</i>Hot 100 chart, and also hit number two on the
+    UK charts. It followed Survivor's "Eye of the Tiger" (from 
+    <i>Rocky III</i>) on the Hot 100, and preceded Chicago's "Hard
+    to Say I'm Sorry". After Chicago's ballad ended its two-week
+    stay at number one, "Abracadabra" re-assumed the top spot on
+    the U.S. charts for an additional week on September 25. John
+    Cougar's "Jack and Diane" dislodged the Steve Miller Band's
+    final number-one hit from the top on October 2.</p>
+      <p>The song is said to have been inspired by the American
+    singer Diana Ross with whom the band met filming TV shows in
+    the 1960's.</p>
+      <p>This song holds the record for the biggest drop out of the
+    Top 10/Top 40 on the Hot 100. In the fall of 1982, as the song
+    was moving down the chart, "Abracadabra" fell 38 spots from #10
+    to #48 in one week.</p>
+      <p>The song is listed at #70 on 
+    <i>Billboard's Greatest Songs of all time.</i>[1]</p>
+      <p>Cover versions of the song have been performed by Sugar Ray
+    on their album 
+    <i>14:59</i>and by Mike Chapman Band. A live version by the
+    Belgian band Das Pop appeared on there 2004 DVD-single 
+    <i>Love is Fair</i>.</p>
+      <p>A version lasting 3 minutes and 41 seconds appears on a CD
+    of Songs hand-picked by Guy Fieri titled 
+    <i>Diners, Drive-Ins and Dives:Road Songs That Rock</i>
+      </p>
+      <p>Another CD that has the single version is from the Time-Life
+    Label 
+    <i>Sounds of the Eighties: 1980–1982</i>.</p>
+   </descr>
+</topSong>

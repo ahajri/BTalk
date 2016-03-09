@@ -1,0 +1,33 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Delicado 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Delicado</songId>
+   <title>Delicado</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Percy_Faith</artistId>
+      <artistName>Percy Faith</artistName>
+   </artist>
+   <weeks>
+      <week>1952-07-05</week>
+   </weeks>
+   <descr>
+      <p>"Delicado" is a popular song published in 1952 with music by
+    Valdir Azevedo and lyrics by Jack Lawrence.</p>
+      <p>A version recorded by Percy Faith and his orchestra reached
+    #1 on the Billboard charts in 1952. Stan Kenton and Dinah Shore
+    recorded successful cover versions. Dr. John (Malcolm John
+    "Mac" Rebennack Jr.) recorded a New-Orleans style version on
+    "Dr. John Plays Mac Rebennack Vol. 1 (1981)".</p>
+      <p>Oscar Alemán (1909-1980) recorded a version for guitar.
+    Jacob do Bandolim recorded a version on mandolin. A version was
+    also recorded by the British bandleader and conductor Stanley
+    Black. Tito Cortés recorded a version which included
+    lyrics.</p>
+   </descr>
+</topSong>

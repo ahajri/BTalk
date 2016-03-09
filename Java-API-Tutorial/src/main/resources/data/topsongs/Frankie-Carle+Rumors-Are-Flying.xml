@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Rumors_Are_Flying 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Rumors_Are_Flying</songId>
+   <title>Rumors Are Flying</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Frankie_Carle</artistId>
+      <artistName>Frankie Carle</artistName>
+   </artist>
+   <weeks>
+      <week>1946-10-19</week>
+   </weeks>
+   <descr>
+      <p>"Rumors Are Flying" is a popular song.</p>
+      <p>It was written by Bennie Benjamin and George David Weiss and
+    published in 1946.</p>
+      <p>It was popularized in 1946 by Frankie Carle and by Les Paul.
+    It was a number-one hit in America for eight weeks from late
+    October that year.</p>
+      <p>Harry Cool also recorded the song for Signature Records,
+    catalog #15043.</p>
+   </descr>
+</topSong>

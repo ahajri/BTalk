@@ -1,0 +1,55 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Everything_You_Want_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Everything_You_Want_(song)</songId>
+   <title>Everything You Want</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Vertical_Horizon</artistId>
+      <artistName>Vertical Horizon</artistName>
+   </artist>
+   <weeks>
+      <week>2000-07-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Everything_You_Want_single.jpg/200px-Everything_You_Want_single.jpg</albumImageId>
+      <albumImageUri>/images/Vertical-Horizon+Everything-You-Want.jpg</albumImageUri>
+      <albumName>Everything You Want</albumName>
+   </album>
+   <released>November 30, 1999</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>1999</recorded>
+   <genres>
+      <genre>Alternative Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:17 (Album Version)</length>
+      <length>4:31 (Duet with Richard Marx)</length>
+      <length>4:06 (Edited Version)</length>
+   </lengths>
+   <label>RCA</label>
+   <writers>
+      <writer>Matt Scannell</writer>
+   </writers>
+   <producers>
+      <producer>David Bendeth</producer>
+   </producers>
+   <descr>
+      <p>"Everything You Want" is a song by Vertical Horizon from the
+    1999 album 
+    <i>Everything You Want</i>. The single reached the top of the
+    Billboard Hot 100 after a 21-week climb on July 15, 2000. The
+    song is arguably Vertical Horizon's best-known single. This
+    song is also featured acoustically on the 2008 album 
+    <i>Duo</i>which features both Matt Scannell and pop/rock
+    singer, songwriter Richard Marx. The song's main theme deals
+    with unrequited love.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,89 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hello,_Dolly!_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hello,_Dolly!_(song)</songId>
+   <title>Hello, Dolly!</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Louis_Armstrong</artistId>
+      <artistName>Louis Armstrong</artistName>
+   </artist>
+   <weeks>
+      <week>1964-05-09</week>
+   </weeks>
+   <released>1964</released>
+   <formats>
+      <format>45 rpm</format>
+   </formats>
+   <recorded>December 3, 1963</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Rock 'N' Roll</genre>
+   </genres>
+   <lengths>
+      <length>2:27</length>
+   </lengths>
+   <label>Kapp (573)</label>
+   <writers>
+      <writer>Jerry Herman</writer>
+   </writers>
+   <producers>
+      <producer>Mickey Kapp</producer>
+   </producers>
+   <descr>
+      <p>"Hello, Dolly!" is the title song of the popular 1964
+    musical of the same name. Louis Armstrong's version was
+    inducted in the Grammy Hall of Fame in 2001.</p>
+      <p>The music and lyrics were written by Jerry Herman, who also
+    wrote the scores for many other popular musicals including 
+    <i>Mame</i>and 
+    <i>La Cage aux Folles</i>.</p>
+      <p>"Hello, Dolly!" was first sung by Carol Channing, who
+    starred as Dolly Gallagher Levi in the original 1964 Broadway
+    cast. In December 1963, at the behest of his manager, Louis
+    Armstrong made a demonstration recording of "Hello, Dolly!" for
+    the song's publisher to use to promote the show. 
+    <i>Hello, Dolly!</i>opened on January 16, 1964 at the St. James
+    Theatre in New York City, and it quickly became a major
+    success. The same month, Kapp Records released Armstrong's
+    publishing demo as a commercial single.</p>
+      <p>The best-known recording is by Louis Armstrong, in 1964,
+    which reached number-one on the U.S. Billboard Hot 100, ending
+    The Beatles' streak of three number-one hits in a row (they
+    also held the top three spots) and becoming the biggest hit of
+    Armstrong's career, followed by a gold-selling album of the
+    same name. For the song Armstrong received a Grammy Award for
+    "Best Vocal Performance, Male" in 1964. In 1965, it received a
+    Grammy Award for "Best Song" (Jerry Herman (songwriter),
+    performed by Louis Armstrong). The song also spent nine weeks
+    atop the adult contemporary chart shortly after the opening the
+    musical. Louis Armstrong also performed the song (together with
+    Barbra Streisand) in the popular 1969 film 
+    <i>Hello, Dolly!</i>.</p>
+      <p>"Hello, Dolly!" is a pop standard, and has been covered by
+    many distunguished artists, including:</p>
+      <p>Sinatra's rendition of the song, recorded with the Count
+    Basie Orchestra, features new lyrics, improvised by Sinatra,
+    which pay tribute to Louis Armstrong.</p>
+      <p>The song's refrain is:</p>
+      <p>As successful as the stage show and title song itself turned
+    out to be, however, the tune "Hello, Dolly!" became caught up
+    in a lawsuit which could have endangered timely plans for
+    bringing the musical to the silver screen. Mack David
+    (1912-1993), an Academy Award-nominated composer also known for
+    his compositions for television, sued for infringement of
+    copyright, because the first four bars of Herman's show number,
+    "Hello, Dolly!", were the same as those in the refrain of
+    David's song "Sunflower" from 1948. As he recounts in his
+    memoirs, Herman had never heard "Sunflower" before the lawsuit,
+    and wanted a chance to defend himself in court, but, for the
+    sake of those involved in the show and the potential film, he
+    reluctantly agreed to pay a settlement before the case would
+    have gone to trial.</p>
+   </descr>
+</topSong>

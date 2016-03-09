@@ -27,7 +27,7 @@ public class UserController extends AController<DiscussionMember> {
 	private UserAuthService userService = new UserAuthService();
 
 	@Override
-	public ResponseEntity<List<DiscussionMember>> findByQuery(DiscussionMember query) {
+	public ResponseEntity<List<DiscussionMember>> findByQuery(String query) {
 		
 		return null;
 	}

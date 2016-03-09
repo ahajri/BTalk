@@ -1,0 +1,56 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Island_Girl 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Island_Girl</songId>
+   <title>Island Girl</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Elton_John</artistId>
+      <artistName>Elton John</artistName>
+   </artist>
+   <weeks>
+      <week>1975-11-01</week>
+      <week>1975-11-08</week>
+      <week>1975-11-15</week>
+   </weeks>
+   <album>
+      <albumName>Rock of the Westies</albumName>
+   </album>
+   <released>September 29, 1975</released>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:42 (single version)</length>
+   </lengths>
+   <label>MCA (US/Canada) , DJM Records</label>
+   <writers>
+      <writer>Elton John</writer>
+      <writer>Bernie Taupin</writer>
+   </writers>
+   <producers>
+      <producer>Gus Dudgeon</producer>
+   </producers>
+   <descr>
+      <p>"Island Girl" is a song performed by Elton John that went to
+    number one on the Billboard Hot 100 in the US and number 14 in
+    the UK in 1975. It was the first single taken from the album 
+    <i>Rock of the Westies</i>. The lyrics are about a prostitute
+    and a man who wants to take her back to Jamaica.</p>
+      <p>The song is atmospheric, featuring gospel-ish piano behind
+    the famous scratchy, distorted repeated slide guitar intro. It
+    also features a high-strung Caribbean guitar sound,marimbas,
+    and a heavy bass guitar. Also notable is a shaky synthesizer
+    solo played by James Newton Howard.</p>
+      <p>The single's B-Side was "Sugar on the Floor", which was
+    written by Kiki Dee, who would go on to duet with Elton on a
+    number of occasions, most notably on their chart-topping 1976
+    single, "Don't Go Breaking My Heart".</p>
+      <p>Discography</p>
+   </descr>
+</topSong>

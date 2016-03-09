@@ -1,0 +1,79 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/True_Colors_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/True_Colors_(song)</songId>
+   <title>True Colors</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Cyndi_Lauper</artistId>
+      <artistName>Cyndi Lauper</artistName>
+   </artist>
+   <weeks>
+      <week>1986-10-25</week>
+      <week>1986-11-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/a/a2/Cyndi_lauper-true_colors_s.jpg</albumImageId>
+      <albumImageUri>/images/Cyndi-Lauper+True-Colors.jpg</albumImageUri>
+      <albumName>True Colors</albumName>
+   </album>
+   <released>1986</released>
+   <formats>
+      <format>7" vinyl</format>
+      <format>12" vinyl</format>
+   </formats>
+   <recorded>1986</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:47</length>
+   </lengths>
+   <label>Epic Records</label>
+   <writers>
+      <writer>Tom Kelly</writer>
+      <writer>Billy Steinberg</writer>
+   </writers>
+   <producers>
+      <producer>Cyndi Lauper</producer>
+      <producer>Lennie Petze</producer>
+   </producers>
+   <descr>
+      <p>"True Colors" is a song written by songwriters Billy
+    Steinberg and Tom Kelly. It was both the title track and the
+    first single released from Cyndi Lauper's second album. It was
+    the only original song on the album that Lauper did not help
+    write.</p>
+      <p>Billy Steinberg originally wrote True Colors about his own
+    mother. Tom Kelly altered the first verse and the duo submitted
+    the song to Cyndi Lauper. Their demo was in a form of piano
+    based gospel ballad like "Bridge over Troubled Water".
+    Steinberg told Songfacts that "Cyndi completely dismantled that
+    sort of traditional arrangement and came up with something that
+    was breathtaking and stark." Other songs they wrote for Cyndi
+    Lauper include "I Drove All Night" and "Unconditional Love",
+    the former of which went on to be covered by Celine Dion, the
+    latter of which went on to be covered by Susanna Hoffs.</p>
+      <p>It reached #1 on the U.S. Billboard Hot 100, #3 in
+    Australia, and #12 on the UK Singles Chart.</p>
+      <p>"True Colors" also became a legend of its own in the gay
+    community. Lauper embarked on a True Colors Tour in 2007 with
+    several other acts including Deborah Harry and Erasure. The
+    tour was for the Human Rights Campaign to promote human rights
+    in the US and beyond. A second True Colors tour occurred in
+    2008.</p>
+      <p>In 1998, the song was covered by Phil Collins for his
+    compilation album 
+    <i>...Hits</i>. The version was a smooth-jazz-influenced
+    version compared to the original. R&amp;B singer Babyface
+    provided backing vocals.</p>
+      <p>The track peaked at #2 on the U.S. 
+    <i>Billboard</i>Hot Adult Contemporary Tracks chart and at #26
+    on the UK Singles Chart.</p>
+   </descr>
+</topSong>

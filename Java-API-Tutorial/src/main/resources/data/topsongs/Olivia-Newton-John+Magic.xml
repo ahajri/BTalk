@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Magic_(Olivia_Newton-John_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Magic_(Olivia_Newton-John_song)</songId>
+   <title>Magic</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Olivia_Newton-John</artistId>
+      <artistName>Olivia Newton-John</artistName>
+   </artist>
+   <weeks>
+      <week>1980-08-02</week>
+      <week>1980-08-09</week>
+      <week>1980-08-16</week>
+      <week>1980-08-23</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Magic_Front.jpg/200px-Magic_Front.jpg</albumImageId>
+      <albumImageUri>/images/Olivia-Newton-John+Magic.jpg</albumImageUri>
+      <albumName>Xanadu</albumName>
+   </album>
+   <released>1980</released>
+   <formats>
+      <format>7" vinyl</format>
+   </formats>
+   <genres>
+      <genre>Electronic</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:25</length>
+   </lengths>
+   <label>MCA , Jet Records</label>
+   <writers>
+      <writer>John Farrar</writer>
+   </writers>
+   <producers>
+      <producer>John Farrar</producer>
+   </producers>
+   <descr>
+      <p>"Magic" is a hit 1980 song performed by Olivia Newton-John,
+    from the soundtrack to the film 
+    <i>Xanadu</i>. The song was #1 on the Billboard Hot 100 charts
+    for four weeks, from August 2 through August 29, 1980. It also
+    reached a high of #2 on the Australian charts and #32 in the
+    UK.</p>
+      <p>"Magic" became Newton-John's biggest Adult Contemporary hit
+    to date. It also became Newton-John's biggest pop hit until
+    "Physical" ruled the Hot 100 for ten weeks beginning in
+    November 1981.</p>
+      <p>Two B-sides exist depending on what label and continent the
+    song was released. "Fool Country" is the B-side of the MCA
+    label release, which also features in the film "Xanadu" but was
+    never released on The Original Motion Picture Soundtrack.
+    "Whenever You're Away From Me" with Gene Kelly is the B-side of
+    the Jet label release. It finally saw its CD debut in 2005 on
+    Olivia's "Gold" CD. ABC Family star Meaghan Jette Martin remade
+    the song and it will be featured on the Wizards of Waverly
+    Place CD.</p>
+   </descr>
+</topSong>

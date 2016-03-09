@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Nothing%27s_Gonna_Stop_Us_Now 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Nothing%27s_Gonna_Stop_Us_Now</songId>
+   <title>Nothing's Gonna Stop Us Now</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jefferson_Starship#Starship</artistId>
+      <artistName>Starship</artistName>
+   </artist>
+   <weeks>
+      <week>1987-04-04</week>
+      <week>1987-04-11</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/9/92/StarshipNothingsGonnaStopUsNow7InchSingleCover.jpg</albumImageId>
+      <albumImageUri>/images/Starship+Nothing-s-Gonna-Stop-Us-Now.jpg</albumImageUri>
+      <albumName>No Protection</albumName>
+   </album>
+   <released>January 1987</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>November 1986</recorded>
+   <genres>
+      <genre>Pop/Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:29</length>
+   </lengths>
+   <label>Grunt</label>
+   <writers>
+      <writer>Albert Hammond / Diane Warren</writer>
+   </writers>
+   <producers>
+      <producer>Narada Michael Walden</producer>
+   </producers>
+   <descr>
+      <p>"Nothing's Gonna Stop Us Now" is a song co-written by Albert
+    Hammond and Diane Warren, recorded by Starship. Featured as the
+    theme to the romantic comedy film 
+    <i>Mannequin</i>, it hit #1 in the Billboard Hot 100 on April
+    4, 1987 and reached #1 on the UK Singles Chart for four weeks
+    the following month and became the UK's 2nd biggest selling
+    single of 1987. At the time, it made Grace Slick the oldest
+    female artist to have a number one single in the United States,
+    though the record was later broken by Cher's "Believe" in 1999.
+    The song also received an Oscar nomination for "Best Original
+    Song" at the 60th Academy Awards. It was released on the album 
+    <i>No Protection</i>in 1987.</p>
+      <p>In a radio interview, Albert Hammond said that the idea for
+    the song came from his impending marriage to his live-in
+    girlfriend of 7 years, after his divorce from his previous wife
+    was finalized. He had said to Diane Warren, "It's almost like
+    they've stopped me from marrying this woman for seven years,
+    and they haven't succeeded. They're not gonna stop me doing
+    it."</p>
+   </descr>
+</topSong>

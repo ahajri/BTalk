@@ -1,0 +1,68 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Uncle_Albert/Admiral_Halsey 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Uncle_Albert/Admiral_Halsey</songId>
+   <title>Uncle Albert/Admiral Halsey</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Paul_McCartney</artistId>
+      <artistName>Paul McCartney and Linda McCartney</artistName>
+   </artist>
+   <weeks>
+      <week>1971-09-04</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/01/Uncle_Albert.jpg/200px-Uncle_Albert.jpg</albumImageId>
+      <albumImageUri>/images/Paul-McCartney-and-Linda-McCartney+Uncle-Albert-Admiral-Halsey.jpg</albumImageUri>
+      <albumName>Ram</albumName>
+   </album>
+   <released>2 August 1971</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1970</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:49</length>
+   </lengths>
+   <label>Parlophone</label>
+   <writers>
+      <writer>Paul and Linda McCartney</writer>
+   </writers>
+   <producers>
+      <producer>Paul McCartney</producer>
+   </producers>
+   <descr>
+      <p>"Uncle Albert/Admiral Halsey" is a song by Paul and Linda
+    McCartney from the album 
+    <i>Ram</i>. Released in the United States as a single on 2
+    August 1971, it reached number one on the Billboard Hot 100 in
+    August 1971. The song is probably the most ambitious and
+    experimental track on 
+    <i>Ram</i>, and is less a song and more a collection of melodic
+    fragments pieced together, in a similar way to the song-cycle
+    on the second half of The Beatles' 
+    <i>Abbey Road</i>. Paul McCartney won the Grammy Award for Best
+    Arrangement Accompanying Vocalists in 1971 for the song.</p>
+      <p>The song is noted for its sound effects, including the sound
+    of thunder, lightning, and rain, heard between the first and
+    second verse, the sound of a telephone dialing, and a message
+    machine, heard after the second verse, and a sound of chirping
+    sea birds and wind by the seashore. Linda's voice is heard in
+    the harmonies as well as the bridge section of the "Admiral
+    Halsey" portion of the song.</p>
+      <p>McCartney said "Uncle Albert" was based on his uncle. "He's
+    someone I recall fondly, and when the song was coming it was
+    like a nostalgia thing." McCartney also said, "As for Admiral
+    Halsey, he's one of yours, an American admiral", referring to
+    Admiral William "Bull" Halsey.</p>
+      <p>link title</p>
+   </descr>
+</topSong>

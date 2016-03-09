@@ -1,0 +1,87 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Jack_and_Diane 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Jack_and_Diane</songId>
+   <title>Jack and Diane</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/John_Mellencamp</artistId>
+      <artistName>John Cougar</artistName>
+   </artist>
+   <weeks>
+      <week>1982-10-02</week>
+      <week>1982-10-09</week>
+      <week>1982-10-16</week>
+      <week>1982-10-23</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/0/00/John_cougar-jack_diane_s.jpg/200px-John_cougar-jack_diane_s.jpg</albumImageId>
+      <albumImageUri>/images/John-Cougar+Jack-and-Diane.jpg</albumImageUri>
+      <albumName>American Fool</albumName>
+   </album>
+   <released>1982</released>
+   <formats>
+      <format>45 Record</format>
+   </formats>
+   <recorded>1982</recorded>
+   <genres>
+      <genre>Heartland Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:45 (Edit)</length>
+   </lengths>
+   <label>Riva Records</label>
+   <writers>
+      <writer>John Mellencamp</writer>
+   </writers>
+   <descr>
+      <p>"Jack &amp; Diane" is a 1982 hit song written and performed
+    by American singer-songwriter, John Mellencamp, then performing
+    as "John Cougar". It appears on Mellencamp's album 
+    <i>American Fool</i>. It was chosen by RIAA as one of the Songs
+    of the Century. The single spent four weeks at number one on
+    the Billboard Hot 100 in 1982, and, to date, is the biggest hit
+    single ever for Mellencamp, especially with its accompanying
+    music video directed by Bruce Gowers.</p>
+      <p>According to Mellencamp, "'Jack &amp; Diane' was written
+    after watching 
+    <i>Splendor in the Grass,</i>(a 1961 movie starring Natalie
+    Wood and Warren Beatty). "'Jack &amp; Diane' was a terrible
+    record to make. When I play it on guitar by myself, it sounds
+    great; but I could never get the band to play along with me.
+    That's why the arrangement's so weird. Stopping and starting,
+    it's not very musical." Mellencamp has also stated that the
+    clapping wasn't supposed to be included in the finished song.
+    It was recorded with the clapping in order to help keep tempo
+    and then it was to be removed. However, he realized the song
+    didn't work without it.</p>
+      <p>The song's tone and lyrics are evocative of a nostalgia for
+    the novelty of youth, influenced in part by Mellencamp's own
+    life experiences. Mellencamp has stated in interviews that
+    "Jack and Diane" was originally about an interracial couple,
+    but he realized that in the early '80s there could be backlash
+    over such a song. Later on, he would make the title track on
+    his 2001 album 
+    <i>Cuttin' Heads</i>about an interracial couple.</p>
+      <p>In 1982, Mick Ronson worked with John Mellencamp on his 
+    <i>American Fool</i>album, and in particularly the song "Jack
+    &amp; Diane". "I owe Mick Ronson the hit song, 'Jack &amp;
+    Diane'. Mick was very instrumental in helping me arrange that
+    song, as I'd thrown it on the junk heap. Ronson came down and
+    played on three or four tracks and worked on the American Fool
+    record for four or five weeks. All of a sudden, for 'Jack &amp;
+    Diane', Mick said 'Johnny, you should put baby rattles on
+    there.' I thought, 'What the @$%&amp;! does put baby rattles on
+    the record mean? So he put the percussion on there and then he
+    sang the part 'let it rock, let it roll' as a choir-ish-type
+    thing, which had never occurred to me. And that is the part
+    everybody remembers on the song. It was Ronson's idea."</p>
+      <p>A very similar riff is in Tracy Chapman's song "Fast Car" as
+    in "Jack and Diane."</p>
+   </descr>
+</topSong>

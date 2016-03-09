@@ -1,0 +1,48 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/If_You_Wanna_Be_Happy 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/If_You_Wanna_Be_Happy</songId>
+   <title>If You Wanna Be Happy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jimmy_Soul</artistId>
+      <artistName>Jimmy Soul</artistName>
+   </artist>
+   <weeks>
+      <week>1963-05-18</week>
+      <week>1963-05-25</week>
+   </weeks>
+   <released>1963</released>
+   <lengths>
+      <length>2:14</length>
+   </lengths>
+   <label>S.P.Q.R./ London Records</label>
+   <writers>
+      <writer>Guida</writer>
+   </writers>
+   <descr>
+      <p>"If You Wanna Be Happy" is a song recorded by Jimmy Soul,
+    written by Frank Guida. It hit number one on the Billboard Hot
+    100 on May 18, 1963, as well as the R&amp;B singles chart. The
+    song is based on the calypso "Ugly Woman" by Roaring Lion. It
+    was issued on Guida's S.P.Q.R. label and distributed by London
+    Records, and in the UK on EMI's Stateside label. The original
+    single lists a running time of 2:14, some later releases are
+    sightly longer due to a longer fade-out.</p>
+      <p>The song is featured in the films 
+    <i>Mermaids</i>(1990) and 
+    <i>My Best Friend's Wedding</i>(1997).</p>
+      <p>The band Rocky Sharpe and The Replays released a cover
+    version of the song in 1983. The artists/bands Kid Creole and
+    the Coconuts, Joe Dolce, The Skatalites and Barnes &amp; Barnes
+    have released cover versions as well.</p>
+      <p>The song was also sampled by Canadian Synth-Pop group Kon
+    Kan in the track "Could Have Said I Told You So", taken from
+    their second album entitled Syntonic.</p>
+   </descr>
+</topSong>

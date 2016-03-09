@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Kiss_and_Say_Goodbye 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Kiss_and_Say_Goodbye</songId>
+   <title>Kiss and Say Goodbye</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Manhattans</artistId>
+      <artistName>The Manhattans</artistName>
+   </artist>
+   <weeks>
+      <week>1976-07-24</week>
+      <week>1976-07-31</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/5/58/Kissandsaygoodbye45.jpg/200px-Kissandsaygoodbye45.jpg</albumImageId>
+      <albumImageUri>/images/The-Manhattans+Kiss-and-Say-Goodbye.jpg</albumImageUri>
+      <albumName>The Manhattans</albumName>
+   </album>
+   <released>April 1976</released>
+   <formats>
+      <format>7" 45 RPM</format>
+   </formats>
+   <recorded>1975</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Soul</genre>
+   </genres>
+   <lengths>
+      <length>4:27 (full version)</length>
+      <length>3:29 (single edit)</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Winfred Lovett</writer>
+   </writers>
+   <producers>
+      <producer>Bobby Martin</producer>
+   </producers>
+   <descr>
+      <p>"Kiss And Say Goodbye" is a song recorded by the American
+    R&amp;B vocal group The Manhattans. The song was written by
+    Manhattans member Winfred "Blue" Lovett. The original demo of
+    the song was recorded with The Manhattans backing band, "Little
+    Harlem." After hearing a tape of the recording,
+    producer/arranger Bobby Martin decided to re-record the song
+    with MFSB at Sigma Sound Studios in Philadelphia. Released as a
+    single, in both a version that included a mid-song rap spoken
+    part (aimed toward the R&amp;B market) and one that omitted it
+    (aimed toward the pop market), over a year later, the song
+    became a world-wide hit for the group, spending two weeks at
+    number one on the U.S. Pop and U.S. R&amp;B charts. and
+    reaching number four on the UK Singles Chart in the summer of
+    1976. It also became just the second single to earn
+    double-platinum certification status (Johnnie Taylor's "Disco
+    Lady" was the first a few months earlier).</p>
+   </descr>
+</topSong>

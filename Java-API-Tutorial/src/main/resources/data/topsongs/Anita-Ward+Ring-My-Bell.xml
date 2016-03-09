@@ -1,0 +1,58 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Ring_My_Bell 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Ring_My_Bell</songId>
+   <title>Ring My Bell</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Anita_Ward</artistId>
+      <artistName>Anita Ward</artistName>
+   </artist>
+   <weeks>
+      <week>1979-06-30</week>
+      <week>1979-07-07</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/3/37/RINGBELL.jpg/200px-RINGBELL.jpg</albumImageId>
+      <albumImageUri>/images/Anita-Ward+Ring-My-Bell.jpg</albumImageUri>
+      <albumName>Songs of Love</albumName>
+   </album>
+   <released>1979</released>
+   <formats>
+      <format>12" Single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>8:08</length>
+   </lengths>
+   <label>TK Records</label>
+   <writers>
+      <writer>Frederick Knight</writer>
+   </writers>
+   <producers>
+      <producer>Frederick Knight</producer>
+   </producers>
+   <descr>
+      <p>"Ring My Bell" is a 1979 popular disco song by Anita Ward.
+    Originally written for Stacy Lattisaw, when she signed with a
+    different label, Ward was asked to sing it instead and it
+    became her only major hit. The song hit number one on the disco
+    charts. "Ring My Bell" went to number one on both the Billboard
+    Hot 100, and soul singles chart. . It also reached number one
+    on the UK Singles Chart.</p>
+      <p>"Ring My Bell" has been covered by many artists since its
+    original release, including Ann Lee, DJ Jazzy Jeff &amp; the
+    Fresh Prince, Tori Amos, Blood Sisters, Dynamic Duo, D'Flow
+    Production Squad, Collette, Saïan Supa Crew, INOJ, Pato Fu and
+    Joey Boy. It has also been remixed many times over and is
+    considered a disco-era classic.</p>
+   </descr>
+</topSong>

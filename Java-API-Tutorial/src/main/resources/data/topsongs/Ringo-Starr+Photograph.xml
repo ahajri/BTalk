@@ -1,0 +1,73 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Photograph_(Ringo_Starr_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Photograph_(Ringo_Starr_song)</songId>
+   <title>Photograph</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ringo_Starr</artistId>
+      <artistName>Ringo Starr</artistName>
+   </artist>
+   <weeks>
+      <week>1973-11-24</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Ringo_starr_photo.jpg/200px-Ringo_starr_photo.jpg</albumImageId>
+      <albumImageUri>/images/Ringo-Starr+Photograph.jpg</albumImageUri>
+      <albumName>Ringo</albumName>
+   </album>
+   <released>5 October 1973</released>
+   <formats>
+      <format>vinyl record 7"</format>
+   </formats>
+   <recorded>May 1973</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:00</length>
+   </lengths>
+   <label>EMI ( UK ) , Apple Records ( USA )</label>
+   <writers>
+      <writer>Richard Starkey</writer>
+      <writer>George Harrison</writer>
+   </writers>
+   <producers>
+      <producer>Richard Perry</producer>
+   </producers>
+   <descr>
+      <p>"Photograph" is a song written by Ringo Starr and George
+    Harrison. It was released by Starr as a single on October 5,
+    1973, reaching number eight and number one in the UK and U.S.
+    singles charts, respectively. It can also be heard on the 
+    <i>Ringo</i>album and several compilation and live albums.</p>
+      <p>On "Photograph", Starr is the lead vocalist and plays drums,
+    and Harrison plays 12-string acoustic guitar and sings harmony
+    vocals; Jim Keltner (drums), Klaus Voorman (bass), Nicky
+    Hopkins (piano), Vini Poncia (acoustic guitar), Jimmy Calvert
+    (acoustic guitar), Lon and Derrek Van Eaton (percussion), Bobby
+    Keyes (tenor saxophone solo) are also featured. The orchestral
+    arrangements are by Jack Nitzsche, and Richard Perry produced
+    the recording.</p>
+      <p>A promotional film was shot for the "Photograph" single,
+    showing Starr walking around his new house at the time,
+    Tittenhurst Park, which had been previously the home of John
+    Lennon and Yoko Ono. The B-side of the "Photograph" single,
+    "Down And Out", was written by Starr on his own.</p>
+      <p>On November 29, 2002, Starr performed "Photograph" at the
+    Concert for George held in the Royal Albert Hall, London on the
+    first anniversary of Harrison's death. According to the
+    official Concert for George website, "Ringo Starr caught
+    everyone with a tear in their eye with a rendition of
+    "Photograph", a composition he wrote with George, which seemed
+    to sum up how everyone felt." In this concert, Starr mentioned
+    that the song took on a whole new meaning after the passing of
+    Harrison. The lyrics were believed to be poignantly appropriate
+    for this occasion, including:</p>
+   </descr>
+</topSong>

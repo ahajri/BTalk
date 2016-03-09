@@ -1,0 +1,87 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Wooden_Heart 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Wooden_Heart</songId>
+   <title>Wooden Heart (Muss I Denn)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Joe_Dowell</artistId>
+      <artistName>Joe Dowell</artistName>
+   </artist>
+   <weeks>
+      <week>1961-08-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Woodenheartcover.jpg/200px-Woodenheartcover.jpg</albumImageId>
+      <albumImageUri>/images/Joe-Dowell+Wooden-Heart-Muss-I-Denn.jpg</albumImageUri>
+      <albumName>G.I. Blues</albumName>
+   </album>
+   <released>1960</released>
+   <formats>
+      <format>7"</format>
+      <format>45rpm</format>
+   </formats>
+   <recorded>April 28, 1960</recorded>
+   <genres>
+      <genre>Blues</genre>
+   </genres>
+   <lengths>
+      <length>2:03</length>
+   </lengths>
+   <label>RCA</label>
+   <writers>
+      <writer>Fred Wise</writer>
+      <writer>Ben Weisman</writer>
+      <writer>Kay Twomey</writer>
+      <writer>Bert Kaempfert</writer>
+   </writers>
+   <descr>
+      <p>"Wooden Heart (Muss I Denn)" is a song best known for
+    featuring in the 1960 Elvis Presley film 
+    <i>G.I. Blues</i>. The song was a hit for Presley in the United
+    Kingdom, making number one for six weeks, but wasn't released
+    as a single in the USA until November 1964 (as B-side to "Blue
+    Christmas"). Presley was pipped to the post in the U.S. by Joe
+    Dowell's cover version, which made number one at the end of
+    August 1961, knocking Bobby Lewis' Tossin' and Turnin' off the
+    number one chart after 7 weeks. Elvis performed the song live
+    during his Dinner Show concert at the Hilton Hotel in Las Vegas
+    in 1975. The recording is available on the Elvis Presley live
+    album, Dinner At Eight.</p>
+      <p>"Wooden Heart", created by Fred Wise, Ben Weisman, Kay
+    Twomey and German bandleader Bert Kaempfert, was based on a
+    German folk song, "Muß i' denn zum Städtele hinaus". "Wooden
+    Heart" features several lines from the original folk song,
+    written in the German dialect Swabian. Bobby Vinton recorded
+    his version in 1975 with those lines translated into
+    Polish.</p>
+      <p>The Elvis Presley version featured two parts in German, the
+    first one is the first four lines of "Muß i' denn zum Städtele
+    hinaus", whereas the second part appears towards the end and is
+    based on a translation of the English version (therefore not
+    appearing in the original German folk lyrics). This part being
+    "Sei mir gut, Sei mir gut, Sei mir wie du wirklich sollst, Wie
+    du wirklich sollst...." This literally means "Be good to me, Be
+    good to me, Be to me how you really should, How you really
+    should...."</p>
+      <p>"Wooden Heart" was covered by Tom Petty and the
+    Heartbreakers in 1993. It was released in their 1995 Playback
+    box set on disc six, "Nobody's Children".</p>
+      <p>Another Elvis song from the same session, this one a track
+    from 
+    <i>G.I. Blues</i>, "The first album I ever owned," Petty says.
+    In 1995 Petty arranged for his family to take a private tour of
+    Graceland, and for the Heartbreakers to record at Sun Studios.
+    "I am the true Elvis fan. The music meant so much to me. I
+    really have to give him credit for saving my life on so many
+    levels.</p>
+      <p>-Tom Petty, 
+    <i>Playback box set liner notes</i>
+      </p>
+   </descr>
+</topSong>

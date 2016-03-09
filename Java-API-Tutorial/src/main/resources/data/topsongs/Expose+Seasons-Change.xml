@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Seasons_Change 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Seasons_Change</songId>
+   <title>Seasons Change</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Expos%C3%A9_(group)</artistId>
+      <artistName>Exposé</artistName>
+   </artist>
+   <weeks>
+      <week>1988-02-20</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Expose_-_Seasons_Change_cover.jpg/200px-Expose_-_Seasons_Change_cover.jpg</albumImageId>
+      <albumImageUri>/images/Expose+Seasons-Change.jpg</albumImageUri>
+      <albumName>Exposure</albumName>
+   </album>
+   <released>1988</released>
+   <formats>
+      <format>12" single</format>
+   </formats>
+   <genres>
+      <genre>Pop</genre>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:18</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>Lewis Martineé</writer>
+   </writers>
+   <producers>
+      <producer>Lewis Martineé</producer>
+   </producers>
+   <descr>
+      <p>"Seasons Change" is a pop–R&amp;B song written and produced
+    by Lewis Martineé for the American girl group Exposé's debut
+    album, 
+    <i>Exposure</i>(1987). Released in 1988 as the album's fourth
+    single, the ballad remains the group's biggest hit to date, as
+    it topped the U.S. Hot 100 for one week on February 20, 1988.
+    The single also reached number ninety-seven in the United
+    Kingdom. This song's lyrics describe relationships fading away
+    due to the changes brought about by time (on both people and
+    events). It is something of a sentimental break-up song, though
+    not about any person in particular. It's not typical of this
+    group's dance-pop-oriented sound, yet it remains their biggest
+    hit to date.</p>
+      <p>Angie Vollaro of fellow Lewis A. Martineé group Sequal lent
+    background vocals to this song.</p>
+   </descr>
+</topSong>

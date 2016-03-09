@@ -1,0 +1,83 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27m_Your_Baby_Tonight_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27m_Your_Baby_Tonight_(song)</songId>
+   <title>I'm Your Baby Tonight</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Whitney_Houston</artistId>
+      <artistName>Whitney Houston</artistName>
+   </artist>
+   <weeks>
+      <week>1990-12-01</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/7/7d/Whitney_Houston-_I%27m_Your_Baby_Tonight_single.jpg</albumImageId>
+      <albumImageUri>/images/Whitney-Houston+I-m-Your-Baby-Tonight.jpg</albumImageUri>
+      <albumName>I'm Your Baby Tonight</albumName>
+   </album>
+   <released>October 2, 1990</released>
+   <formats>
+      <format>CD Single</format>
+      <format>Cassette Single</format>
+      <format>7" Single</format>
+   </formats>
+   <recorded>1990</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>5:00</length>
+   </lengths>
+   <label>Arista</label>
+   <writers>
+      <writer>L.A. Reid</writer>
+      <writer>Babyface</writer>
+   </writers>
+   <producers>
+      <producer>L.A. Reid</producer>
+      <producer>Babyface</producer>
+   </producers>
+   <descr>
+      <p>"I'm Your Baby Tonight" is the lead single and title track
+    off Whitney Houston's third studio album of the same name. The
+    song was produced by L.A. Reid and Babyface.</p>
+      <p>***The single "Feels So Good" is a B-side/Bonus Cut...It has
+    not been featured on any Whitney Houston album.</p>
+      <p>The music video (directed by Julian Temple) features an
+    edgier, rougher Houston (much different than she was in videos
+    such as "How Will I Know" and "I Wanna Dance with Somebody")
+    paying homage to the sounds of black music that have helped
+    define her sound, paying tribute in simulation of the Harlem
+    Renaissance (with Houston as Marlene Dietrich), Motown (most
+    notably The Supremes as Houston uses cloning imagery to create
+    two clones of herself), and Hollywood's Golden Age (with
+    Houston dressed as Audrey Hepburn in 
+    <i>Funny Face</i>), finally returning to present day by the
+    video's end.</p>
+      <p>After having charted ten Top 10 hits (and seven consecutive
+    number ones) on the Billboard Hot 100, Houston continued her
+    chart momentum as "I'm Your Baby Tonight" would become her
+    eleventh Top 10 hit and eighth number one. The song had an
+    impressive debut at number 42 the week of October 20, 1990. Six
+    weeks later, it hit number one, ending Mariah Carey's
+    three-week run at the top with "Love Takes Time". "I'm Your
+    Baby Tonight" spent only one week at number one, being knocked
+    out by Stevie B's "Because I Love You (The Postman Song)".
+    Altogether, the single spent seven weeks in the Top 10, twelve
+    weeks in the Top 20, and fourteen consecutive weeks in the Top
+    40. It also reached number one on the 
+    <i>Billboard</i>R&amp;B singles chart for two weeks. The single
+    was certified Gold by the RIAA.</p>
+      <p>"I'm Your Baby Tonight":</p>
+      <p>"I'm Your Baby Tonight" hit the Top 10 in several major
+    markets including Australia (#7), France (#4),Italy (#2),
+    Switzerland (#4), UK (#5), and Germany (#5).</p>
+   </descr>
+</topSong>

@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Fire_(Ohio_Players_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Fire_(Ohio_Players_song)</songId>
+   <title>Fire</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ohio_Players</artistId>
+      <artistName>Ohio Players</artistName>
+   </artist>
+   <weeks>
+      <week>1975-02-08</week>
+   </weeks>
+   <album>
+      <albumName>Fire</albumName>
+   </album>
+   <released>1974</released>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Funk</genre>
+   </genres>
+   <lengths>
+      <length>4:36 (album version)</length>
+      <length>3:12 (single version)</length>
+   </lengths>
+   <label>Mercury Records</label>
+   <writers>
+      <writer>Billy Beck</writer>
+      <writer>Leroy "Sugarfoot" Bonner</writer>
+      <writer>Marshall "Rock" Jones</writer>
+      <writer>Ralph "Pee Wee" Middlebrooks</writer>
+      <writer>The Ohio Players</writer>
+      <writer>Clarence "Satch" Satchell</writer>
+      <writer>James "Diamond" Williams</writer>
+   </writers>
+   <descr>
+      <p>"Fire" is a hit song by R&amp;B/funk band The Ohio Players.
+    The song was released from the album of the same name and
+    peaked at the top of both the pop and soul charts. It spent one
+    week at number one on the Billboard Hot 100 and five weeks at
+    the top of the Hot Soul Singles chart in early 1975. "Fire" was
+    the Ohio Players only entry on the new disco/dance chart, where
+    it peaked at number ten. The song is today considered one of
+    their signature songs.</p>
+      <p>The song was recorded at Mercury Record's Chicago-based
+    studio. While performing it in California, the band let Stevie
+    Wonder hear the basic track for the song and he predicted that
+    it would become a big hit. It is currently used as the theme
+    song to the FOX reality series 
+    <i>Hell's Kitchen</i>.</p>
+   </descr>
+</topSong>

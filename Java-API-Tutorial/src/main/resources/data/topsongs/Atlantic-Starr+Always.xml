@@ -1,0 +1,57 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Always_(Atlantic_Starr_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Always_(Atlantic_Starr_song)</songId>
+   <title>Always</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Atlantic_Starr</artistId>
+      <artistName>Atlantic Starr</artistName>
+   </artist>
+   <weeks>
+      <week>1987-06-13</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/86/Atlantic_Starr-Always.jpg/200px-Atlantic_Starr-Always.jpg</albumImageId>
+      <albumImageUri>/images/Atlantic-Starr+Always.jpg</albumImageUri>
+      <albumName>All in the Name of Love</albumName>
+   </album>
+   <released>1987</released>
+   <formats>
+      <format>12" maxi single</format>
+   </formats>
+   <recorded>1986</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:47 (album version); 3:59 (single version)</length>
+   </lengths>
+   <label>Warner Bros.</label>
+   <writers>
+      <writer>David Lewis</writer>
+      <writer>Jonathan Lewis</writer>
+      <writer>Wayne Lewis</writer>
+   </writers>
+   <producers>
+      <producer>David Lewis</producer>
+      <producer>Wayne Lewis</producer>
+   </producers>
+   <descr>
+      <p>"Always" was the second single from 
+    <i>All In The Name Of Love</i>, the seventh album from R&amp;B
+    group, Atlantic Starr. The song went to number one on both the
+    Hot Black Singles and Billboard Hot 100 charts in June 1987. .
+    The song also spent two weeks atop the U.S. adult contemporary
+    chart.</p>
+      <p>In 2000, the pop act Boyz N Girlz United included a cover
+    version of the song on their self titled debut album.</p>
+      <p>The song appears on the game Karaoke Revolution Party.</p>
+   </descr>
+</topSong>

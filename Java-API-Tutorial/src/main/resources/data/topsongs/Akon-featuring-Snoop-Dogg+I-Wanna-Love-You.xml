@@ -1,0 +1,37 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Wanna_Love_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Wanna_Love_You</songId>
+   <title>I Wanna Love You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Akon</artistId>
+      <artistName>Akon featuring Snoop Dogg</artistName>
+   </artist>
+   <weeks>
+      <week>2006-12-02</week>
+      <week>2006-12-09</week>
+   </weeks>
+   <album>
+      <albumName>Jade to the Max</albumName>
+   </album>
+   <formats>
+      <format>CD single</format>
+      <format>Cassette single</format>
+      <format>7" vinyl</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <label>Giant Records</label>
+   <descr>
+      <p>"I Wanna Love You" is the title of a top-ten R&amp;B single
+    by Jade. It was the groups debut single, it was featured on the
+    Class Act soundtrack.</p>
+   </descr>
+</topSong>

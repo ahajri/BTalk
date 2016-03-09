@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Heartache_Tonight 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Heartache_Tonight</songId>
+   <title>Heartache Tonight</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Eagles</artistId>
+      <artistName>Eagles</artistName>
+   </artist>
+   <weeks>
+      <week>1979-11-10</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/8/84/HeartacheTonight45.jpg</albumImageId>
+      <albumImageUri>/images/Eagles+Heartache-Tonight.jpg</albumImageUri>
+      <albumName>The Long Run</albumName>
+   </album>
+   <released>September 18, 1979</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:25</length>
+   </lengths>
+   <label>Asylum</label>
+   <writers>
+      <writer>Don Henley</writer>
+      <writer>Glenn Frey</writer>
+      <writer>Bob Seger and J. D. Souther</writer>
+   </writers>
+   <producers>
+      <producer>Bill Szymczyk</producer>
+   </producers>
+   <descr>
+      <p>"Heartache Tonight" is a song written by Don Henley, Glenn
+    Frey, Bob Seger and J. D. Souther, and recorded by the Eagles.
+    The track was included on their album 
+    <i>The Long Run</i>and released as a single in 1979. It reached
+    #1 on the U.S. Billboard Hot 100 in November of that year.
+    Although it remained in the top position for only one week, the
+    single sold 1 million copies.</p>
+      <p>The recording also received a Grammy Award for Best Rock
+    Performance by a Duo or Group with Vocal.</p>
+      <p>The song was covered by country music singer John Anderson
+    on the tribute album 
+    <i>Common Thread: The Songs of the Eagles</i>. Veteran country
+    star Dottie West also used to often include the song in her
+    concerts.</p>
+      <p>In 2009 Michael Bublé included a cover version of the song
+    on his Album "Crazy Love".</p>
+      <p>It was also recorded by Conway Twitty, whose version peaked
+    at number six on the country chart in 1983 .</p>
+   </descr>
+</topSong>

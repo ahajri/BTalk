@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Anything_for_You_(Gloria_Estefan_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Anything_for_You_(Gloria_Estefan_song)</songId>
+   <title>Anything for You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Gloria_Estefan</artistId>
+      <artistName>Gloria Estefan and Miami Sound Machine</artistName>
+   </artist>
+   <weeks>
+      <week>1988-05-14</week>
+      <week>1988-05-21</week>
+   </weeks>
+   <album>
+      <albumName>Let It Loose</albumName>
+   </album>
+   <released>1988</released>
+   <formats>
+      <format>Cassette single</format>
+   </formats>
+   <recorded>1987</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Adult Contemporary</genre>
+   </genres>
+   <lengths>
+      <length>4:02 (Album Version) 3:43 (7" edit)</length>
+   </lengths>
+   <label>Epic Records</label>
+   <writers>
+      <writer>Gloria Estefan</writer>
+   </writers>
+   <producers>
+      <producer>Emilio Estefan</producer>
+   </producers>
+   <descr>
+      <p>"Anything for You" is a popular song and ballad written by
+    Gloria Estefan and sung by Estefan and Miami Sound Machine. The
+    song appeared on their 1987 album, 
+    <i>Let It Loose</i>. "Anything for You" became a number-one
+    song in the United States during the year 1988, the band's (and
+    Gloria's) first. It topped the magazine Hot 100 chart on
+    May 14, 1988, and remained there for two weeks. The song
+    also spent three weeks at #1 on the Adult Contemporary chart
+    that same year. It also peaked at #3 on the Hot Latin Tracks on
+    June 25, 1988. The B-side of the single was a Spanglish version
+    of the song, with Estefan alternating the verses and chorus
+    between English and Spanish.</p>
+      <p>The song also appeared on the compilation album 
+    <i>Exitos de Gloria Estefan</i>, sung completely in Spanish and
+    retitled "No Te Olvidare (I Won't Forget You)."</p>
+   </descr>
+</topSong>

@@ -1,0 +1,33 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27ve_Heard_That_Song_Before 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27ve_Heard_That_Song_Before</songId>
+   <title>I've Heard That Song Before</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Harry_James</artistId>
+      <artistName>Harry James</artistName>
+   </artist>
+   <weeks>
+      <week>1943-03-06</week>
+   </weeks>
+   <descr>
+      <p>"I've Heard That Song Before" is a 1942 popular song with
+    music by Jule Styne and lyrics by Sammy Cahn. It was introduced
+    by Martha O'Driscoll (dubbed by Margaret Whiting) in the 1942
+    film 
+    <i>Youth on Parade</i>.</p>
+      <p>It was recorded by Harry James and his Orchestra with Helen
+    Forrest on vocal on July 31, 1942. This was the last day of
+    recording before the Musician Union's ban. The recording was
+    issued on Columbia 36668 and became a number one hit on both
+    the pop and R&amp;B charts in the USA in early 1943 . This
+    version of the song can be heard in Woody Allen's movie Hannah
+    and Her Sisters.</p>
+   </descr>
+</topSong>

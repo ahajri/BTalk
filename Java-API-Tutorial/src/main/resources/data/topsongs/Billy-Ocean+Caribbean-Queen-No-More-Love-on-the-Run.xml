@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Caribbean_Queen_(No_More_Love_on_the_Run) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Caribbean_Queen_(No_More_Love_on_the_Run)</songId>
+   <title>Caribbean Queen (No More Love on the Run)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Billy_Ocean</artistId>
+      <artistName>Billy Ocean</artistName>
+   </artist>
+   <weeks>
+      <week>1984-11-03</week>
+      <week>1984-11-10</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Billy_Ocean_Caribbean_Queen.jpg/200px-Billy_Ocean_Caribbean_Queen.jpg</albumImageId>
+      <albumImageUri>/images/Billy-Ocean+Caribbean-Queen-No-More-Love-on-the-Run.jpg</albumImageUri>
+      <albumName>Suddenly</albumName>
+   </album>
+   <released>1984</released>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Funk</genre>
+      <genre>Dance Pop</genre>
+      <genre>Post Disco</genre>
+   </genres>
+   <lengths>
+      <length>4:10</length>
+   </lengths>
+   <label>Jive</label>
+   <writers>
+      <writer>Billy Ocean</writer>
+      <writer>Robert John "Mutt" Lange</writer>
+   </writers>
+   <producers>
+      <producer>Robert John "Mutt" Lange</producer>
+   </producers>
+   <descr>
+      <p>"Caribbean Queen" is a song by Billy Ocean. Co-written and
+    co-produced by Robert John "Mutt" Lange, it climbed to number
+    one on both the soul singles and Hot 100, in the U.S.. and
+    number six in the UK in 1984.</p>
+      <p>The song was recorded under different titles for different
+    parts of the world—resulting in versions such as "European
+    Queen" and "African Queen."</p>
+      <p>In 2004, the song was re-released as a digital single for
+    its 20th anniversary, shooting up to #25 on the Billboard
+    digital singles chart and garnering radio play across the US
+    and UK.</p>
+      <p>A remix of the single by Will.I.Am was released in 2005, and
+    it later appeared on Pitchfork's "Top 500 Tracks of the 2000s"
+    countdown, at #87.</p>
+   </descr>
+</topSong>

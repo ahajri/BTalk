@@ -1,0 +1,32 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Star_Wars_Theme/Cantina_Band 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Star_Wars_Theme/Cantina_Band</songId>
+   <title>Star Wars Theme/Cantina Band</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Meco</artistId>
+      <artistName>Meco</artistName>
+   </artist>
+   <weeks>
+      <week>1977-10-01</week>
+      <week>1977-10-08</week>
+   </weeks>
+   <descr>
+      <p>, This dance seen in this episode was choreographed by Rick
+    Elliott of Longwood Ballroom in Orlando, FL</p>
+      <p>"Star Wars Theme/Cantina Band" was a disco single recorded
+    by Meco, taken from the album 
+    <i>Star Wars and Other Galactic Funk</i>. It hit number one on
+    the Billboard Hot 100 on October 1, 1977, holding on to the
+    spot for two weeks. To date it is the biggest-selling
+    instrumental single in the history of recorded music, being the
+    only one ever to be certified platinum (2 million units) by the
+    RIAA.</p>
+   </descr>
+</topSong>

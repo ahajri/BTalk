@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Time_in_a_Bottle 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Time_in_a_Bottle</songId>
+   <title>Time in a Bottle</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jim_Croce</artistId>
+      <artistName>Jim Croce</artistName>
+   </artist>
+   <weeks>
+      <week>1973-12-29</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/5/5d/93809.jpg</albumImageId>
+      <albumImageUri>/images/Jim-Croce+Time-in-a-Bottle.jpg</albumImageUri>
+      <albumName>You Don't Mess Around with Jim</albumName>
+   </album>
+   <recorded>1972</recorded>
+   <genres>
+      <genre>Folk Rock</genre>
+   </genres>
+   <lengths>
+      <length>2:30</length>
+   </lengths>
+   <label>ABC Records</label>
+   <writers>
+      <writer>Jim Croce</writer>
+   </writers>
+   <descr>
+      <p>"Time in a Bottle" was a posthumous number-one hit for
+    singer-songwriter Jim Croce, reaching the top of the charts in
+    December 1973, three months after his death in a plane
+    crash.</p>
+      <p>The song was originally written for Croce's son, A.J., and
+    appeared on his first album in 1972, 
+    <i>You Don't Mess Around with Jim</i>. The following year Croce
+    would shoot to fame with his hit single "Bad Bad Leroy Brown",
+    just months before the September 20 plane crash. 
+    <i>Time in a Bottle</i>was later used as the title for a
+    compilation album of Croce's love songs.</p>
+      <p>The song started receiving widespread airplay in the fall of
+    1973, after it was featured in an ABC TV movie, 
+    <i>She Lives!</i>, starring Desi Arnaz Jr. and Season
+    Hubley.</p>
+   </descr>
+</topSong>

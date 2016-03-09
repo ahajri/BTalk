@@ -1,0 +1,46 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hold_On_to_the_Nights 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hold_On_to_the_Nights</songId>
+   <title>Hold On to the Nights</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Richard_Marx</artistId>
+      <artistName>Richard Marx</artistName>
+   </artist>
+   <weeks>
+      <week>1988-07-23</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/0/0c/Richard_Marx_-_Hold_on_to_the_Nights.jpg</albumImageId>
+      <albumImageUri>/images/Richard-Marx+Hold-On-to-the-Nights.jpg</albumImageUri>
+      <albumName>Richard Marx</albumName>
+   </album>
+   <released>June 1988</released>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>5:14</length>
+      <length>4:56 (radio edit)</length>
+   </lengths>
+   <label>EMI</label>
+   <writers>
+      <writer>Richard Marx</writer>
+   </writers>
+   <producers>
+      <producer>Richard Marx</producer>
+      <producer>David Cole</producer>
+   </producers>
+   <descr>
+      <p>"Hold On to the Nights" is a ballad and the number-one hit
+    for singer Richard Marx. This was the fourth and final single
+    released from his self-titled debut album, and the first to
+    reach the top of the Billboard Hot 100.</p>
+   </descr>
+</topSong>

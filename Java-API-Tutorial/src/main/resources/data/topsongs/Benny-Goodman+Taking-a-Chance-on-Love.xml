@@ -1,0 +1,29 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Taking_a_Chance_on_Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Taking_a_Chance_on_Love</songId>
+   <title>Taking a Chance on Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Benny_Goodman</artistId>
+      <artistName>Benny Goodman</artistName>
+   </artist>
+   <weeks>
+      <week>1943-06-12</week>
+   </weeks>
+   <descr>
+      <p>"Taking a Chance on Love" is a popular song by Vernon Duke
+    with lyrics by John Latouche and Ted Fetter, published in 1940
+    (see 1940 in music), which has become a standard recorded by
+    many artists. It was introduced in the 1940 show 
+    <i>Cabin in the Sky</i>, a ground-breaking Broadway musical
+    with an all black cast, where it was performed by Ethel Waters
+    and Dooley Wilson. The re-released Benny Goodman version
+    featuring Helen Forrest reached #1 in 1943.</p>
+   </descr>
+</topSong>

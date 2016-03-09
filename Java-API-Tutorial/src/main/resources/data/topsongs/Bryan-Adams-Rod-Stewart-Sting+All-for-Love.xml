@@ -1,0 +1,65 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/All_for_Love_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/All_for_Love_(song)</songId>
+   <title>All for Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bryan_Adams</artistId>
+      <artistName>Bryan Adams / Rod Stewart / Sting</artistName>
+   </artist>
+   <weeks>
+      <week>1994-01-22</week>
+      <week>1994-01-29</week>
+      <week>1994-02-05</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/2/28/All_For_Love.jpg/200px-All_For_Love.jpg</albumImageId>
+      <albumImageUri>/images/Bryan-Adams-Rod-Stewart-Sting+All-for-Love.jpg</albumImageUri>
+      <albumName>The Three Musketeers: Original Motion Picture Soundtrack</albumName>
+   </album>
+   <released>November 16, 1993</released>
+   <formats>
+      <format>CD</format>
+   </formats>
+   <genres>
+      <genre>Soft Rock</genre>
+   </genres>
+   <label>A&amp;M</label>
+   <writers>
+      <writer>Bryan Adams</writer>
+      <writer>Mutt Lange</writer>
+      <writer>Michael Kamen</writer>
+   </writers>
+   <producers>
+      <producer>Chris Thomas</producer>
+      <producer>Bryan Adams</producer>
+      <producer>David Nicholas</producer>
+   </producers>
+   <descr>
+      <p>"All for Love" is a rock song written by Bryan Adams, Robert
+    John "Mutt" Lange and Michael Kamen for the soundtrack 
+    <i>The Three Musketeers: Original Motion Picture
+    Soundtrack</i>, performed by Adams, Rod Stewart and Sting. The
+    song's musical-style and production were heavily inspired by
+    rock and pop music from the 1980s, and its lyrics chronicle a
+    relationship. The song was released as a CD single in the
+    United States on November 16, 1993.</p>
+      <p>The title was inspired by the Musketeers' motto: "All for
+    one, and one for all".</p>
+      <p>The single reached number one on the Hot 100 on January 22,
+    1994, and remained there for three weeks.</p>
+      <p>In December 2007, the Swedish trio E.M.D. released a cover
+    of All for Love as their debut single. Debuting at number two
+    in the official Swedish singles chart, it hit the top position
+    the week after - eventually staying there for six consecutive
+    weeks (the original version topped the chart for 10 weeks).</p>
+      <p>The single stayed on the charts for 17 weeks, and was
+    certified 3x Platinum in Sweden.</p>
+   </descr>
+</topSong>

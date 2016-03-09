@@ -1,0 +1,53 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I_Will_Follow_Him 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I_Will_Follow_Him</songId>
+   <title>I Will Follow Him</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Peggy_March</artistId>
+      <artistName>Little Peggy March</artistName>
+   </artist>
+   <weeks>
+      <week>1963-04-27</week>
+      <week>1963-05-04</week>
+      <week>1963-05-11</week>
+   </weeks>
+   <released>1963</released>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Pop</genre>
+   </genres>
+   <label>RCA Victor</label>
+   <descr>
+      <p>"I Will Follow Him" is a song recorded by Little Peggy
+    March. The music was written by Frank Pourcel (using the
+    pseudonym J.W. Stole) and Paul Mauriat (using the pseudonym Del
+    Roma). The music was adapted by Arthur Altman and the English
+    lyrics were written by Norman Gimbel.</p>
+      <p>The song is a translation of the French language tune
+    "Chariot" recorded a year earlier by Petula Clark, which hit #1
+    in France and #8 in Belgium and earned Clark a gold record.
+    (Clark's Italian and German recordings of the song were also
+    major hits.)</p>
+      <p>The song began as an instrumental piece, recorded in 1961 by
+    Franck Pourcel, appearing on the 1961 European LP release:
+    "Amour, Danse, Et Violons. No.17". At the same time, it also
+    appeared on the EP release: "La Voix de son Maitre". Pourcel
+    co-wrote the song with friend and fellow French bandleader Paul
+    Mauriat. Franck Pourcel's original recording was popular on MOR
+    or "easy listening" stations. Paul Mauriat himself later
+    recorded an instrumental version in 1976 with a disco beat,
+    using moog synthesizers.</p>
+      <p>March's English version, backed with "Wind Up Doll", was
+    released by RCA Victor and hit #1 on the Billboard Hot 100 on
+    April 27, 1963, making 15-year-old March the youngest female
+    artist to have a US chart-topping single. Her version also made
+    it to #1 on the soul singles chart.</p>
+   </descr>
+</topSong>

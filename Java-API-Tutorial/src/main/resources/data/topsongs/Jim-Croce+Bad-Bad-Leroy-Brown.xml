@@ -1,0 +1,84 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Bad,_Bad_Leroy_Brown 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Bad,_Bad_Leroy_Brown</songId>
+   <title>Bad, Bad Leroy Brown</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jim_Croce</artistId>
+      <artistName>Jim Croce</artistName>
+   </artist>
+   <weeks>
+      <week>1973-07-21</week>
+      <week>1973-07-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Bad%2C_Bad_Leroy_Brown.jpg/200px-Bad%2C_Bad_Leroy_Brown.jpg</albumImageId>
+      <albumImageUri>/images/Jim-Croce+Bad-Bad-Leroy-Brown.jpg</albumImageUri>
+      <albumName>Life and Times</albumName>
+   </album>
+   <released>April 1973</released>
+   <formats>
+      <format>45</format>
+   </formats>
+   <recorded>1972</recorded>
+   <genres>
+      <genre>Folk</genre>
+      <genre>Folk Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:02</length>
+   </lengths>
+   <label>ABC Records</label>
+   <writers>
+      <writer>Jim Croce</writer>
+   </writers>
+   <descr>
+      <p>"Bad, Bad Leroy Brown" is the title of a song written by
+    American folk rock singer Jim Croce. Released as part of his
+    1973 album 
+    <i>Life and Times</i>, the song was a Number One pop hit for
+    him, spending two weeks at the top of the Billboard Hot 100 in
+    July 1973. Croce was nominated for two 1973 Grammy awards in
+    the Pop Male Vocalist and Record of the Year categories for
+    "Bad, Bad Leroy Brown".</p>
+      <p>The song is about a man from the south side of Chicago who,
+    due to his size and attitude, has a reputation as the "baddest
+    man in the whole damn town." One day, in a bar, he makes a pass
+    at a pretty, married woman, whose jealous husband proceeds to
+    beat Leroy brutally in the ensuing brawl.</p>
+      <p>Croce tells a nearly identical story (tough guy who
+    everybody fears is brutally beaten when he meets an even
+    tougher guy) in his hit single "You Don't Mess Around With
+    Jim."</p>
+      <p>His inspiration for the song was a friend he met in his
+    brief time in the Army:</p>
+      <p>Croce explained the chorus reference to Leroy Brown being
+    "meaner than a junkyard dog":</p>
+      <p>Pro wrestler Junkyard Dog is said to have got his ring name
+    from this song.</p>
+      <p>The song inspired Queen vocalist Freddie Mercury (who cited
+    Croce as one of his artistic inspirations) to write the song
+    "Bring Back That Leroy Brown" for the band's third album, 
+    <i>Sheer Heart Attack</i>, released a year after Croce
+    died.</p>
+      <p>"Bad, Bad Leroy Brown" was released in April 1973 and peaked
+    at number one on the American charts three months later. It was
+    still on the charts on September 20 when Croce died in a plane
+    crash in Natchitoches, Louisiana. It also reached #19 on the
+    Australian (Go-Set) Singles Chart in 1973.</p>
+      <p>Frank Sinatra recorded a cover version of the song, which
+    reached number 83 on the pop charts. Country music artist
+    Anthony Armstrong Jones released a cover on Epic Records in
+    1973, reaching #33 on the U.S. country charts with it. Dolly
+    Parton performed the song twice on her 1976-77 TV series 
+    <i>Dolly!</i>(though in her version she changed the song's
+    locale from Chicago to Nashville). The song was also covered by
+    punk rock band The Max Levine Ensemble.</p>
+   </descr>
+</topSong>

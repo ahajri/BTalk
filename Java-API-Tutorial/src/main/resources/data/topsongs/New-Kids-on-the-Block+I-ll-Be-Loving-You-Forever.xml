@@ -1,0 +1,60 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/I%27ll_Be_Loving_You_(Forever) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/I%27ll_Be_Loving_You_(Forever)</songId>
+   <title>I'll Be Loving You (Forever)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/New_Kids_on_the_Block</artistId>
+      <artistName>New Kids on the Block</artistName>
+   </artist>
+   <weeks>
+      <week>1989-06-17</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/c/c3/I%27ll_Be_Loving_You.jpg</albumImageId>
+      <albumImageUri>/images/New-Kids-on-the-Block+I-ll-Be-Loving-You-Forever.jpg</albumImageUri>
+      <albumName>Hangin' Tough</albumName>
+   </album>
+   <released>April 1989</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>1988</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:28</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Maurice Starr</writer>
+   </writers>
+   <producers>
+      <producer>Maurice Starr</producer>
+   </producers>
+   <descr>
+      <p>"I'll Be Loving You (Forever)" is a 1989 ballad song from
+    New Kids on the Block. The third single from the groups second
+    album, 
+    <i>Hangin' Tough</i>, it peaked at number one on the Billboard
+    Hot 100, while peaking at number five in the UK.</p>
+      <p>"I'll Be Loving You (Forever)" rose from #56 to #41 the week
+    of April 15, 1989 as "You Got It (The Right Stuff)" was
+    descending from the Top 40. The single proved to be a popular
+    single in the early summer of 1989, reaching #1 on June 17,
+    1989. The ballad boasted 6 weeks in the Top 10, 8 weeks in the
+    Top 20, and 14 weeks in the Top 40.</p>
+      <p>Most of the music video for "I'll Be Loving You (Forever)"
+    was shot in Xavier High School in New York City.</p>
+      <p>Maxi-CD</p>
+      <p>Joey McIntyre discusses "I'll Be Loving You (Forever)" -
+    RetroRewind interview</p>
+   </descr>
+</topSong>

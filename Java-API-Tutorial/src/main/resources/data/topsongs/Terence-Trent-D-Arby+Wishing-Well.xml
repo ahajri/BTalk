@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Wishing_Well_(Terence_Trent_D%27Arby_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Wishing_Well_(Terence_Trent_D%27Arby_song)</songId>
+   <title>Wishing Well</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Terence_Trent_D%27Arby</artistId>
+      <artistName>Terence Trent D'Arby</artistName>
+   </artist>
+   <weeks>
+      <week>1988-05-07</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Wishing_well.jpg/200px-Wishing_well.jpg</albumImageId>
+      <albumImageUri>/images/Terence-Trent-D-Arby+Wishing-Well.jpg</albumImageUri>
+      <albumName>Introducing the Hardline According to Terence Trent D'Arby</albumName>
+   </album>
+   <released>1988</released>
+   <formats>
+      <format>7" single</format>
+      <format>12" maxi</format>
+      <format>CD single</format>
+      <format>Cassette</format>
+   </formats>
+   <genres>
+      <genre>R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>3:33</length>
+   </lengths>
+   <label>CBS</label>
+   <writers>
+      <writer>Terence Trent D'Arby</writer>
+      <writer>Sean Oliver</writer>
+   </writers>
+   <producers>
+      <producer>Martyn Ware</producer>
+   </producers>
+   <descr>
+      <p>"Wishing Well" is sung by Sananda Maitreya (then known as
+    Terence Trent D'Arby) for the album 
+    <i>Introducing the Hardline According to Terence Trent
+    D'Arby</i>, and hit number one on both the Soul Singles Chart
+    and the Billboard Hot 100 on May 7, 1988
+    <span style="display:none"> (
+    <span class="bday dtstart updated">
+1988-05-07
+</span>)</span>. . The song remained at that position for one week,
+on both charts, and was Terence Trent D'Arby's only number one
+hit.</p>
+      <p>Remix</p>
+   </descr>
+</topSong>

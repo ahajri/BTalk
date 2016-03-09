@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Make_It_With_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Make_It_With_You</songId>
+   <title>Make It With You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bread_(band)</artistId>
+      <artistName>Bread</artistName>
+   </artist>
+   <weeks>
+      <week>1970-08-22</week>
+   </weeks>
+   <album>
+      <albumName>On the Waters</albumName>
+   </album>
+   <released>June 1970</released>
+   <formats>
+      <format>7" 45 RPM</format>
+   </formats>
+   <genres>
+      <genre>Soft Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:14</length>
+   </lengths>
+   <label>Elektra</label>
+   <writers>
+      <writer>David Gates</writer>
+   </writers>
+   <producers>
+      <producer>David Gates</producer>
+   </producers>
+   <descr>
+      <p>"Make It with You" is a song written by David Gates and
+    originally recorded by the pop/rock group, Bread, of which
+    Gates was a member. The song first appeared on Bread's 1970
+    album 
+    <i>On the Waters</i>. Released as a single in June 1970, it
+    would become the group's first top ten and only number-one
+    single on the Billboard Hot 100 singles chart in the U.S.,
+    spending the week of August 22, 1970, at the top spot. The
+    single reached number five on the UK Singles Chart. It also was
+    certified gold by the RIAA for sales of over one million
+    copies. The song was well-received by easy-listening stations
+    at the beginning of the singer-songwriter driven soft-rock era,
+    reaching number four on the Billboard Easy Listening Top 40.
+    Aretha Franklin, Earth, Wind &amp; Fire, Dusty Springfield, The
+    Originals, The Main Ingredient, Teddy Pendergrass, Don Julian
+    &amp; The Larks, Let Loose and Dennis Brown are amongst those
+    who have recorded cover versions of the song.</p>
+      <p>It has also been recorded in other languages including
+    Spanish as 'Quiero Hacerte El Amor' with a version by Blvd
+    featuring M C Blvd being popular on the West Coast. Ralfi Pagan
+    reached number 32 on the Billboard R&amp;B chart during an
+    eleven week run in the summer of 1971 with a Latin-soul version
+    of the song.</p>
+   </descr>
+</topSong>

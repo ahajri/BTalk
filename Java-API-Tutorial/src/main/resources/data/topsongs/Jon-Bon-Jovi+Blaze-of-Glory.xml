@@ -1,0 +1,76 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Blaze_of_Glory_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Blaze_of_Glory_(song)</songId>
+   <title>Blaze of Glory</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Jon_Bon_Jovi</artistId>
+      <artistName>Jon Bon Jovi</artistName>
+   </artist>
+   <weeks>
+      <week>1990-09-08</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/5/57/Blazeofglorysingle.jpg</albumImageId>
+      <albumImageUri>/images/Jon-Bon-Jovi+Blaze-of-Glory.jpg</albumImageUri>
+      <albumName>Blaze of Glory</albumName>
+   </album>
+   <released>1990</released>
+   <formats>
+      <format>CD Single</format>
+   </formats>
+   <recorded>1990</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:35</length>
+   </lengths>
+   <label>Vertigo Records</label>
+   <writers>
+      <writer>Jon Bon Jovi</writer>
+   </writers>
+   <producers>
+      <producer>Danny Kortchmar and Jon Bon Jovi</producer>
+   </producers>
+   <descr>
+      <p>, "Blaze of Glory (Theme from Young Guns II)" is a song by
+    Jon Bon Jovi which reached No. 1 on the Hot 100 chart in 1990,
+    his only chart-topper away from his band Bon Jovi. The song
+    also reached No. 1 on the 
+    <i>Billboard</i>Album Rock Tracks chart. "Blaze of Glory (Theme
+    from Young Guns II)" also topped the ARIA music chart in
+    Australia for a total of six weeks, and reached No. 13 on the
+    UK Singles Chart.</p>
+      <p>The song remains a crowd favorite with Bon Jovi fans,
+    despite the fact that the song wasn't released as one of the
+    band's singles.</p>
+      <p>The song was also notable for the performance of rock legend
+    Jeff Beck on guitar.</p>
+      <p>In October 2005, "Blaze of Glory (Theme from Young Guns II)"
+    was voted as "Best Song to Ride a Horse to in Slow Motion" by 
+    <i>Blender Magazine</i>.</p>
+      <p>It first appeared in the motion picture 
+    <i>Young Guns II</i>, for which it was originally recorded. It
+    later appeared as the title track on his solo album 
+    <i>Blaze of Glory</i>. Next, it appeared on 
+    <i>Cross Road</i>, Bon Jovi's 
+    <i>Greatest Hits</i>album. Finally, it appeared on Bon Jovi's
+    live DVD 
+    <i>Live From London</i>. It was sung by Phil Stacey on 
+    <i>American Idol</i>.</p>
+      <p>The song is referenced in the 2008 romantic comedy 
+    <i>My Best Friend's Girl</i>, where Jason Biggs' character is
+    told by a babysitter he has been "Shot down.... in a blaze of
+    glory" after insulting the woman he was about to go out on a
+    date with.</p>
+      <p>In 2009, the song became the theme song for 
+    <i>Storm Chasers</i>season 3.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,55 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Only_Forever 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Only_Forever</songId>
+   <title>Only Forever</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bing_Crosby</artistId>
+      <artistName>Bing Crosby</artistName>
+   </artist>
+   <weeks>
+      <week>1940-10-19</week>
+      <week>1940-10-26</week>
+      <week>1940-11-09</week>
+      <week>1940-11-16</week>
+      <week>1940-11-23</week>
+      <week>1940-11-30</week>
+      <week>1940-12-07</week>
+      <week>1940-12-14</week>
+   </weeks>
+   <genres>
+      <genre>Traditional Pop</genre>
+   </genres>
+   <lengths>
+      <length>03:12</length>
+   </lengths>
+   <writers>
+      <writer>James V. Monaco and Johnny Burke</writer>
+   </writers>
+   <descr>
+      <p>"Only Forever" is a song popularized in 1940 by Bing Crosby.
+    It reached number 1 on the Billboard charts on October 19,
+    1940. "Only Forever" was written by James V. Monaco and Johnny
+    Burke for the 1940 film Rhythm on the River.[1] Also recorded
+    by Nat King Cole.</p>
+      <p>"Only Forever's" lyrics detail how long the singer's love
+    will last.</p>
+      <p>Do I want to be with you, As the years come and go?, Only
+    forever, If you care to know., Would I grant all your wishes,
+    And be proud of the task, Only forever, If someone should ask.,
+    How long would it take me, To be near if you beckon?, Off hand
+    I would figure, Less than a second., Do you think I'll
+    remember, How you looked when you smile?, Only forever, That's
+    puttin' it mild.,</p>
+      <p>How long would it take me, To be near if you beckon?, Off
+    hand I would figure, Less than a second., Do you think I'll
+    remember, How you looked when you smile?, Only forever, That's
+    puttin' it mild.,</p>
+   </descr>
+</topSong>

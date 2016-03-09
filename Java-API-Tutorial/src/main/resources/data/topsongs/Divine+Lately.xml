@@ -1,0 +1,53 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Lately_(Divine_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Lately_(Divine_song)</songId>
+   <title>Lately</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Divine_(band)</artistId>
+      <artistName>Divine</artistName>
+   </artist>
+   <weeks>
+      <week>1998-11-28</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/93/Divine_lately.jpg/200px-Divine_lately.jpg</albumImageId>
+      <albumImageUri>/images/Divine+Lately.jpg</albumImageUri>
+      <albumName>Fairy Tales</albumName>
+   </album>
+   <released>August 25, 1998</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>1997-1998</recorded>
+   <genres>
+      <genre>Pop Ballad / R&amp;B</genre>
+   </genres>
+   <lengths>
+      <length>4:25</length>
+   </lengths>
+   <label>Pendulum</label>
+   <writers>
+      <writer>Will Baker</writer>
+      <writer>Christopher Kelly</writer>
+      <writer>Pete Woodruff</writer>
+   </writers>
+   <producers>
+      <producer>John Howcutt</producer>
+      <producer>Donald Parks</producer>
+   </producers>
+   <descr>
+      <p>"Lately" is a ballad recorded by R&amp;B girl group Divine.
+    The song was released as the group's debut single in 1998.</p>
+      <p>A cover of "Lately" was recorded and released as the 5th
+    single in total from 
+    <i>Gotta Tell You</i>, the debut album of Irish singer Samantha
+    Mumba.</p>
+   </descr>
+</topSong>

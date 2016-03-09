@@ -1,0 +1,52 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Always_on_Time 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Always_on_Time</songId>
+   <title>Always on Time</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Ja_Rule</artistId>
+      <artistName>Ja Rule featuring Ashanti</artistName>
+   </artist>
+   <weeks>
+      <week>2002-02-23</week>
+      <week>2002-03-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Always_on_Time.jpg/200px-Always_on_Time.jpg</albumImageId>
+      <albumImageUri>/images/Ja-Rule-featuring-Ashanti+Always-on-Time.jpg</albumImageUri>
+      <albumName>Pain Is Love</albumName>
+   </album>
+   <released>October 30, 2001</released>
+   <formats>
+      <format>CD single</format>
+   </formats>
+   <recorded>2001</recorded>
+   <genres>
+      <genre>R&amp;B</genre>
+      <genre>Pop</genre>
+   </genres>
+   <label>Murder Inc. / Def Jam</label>
+   <writers/>
+   <producers>
+      <producer>Irv Gotti</producer>
+   </producers>
+   <descr>
+      <p>"Always on Time" is the platinum selling 2001 number-one
+    single for rapper Ja Rule featuring Ashanti , produced by Irv
+    Gotti. The music was written by 7 Aurelius, Ja Rule and Irving
+    Lorenzo. The song became both Ashanti's first Hot 100 number
+    one single and Ja Rule's second.</p>
+      <p>The song spent 2 weeks at the top of the Billboard Hot 100
+    from February 23, 2002. It was followed by another Ja Rule
+    duet, "Ain't It Funny" by Jennifer Lopez featuring Ja Rule.</p>
+      <p>In 2009 it was named the 33rd most successful song of the
+    2000s, on the Billboard Hot R&amp;B/Hip Songs of the Decade
+    Chart.</p>
+   </descr>
+</topSong>

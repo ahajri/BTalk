@@ -1,7 +1,6 @@
 package com.ahajri.btalk.data.repository;
 
 import java.io.IOException;
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -16,6 +15,7 @@ import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.utils.DiscussRole;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.marklogic.client.admin.QueryOptionsManager;
 import com.marklogic.client.document.DocumentPatchBuilder;
 import com.marklogic.client.document.DocumentPatchBuilder.Position;
 import com.marklogic.client.document.JSONDocumentManager;
@@ -61,8 +61,11 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Autowired
 	protected StructuredQueryBuilder queryBuilder;
 
+	@Autowired
+	protected QueryOptionsManager queryOptionsManager;
+
 	@Override
-	public void add(Discussion model) {
+	public Discussion add(Discussion model) {
 		// Add this document to a dedicated collection for later retrieval
 
 		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
@@ -88,14 +91,14 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 		if (model.getId() == null) {
 			for (DiscussionMember member : model.getMembers()) {
-				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR)) {
+				if (member.getDiscussRole().equalsIgnoreCase(
+						DiscussRole.DISCUSS_CREATOR.getValue())) {
 					String identity = member.getId() + sdf.format(new Date());
 					model.setId(identity);
 				}
 			}
 		}
 
-		System.out.println("###############"+model.toString());
 		JacksonHandle writeHandle = new JacksonHandle();
 		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
 				JsonNode.class);
@@ -104,7 +107,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
 		jsonDocumentManager
 				.write("/discuss/" + docName, metadata, stringHandle);
-
+		return findByQuery(model.getId()).get(0);
 	}
 
 	@Override
@@ -148,13 +151,12 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		// query.put(queryManager.newKeyLocator("name"), name); // exact match
 		// Alternatively use:
 		StringQueryDefinition query = queryManager.newStringDefinition();
+		// query.setCriteria("\"Aretha Franklin\" AND \"Otis Redding\"");
 		query.setCriteria(q); // example: "index OR Cassel NEAR Hare"
 		query.setCollections(COLLECTION_REF);
-
 		queryManager.setPageLength(PAGE_SIZE);
 		SearchHandle resultsHandle = new SearchHandle();
-		queryManager.search(query, resultsHandle);
-		return toSearchResult(resultsHandle);
+		return toSearchResult(queryManager.search(query, resultsHandle));
 	}
 
 	// ~~
@@ -172,7 +174,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 			jsonDocumentManager.read(summary.getUri(), jacksonHandle);
 			models.add(fetchProduct(jacksonHandle));
 		}
-		return null;
+		return models;
 	}
 
 	/**

@@ -1,0 +1,26 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/A_Little_Bird_Told_Me 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/A_Little_Bird_Told_Me</songId>
+   <title>A Little Bird Told Me</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Evelyn_Knight</artistId>
+      <artistName>Evelyn Knight</artistName>
+   </artist>
+   <weeks>
+      <week>1949-01-22</week>
+   </weeks>
+   <descr>
+      <p>"A Little Bird Told Me" is a popular song. It was written by
+    Harvey O. Brooks and was published in 1947.</p>
+      <p>In 2008, the song was used on a British commercial for Head
+    &amp; Shoulders. In 2009, the song was used on an Australian
+    commercial for AAMI Insurance.</p>
+   </descr>
+</topSong>

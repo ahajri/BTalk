@@ -1,0 +1,56 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Keep_On_Loving_You_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Keep_On_Loving_You_(song)</songId>
+   <title>Keep On Loving You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/REO_Speedwagon</artistId>
+      <artistName>REO Speedwagon</artistName>
+   </artist>
+   <weeks>
+      <week>1981-03-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/Keep_On_Loving_You_vinyl7%27.jpg/200px-Keep_On_Loving_You_vinyl7%27.jpg</albumImageId>
+      <albumImageUri>/images/REO-Speedwagon+Keep-On-Loving-You.jpg</albumImageUri>
+      <albumName>Hi Infidelity</albumName>
+   </album>
+   <released>November 4, 1980</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>September 3, 1980</recorded>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:22</length>
+   </lengths>
+   <label>Epic</label>
+   <writers>
+      <writer>Kevin Cronin</writer>
+   </writers>
+   <producers>
+      <producer>Kevin Beamish</producer>
+      <producer>Kevin Cronin</producer>
+      <producer>Alan Gratzer</producer>
+      <producer>Gary Richrath</producer>
+   </producers>
+   <descr>
+      <p>"Keep On Loving You" is a power ballad written by Kevin
+    Cronin and performed by REO Speedwagon. It features the lead
+    guitar work of Gary Richrath. It was one of many REO Speedwagon
+    songs to become a pop hit, reaching the number-one spot for one
+    week in March 1981 on the U.S. Billboard Hot 100, and peaking
+    at number seven in the 
+    <i>UK Singles Chart</i>.</p>
+      <p>In 1981, the music video of the song was the 17th played on
+    the first day of broadcast of MTV, on August 1.</p>
+   </descr>
+</topSong>

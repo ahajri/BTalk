@@ -1,0 +1,55 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/It%27s_Only_Make_Believe 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/It%27s_Only_Make_Believe</songId>
+   <title>It's Only Make Believe</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Conway_Twitty</artistId>
+      <artistName>Conway Twitty</artistName>
+   </artist>
+   <weeks>
+      <week>1958-11-10</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/ca/TwittyIOMB.jpg/200px-TwittyIOMB.jpg</albumImageId>
+      <albumImageUri>/images/Conway-Twitty+It-s-Only-Make-Believe.jpg</albumImageUri>
+      <albumName>Conway Twitty Sings</albumName>
+   </album>
+   <released>1958</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <lengths>
+      <length>2:28</length>
+   </lengths>
+   <label>MGM</label>
+   <writers>
+      <writer>Jack Nance</writer>
+      <writer>Conway Twitty</writer>
+   </writers>
+   <descr>
+      <p>"It's Only Make Believe" is a song written by Jack Nance and
+    Conway Twitty, released by Twitty as a single in 1958. The
+    single topped both U.S. and British national charts, and was
+    Twitty's only number-one single on the pop charts of either
+    country.</p>
+      <p>The song's lyrics describe the thoughts and feelings of a
+    man in love with a woman who does not seem to be in love with
+    him. He hopes and prays that, at some point in the future, the
+    woman will be able to return his love, but laments that, at
+    present, "it's only make believe."</p>
+      <p>Billy Fury had a UK #10 hit with his version in 1964, which
+    also went to #1 in Singapore. Glen Campbell's 1970 recording
+    became a top ten hit in both the United States and United
+    Kingdom. Ronnie McDowell had a #8 single on the Billboard
+    country chart in 1988 after recording the song as a duet with
+    Twitty. The horror punk band Misfits have a cover version on
+    their album Project 1950, titled "Only Make Believe".</p>
+   </descr>
+</topSong>

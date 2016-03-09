@@ -1,0 +1,81 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/TSOP_(The_Sound_of_Philadelphia) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/TSOP_(The_Sound_of_Philadelphia)</songId>
+   <title>TSOP (The Sound of Philadelphia)</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/MFSB</artistId>
+      <artistName>MFSB featuring The Three Degrees</artistName>
+   </artist>
+   <weeks>
+      <week>1974-04-20</week>
+      <week>1974-04-27</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/f/fb/MFSBTSOPTheSoundOfPhiladelphia7InchSingleLabel.jpg</albumImageId>
+      <albumImageUri>/images/MFSB-featuring-The-Three-Degrees+TSOP-The-Sound-of-Philadelphia.jpg</albumImageUri>
+      <albumName>MFSB</albumName>
+   </album>
+   <released>1974</released>
+   <genres>
+      <genre>Philly Soul</genre>
+      <genre>Disco</genre>
+   </genres>
+   <lengths>
+      <length>5:42 (album cut)</length>
+      <length>3:54 (single version)</length>
+   </lengths>
+   <label>Philadelphia International Records</label>
+   <writers>
+      <writer>Kenneth Gamble and Leon Huff</writer>
+   </writers>
+   <producers>
+      <producer>Kenneth Gamble and Leon Huff</producer>
+   </producers>
+   <descr>
+      <p>"TSOP (The Sound of Philadelphia)" is a 1974 hit recording
+    by MFSB (Mother, Father, Sister, Brother) featuring vocals by
+    The Three Degrees. A classic example of the Philadelphia soul
+    genre, it was written by Kenneth Gamble and Leon Huff as the
+    theme for the American musical television program 
+    <i>Soul Train</i>, which specialized in African-American
+    musical performers. The single was released on the Philadelphia
+    International label.</p>
+      <p>The song is essentially an instrumental piece, featuring a
+    lush blend of strings and horns in the Philadelphia soul style.
+    There are only two vocal parts to the song: a passage close to
+    the beginning during which The Three Degrees sing "People all
+    over the world!"; and the chorus over the fadeout, "Let's get
+    it on/It's time to get down". The words "People all over the
+    world!" are not heard in the original version. "TSOP" hit
+    number one on the U.S. Billboard Hot 100 in the spring of 1974
+    and remained there for two weeks. It also topped the American
+    R&amp;B chart (for one week) and adult contemporary chart (for
+    two weeks). The Three Degrees would revisit the top of the AC
+    chart later in 1974 with their hit single, "When Will I See You
+    Again".</p>
+      <p>Although it was rerecorded a number of times for future
+    versions of the show, "TSOP" has remained the theme song for 
+    <i>Soul Train</i>through the disco, 1980s R&amp;B, new jack
+    swing, hip-hop, and neo soul eras of Black music.</p>
+      <p>"TSOP" was covered by Dexys Midnight Runners and released as
+    a B-side on the 12" version of the "Jackie Wilson Said" single,
+    later issued on the remastered version of the album 
+    <i>Too-Rye-Ay</i>. The band also used it to open some of their
+    live shows.</p>
+      <p>Another cover was made in 1978 by reggae band Inner Circle,
+    who had a history of covering American soul songs in the
+    laid-back reggae style of the late 1970s.</p>
+      <p>The song is played at Citizens Bank Park in Philadelphia
+    prior to every Phillies home game. Pilipinas, Game KNB?, a
+    Philippines game show hosted by actor/politician Edu Manzano,
+    used an adaptation of TSOP called "Papayo Yowza" as its
+    theme.</p>
+   </descr>
+</topSong>

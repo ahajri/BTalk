@@ -1,0 +1,39 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/The_One_That_You_Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/The_One_That_You_Love</songId>
+   <title>The One That You Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Air_Supply</artistId>
+      <artistName>Air Supply</artistName>
+   </artist>
+   <weeks>
+      <week>1981-07-25</week>
+   </weeks>
+   <album>
+      <albumName>The One That You Love</albumName>
+   </album>
+   <released>1981</released>
+   <genres>
+      <genre>Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:17</length>
+   </lengths>
+   <label>Arista Records</label>
+   <writers>
+      <writer>Graham Russell</writer>
+   </writers>
+   <descr>
+      <p>"The One That You Love" is a popular song written by Graham
+    Russell and sung by Air Supply that reached number one in the
+    United States in 1981. It topped the Billboard Hot 100 chart on
+    July 25, 1981, and remained there for one week.</p>
+   </descr>
+</topSong>

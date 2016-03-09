@@ -1,0 +1,64 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Let%27s_Hear_It_for_the_Boy 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Let%27s_Hear_It_for_the_Boy</songId>
+   <title>Let's Hear It for the Boy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Deniece_Williams</artistId>
+      <artistName>Deniece Williams</artistName>
+   </artist>
+   <weeks>
+      <week>1984-05-26</week>
+      <week>1984-06-02</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Deniece_Williams_the_Boy.jpeg/200px-Deniece_Williams_the_Boy.jpeg</albumImageId>
+      <albumImageUri>/images/Deniece-Williams+Let-s-Hear-It-for-the-Boy.jpeg</albumImageUri>
+      <albumName>Footloose soundtrackLet's Hear It for the Boy</albumName>
+   </album>
+   <released>February 1984</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <genres>
+      <genre>Dance Pop</genre>
+   </genres>
+   <lengths>
+      <length>4:20</length>
+   </lengths>
+   <label>Columbia</label>
+   <writers>
+      <writer>Tom Snow</writer>
+      <writer>Dean Pitchford</writer>
+   </writers>
+   <producers>
+      <producer>George Duke</producer>
+   </producers>
+   <descr>
+      <p>"Let's Hear It for the Boy" is the second number-one song
+    for both Deniece Williams and the soundtrack to the feature
+    film, 
+    <i>Footloose</i>. It climbed to number one on the U.S.
+    Billboard Hot 100 in 1984, as well as number one on the dance
+    and R&amp;B charts, and peaked at number two on the UK Singles
+    Chart. It was nominated for an Academy Award for Best Song,
+    and, in 1992, was certified Platinum by the RIAA.</p>
+      <p>The Australian group Young Divas covered the song on their
+    debut album in 2006. The 2008 soundtrack of the hit Nickelodeon
+    show 
+    <i>iCarly</i>features this version of the song.</p>
+      <p>It is a pivotal song in the U.S. 
+    <i>Queer as Folk</i>continuum. This version is performed by
+    Katty B and is a theme song for the character Justin
+    Taylor.</p>
+      <p>The Mexican Latin Pop singer Byanka has sung by the 1985
+    song title "Escucho al Muchacho" and composed by "José T.
+    Martinez".</p>
+   </descr>
+</topSong>

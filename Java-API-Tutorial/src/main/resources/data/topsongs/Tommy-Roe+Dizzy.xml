@@ -1,0 +1,62 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Dizzy_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Dizzy_(song)</songId>
+   <title>Dizzy</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Tommy_Roe</artistId>
+      <artistName>Tommy Roe</artistName>
+   </artist>
+   <weeks>
+      <week>1969-03-15</week>
+      <week>1969-03-22</week>
+      <week>1969-03-29</week>
+      <week>1969-04-05</week>
+   </weeks>
+   <released>1969</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1968</recorded>
+   <genres>
+      <genre>Pop</genre>
+   </genres>
+   <lengths>
+      <length>2:52</length>
+   </lengths>
+   <label>ABC</label>
+   <writers>
+      <writer>Tommy Roe</writer>
+      <writer>Freddy Weller</writer>
+   </writers>
+   <producers>
+      <producer>Tommy Roe</producer>
+   </producers>
+   <descr>
+      <p>"Dizzy" is a song originally recorded by Tommy Roe which was
+    a worldwide smash hit single in 1969.</p>
+      <p>Written by Roe and Freddy Weller, "Dizzy" was a major hit on
+    both sides of the Atlantic, reaching number one on the U.S.
+    Billboard Hot 100 for four weeks in March 1969, for one week on
+    the UK Singles Chart in June 1969, and was #1 in Canada in
+    March 1969.</p>
+      <p>It was subsequently recorded by such disparate artists as
+    Boney M, Mike Melvoin and the Deadbeats, Wreckless Eric and
+    Billy J. Kramer</p>
+      <p>In 1991, a cover of "Dizzy" recorded by English comedian Vic
+    Reeves and the alternative rock band The Wonder Stuff peaked at
+    number one for two weeks in the United Kingdom.</p>
+      <p>In 1989 it was sampled by De La Soul on their album, 
+    <i>Three Feet High and Rising</i>, in the track "The Magic
+    Number". In 1994 it was covered by Babe on their album 
+    <i>4 Babe pesme</i>; the Babe version being entitled "Dizel". A
+    version of the song has been recorded by Bob the Builder, with
+    the lyrics referring to Bob's concrete mixer, Dizzy.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,66 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/If_You_Leave_Me_Now 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/If_You_Leave_Me_Now</songId>
+   <title>If You Leave Me Now</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Chicago_(band)</artistId>
+      <artistName>Chicago</artistName>
+   </artist>
+   <weeks>
+      <week>1976-10-23</week>
+      <week>1976-10-30</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/6/61/Chicago-if_you_leave_me_now.jpg/200px-Chicago-if_you_leave_me_now.jpg</albumImageId>
+      <albumImageUri>/images/Chicago+If-You-Leave-Me-Now.jpg</albumImageUri>
+      <albumName>Chicago X</albumName>
+   </album>
+   <released>July 1976</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>1976</recorded>
+   <genres>
+      <genre>Pop</genre>
+      <genre>Soft Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:58</length>
+   </lengths>
+   <label>Columbia Records</label>
+   <writers>
+      <writer>Peter Cetera</writer>
+   </writers>
+   <producers>
+      <producer>James William Guercio</producer>
+   </producers>
+   <descr>
+      <p>"If You Leave Me Now" is the title of a popular hit ballad
+    by the American rock group Chicago, from their album 
+    <i>Chicago X</i>. It was written and sung by bass guitar player
+    Peter Cetera and released as a single in July 1976.</p>
+      <p>It is also the title of a compilation album released by
+    Columbia Records (Columbia 38590) in 1983.</p>
+      <p>The single topped the US charts on October 23, 1976, and
+    stayed there for two weeks, making it the first number one hit
+    for the group. It also reached the number one spot in the UK,
+    maintaining the position for three weeks. It was popular in
+    multiple radio formats, and at one point during its peak
+    listeners could hear it being played simultaneously on four
+    different New York City radio stations.</p>
+      <p>"If You Leave Me Now" was also Chicago's biggest hit
+    worldwide, after topping the charts in other countries such as
+    Britain and Australia. It went on to win Grammy Awards for Best
+    Arrangement Accompanying Vocalist(s) and Best Pop Vocal
+    Performance by a Duo, Group or Chorus.</p>
+      <p>There have been over 100 versions of "If You Leave Me Now"
+    recorded by artists throughout the world, among them:</p>
+   </descr>
+</topSong>

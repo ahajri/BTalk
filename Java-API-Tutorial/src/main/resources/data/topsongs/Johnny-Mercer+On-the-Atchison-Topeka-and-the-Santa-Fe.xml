@@ -1,0 +1,32 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/On_the_Atchison,_Topeka_and_the_Santa_Fe 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/On_the_Atchison,_Topeka_and_the_Santa_Fe</songId>
+   <title>On the Atchison, Topeka and the Santa Fe</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Johnny_Mercer</artistId>
+      <artistName>Johnny Mercer</artistName>
+   </artist>
+   <weeks>
+      <week>1945-07-28</week>
+   </weeks>
+   <descr>
+      <p>"On the Atchison, Topeka and the Santa Fe" is a popular song
+    which refers to the Atchison, Topeka and Santa Fe Railway. It
+    was written for the 1946 movie, 
+    <i>The Harvey Girls</i>, where it was sung by Judy Garland. It
+    won the Academy Award for Best Original Song.</p>
+      <p>The music was written by Harry Warren, and the lyrics by
+    Johnny Mercer. The song was published in 1944, but the most
+    popular recordings were made the next year.</p>
+      <p>Charting versions were recorded by Mercer, Bing Crosby, the
+    Tommy Dorsey Orchestra, and Judy Garland and the Merry
+    Macs.</p>
+   </descr>
+</topSong>

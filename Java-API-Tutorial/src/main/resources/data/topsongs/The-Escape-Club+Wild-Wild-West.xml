@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Wild,_Wild_West_(The_Escape_Club_song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Wild,_Wild_West_(The_Escape_Club_song)</songId>
+   <title>Wild, Wild West</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Escape_Club</artistId>
+      <artistName>The Escape Club</artistName>
+   </artist>
+   <weeks>
+      <week>1988-11-12</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/4/49/Escape_Club_WWW.jpg/200px-Escape_Club_WWW.jpg</albumImageId>
+      <albumImageUri>/images/The-Escape-Club+Wild-Wild-West.jpg</albumImageUri>
+      <albumName>Wild Wild West</albumName>
+   </album>
+   <released>1988</released>
+   <formats>
+      <format>CD single</format>
+      <format>7"</format>
+   </formats>
+   <recorded>1987</recorded>
+   <genres>
+      <genre>Alternative Rock</genre>
+   </genres>
+   <lengths>
+      <length>5:44</length>
+   </lengths>
+   <label>EMI , Atlantic</label>
+   <writers>
+      <writer>The Escape Club</writer>
+   </writers>
+   <producers>
+      <producer>The Escape Club</producer>
+   </producers>
+   <descr>
+      <p>"Wild, Wild West" is a song by The Escape Club from their
+    similarly named debut album, 
+    <i>Wild Wild West</i>. The single hit the charts in late 1988
+    eventually reaching #1 on the Billboard Hot 100 the week of
+    November 12, 1988.</p>
+      <p>The recording includes gunshots, as well as lyrics like "I
+    love her eyes and her wild, wild hair", "heading for the 90s,
+    living in the wild, wild west", and a section of phrases in
+    Spanish. Critics at the time noted that portions of the song
+    bore a strong similarity to Elvis Costello's "Pump It Up". The
+    song is revered at singles dances and country line dancing
+    circles as the music to which couples dance the Barn Dance
+    singles mixer dance.</p>
+      <p>The music video is famous for using mirror imaging to give
+    the illusion of disembodied arms and legs.</p>
+      <p>In 1989, Wally Wingert parodied it on the Dr. Demento radio
+    show as "Adam West", a complaint about the casting of Michael
+    Keaton as Batman.</p>
+   </descr>
+</topSong>

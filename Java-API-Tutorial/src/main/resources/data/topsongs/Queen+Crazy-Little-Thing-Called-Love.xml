@@ -1,0 +1,85 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Crazy_Little_Thing_Called_Love 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Crazy_Little_Thing_Called_Love</songId>
+   <title>Crazy Little Thing Called Love</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Queen_(band)</artistId>
+      <artistName>Queen</artistName>
+   </artist>
+   <weeks>
+      <week>1980-02-23</week>
+      <week>1980-03-01</week>
+      <week>1980-03-08</week>
+      <week>1980-03-15</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/3/36/Crazy_little_thing_called_love.jpg/200px-Crazy_little_thing_called_love.jpg</albumImageId>
+      <albumImageUri>/images/Queen+Crazy-Little-Thing-Called-Love.jpg</albumImageUri>
+      <albumName>The Game</albumName>
+   </album>
+   <released>October 5, 1979</released>
+   <formats>
+      <format>Vinyl record (7" / 12")</format>
+   </formats>
+   <recorded>1979</recorded>
+   <genres>
+      <genre>Blues Rock</genre>
+      <genre>Rockabilly</genre>
+      <genre>Rock N Roll</genre>
+   </genres>
+   <lengths>
+      <length>2:42</length>
+   </lengths>
+   <label>EMI , Elektra (US)</label>
+   <writers>
+      <writer>Freddie Mercury</writer>
+   </writers>
+   <producers>
+      <producer>Queen and Mack</producer>
+   </producers>
+   <descr>
+      <p>"Crazy Little Thing Called Love" is a song performed by the
+    English rock band Queen, written by singer Freddie Mercury.
+    While it peaked at number two in the UK, it hit number one on
+    the U.S. charts on February 23, 1980, remaining there for four
+    consecutive weeks. It topped the charts in Australia for six
+    weeks.</p>
+      <p>As reported by Mercury in 
+    <i>Melody Maker</i>, May 2, 1981, Mercury composed "Crazy
+    Little Thing Called Love" on the guitar in just five to ten
+    minutes. Other accounts say that he wrote it while lounging in
+    a bubble bath in the Bayerischer Hof Hotel in Munich during one
+    of Queen's extensive Munich recording sessions. He took it to
+    the studio shortly after writing it and presented it to
+    bandmates Roger Taylor and John Deacon. The three of them, with
+    their new producer Mack, recorded it at Musicland Studios in
+    Munich. The entire song was reportedly recorded in less than
+    half an hour (although Mack says it was six hours).</p>
+      <p>Although Mercury would play an electrified twelve-string on
+    stage (and later a six-string electric), in the studio he
+    recorded it with a six-string acoustic with external mics.
+    Freddie Mercury also played the original guitar solo on a
+    version which has been lost.</p>
+      <p>The "Crazy Little Thing Called Love" single hit number two
+    in the UK and became the first U.S. number-one hit for the
+    band.</p>
+      <p>American country music singer Dwight Yoakam included a cover
+    of the song on his 1999 album 
+    <i>Last Chance for a Thousand Years: Dwight Yoakam's Greatest
+    Hits from the 90's</i>. Yoakam's version was released as a
+    single, peaking at #12 on the U.S. country singles charts in
+    1999. It was also used in a television commercial for clothing
+    retailer Gap at the time of the album's release.</p>
+      <p>The music video was directed by Yoakam.</p>
+      <p>
+         <span style="white-space:nowrap">"Sitting Pretty"</span>
+      </p>
+   </descr>
+</topSong>

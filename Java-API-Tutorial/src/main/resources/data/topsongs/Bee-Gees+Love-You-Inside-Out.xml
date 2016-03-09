@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Love_You_Inside_Out 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Love_You_Inside_Out</songId>
+   <title>Love You Inside Out</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Bee_Gees</artistId>
+      <artistName>Bee Gees</artistName>
+   </artist>
+   <weeks>
+      <week>1979-06-09</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/5/53/Love_You_Inside_Out.jpg/200px-Love_You_Inside_Out.jpg</albumImageId>
+      <albumImageUri>/images/Bee-Gees+Love-You-Inside-Out.jpg</albumImageUri>
+      <albumName>Spirits Having Flown</albumName>
+   </album>
+   <released>April 1979</released>
+   <formats>
+      <format>7"</format>
+   </formats>
+   <recorded>March - November 1978</recorded>
+   <genres>
+      <genre>Pop / Disco</genre>
+   </genres>
+   <lengths>
+      <length>4:12</length>
+   </lengths>
+   <label>RSO</label>
+   <writers>
+      <writer>Barry</writer>
+      <writer>Robin &amp; Maurice Gibb</writer>
+   </writers>
+   <producers>
+      <producer>The Bee Gees</producer>
+      <producer>Albhy Galuten</producer>
+      <producer>Karl Richardson</producer>
+   </producers>
+   <descr>
+      <p>"Love You Inside Out" is a 1979 hit single for the Bee Gees,
+    from their album 
+    <i>Spirits Having Flown</i>. It reached number one on the
+    Billboard Hot 100 for one week in June 1979 (interrupting Donna
+    Summer's "Hot Stuff"). It would be the ninth and final
+    number-one hit for the Bee Gees in the US.</p>
+      <p>Like their other big hits of disco era, this song also
+    contained the falsetto vocal style of Bee Gees.</p>
+      <p>It has been covered by Leslie Feist (under the title "Inside
+    and Out") on her 2004 album 
+    <i>Let It Die</i>and was sampled a few years before by R&amp;B
+    group Total on the album track "When Boy Meets Girl" from their
+    self-titled debut in 1996. The sample was included on R Kelly
+    and Jay-Z's hit song "Honey". It was also sampled by Snoop Dogg
+    for his rap single "Ups and Downs" in 2005 and on rap group
+    Nemesis' hit "Cantfiguritout."</p>
+   </descr>
+</topSong>

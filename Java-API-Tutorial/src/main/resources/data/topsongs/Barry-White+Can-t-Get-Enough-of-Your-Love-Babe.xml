@@ -1,0 +1,59 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Can%27t_Get_Enough_of_Your_Love,_Babe 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Can%27t_Get_Enough_of_Your_Love,_Babe</songId>
+   <title>Can't Get Enough of Your Love, Babe</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Barry_White</artistId>
+      <artistName>Barry White</artistName>
+   </artist>
+   <weeks>
+      <week>1974-09-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Can%27t_Get_Enough_of_Your_Love%2C_Babe.jpg/200px-Can%27t_Get_Enough_of_Your_Love%2C_Babe.jpg</albumImageId>
+      <albumImageUri>/images/Barry-White+Can-t-Get-Enough-of-Your-Love-Babe.jpg</albumImageUri>
+      <albumName>Can't Get Enough</albumName>
+   </album>
+   <released>1974</released>
+   <formats>
+      <format>7 inch vinyl</format>
+   </formats>
+   <recorded>1974</recorded>
+   <genres>
+      <genre>Soul / Disco</genre>
+   </genres>
+   <label>20th Century Records</label>
+   <writers>
+      <writer>Barry White</writer>
+   </writers>
+   <producers>
+      <producer>Barry White</producer>
+   </producers>
+   <descr>
+      <p>"Can't Get Enough of Your Love, Babe" is a song written,
+    recorded and produced by Barry White. Released as the first
+    single from White's album 
+    <i>Can't Get Enough</i>in 1974, the song topped the Hot 100 and
+    U.S. R&amp;B chart and has since become one of White's
+    signature tunes. It was his second U.S. chart-topper, after
+    "Love's Theme".</p>
+      <p>The song is a pop-soul track with lush string arrangements
+    and a disco-influenced beat behind it.</p>
+      <p>"Can't Get Enough of Your Love" was covered by Taylor Dayne
+    (slightly retitled, losing the "Babe") in 1993. Released as the
+    first single from her third album 
+    <i>Soul Dancing</i>, Dayne's version was produced by the team
+    of David Cole and Robert Clivillés (otherwise known as C+C
+    Music Factory).</p>
+      <p>Dayne's version was well-received, getting heavy rotation on
+    VH-1 and MTV and peaked at #20 on the 
+    <i>Billboard</i>Hot 100.</p>
+   </descr>
+</topSong>

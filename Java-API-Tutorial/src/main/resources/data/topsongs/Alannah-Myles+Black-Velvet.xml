@@ -1,0 +1,86 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Black_Velvet_(song) 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Black_Velvet_(song)</songId>
+   <title>Black Velvet</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Alannah_Myles</artistId>
+      <artistName>Alannah Myles</artistName>
+   </artist>
+   <weeks>
+      <week>1990-03-24</week>
+      <week>1990-03-31</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Black_velvet.jpg/200px-Black_velvet.jpg</albumImageId>
+      <albumImageUri>/images/Alannah-Myles+Black-Velvet.jpg</albumImageUri>
+      <albumName>Alannah Myles</albumName>
+   </album>
+   <released>February 16, 1989 , February 26, 1990 (UK)</released>
+   <formats>
+      <format>CD maxi</format>
+      <format>7" single</format>
+      <format>12" maxi</format>
+   </formats>
+   <recorded>October 1988</recorded>
+   <genres>
+      <genre>Blues Rock</genre>
+   </genres>
+   <lengths>
+      <length>4:49</length>
+   </lengths>
+   <label>Atlantic</label>
+   <writers>
+      <writer>David Tyson</writer>
+      <writer>Christopher Ward</writer>
+   </writers>
+   <producers>
+      <producer>David Tyson</producer>
+   </producers>
+   <descr>
+      <p>"Black Velvet" is a rock song written by Canadian musicians
+    David Tyson and Christopher Ward, and recorded by Canadian
+    singer Alannah Myles in 1989. It became a number one hit on the
+    Hot 100 charts in 1990 and reached number one on the Album Rock
+    Tracks chart, as well as number one in Canada and number two in
+    the UK Singles Chart. In 1990, country music artist Robin Lee
+    reached number 12 on the U.S. country singles charts with a
+    cover version.</p>
+      <p>The song is about Elvis Presley. The words "black velvet"
+    can refer to either his likeness frequently being painted on
+    black velvet or his voice. Also, Black Velvet (full name
+    "Sullivan's Black Velvet Hair Dye") is what Elvis used to give
+    his naturally brown hair its distinctive black sheen. Black
+    velvet is described as a "new religion that'll bring y'all to
+    your knees" (changed to "bring you to your knees" in the Robin
+    Lee version). The chorus tells of "Black velvet in that little
+    boy's smile/Black velvet with that slow, Southern style" and
+    the end of the first verse claims that "The boy could sing,
+    knew how to move, everything/Always wanting more, he'd leave
+    you longing for [black velvet]".</p>
+      <p>While the first verse discusses the beginning of Elvis' life
+    - "Mama's dancing with baby on her shoulder" - the second talks
+    about the height of his career - "Mama's baby is in the heart
+    of every schoolgirl; Love Me Tender leaves 'em crying in the
+    aisles". The final verse references his death - "In a flash he
+    was gone, it happened so soon, what could you do?"</p>
+      <p>The song appears on the game Karaoke Revolution Presents:
+    American Idol Encore.</p>
+      <p>The song is about broken hearts, and drinking it away (black
+    velvet is a Canadian whiskey).</p>
+      <p>Country music artist Robin Lee, also signed to Atlantic at
+    the time, covered "Black Velvet" in 1990 on her third studio
+    album, also titled 
+    <i>Black Velvet</i>. Lee's version peaked at #12 on the U.S. 
+    <i>Billboard</i>Hot Country Singles &amp; Tracks (now Hot
+    Country Songs) chart. Her rendition, which changes the line
+    "bring y'all to your knees" to "bring you to your knees", is
+    also her highest chart peak.</p>
+   </descr>
+</topSong>

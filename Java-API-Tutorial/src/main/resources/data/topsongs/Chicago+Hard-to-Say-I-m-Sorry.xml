@@ -1,0 +1,77 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Hard_to_Say_I%27m_Sorry 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Hard_to_Say_I%27m_Sorry</songId>
+   <title>Hard to Say I'm Sorry</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Chicago_(band)</artistId>
+      <artistName>Chicago</artistName>
+   </artist>
+   <weeks>
+      <week>1982-09-11</week>
+      <week>1982-09-18</week>
+   </weeks>
+   <album>
+      <albumName>Chicago 16</albumName>
+   </album>
+   <released>May 1982</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <recorded>1982</recorded>
+   <genres>
+      <genre>Rock</genre>
+      <genre>Adult Contemporary</genre>
+   </genres>
+   <lengths>
+      <length>5:08 (Album Version)</length>
+      <length>3:51 (Alternate Edit)</length>
+      <length>3:41 (Single Version)</length>
+   </lengths>
+   <label>Full Moon / Warner Bros.</label>
+   <writers>
+      <writer>Peter Cetera &amp; David Foster</writer>
+   </writers>
+   <producers>
+      <producer>David Foster</producer>
+   </producers>
+   <descr>
+      <p>"Hard to Say I'm Sorry" is a ballad performed by American
+    rock group Chicago, written by band member Peter Cetera and
+    producer David Foster from the album 
+    <i>Chicago 16</i>, released in 1982. The song hit number one
+    for two weeks on the Hot 100 chart on September 11 of that
+    year. It was their first top fifty hit since "No Tell Lover" in
+    1978.</p>
+      <p>The song, as well as the album on which it is featured, was
+    a marked departure from Chicago's traditional soft rock,
+    horns-driven sound, taking on a more polished and modern feel.
+    There were minimal horns on the track, instead featuring more
+    layered synthesizers and heavier distorted electric guitars in
+    a more updated 1980's fashion. This was done to revitalize the
+    band that was considered by some to be past its commercial
+    prime at the time.</p>
+      <p>The album version of "Hard to Say I'm Sorry" segued into a
+    second song titled "Get Away," which was closer to the older
+    horn-driven Chicago sound. Most adult contemporary radio
+    stations at the time did not play the entire album track,
+    however, choosing to cut it off just before "Hard to Say I'm
+    Sorry" segued into "Get Away." About half the Top 40 radio
+    stations played the longer version with "Get Away". The music
+    video, itself using the album version, was shot in Greece.</p>
+      <p>Deviating from Chicago's practice of having mostly band
+    members playing on their albums, "Hard to Say I'm Sorry"
+    featured several session musicians. The song featured producer
+    David Foster on the piano, as well as three members of the
+    American rock band Toto: Steve Lukather on guitar, while David
+    Paich and Steve Porcaro both contributed synthesizers. The
+    song's vocals were performed by Cetera and new member Bill
+    Champlin.</p>
+   </descr>
+</topSong>

@@ -1,0 +1,63 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Monday,_Monday 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Monday,_Monday</songId>
+   <title>Monday, Monday</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/The_Mamas_%26_the_Papas</artistId>
+      <artistName>The Mamas &amp; the Papas</artistName>
+   </artist>
+   <weeks>
+      <week>1966-05-07</week>
+      <week>1966-05-14</week>
+      <week>1966-05-21</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MondayMonday.jpg/200px-MondayMonday.jpg</albumImageId>
+      <albumImageUri>/images/The-Mamas-the-Papas+Monday-Monday.jpg</albumImageUri>
+      <albumName>If You Can Believe Your Eyes and Ears</albumName>
+   </album>
+   <released>1966</released>
+   <formats>
+      <format>7" single</format>
+   </formats>
+   <genres>
+      <genre>Pop Rock</genre>
+      <genre>Folk Rock</genre>
+      <genre>Psychedelic Pop</genre>
+   </genres>
+   <lengths>
+      <length>3:00</length>
+   </lengths>
+   <label>Dunhill</label>
+   <writers>
+      <writer>John Phillips</writer>
+   </writers>
+   <producers>
+      <producer>Lou Adler</producer>
+   </producers>
+   <descr>
+      <p>
+         <i>For the UK Comedy drama, see Monday Monday.</i>
+      </p>
+      <p>"Monday, Monday" is a 1966 song written by John Phillips and
+    recorded by The Mamas &amp; the Papas for their 1966 album 
+    <i>If You Can Believe Your Eyes and Ears</i>. It was the
+    group's only number one hit on the U.S. Billboard Hot 100, and
+    the first song by a sexually integrated group to reach the top
+    of the charts.</p>
+      <p>This song is noted for its false ending, when there is a
+    pause before the coda of the song. This song is noted for going
+    up a half note for the bridges, as well as the refrains of the
+    song.</p>
+      <p>On March 2, 1967, The Mamas &amp; the Papas won a Grammy
+    Award for Best Pop Performance by a Duo or Group with Vocal for
+    this song.</p>
+   </descr>
+</topSong>

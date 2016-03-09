@@ -1,0 +1,86 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/To_Be_with_You 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/To_Be_with_You</songId>
+   <title>To Be with You</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Mr._Big_(band)</artistId>
+      <artistName>Mr. Big</artistName>
+   </artist>
+   <weeks>
+      <week>1992-02-29</week>
+      <week>1992-03-07</week>
+      <week>1992-03-14</week>
+   </weeks>
+   <album>
+      <albumImageId>http://upload.wikimedia.org/wikipedia/en/thumb/c/cb/To_be_with_you.jpg/200px-To_be_with_you.jpg</albumImageId>
+      <albumImageUri>/images/Mr-Big+To-Be-with-You.jpg</albumImageUri>
+      <albumName>Lean into It</albumName>
+   </album>
+   <released>November 25, 1991</released>
+   <formats>
+      <format>Cassette</format>
+      <format>CD single</format>
+      <format>CD maxi</format>
+      <format>7" single</format>
+   </formats>
+   <recorded>Rumbo Recorders, Canoga Park, CA , Cherokee Studios , Hollywood , CA</recorded>
+   <genres>
+      <genre>Acoustic Rock</genre>
+   </genres>
+   <lengths>
+      <length>3:27</length>
+   </lengths>
+   <label>Atlantic Records</label>
+   <writers>
+      <writer>Eric Martin</writer>
+      <writer>David Grahame</writer>
+   </writers>
+   <producers>
+      <producer>Kevin Elson</producer>
+   </producers>
+   <descr>
+      <p>"To Be with You" is a song by the American hard rock band
+    Mr. Big. It appears on the album 
+    <i>Lean into It</i>. The song charted in 20 plus countries,
+    many of them at number one, such as on the United States Hot
+    100. It also reached a peak of number three in the UK.</p>
+      <p>"To Be With You" is about a man who has his eye on a woman
+    who has recently experienced a broken heart from a previous
+    relationship.</p>
+      <p>The song was written and composed by Eric Martin during his
+    teen years. Paul contributed to its melodic arrangements later
+    on. Writing credit is also given to David Grahame, a songwriter
+    working for the label at the time (though exactly what
+    contributions each of the three men made to the song is
+    unclear).</p>
+      <p>In his solo career Mr. Big, guitarist Paul Gilbert performed
+    the song live using the riff from the Van Halen song "Ain't
+    Talkin' 'Bout Love".</p>
+      <p>While in Paul's apartment at Yucca Street in L.A., Eric and
+    Paul were laying out their compositions. Eric had this ballad
+    called "To Be With You". Paul had his psychedelic rock song
+    called "Green Tinted Sixties Mind". Both felt the two songs
+    were strong enough to be included in their upcoming album,
+    despite it being purely rock; and true enough, these songs
+    remained throughout the course of their career as a group and
+    as solo artists.</p>
+      <p>Irish pop group Westlife performed the song during the
+    acoustic session of their 2003 Greatest Hits Tour, and it was
+    subsequently included on their 
+    <i>Turnaround</i>album later that year.</p>
+      <p>Australian male vocal group Human Nature included a cover of
+    the song in their 2004 
+    <i>Walk the Tightrope</i>studio album. Their interpretation was
+    somewhat more pop/R&amp;B than the original.</p>
+      <p>Andrew Spencer has also made dance remixes of the song in
+    late 2007, early 2008. The pop-punk band Allister has also made
+    a cover of the song.</p>
+   </descr>
+</topSong>

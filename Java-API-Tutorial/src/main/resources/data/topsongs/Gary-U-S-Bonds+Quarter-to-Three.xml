@@ -1,0 +1,47 @@
+<topSong><!--Copyright (c) 2010 Mark Logic Corporation. Permission is
+granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.2 or any later version published by
+the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts,
+and no Back-Cover Texts. A copy of the license is included in the section 
+entitled "GNU Free Documentation License." Content derived from 
+http://en.wikipedia.org/wiki/Quarter_to_Three 
+
+Modified in February 2010 by Mark Logic Corporation under the terms of the 
+GNU Free Documentation License.--><songId>http://en.wikipedia.org/wiki/Quarter_to_Three</songId>
+   <title>Quarter to Three</title>
+   <artist>
+      <artistId>http://en.wikipedia.org/wiki/Gary_U.S._Bonds</artistId>
+      <artistName>Gary U.S. Bonds</artistName>
+   </artist>
+   <weeks>
+      <week>1961-06-26</week>
+      <week>1961-07-03</week>
+   </weeks>
+   <released>June 1961</released>
+   <genres>
+      <genre>Doo Wop</genre>
+   </genres>
+   <lengths>
+      <length>2:31</length>
+   </lengths>
+   <descr>
+      <p>"Quarter to Three" is a popular song adapted and expanded
+    from "A Night With Daddy 'G' - Part 2" (Legrand LEG 1004)), an
+    instrumental by The Church Street Five which was written by
+    Gene Barge, Frank Guida and Joseph Royster, and sung by Gary
+    U.S. Bonds. The song became a Billboard number-one hit in the
+    United States on June 26, 1961 and remained there for two
+    weeks.</p>
+      <p>The 45 single of "A Night With Daddy 'G'" identifies the
+    composers by their last names only -- Barge, Guida, Royster --
+    and identifies the music publisher as Pepe Music (BMI).</p>
+      <p>The song was sung regularly by Bruce Springsteen as an
+    encore before he was famous and remained in his repertoire
+    afterward, appearing on the 
+    <i>Hammersmith Odeon London '75</i>concert document and, as
+    performed in 1979, the 
+    <i>No Nukes</i>film.</p>
+      <p>"Quarter to Three" appears on The Rock and Roll Hall of
+    Fame's 500 Songs that Shaped Rock and Roll list.</p>
+   </descr>
+</topSong>
