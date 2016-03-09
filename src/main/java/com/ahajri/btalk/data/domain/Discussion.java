@@ -1,6 +1,5 @@
 package com.ahajri.btalk.data.domain;
 
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -9,26 +8,30 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
+import com.ahajri.btalk.utils.DiscussRole;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @XmlRootElement(name = "discussion")
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Discussion implements IModel {
+public class Discussion extends AModel {
 
 	/**
 	 * UID of Serialization
 	 */
 	private static final long serialVersionUID = -8665882915966219907L;
+
 	/**
 	 * 
 	 */
 	private static final SimpleDateFormat sdf = new SimpleDateFormat(
 			"yyyMMddhhmmss");
 
-	private String identifier;
-	private Timestamp startTime;
-	private Timestamp endTime;
+	private String id;
+	private String startTime;
+	private String endTime;
 	private List<DiscussionMember> members;
+
+	public static transient final String docName = "discussion.json";
 
 	public Discussion() {
 		super();
@@ -36,32 +39,38 @@ public class Discussion implements IModel {
 
 	public Discussion(List<DiscussionMember> members) {
 		super();
-		this.startTime = new Timestamp(System.currentTimeMillis());
 		this.members = members;
 		StringBuffer buffer = new StringBuffer();
 		for (DiscussionMember member : members) {
-			buffer.append(member.getIdentity());
+			if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR)) {
+				this.id = member.getId() + sdf.format(new Date());
+			}
+			buffer.append(member.getId());
 		}
-		this.identifier = buffer.toString() + sdf.format(new Date());
+		this.id = buffer.toString();
 	}
 
-	public String getIdentifier() {
-		return identifier;
+	public String getId() {
+		return id;
 	}
 
-	public Timestamp getStartTime() {
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getStartTime() {
 		return startTime;
 	}
 
-	public void setStartTime(Timestamp startTime) {
+	public void setStartTime(String startTime) {
 		this.startTime = startTime;
 	}
 
-	public Timestamp getEndTime() {
+	public String getEndTime() {
 		return endTime;
 	}
 
-	public void setEndTime(Timestamp endTime) {
+	public void setEndTime(String endTime) {
 		this.endTime = endTime;
 	}
 
@@ -73,6 +82,12 @@ public class Discussion implements IModel {
 
 	public void setMembers(List<DiscussionMember> members) {
 		this.members = members;
+	}
+
+	@Override
+	public String toString() {
+		return "Discussion [id=" + id + ", startTime=" + startTime
+				+ ", endTime=" + endTime + ", members=" + members + "]";
 	}
 
 	@Override

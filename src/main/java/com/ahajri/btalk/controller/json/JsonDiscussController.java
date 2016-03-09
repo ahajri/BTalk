@@ -1,11 +1,9 @@
 package com.ahajri.btalk.controller.json;
 
-import java.sql.Timestamp;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -17,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ahajri.btalk.controller.AController;
 import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.upsert.DiscussUpsert;
+import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.ResourceNotFoundException;
@@ -40,19 +40,16 @@ public class JsonDiscussController extends AController<Discussion> {
 
 	@Override
 	public ResponseEntity<List<Discussion>> findByQuery(Discussion query) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ResponseEntity<Discussion> findOne(Discussion query) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Integer delete(Discussion query) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -66,12 +63,22 @@ public class JsonDiscussController extends AController<Discussion> {
 
 	@Override
 	public ResponseEntity<List<Discussion>> findAll() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
+	@RequestMapping(value = "/discuss/json/update", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.CREATED)
 	@Override
-	public ResponseEntity<Discussion> update(Discussion model) {
+	public ResponseEntity<Discussion> update(
+			@RequestBody DiscussUpsert modelUpsert) {
+		discussionJsonRepository.replaceInsert(modelUpsert.getModel(),
+				modelUpsert.getFragment());
+		return new ResponseEntity<Discussion>(modelUpsert.getModel(),
+				HttpStatus.CREATED);
+	}
+
+	@Override
+	public ResponseEntity<Discussion> update(DiscussionUpsert modelUpsert) {
 		// TODO Auto-generated method stub
 		return null;
 	}

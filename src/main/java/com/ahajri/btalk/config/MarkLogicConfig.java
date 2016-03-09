@@ -27,18 +27,19 @@ import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.document.XMLDocumentManager;
 import com.marklogic.client.io.JAXBHandle;
 import com.marklogic.client.query.QueryManager;
+import com.marklogic.client.query.StructuredQueryBuilder;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.filter.HTTPDigestAuthFilter;
 import com.sun.jersey.api.client.filter.LoggingFilter;
 
-//@Configuration
+@Configuration
 @ComponentScan
 @PropertySource({ "classpath:ml-config.properties",
 		"classpath:application.properties", "classpath:jndi.properties" })
 public class MarkLogicConfig {
 
 	public static final Logger LOGGER = Logger
-			.getLogger(MarkLogicConfigTest.class);
+			.getLogger(MarkLogicConfig.class);
 
 	@Value("${marklogic.host}")
 	public String host;
@@ -57,7 +58,6 @@ public class MarkLogicConfig {
 
 	@Bean
 	public DatabaseClient getDatabaseClient() {
-		System.out.println("##############dbClient#########"+host);
 		try {
 			DatabaseClientFactory.getHandleRegistry().register(
 					JAXBHandle.newFactory(Discussion.class));
@@ -73,6 +73,10 @@ public class MarkLogicConfig {
 		return getDatabaseClient().newQueryManager();
 	}
 
+	@Bean
+	public StructuredQueryBuilder getQueryBuilder(){
+		return new StructuredQueryBuilder();
+	}
 	@Bean
 	public XMLDocumentManager getXMLDocumentManager() {
 		return getDatabaseClient().newXMLDocumentManager();

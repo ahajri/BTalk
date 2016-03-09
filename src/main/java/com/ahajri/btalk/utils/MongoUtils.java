@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.apache.log4j.Logger;
 import org.springframework.data.mongodb.core.query.Criteria;
 
-import com.ahajri.btalk.data.domain.IModel;
+import com.ahajri.btalk.data.domain.AModel;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -48,12 +48,12 @@ public class MongoUtils {
 	 * Convert Domain model beans to mongo basic object
 	 * 
 	 * @param model
-	 *            {@link IModel}
+	 *            {@link AModel}
 	 * @return {@link BasicDBObject}
 	 * @throws IllegalAccessException
 	 * @throws IllegalArgumentException
 	 */
-	public static BasicDBObject model2DbObject(IModel model)
+	public static BasicDBObject model2DbObject(AModel model)
 			throws IllegalArgumentException, IllegalAccessException {
 		BasicDBObject obj = new BasicDBObject();
 		Field[] fields = model.getClass().getDeclaredFields();
@@ -90,17 +90,17 @@ public class MongoUtils {
 	}
 
 	/**
-	 * convert {@link DBObject} to given {@link IModel}
+	 * convert {@link DBObject} to given {@link AModel}
 	 * 
 	 * @param _obj
 	 *            : Mongo Object
 	 * @param model
-	 *            , {@link IModel}
-	 * @return instantiated {@link IModel}
+	 *            , {@link AModel}
+	 * @return instantiated {@link AModel}
 	 * @throws IllegalArgumentException
 	 * @throws IllegalAccessException
 	 */
-	public static IModel dbObject2Model(DBObject _obj, IModel model)
+	public static AModel dbObject2Model(DBObject _obj, AModel model)
 			throws Exception {
 		if (_obj != null && model != null) {
 			Map<String, Object> map = new HashMap<String, Object>();
@@ -138,11 +138,11 @@ public class MongoUtils {
 	/**
 	 * 
 	 * @param model
-	 *            {@link IModel}
+	 *            {@link AModel}
 	 * @return {@link Criteria}
 	 * @throws Exception
 	 */
-	public static Criteria getCriteriaEqual(IModel model) throws Exception {
+	public static Criteria getCriteriaEqual(AModel model) throws Exception {
 		Criteria criteria = new Criteria();
 		Field[] fieldsTab = model.getClass().getDeclaredFields();
 		List<Field> fields = Arrays.asList(fieldsTab);

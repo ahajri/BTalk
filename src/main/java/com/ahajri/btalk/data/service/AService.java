@@ -2,14 +2,14 @@ package com.ahajri.btalk.data.service;
 
 import java.util.List;
 
-import com.ahajri.btalk.data.domain.IModel;
+import com.ahajri.btalk.data.domain.AModel;
 import com.mongodb.DBObject;
 
 /**
  * 
  * @author ahajri
  */
-public abstract class AService<T extends IModel> {
+public abstract class AService<T extends AModel> {
 
 	
 
@@ -18,7 +18,7 @@ public abstract class AService<T extends IModel> {
 	 * Persist document
 	 * 
 	 * @param model
-	 *            : {@link IModel} to persist
+	 *            : {@link AModel} to persist
 	 */
 
 	public abstract T persist(T model);

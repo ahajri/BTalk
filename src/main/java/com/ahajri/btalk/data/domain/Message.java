@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @XmlRootElement(name = "message")
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Message implements IModel {
+public class Message extends AModel {
 
 	/**
 	 * UID Serializaion

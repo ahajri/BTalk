@@ -25,7 +25,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import com.ahajri.btalk.config.AppConfig;
 import com.ahajri.btalk.data.domain.DiscussionMember;
-import com.ahajri.btalk.data.domain.IModel;
+import com.ahajri.btalk.data.domain.AModel;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -52,7 +52,7 @@ public class HttpClientMongoUserIntegTests {
 
 	private static final Gson gson = new Gson();
 
-	private static IModel created;
+	private static AModel created;
 
 	@BeforeClass
 	public static void setUp() {
@@ -73,7 +73,7 @@ public class HttpClientMongoUserIntegTests {
 			HttpPost postRequest = new HttpPost("/msgsys/createUser");
 
 			DiscussionMember model = new DiscussionMember();
-			model.setIdentity("ahajri@auxia.com");
+			model.setId("ahajri@auxia.com");
 			model.setDiscussRole("");
 
 			StringEntity input = new StringEntity(gson.toJson(model));

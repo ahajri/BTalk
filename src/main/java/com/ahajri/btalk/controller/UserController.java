@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.DiscussionMember;
+import com.ahajri.btalk.data.domain.upsert.DiscussUpsert;
+import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
 import com.ahajri.btalk.data.service.UserAuthService;
 
 //@RestController
@@ -66,7 +69,13 @@ public class UserController extends AController<DiscussionMember> {
 	}
 
 	@Override
-	public ResponseEntity<DiscussionMember> update(DiscussionMember model) {
+	public ResponseEntity<DiscussionMember> update(DiscussUpsert modelUpsert) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseEntity<Discussion> update(DiscussionUpsert modelUpsert) {
 		// TODO Auto-generated method stub
 		return null;
 	}

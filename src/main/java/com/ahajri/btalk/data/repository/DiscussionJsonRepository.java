@@ -1,7 +1,10 @@
 package com.ahajri.btalk.data.repository;
 
 import java.io.IOException;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -10,11 +13,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.DiscussionMember;
+import com.ahajri.btalk.utils.DiscussRole;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.marklogic.client.document.DocumentPatchBuilder;
 import com.marklogic.client.document.DocumentPatchBuilder.Position;
 import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
+import com.marklogic.client.io.InputStreamHandle;
 import com.marklogic.client.io.JacksonHandle;
 import com.marklogic.client.io.SearchHandle;
 import com.marklogic.client.io.StringHandle;
@@ -37,10 +43,13 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	private static final Logger LOGGER = Logger
 			.getLogger(DiscussionJsonRepository.class);
 
+	protected static final SimpleDateFormat sdf = new SimpleDateFormat(
+			"yyyyMMddhhmmss");
+
 	public static final String COLLECTION_REF = "/DiscussionCollection";
 	// TODO: later
 	public static final String OPTIONS_NAME = "price-year-bucketed";
-	
+
 	public static final int PAGE_SIZE = 10;
 
 	@Autowired
@@ -49,24 +58,53 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Autowired
 	protected JSONDocumentManager jsonDocumentManager;
 
+	@Autowired
+	protected StructuredQueryBuilder queryBuilder;
+
 	@Override
-	public void add(Discussion discussion) {
+	public void add(Discussion model) {
 		// Add this document to a dedicated collection for later retrieval
+
 		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
 		Iterator<String> iterator = metadata.getCollections().iterator();
+		boolean alreadyExists = false;
+		loop: while (iterator.hasNext()) {
+			String collectionName = iterator.next();
+			if (collectionName.equals(COLLECTION_REF)) {
+				alreadyExists = true;
+				break loop;
+			}
+		}
+		if (!alreadyExists) {
+			metadata.getCollections().add(COLLECTION_REF);
+		}
 
-		metadata.getCollections().add(COLLECTION_REF);
+		// check if document has Id ?
 
+		String currentDate = sdf.format(new Date(System.currentTimeMillis()));
+		model.setStartTime(currentDate);
+
+		String docName = "discussion_" + currentDate + ".json";
+
+		if (model.getId() == null) {
+			for (DiscussionMember member : model.getMembers()) {
+				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR)) {
+					String identity = member.getId() + sdf.format(new Date());
+					model.setId(identity);
+				}
+			}
+		}
+
+		System.out.println("###############"+model.toString());
 		JacksonHandle writeHandle = new JacksonHandle();
-		JsonNode writeDocument = writeHandle.getMapper().convertValue(
-				discussion, JsonNode.class);
+		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
+				JsonNode.class);
 		writeHandle.set(writeDocument);
-
 		// TODO: writing JacksonHandle with metadata throws:
-		// java.io.IOException: Attempted write to closed stream.
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
-		jsonDocumentManager.write("/discuss/discussion.json", metadata,
-				stringHandle);
+		jsonDocumentManager
+				.write("/discuss/" + docName, metadata, stringHandle);
+
 	}
 
 	@Override
@@ -108,7 +146,6 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public List<Discussion> findByQuery(String q) {
 		// KeyValueQueryDefinition query = queryManager.newKeyValueDefinition();
 		// query.put(queryManager.newKeyLocator("name"), name); // exact match
-
 		// Alternatively use:
 		StringQueryDefinition query = queryManager.newStringDefinition();
 		query.setCriteria(q); // example: "index OR Cassel NEAR Hare"
@@ -123,17 +160,17 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	// ~~
 
 	private String getDocId(Discussion model) {
-		return String.format("/discussion/%d.json", model.getIdentifier());
+		return String.format("/discussion/%d.json", model.getId());
 	}
 
 	private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
-		List<Discussion> products = new ArrayList<Discussion>();
+		List<Discussion> models = new ArrayList<Discussion>();
 		for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
 			LOGGER.info("  * found {}" + summary.getUri());
 			// Assumption: summary URI refers to JSON document
 			JacksonHandle jacksonHandle = new JacksonHandle();
 			jsonDocumentManager.read(summary.getUri(), jacksonHandle);
-			products.add(fetchProduct(jacksonHandle));
+			models.add(fetchProduct(jacksonHandle));
 		}
 		return null;
 	}
@@ -156,19 +193,38 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public Discussion findOne(Object... params) {
-		// TODO Auto-generated method stub
+		// FIXME: list all documents
+		// check if discuss.json already exist
+		SearchHandle resultsHandle = queryManager.search(
+				queryBuilder.directory(true, "/discuss/"), new SearchHandle());
+
+		MatchDocumentSummary[] docSummaries = resultsHandle.getMatchResults();
+		for (MatchDocumentSummary docSummary : docSummaries) {
+			System.out.println("#########" + docSummary.getUri());
+			InputStreamHandle docHandle = jsonDocumentManager.read(
+					docSummary.getUri(), new InputStreamHandle());
+
+		}
 		return null;
 	}
 
 	@Override
 	public void update(Discussion model) {
-		DocumentPatchBuilder xmlPatchBldr = jsonDocumentManager.newPatchBuilder();
-		DocumentPatchHandle xmlPatch = 
-		    xmlPatchBldr.insertFragment(
-		        "/discuss", 
-		        Position.LAST_CHILD,
-		        "added:new data")
-		      .build();
+		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
+				.newPatchBuilder();
+		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment("/discuss",
+				Position.LAST_CHILD, "added:new data").build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
+	}
+
+	@Override
+	public void replaceInsert(Discussion model, String fragment) {
+		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
+				.newPatchBuilder();
+		DocumentPatchHandle xmlPatch = jsonPatchBldr.replaceInsertFragment(
+				Discussion.docName, "/discuss/", Position.LAST_CHILD, fragment)
+				.build();
+		jsonDocumentManager.patch(getDocId(model), xmlPatch);
+
 	}
 }

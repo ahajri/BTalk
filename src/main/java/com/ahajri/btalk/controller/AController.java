@@ -11,7 +11,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.ahajri.btalk.data.domain.IModel;
+import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.AModel;
+import com.ahajri.btalk.data.domain.upsert.DiscussUpsert;
+import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
 import com.ahajri.btalk.error.ClientErrorInformation;
 
 /**
@@ -20,7 +23,7 @@ import com.ahajri.btalk.error.ClientErrorInformation;
  *         ahajri
  *         </p>
  */
-public abstract class AController<T extends IModel> {
+public abstract class AController<T extends AModel> {
 
 	private final Logger LOGGER = Logger.getLogger(getClass());
 
@@ -43,7 +46,7 @@ public abstract class AController<T extends IModel> {
 	 * find models by query
 	 * 
 	 * @param query
-	 *            : query {@link IModel} Object
+	 *            : query {@link AModel} Object
 	 * @return: {@link ResponseEntity}
 	 */
 	public abstract ResponseEntity<List<T>> findByQuery(@RequestBody T query);
@@ -52,7 +55,7 @@ public abstract class AController<T extends IModel> {
 	 * find nuique model
 	 * 
 	 * @param query
-	 *            : query {@link IModel} Object
+	 *            : query {@link AModel} Object
 	 * @return {@link ResponseEntity}
 	 */
 	public abstract ResponseEntity<T> findOne(@RequestBody T query);
@@ -61,7 +64,7 @@ public abstract class AController<T extends IModel> {
 	 * remove {@link Model}
 	 * 
 	 * @param query
-	 *            : query {@link IModel} Object
+	 *            : query {@link AModel} Object
 	 * @return {@link Boolean}
 	 */
 	public abstract Integer delete(T query);
@@ -86,6 +89,8 @@ public abstract class AController<T extends IModel> {
 	 * 
 	 * @return
 	 */
-	public abstract ResponseEntity<T> update(T model);
+	public abstract ResponseEntity<T> update(DiscussUpsert modelUpsert);
+
+	public abstract ResponseEntity<Discussion> update(DiscussionUpsert modelUpsert) ;
 
 }

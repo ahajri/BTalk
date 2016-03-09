@@ -126,4 +126,10 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 	public void update(Discussion model) {
 		// TODO Auto-generated method stub
 	}
+
+	@Override
+	public void replaceInsert(Discussion model,String fragment) {
+		// TODO Auto-generated method stub
+		
+	}
 }
