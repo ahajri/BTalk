@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,6 +21,7 @@ import com.marklogic.client.document.DocumentPatchBuilder;
 import com.marklogic.client.document.DocumentPatchBuilder.Position;
 import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
+import com.marklogic.client.io.Format;
 import com.marklogic.client.io.InputStreamHandle;
 import com.marklogic.client.io.JacksonHandle;
 import com.marklogic.client.io.SearchHandle;
@@ -27,6 +29,7 @@ import com.marklogic.client.io.StringHandle;
 import com.marklogic.client.io.marker.DocumentPatchHandle;
 import com.marklogic.client.query.MatchDocumentSummary;
 import com.marklogic.client.query.QueryManager;
+import com.marklogic.client.query.RawQueryByExampleDefinition;
 import com.marklogic.client.query.StringQueryDefinition;
 import com.marklogic.client.query.StructuredQueryBuilder;
 import com.marklogic.client.query.StructuredQueryDefinition;
@@ -46,7 +49,8 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	protected static final SimpleDateFormat sdf = new SimpleDateFormat(
 			"yyyyMMddhhmmss");
 
-	public static final String COLLECTION_REF = "/DiscussionCollection";
+	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
+	private static final String DISCUSS_DIR = "/discuss/";
 	// TODO: later
 	public static final String OPTIONS_NAME = "price-year-bucketed";
 
@@ -73,13 +77,13 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		boolean alreadyExists = false;
 		loop: while (iterator.hasNext()) {
 			String collectionName = iterator.next();
-			if (collectionName.equals(COLLECTION_REF)) {
+			if (collectionName.equals(DISCUSSION_COLLECTION)) {
 				alreadyExists = true;
 				break loop;
 			}
 		}
 		if (!alreadyExists) {
-			metadata.getCollections().add(COLLECTION_REF);
+			metadata.getCollections().add(DISCUSSION_COLLECTION);
 		}
 
 		// check if document has Id ?
@@ -87,26 +91,25 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		String currentDate = sdf.format(new Date(System.currentTimeMillis()));
 		model.setStartTime(currentDate);
 
-		String docName = "discussion_" + currentDate + ".json";
+		String docName = "discussion_" + model.getId() + ".json";
 
-		if (model.getId() == null) {
-			for (DiscussionMember member : model.getMembers()) {
-				if (member.getDiscussRole().equalsIgnoreCase(
-						DiscussRole.DISCUSS_CREATOR.getValue())) {
-					String identity = member.getId() + sdf.format(new Date());
-					model.setId(identity);
-				}
+		// Ensure document already exists
+		List<Discussion> found = this.findByQuery(model.getId());
+		System.out.println("###########" + found);
+		if (CollectionUtils.isNotEmpty(found)) {
+			for (Discussion d : found) {
+				System.out.println(d.getId());
 			}
 		}
-
+		//
 		JacksonHandle writeHandle = new JacksonHandle();
 		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
 				JsonNode.class);
 		writeHandle.set(writeDocument);
-		// TODO: writing JacksonHandle with metadata throws:
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
+
 		jsonDocumentManager
-				.write("/discuss/" + docName, metadata, stringHandle);
+				.write(DISCUSS_DIR + docName, metadata, stringHandle);
 		return findByQuery(model.getId()).get(0);
 	}
 
@@ -127,7 +130,8 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Override
 	public Long count() {
 		StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
-		StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
+		StructuredQueryDefinition criteria = sb
+				.collection(DISCUSSION_COLLECTION);
 		SearchHandle resultsHandle = new SearchHandle();
 		queryManager.search(criteria, resultsHandle);
 		return resultsHandle.getTotalResults();
@@ -137,8 +141,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public List<Discussion> findAll() {
 		StringQueryDefinition queryDef = queryManager
 				.newStringDefinition(OPTIONS_NAME);
-		queryDef.setCollections(COLLECTION_REF);
-
+		queryDef.setCollections(DISCUSSION_COLLECTION);
 		SearchHandle resultsHandle = new SearchHandle();
 		queryManager.setPageLength(PAGE_SIZE);
 		queryManager.search(queryDef, resultsHandle, 0);
@@ -153,7 +156,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		StringQueryDefinition query = queryManager.newStringDefinition();
 		// query.setCriteria("\"Aretha Franklin\" AND \"Otis Redding\"");
 		query.setCriteria(q); // example: "index OR Cassel NEAR Hare"
-		query.setCollections(COLLECTION_REF);
+		query.setCollections(DISCUSSION_COLLECTION);
 		queryManager.setPageLength(PAGE_SIZE);
 		SearchHandle resultsHandle = new SearchHandle();
 		return toSearchResult(queryManager.search(query, resultsHandle));
@@ -162,7 +165,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	// ~~
 
 	private String getDocId(Discussion model) {
-		return String.format("/discussion/%d.json", model.getId());
+		return String.format("/discussion/discussion_%d.json", model.getId());
 	}
 
 	private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
@@ -172,7 +175,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 			// Assumption: summary URI refers to JSON document
 			JacksonHandle jacksonHandle = new JacksonHandle();
 			jsonDocumentManager.read(summary.getUri(), jacksonHandle);
-			models.add(fetchProduct(jacksonHandle));
+			models.add(fetchDiscussion(jacksonHandle));
 		}
 		return models;
 	}
@@ -183,7 +186,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	 *            {@link JacksonHandle}
 	 * @return {@link Discussion}
 	 */
-	private Discussion fetchProduct(JacksonHandle jacksonHandle) {
+	private Discussion fetchDiscussion(JacksonHandle jacksonHandle) {
 		try {
 			JsonNode jsonNode = jacksonHandle.get();
 			return jacksonHandle.getMapper().readValue(jsonNode.toString(),
@@ -198,11 +201,10 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		// FIXME: list all documents
 		// check if discuss.json already exist
 		SearchHandle resultsHandle = queryManager.search(
-				queryBuilder.directory(true, "/discuss/"), new SearchHandle());
+				queryBuilder.directory(true, DISCUSS_DIR), new SearchHandle());
 
 		MatchDocumentSummary[] docSummaries = resultsHandle.getMatchResults();
 		for (MatchDocumentSummary docSummary : docSummaries) {
-			System.out.println("#########" + docSummary.getUri());
 			InputStreamHandle docHandle = jsonDocumentManager.read(
 					docSummary.getUri(), new InputStreamHandle());
 
@@ -214,8 +216,8 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public void update(Discussion model) {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
-		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment("/discuss",
-				Position.LAST_CHILD, "added:new data").build();
+		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(
+				DISCUSS_DIR, Position.LAST_CHILD, "added:new data").build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 	}
 
@@ -224,9 +226,21 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
 		DocumentPatchHandle xmlPatch = jsonPatchBldr.replaceInsertFragment(
-				Discussion.docName, "/discuss/", Position.LAST_CHILD, fragment)
+				Discussion.docName, DISCUSS_DIR, Position.LAST_CHILD, fragment)
 				.build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 
+	}
+
+	@Override
+	public List<Discussion> searchByExample(String example) {
+		String rawXMLQuery = "{\"$query\": { \"id\": \"jleogmail\" }}";
+		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
+				.withFormat(Format.JSON);
+		RawQueryByExampleDefinition query = queryManager
+				.newRawQueryByExampleDefinition(qbeHandle);
+		SearchHandle resultsHandle = queryManager.search(query,
+				new SearchHandle());
+		return toSearchResult(resultsHandle);
 	}
 }

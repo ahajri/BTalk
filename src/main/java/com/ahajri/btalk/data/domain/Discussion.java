@@ -1,7 +1,5 @@
 package com.ahajri.btalk.data.domain;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -20,12 +18,6 @@ public class Discussion extends AModel {
 	 */
 	private static final long serialVersionUID = -8665882915966219907L;
 
-	/**
-	 * 
-	 */
-	private static final SimpleDateFormat sdf = new SimpleDateFormat(
-			"yyyMMddhhmmss");
-
 	private String id;
 	private String startTime;
 	private String endTime;
@@ -35,23 +27,19 @@ public class Discussion extends AModel {
 
 	public Discussion() {
 		super();
-	}
 
-	public Discussion(List<DiscussionMember> members) {
-		super();
-		this.members = members;
-		StringBuffer buffer = new StringBuffer();
-		for (DiscussionMember member : members) {
-			if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR)) {
-				this.id = member.getId() + sdf.format(new Date());
-			}
-			buffer.append(member.getId());
-		}
-		this.id = buffer.toString();
 	}
 
 	public String getId() {
-		return id;
+		if (this.id == null) {
+			for (DiscussionMember member : this.members) {
+				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR.getValue())) {
+					this.id = member.getId().split("\\.")[0].replace("@", "");
+					System.out.println("#ID: "+id);
+				}
+			}
+		}
+		return this.id;
 	}
 
 	public void setId(String id) {

@@ -21,6 +21,7 @@ public interface IRepository<T> {
 	List<T> findAll() throws Exception;
 
 	List<T> findByQuery(String query) throws Exception;
+	List<T> searchByExample(String example);
 
 	Long count() throws Exception;
 

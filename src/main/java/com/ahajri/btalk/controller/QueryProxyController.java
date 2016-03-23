@@ -34,7 +34,7 @@ public class QueryProxyController {
 	@RequestMapping(value = "/search", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.POST)
 	@ResponseBody
 	public ResponseEntity<String> query(HttpServletRequest req) {
-		
+		LOGGER.info(req);
 		WebResource webResource = jerseyClient.resource(String.format(
 				"%s/v1/search", markLogicBaseURL));
 		webResource.accept(javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE,

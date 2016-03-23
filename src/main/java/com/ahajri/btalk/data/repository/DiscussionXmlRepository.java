@@ -23,10 +23,10 @@ import com.marklogic.client.query.StructuredQueryBuilder;
 import com.marklogic.client.query.StructuredQueryDefinition;
 
 /**
- * Sample implementation of the {@link ProductRepository}
+ * Sample implementation of the {@link IRepository}
  * making use of MarkLogic's {@link XMLDocumentManager}.
  *
- * @author Niko Schmuck
+ * @author Anis HAJRI
  */
 @Component("discussionXMLRepository")
 public class DiscussionXmlRepository implements IRepository<Discussion> {
@@ -132,5 +132,11 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 	public void replaceInsert(Discussion model,String fragment) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public List<Discussion> searchByExample(String example) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
