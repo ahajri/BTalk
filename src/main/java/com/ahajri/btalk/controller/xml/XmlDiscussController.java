@@ -33,7 +33,7 @@ public class XmlDiscussController {
 	@RequestMapping(value = "/products", method = RequestMethod.POST, consumes = MediaType.APPLICATION_XML_VALUE)
 	public ResponseEntity<String> createProduct(
 			@RequestBody Discussion Discussion, UriComponentsBuilder builder) {
-		discussionXmlRepository.add(Discussion);
+		discussionXmlRepository.persist(Discussion);
 
 		HttpHeaders headers = new HttpHeaders();
 //		headers.setLocation(builder.path("/auth/{id}.xml")

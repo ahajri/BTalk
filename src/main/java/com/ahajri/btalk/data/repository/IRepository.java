@@ -5,28 +5,22 @@ import java.util.List;
 import com.ahajri.btalk.data.domain.AModel;
 
 /**
- * Showcase for a simple repository allowing to access and modify {@link AModel}
+ * Show case for a simple repository allowing to access and modify {@link AModel}
  * objects in a domain specific way.
  *
  * @author Anis HAJRI
  */
 public interface IRepository<T> {
 
-	T add(T model) throws Exception;
-
+	T persist(T model) throws Exception;
 	void remove(T model) throws Exception;
-
 	T findOne(Object... params) throws Exception;
-
 	List<T> findAll() throws Exception;
-
 	List<T> findByQuery(String query) throws Exception;
 	List<T> searchByExample(String example);
-
 	Long count() throws Exception;
-
 	void update(T model) throws Exception;
-
 	void replaceInsert(T model, String fragment) throws Exception;
+	List<T> findById(String id);
 
 }

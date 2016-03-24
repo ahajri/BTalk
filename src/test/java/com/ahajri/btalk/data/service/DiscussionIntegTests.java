@@ -78,7 +78,7 @@ public class DiscussionIntegTests {
 		members.addAll(Arrays.asList(member1, member2));
 
 		Discussion discuss = new Discussion();
-		discuss.setStartTime(sdf.format(new Date()));
+		discuss.setStartTime(new Date(System.currentTimeMillis()));
 		discuss.setMembers(members);
 
 		System.out.println(gson.toJsonTree(discuss));

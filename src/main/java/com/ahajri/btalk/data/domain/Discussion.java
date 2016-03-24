@@ -1,5 +1,6 @@
 package com.ahajri.btalk.data.domain;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -19,7 +20,7 @@ public class Discussion extends AModel {
 	private static final long serialVersionUID = -8665882915966219907L;
 
 	private String id;
-	private String startTime;
+	private Date startTime;
 	private String endTime;
 	private List<DiscussionMember> members;
 
@@ -27,15 +28,13 @@ public class Discussion extends AModel {
 
 	public Discussion() {
 		super();
-
 	}
 
 	public String getId() {
 		if (this.id == null) {
 			for (DiscussionMember member : this.members) {
 				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR.getValue())) {
-					this.id = member.getId().split("\\.")[0].replace("@", "");
-					System.out.println("#ID: "+id);
+					this.id = member.getId().split("\\.")[0].replace("@", "_");
 				}
 			}
 		}
@@ -46,11 +45,11 @@ public class Discussion extends AModel {
 		this.id = id;
 	}
 
-	public String getStartTime() {
+	public Date getStartTime() {
 		return startTime;
 	}
 
-	public void setStartTime(String startTime) {
+	public void setStartTime(Date startTime) {
 		this.startTime = startTime;
 	}
 

@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.UserDiscussions;
 import com.marklogic.client.document.XMLDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
 import com.marklogic.client.io.JAXBHandle;
@@ -43,7 +44,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     protected XMLDocumentManager xmlDocumentManager;
 
     @Override
-    public Discussion add(Discussion Discussion) {
+    public Discussion persist(Discussion Discussion) {
         // Add this document to a dedicated collection for later retrieval
         DocumentMetadataHandle metadata = new DocumentMetadataHandle();
         metadata.getCollections().add(COLLECTION_REF);
@@ -136,6 +137,12 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 
 	@Override
 	public List<Discussion> searchByExample(String example) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Discussion> findById(String id) {
 		// TODO Auto-generated method stub
 		return null;
 	}

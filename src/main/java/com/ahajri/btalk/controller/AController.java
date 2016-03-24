@@ -4,18 +4,19 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.AModel;
-import com.ahajri.btalk.data.domain.upsert.DiscussUpsert;
+import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
+import com.ahajri.btalk.data.domain.upsert.DiscussionsUpsert;
 import com.ahajri.btalk.error.ClientErrorInformation;
+import com.marklogic.client.ResourceNotFoundException;
 
 /**
  * 
@@ -25,23 +26,23 @@ import com.ahajri.btalk.error.ClientErrorInformation;
  */
 public abstract class AController<T extends AModel> {
 
-	private final Logger LOGGER = Logger.getLogger(getClass());
 
 	protected final int GT = 1;
 	protected final int EQ = 2;
 	protected final int LT = 3;
 
-	@ExceptionHandler(Exception.class)
-	public ResponseEntity<ClientErrorInformation> handleException(
-			HttpServletRequest req, Exception e) {
-		LOGGER.error("Rules For Rest Not Found >>>>> Problem while executing request: "
-				+ e.getMessage());
-		ClientErrorInformation error = new ClientErrorInformation(e.toString(),
-				req.getRequestURI());
-		return new ResponseEntity<ClientErrorInformation>(error,
-				HttpStatus.NOT_FOUND);
+	@ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Resource not found")
+	@ExceptionHandler(ResourceNotFoundException.class)
+	public void handleResourceNotFoundException() {
 	}
 
+	@ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR, reason = "Internal Error")
+	@ExceptionHandler(Exception.class)
+	public ResponseEntity<ClientErrorInformation> handleException(HttpServletRequest req, Exception ex) {
+		ex.printStackTrace();
+		ClientErrorInformation e=new ClientErrorInformation(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR.toString());
+		return new ResponseEntity<ClientErrorInformation>(e, HttpStatus.INTERNAL_SERVER_ERROR);
+	}
 	/**
 	 * find models by query
 	 * 
@@ -89,8 +90,8 @@ public abstract class AController<T extends AModel> {
 	 * 
 	 * @return
 	 */
-	public abstract ResponseEntity<T> update(DiscussUpsert modelUpsert);
-
-	public abstract ResponseEntity<Discussion> update(DiscussionUpsert modelUpsert) ;
+//	public abstract ResponseEntity<T> update(DiscussUpsert modelUpsert);
+//
+//	public abstract ResponseEntity<T> update(DiscussionsUpsert modelUpsert) ;
 
 }

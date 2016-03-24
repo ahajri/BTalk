@@ -12,10 +12,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.data.domain.UserDiscussions;
-import com.ahajri.btalk.utils.DiscussRole;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.marklogic.client.admin.QueryOptionsManager;
 import com.marklogic.client.document.DocumentPatchBuilder;
@@ -28,6 +25,7 @@ import com.marklogic.client.io.JacksonHandle;
 import com.marklogic.client.io.SearchHandle;
 import com.marklogic.client.io.StringHandle;
 import com.marklogic.client.io.marker.DocumentPatchHandle;
+import com.marklogic.client.query.KeyValueQueryDefinition;
 import com.marklogic.client.query.MatchDocumentSummary;
 import com.marklogic.client.query.QueryManager;
 import com.marklogic.client.query.RawQueryByExampleDefinition;
@@ -41,18 +39,18 @@ import com.marklogic.client.query.StructuredQueryDefinition;
  *
  * @author <b>ahajri</b>
  */
-@Component("discussionJsonRepository")
-public class DiscussionJsonRepository implements IRepository<Discussion> {
+@Component("discussionsJsonRepository")
+public class DiscussionsJsonRepository implements IRepository<UserDiscussions> {
 
 	private static final Logger LOGGER = Logger
-			.getLogger(DiscussionJsonRepository.class);
+			.getLogger(DiscussionsJsonRepository.class);
 
 	protected static final SimpleDateFormat sdf = new SimpleDateFormat(
 			"yyyyMMddhhmmss");
 
 	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
 	private static final String DISCUSS_DIR = "/discuss/";
-	// TODO: use later
+	// TODO: later
 	public static final String OPTIONS_NAME = "price-year-bucketed";
 
 	public static final int PAGE_SIZE = 10;
@@ -68,12 +66,11 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Autowired
 	protected QueryOptionsManager queryOptionsManager;
-
-	@Autowired
-	protected DiscussionsJsonRepository discussionsJsonRepository;
+	
+	
 
 	@Override
-	public Discussion persist(Discussion model) {
+	public UserDiscussions persist(UserDiscussions model) {
 		// Add this document to a dedicated collection for later retrieval
 
 		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
@@ -90,24 +87,21 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 			metadata.getCollections().add(DISCUSSION_COLLECTION);
 		}
 
-		model.setStartTime(new Date(System.currentTimeMillis()));
+		// check if document has Id ?
 
-		String docName = "discussions__" + model.getId() + ".json";
+		model.setCreationDate(new Date(System.currentTimeMillis()));
 
-		// Ensure User discussion document already exists
-		List<UserDiscussions> found = discussionsJsonRepository.findById(model
-				.getId()+"_parent");
-		UserDiscussions discussionsDoc = null;
-		System.out.println("###########" + found.size());
+		String docName = "discussion_" + model.getId() + ".json";
+
+		// Ensure document already exists
+		List<UserDiscussions> found = this.findById(model.getId());
+		System.out.println("#########"+found);
+		System.exit(0);
+		LOGGER.info("Discussions already exists: " + found.toString());
 		if (CollectionUtils.isNotEmpty(found)) {
-			//doc already exists
-			discussionsDoc = found.get(0);
-		} else {
-			//create new one
-			discussionsDoc = new UserDiscussions();
-			discussionsDoc.setCreationDate(new Date(System.currentTimeMillis()));
-			discussionsDoc.setId(model.getId()+"_parent");
-			discussionsDoc.getDiscussions().add(model);
+			for (UserDiscussions d : found) {
+				System.out.println(d.getId());
+			}
 		}
 		//
 		JacksonHandle writeHandle = new JacksonHandle();
@@ -122,14 +116,14 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	}
 
 	@Override
-	public void remove(Discussion model) {
+	public void remove(UserDiscussions model) {
 		jsonDocumentManager.delete("");
 	}
 
 	/**
 	 * Demonstrates End-to-End JSON direct access.
 	 */
-	public JsonNode getById(Discussion model) {
+	public JsonNode getById(UserDiscussions model) {
 		JacksonHandle jacksonHandle = new JacksonHandle();
 		jsonDocumentManager.read(getDocId(model), jacksonHandle);
 		return jacksonHandle.get();
@@ -146,7 +140,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	}
 
 	@Override
-	public List<Discussion> findAll() {
+	public List<UserDiscussions> findAll() {
 		StringQueryDefinition queryDef = queryManager
 				.newStringDefinition(OPTIONS_NAME);
 		queryDef.setCollections(DISCUSSION_COLLECTION);
@@ -157,7 +151,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	}
 
 	@Override
-	public List<Discussion> findByQuery(String q) {
+	public List<UserDiscussions> findByQuery(String q) {
 		// KeyValueQueryDefinition query = queryManager.newKeyValueDefinition();
 		// query.put(queryManager.newKeyLocator("name"), name); // exact match
 		// Alternatively use:
@@ -169,15 +163,24 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		SearchHandle resultsHandle = new SearchHandle();
 		return toSearchResult(queryManager.search(query, resultsHandle));
 	}
-
-	// ~~
-
-	private String getDocId(Discussion model) {
-		return String.format("/discussion/discussion_%d.json", model.getId());
+	
+	@Override
+	public List<UserDiscussions> findById(String id) {
+		String rawXMLQuery = "{ \"$query\": { \"id\": \""+id+"\" } }";
+		StringHandle qbeHandle = new StringHandle(rawXMLQuery).withFormat(Format.JSON);
+		RawQueryByExampleDefinition query = queryManager.newRawQueryByExampleDefinition(qbeHandle);
+		SearchHandle resultsHandle = queryManager.search(query, new SearchHandle());
+		query.setCollections(DISCUSSION_COLLECTION);
+		queryManager.setPageLength(PAGE_SIZE);
+		return toSearchResult(queryManager.search(query, resultsHandle));
 	}
 
-	private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
-		List<Discussion> models = new ArrayList<Discussion>();
+	private String getDocId(UserDiscussions model) {
+		return String.format("/Discussions/discussions_%d.json", model.getId());
+	}
+
+	private List<UserDiscussions> toSearchResult(SearchHandle resultsHandle) {
+		List<UserDiscussions> models = new ArrayList<UserDiscussions>();
 		for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
 			LOGGER.info("  * found {}" + summary.getUri());
 			// Assumption: summary URI refers to JSON document
@@ -192,20 +195,20 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	 * 
 	 * @param jacksonHandle
 	 *            {@link JacksonHandle}
-	 * @return {@link Discussion}
+	 * @return {@link UserDiscussions}
 	 */
-	private Discussion fetchDiscussion(JacksonHandle jacksonHandle) {
+	private UserDiscussions fetchDiscussion(JacksonHandle jacksonHandle) {
 		try {
 			JsonNode jsonNode = jacksonHandle.get();
 			return jacksonHandle.getMapper().readValue(jsonNode.toString(),
-					Discussion.class);
+					UserDiscussions.class);
 		} catch (IOException e) {
-			throw new RuntimeException("Unable to cast to Discussion", e);
+			throw new RuntimeException("Unable to cast to Discussions", e);
 		}
 	}
 
 	@Override
-	public Discussion findOne(Object... params) {
+	public UserDiscussions findOne(Object... params) {
 		SearchHandle resultsHandle = queryManager.search(
 				queryBuilder.directory(true, DISCUSS_DIR), new SearchHandle());
 
@@ -219,7 +222,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	}
 
 	@Override
-	public void update(Discussion model) {
+	public void update(UserDiscussions model) {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
 		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(
@@ -228,18 +231,18 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	}
 
 	@Override
-	public void replaceInsert(Discussion model, String fragment) {
+	public void replaceInsert(UserDiscussions model, String fragment) {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
 		DocumentPatchHandle xmlPatch = jsonPatchBldr.replaceInsertFragment(
-				Discussion.docName, DISCUSS_DIR, Position.LAST_CHILD, fragment)
-				.build();
+				"discussions_" + model.getId() + ".json", DISCUSS_DIR,
+				Position.LAST_CHILD, fragment).build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 
 	}
 
 	@Override
-	public List<Discussion> searchByExample(String example) {
+	public List<UserDiscussions> searchByExample(String example) {
 		String rawXMLQuery = "{\"$query\": { \"id\": \"jleogmail\" }}";
 		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
 				.withFormat(Format.JSON);
@@ -248,19 +251,5 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		SearchHandle resultsHandle = queryManager.search(query,
 				new SearchHandle());
 		return toSearchResult(resultsHandle);
-	}
-
-	@Override
-	public List<Discussion> findById(String id) {
-		String rawXMLQuery = "{ \"$query\": { \"id\": \"" + id + "\" } }";
-		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
-				.withFormat(Format.JSON);
-		RawQueryByExampleDefinition query = queryManager
-				.newRawQueryByExampleDefinition(qbeHandle);
-		SearchHandle resultsHandle = queryManager.search(query,
-				new SearchHandle());
-		query.setCollections(DISCUSSION_COLLECTION);
-		queryManager.setPageLength(PAGE_SIZE);
-		return toSearchResult(queryManager.search(query, resultsHandle));
 	}
 }

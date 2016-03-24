@@ -97,8 +97,6 @@ public class MarkLogicConfig {
 
 	@Bean
 	public String getMarkLogicBaseURL() {
-		System.out.println("MarkLogic URL: "
-				+ String.format("http://%s:%s", host, port));
 		return String.format("http://%s:%s", host, port);
 	}
 

@@ -1,5 +1,6 @@
 package com.ahajri.btalk.data.domain;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -11,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @XmlRootElement(name = "discussions")
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Discussions extends AModel {
+public class UserDiscussions extends AModel {
 
 	/**
 	 * 
@@ -20,9 +21,9 @@ public class Discussions extends AModel {
 
 	private String id;
 	private Date creationDate;
-	private List<Discussion> discussions;
+	private List<Discussion> discussions=new ArrayList<Discussion>();
 
-	public Discussions() {
+	public UserDiscussions() {
 		super();
 	}
 
@@ -76,7 +77,7 @@ public class Discussions extends AModel {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Discussions other = (Discussions) obj;
+		UserDiscussions other = (UserDiscussions) obj;
 		if (creationDate == null) {
 			if (other.creationDate != null)
 				return false;
