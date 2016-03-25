@@ -39,11 +39,12 @@ import com.marklogic.client.query.StructuredQueryDefinition;
  *
  * @author <b>ahajri</b>
  */
-@Component("discussionsJsonRepository")
-public class DiscussionsJsonRepository implements IRepository<UserDiscussions> {
+@Component("userDiscussionsJsonRepository")
+public class UserDiscussionsJsonRepository implements
+		IRepository<UserDiscussions> {
 
 	private static final Logger LOGGER = Logger
-			.getLogger(DiscussionsJsonRepository.class);
+			.getLogger(UserDiscussionsJsonRepository.class);
 
 	protected static final SimpleDateFormat sdf = new SimpleDateFormat(
 			"yyyyMMddhhmmss");
@@ -66,8 +67,6 @@ public class DiscussionsJsonRepository implements IRepository<UserDiscussions> {
 
 	@Autowired
 	protected QueryOptionsManager queryOptionsManager;
-	
-	
 
 	@Override
 	public UserDiscussions persist(UserDiscussions model) {
@@ -95,8 +94,7 @@ public class DiscussionsJsonRepository implements IRepository<UserDiscussions> {
 
 		// Ensure document already exists
 		List<UserDiscussions> found = this.findById(model.getId());
-		System.out.println("#########"+found);
-		System.exit(0);
+		System.out.println("#########" + found);
 		LOGGER.info("Discussions already exists: " + found.toString());
 		if (CollectionUtils.isNotEmpty(found)) {
 			for (UserDiscussions d : found) {
@@ -163,20 +161,28 @@ public class DiscussionsJsonRepository implements IRepository<UserDiscussions> {
 		SearchHandle resultsHandle = new SearchHandle();
 		return toSearchResult(queryManager.search(query, resultsHandle));
 	}
-	
+
 	@Override
 	public List<UserDiscussions> findById(String id) {
-		String rawXMLQuery = "{ \"$query\": { \"id\": \""+id+"\" } }";
-		StringHandle qbeHandle = new StringHandle(rawXMLQuery).withFormat(Format.JSON);
-		RawQueryByExampleDefinition query = queryManager.newRawQueryByExampleDefinition(qbeHandle);
-		SearchHandle resultsHandle = queryManager.search(query, new SearchHandle());
+		String rawXMLQuery = "{ \"$query\": { \"id\": \"" + id + "\" } }";
+		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
+				.withFormat(Format.JSON);
+		RawQueryByExampleDefinition query = queryManager
+				.newRawQueryByExampleDefinition(qbeHandle);
+		SearchHandle resultsHandle = queryManager.search(query,
+				new SearchHandle());
 		query.setCollections(DISCUSSION_COLLECTION);
 		queryManager.setPageLength(PAGE_SIZE);
 		return toSearchResult(queryManager.search(query, resultsHandle));
 	}
 
 	private String getDocId(UserDiscussions model) {
-		return String.format("/Discussions/discussions_%d.json", model.getId());
+		System.out.println(model.getId());
+		String id = model.getId();
+		if(id!=null){
+			id=id.substring(0, id.lastIndexOf("_"));
+		}
+		return String.format("/discuss/discussions__%s.json",id);
 	}
 
 	private List<UserDiscussions> toSearchResult(SearchHandle resultsHandle) {
@@ -235,15 +241,16 @@ public class DiscussionsJsonRepository implements IRepository<UserDiscussions> {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
 		DocumentPatchHandle xmlPatch = jsonPatchBldr.replaceInsertFragment(
-				"discussions_" + model.getId() + ".json", DISCUSS_DIR,
+				"discussions__" + model.getId() + ".json", DISCUSS_DIR,
 				Position.LAST_CHILD, fragment).build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 
 	}
 
 	@Override
-	public List<UserDiscussions> searchByExample(String example) {
-		String rawXMLQuery = "{\"$query\": { \"id\": \"jleogmail\" }}";
+	public List<UserDiscussions> searchByExample(String json) {
+		//Example: { \"id\": \"jleogmail\" }
+		String rawXMLQuery = "{\"$query\": "+json+"}";
 		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
 				.withFormat(Format.JSON);
 		RawQueryByExampleDefinition query = queryManager

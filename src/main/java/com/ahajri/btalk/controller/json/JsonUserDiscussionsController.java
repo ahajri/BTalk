@@ -14,21 +14,19 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ahajri.btalk.controller.AController;
-import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.UserDiscussions;
-import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
 import com.ahajri.btalk.data.domain.upsert.DiscussionsUpsert;
-import com.ahajri.btalk.data.repository.DiscussionsJsonRepository;
+import com.ahajri.btalk.data.repository.UserDiscussionsJsonRepository;
 import com.marklogic.client.DatabaseClient;
 
 @RestController
-public class JsonDiscussionsController extends AController<UserDiscussions> {
+public class JsonUserDiscussionsController extends AController<UserDiscussions> {
 
 	private static final Logger LOGGER = Logger
-			.getLogger(JsonDiscussionsController.class);
+			.getLogger(JsonUserDiscussionsController.class);
 
 	@Autowired
-	protected DiscussionsJsonRepository discussionsJsonRepository;
+	protected UserDiscussionsJsonRepository userDiscussionsJsonRepository;
 
 	@Autowired
 	public DatabaseClient databaseClient;
@@ -40,7 +38,7 @@ public class JsonDiscussionsController extends AController<UserDiscussions> {
 	@Override
 	public ResponseEntity<List<UserDiscussions>> findByQuery(
 			@RequestParam("q") String q) {
-		List<UserDiscussions> discussions = discussionsJsonRepository.findByQuery(q);
+		List<UserDiscussions> discussions = userDiscussionsJsonRepository.findByQuery(q);
 		ResponseEntity<List<UserDiscussions>> result = new ResponseEntity<List<UserDiscussions>>(
 				discussions, HttpStatus.FOUND);
 		return result;
@@ -60,7 +58,7 @@ public class JsonDiscussionsController extends AController<UserDiscussions> {
 	@ResponseStatus(HttpStatus.CREATED)
 	@Override
 	public ResponseEntity<UserDiscussions> create(@RequestBody UserDiscussions model) {
-		UserDiscussions created = discussionsJsonRepository.persist(model);
+		UserDiscussions created = userDiscussionsJsonRepository.persist(model);
 		return new ResponseEntity<UserDiscussions>(created, HttpStatus.CREATED);
 	}
 
@@ -73,7 +71,7 @@ public class JsonDiscussionsController extends AController<UserDiscussions> {
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<UserDiscussions> update(
 			@RequestBody DiscussionsUpsert modelUpsert) {
-		discussionsJsonRepository.replaceInsert(modelUpsert.getModel(),
+		userDiscussionsJsonRepository.replaceInsert(modelUpsert.getModel(),
 				modelUpsert.getFragment());
 		return new ResponseEntity<UserDiscussions>(modelUpsert.getModel(),
 				HttpStatus.CREATED);
