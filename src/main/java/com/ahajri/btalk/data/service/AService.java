@@ -12,7 +12,7 @@ import com.mongodb.DBObject;
 public abstract class AService<T extends AModel> {
 
 	
-
+	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
 
 	/**
 	 * Persist document
@@ -63,5 +63,12 @@ public abstract class AService<T extends AModel> {
 	 * @return {@link List} of all Documents
 	 */
 	public abstract List<T> findAll();
+	
+	/**
+	 * Search Models
+	 * @param q
+	 * @return {@link List} of found Models
+	 */
+	public abstract List<T> search(String q);
 
 }

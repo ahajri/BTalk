@@ -21,7 +21,7 @@ public class Discussion extends AModel {
 
 	private String id;
 	private Date startTime;
-	private String endTime;
+	private Date endTime;
 	private List<DiscussionMember> members;
 
 	public static transient final String docName = "discussion.json";
@@ -53,11 +53,11 @@ public class Discussion extends AModel {
 		this.startTime = startTime;
 	}
 
-	public String getEndTime() {
+	public Date getEndTime() {
 		return endTime;
 	}
 
-	public void setEndTime(String endTime) {
+	public void setEndTime(Date endTime) {
 		this.endTime = endTime;
 	}
 

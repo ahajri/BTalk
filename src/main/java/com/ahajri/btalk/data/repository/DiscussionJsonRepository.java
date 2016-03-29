@@ -13,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.UserDiscussions;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
 import com.marklogic.client.DatabaseClient;
@@ -73,8 +72,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Autowired
 	protected QueryOptionsManager queryOptionsManager;
 
-	@Autowired
-	protected UserDiscussionsJsonRepository userDiscussionsJsonRepository;
+
 
 	@Override
 	public Discussion persist(Discussion model) {
@@ -95,7 +93,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		model.setStartTime(new Date(System.currentTimeMillis()));
 		String docName = "discussions__" + model.getId() + ".json";
 		// Ensure User discussion document already exists
-		List<UserDiscussions> found = userDiscussionsJsonRepository.findById(model
+		List<UserDiscussion> found = userDiscussionJsonRepository.findById(model
 				.getId() + "_parent");
 		UserDiscussions discussionsDoc = null;
 		LOGGER.info("UserDiscussions found: " + found.size());
@@ -108,8 +106,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 			if (CollectionUtils.isNotEmpty(openDiscussFound)) {
 				//open discussion already exists
 				discussionsDoc = openDiscussFound.get(0);
-				
-				return findByQuery(discussionsDoc.getDiscussions().getId()).get(0);
+				return findByQuery(discussionsDoc.getDiscussions().get(0).getId()).get(0);
 				
 			}else{
 				//create new user discussion file
