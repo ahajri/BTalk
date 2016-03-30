@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.ahajri.btalk.data.domain.AModel;
-import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
-import com.ahajri.btalk.data.domain.upsert.DiscussionsUpsert;
 import com.ahajri.btalk.error.ClientErrorInformation;
 import com.marklogic.client.ResourceNotFoundException;
 
@@ -86,10 +83,8 @@ public abstract class AController<T extends AModel> {
 	
 	public abstract ResponseEntity<List<T>> findAll();
 	
-	/**
-	 * 
-	 * @return
-	 */
+	
+	public abstract ResponseEntity<List<T>> search(String q);
 //	public abstract ResponseEntity<T> update(DiscussUpsert modelUpsert);
 //
 //	public abstract ResponseEntity<T> update(DiscussionsUpsert modelUpsert) ;

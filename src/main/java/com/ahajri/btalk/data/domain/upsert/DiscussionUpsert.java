@@ -2,7 +2,6 @@ package com.ahajri.btalk.data.domain.upsert;
 
 import com.ahajri.btalk.data.domain.Discussion;
 
-
 public class DiscussionUpsert {
 
 	private Discussion model;

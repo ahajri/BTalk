@@ -1,5 +1,7 @@
 package com.ahajri.btalk.data.domain;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -23,8 +25,10 @@ public class Discussion extends AModel {
 	private Date startTime;
 	private Date endTime;
 	private List<DiscussionMember> members;
+	private List<Message> messages=new ArrayList<Message>();
 
 	public static transient final String docName = "discussion.json";
+	private static final transient SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
 
 	public Discussion() {
 		super();
@@ -34,7 +38,7 @@ public class Discussion extends AModel {
 		if (this.id == null) {
 			for (DiscussionMember member : this.members) {
 				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR.getValue())) {
-					this.id = member.getId().split("\\.")[0].replace("@", "_");
+					this.id = member.getId().split("\\.")[0].replace("@", "_")+"_"+sdf.format(new Date());
 				}
 			}
 		}
@@ -69,6 +73,16 @@ public class Discussion extends AModel {
 
 	public void setMembers(List<DiscussionMember> members) {
 		this.members = members;
+	}
+
+	@XmlElementWrapper(name = "messages")
+	@XmlElement(name = "message")
+	public List<Message> getMessages() {
+		return messages;
+	}
+
+	public void setMessages(List<Message> messages) {
+		this.messages = messages;
 	}
 
 	@Override

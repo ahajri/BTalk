@@ -3,18 +3,14 @@ package com.ahajri.btalk.data.repository;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.google.gson.Gson;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.admin.QueryOptionsManager;
 import com.marklogic.client.document.DocumentPatchBuilder;
@@ -50,13 +46,13 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 			"yyyyMMddhhmmss");
 
 	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
-	
+
 	private static final String DISCUSS_DIR = "/discuss/";
 	// TODO: use later
 	public static final String OPTIONS_NAME = "price-year-bucketed";
 
 	public static final int PAGE_SIZE = 10;
-	
+
 	@Autowired
 	DatabaseClient databaseClient;
 
@@ -72,65 +68,24 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Autowired
 	protected QueryOptionsManager queryOptionsManager;
 
-
-
 	@Override
-	public Discussion persist(Discussion model) {
-		// Add this document to a dedicated collection for later retrieval
-		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
-		Iterator<String> iterator = metadata.getCollections().iterator();
-		boolean alreadyExists = false;
-		loop: while (iterator.hasNext()) {
-			String collectionName = iterator.next();
-			if (collectionName.equals(DISCUSSION_COLLECTION)) {
-				alreadyExists = true;
-				break loop;
-			}
-		}
-		if (!alreadyExists) {
-			metadata.getCollections().add(DISCUSSION_COLLECTION);
-		}
-		model.setStartTime(new Date(System.currentTimeMillis()));
-		String docName = "discussions__" + model.getId() + ".json";
-		// Ensure User discussion document already exists
-		List<UserDiscussion> found = userDiscussionJsonRepository.findById(model
-				.getId() + "_parent");
-		UserDiscussions discussionsDoc = null;
-		LOGGER.info("UserDiscussions found: " + found.size());
-		if (CollectionUtils.isNotEmpty(found)) {
-			// doc already exists
-			discussionsDoc = found.get(0);
-			Gson gson = new Gson();
-			System.out.println(gson.toJson(model));
-			List<UserDiscussions> openDiscussFound = userDiscussionsJsonRepository.searchByExample("{ \"endTime\": null }");
-			if (CollectionUtils.isNotEmpty(openDiscussFound)) {
-				//open discussion already exists
-				discussionsDoc = openDiscussFound.get(0);
-				return findByQuery(discussionsDoc.getDiscussions().get(0).getId()).get(0);
-				
-			}else{
-				//create new user discussion file
-				userDiscussionsJsonRepository.replaceInsert(discussionsDoc, gson.toJson(model));
-			}
-			
-		} else {
-			// create new one
-			discussionsDoc = new UserDiscussions();
-			discussionsDoc
-					.setCreationDate(new Date(System.currentTimeMillis()));
-			discussionsDoc.setId(model.getId() + "_parent");
-			discussionsDoc.getDiscussions().add(model);
-			JacksonHandle writeHandle = new JacksonHandle();
-			JsonNode writeDocument = writeHandle.getMapper().convertValue(discussionsDoc,
-					JsonNode.class);
-			writeHandle.set(writeDocument);
-			StringHandle stringHandle = new StringHandle(writeDocument.toString());
-			//
-			jsonDocumentManager
-					.write(DISCUSS_DIR + docName, metadata, stringHandle);
-		}
-		databaseClient.release();
-		return findByQuery(model.getId()).get(0);
+	public void persist(Discussion model, DocumentMetadataHandle metadata) {
+
+		String docName = "discussion__" + model.getId() + ".json";
+
+		// List<UserDiscussions> openDiscussFound =
+		// userDiscussionsJsonRepository.searchByExample("{ \"endTime\": null }");
+
+		JacksonHandle writeHandle = new JacksonHandle();
+		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
+				JsonNode.class);
+		writeHandle.set(writeDocument);
+		StringHandle stringHandle = new StringHandle(writeDocument.toString());
+		jsonDocumentManager
+				.write(DISCUSS_DIR + docName, metadata, stringHandle);
+
+		// databaseClient.release();
+
 	}
 
 	@Override
@@ -250,15 +205,27 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	}
 
+	public void insertFragment(Discussion model, String fragment) {
+		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
+				.newPatchBuilder();
+		DocumentPatchHandle jsonPatch = jsonPatchBldr.insertFragment(
+				"/" + DISCUSS_DIR + "/" + Discussion.docName,
+				Position.LAST_CHILD, fragment).build();
+		jsonDocumentManager.patch(getDocId(model), jsonPatch);
+
+	}
+
 	@Override
-	public List<Discussion> searchByExample(String example) {
-		String rawXMLQuery = "{\"$query\": { \"id\": \"jleogmail\" }}";
-		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
+	public List<Discussion> searchByExample(String q) {
+		// String jsonQuery = "{\"$query\": { \"id\": \"jleogmail\" }}";
+		String jsonQuery = "{\"$query\": " + q + "}";
+		StringHandle qbeHandle = new StringHandle(jsonQuery)
 				.withFormat(Format.JSON);
 		RawQueryByExampleDefinition query = queryManager
 				.newRawQueryByExampleDefinition(qbeHandle);
 		SearchHandle resultsHandle = queryManager.search(query,
 				new SearchHandle());
+		queryManager.setPageLength(10);
 		return toSearchResult(resultsHandle);
 	}
 
@@ -274,5 +241,19 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		query.setCollections(DISCUSSION_COLLECTION);
 		queryManager.setPageLength(PAGE_SIZE);
 		return toSearchResult(queryManager.search(query, resultsHandle));
+	}
+
+	@Override
+	public void persist(Discussion model) throws Exception {
+		String docName = "discussion__" + model.getId() + ".json";
+		JacksonHandle writeHandle = new JacksonHandle();
+		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
+				JsonNode.class);
+		writeHandle.set(writeDocument);
+		StringHandle stringHandle = new StringHandle(writeDocument.toString());
+		jsonDocumentManager.write(DISCUSS_DIR + docName,
+				new DocumentMetadataHandle(), stringHandle);
+		databaseClient.release();
+
 	}
 }

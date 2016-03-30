@@ -43,15 +43,13 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     protected XMLDocumentManager xmlDocumentManager;
 
     @Override
-    public Discussion persist(Discussion Discussion) {
+    public void persist(Discussion Discussion) {
         // Add this document to a dedicated collection for later retrieval
         DocumentMetadataHandle metadata = new DocumentMetadataHandle();
         metadata.getCollections().add(COLLECTION_REF);
-
         JAXBHandle contentHandle = getProductHandle();
         contentHandle.set(Discussion);
         xmlDocumentManager.write("{}", metadata, contentHandle);
-        return null;
     }
 
     @Override
@@ -144,5 +142,10 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 	public List<Discussion> findById(String id) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public void persist(Discussion model, DocumentMetadataHandle metadata) {
+		// TODO Auto-generated method stub
 	}
 }

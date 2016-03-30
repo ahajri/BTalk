@@ -1,6 +1,7 @@
 package com.ahajri.btalk.data.domain;
 
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -14,6 +15,9 @@ public class Message extends AModel {
 	 * UID Serializaion
 	 */
 	private static final long serialVersionUID = 2567331260181481195L;
+
+	private static final SimpleDateFormat sdf = new SimpleDateFormat(
+			"yyyy:MM:dd HH:mm:ss");
 
 	private Discussion discussion;
 
@@ -108,6 +112,13 @@ public class Message extends AModel {
 		} else if (!text.equals(other.text))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Message [discussion=" + discussion.getId() + ", text=" + text
+				+ ", ackited=" + ackited + ", creationTime="
+				+ sdf.format(creationTime) + "]";
 	}
 
 }

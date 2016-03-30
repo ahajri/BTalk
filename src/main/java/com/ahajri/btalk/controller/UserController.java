@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.DiscussionMember;
-import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
-import com.ahajri.btalk.data.domain.upsert.DiscussionsUpsert;
 import com.ahajri.btalk.data.service.UserAuthService;
 
 //@RestController
@@ -50,7 +47,7 @@ public class UserController extends AController<DiscussionMember> {
 		ResponseEntity<DiscussionMember> response = new ResponseEntity<DiscussionMember>(model,
 				HttpStatus.CREATED);
 		try {
-			if (userService.persist(model) == null) {
+			if (userService.create(model) == null) {
 				response = new ResponseEntity<DiscussionMember>(model,
 						HttpStatus.EXPECTATION_FAILED);
 			}
@@ -66,6 +63,12 @@ public class UserController extends AController<DiscussionMember> {
 	public ResponseEntity<List<DiscussionMember>> findAll() {
 		return new ResponseEntity<List<DiscussionMember>>(userService.findAll(),
 				HttpStatus.FOUND);
+	}
+
+	@Override
+	public ResponseEntity<List<DiscussionMember>> search(String q) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	

@@ -16,8 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ahajri.btalk.controller.AController;
 import com.ahajri.btalk.data.domain.Discussion;
 import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
-import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
-import com.marklogic.client.DatabaseClient;
+import com.ahajri.btalk.data.service.DiscussionService;
 
 @RestController
 public class JsonDiscussController extends AController<Discussion> {
@@ -26,19 +25,16 @@ public class JsonDiscussController extends AController<Discussion> {
 			.getLogger(JsonDiscussController.class);
 
 	@Autowired
-	protected DiscussionJsonRepository discussionJsonRepository;
+	protected DiscussionService discussionService;
 
-	@Autowired
-	public DatabaseClient databaseClient;
-
-	
 	@RequestMapping(value = "/discuss/json/search", method = RequestMethod.GET, params = { "q" })
 	@ResponseStatus(HttpStatus.FOUND)
 	@Override
 	public ResponseEntity<List<Discussion>> findByQuery(
 			@RequestParam("q") String q) {
-		
-		List<Discussion> discussions = discussionJsonRepository.findByQuery(q);
+		LOGGER.info("Search Discussion by Query: " + q);
+		List<Discussion> discussions = discussionService.findByQuery(q);
+
 		ResponseEntity<List<Discussion>> result = new ResponseEntity<List<Discussion>>(
 				discussions, HttpStatus.FOUND);
 		return result;
@@ -58,8 +54,7 @@ public class JsonDiscussController extends AController<Discussion> {
 	@ResponseStatus(HttpStatus.CREATED)
 	@Override
 	public ResponseEntity<Discussion> create(@RequestBody Discussion model) {
-		
-		Discussion created = discussionJsonRepository.persist(model);
+		Discussion created = discussionService.create(model);
 		return new ResponseEntity<Discussion>(created, HttpStatus.CREATED);
 	}
 
@@ -72,12 +67,30 @@ public class JsonDiscussController extends AController<Discussion> {
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<Discussion> update(
 			@RequestBody DiscussionUpsert modelUpsert) {
-		discussionJsonRepository.replaceInsert(modelUpsert.getModel(),
+		discussionService.replaceInsert(modelUpsert.getModel(),
 				modelUpsert.getFragment());
 		return new ResponseEntity<Discussion>(modelUpsert.getModel(),
 				HttpStatus.CREATED);
 	}
 
-
+	@RequestMapping(value = "/discuss/json/search", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.FOUND)
+	@Override
+	public ResponseEntity<List<Discussion>> search(String q) {
+		return new ResponseEntity<List<Discussion>>(
+				discussionService.search(q), HttpStatus.FOUND);
+	}
+	
+	@RequestMapping(value = "/discuss/json/addMessage", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<DiscussionUpsert> addMessage(@RequestBody DiscussionUpsert model) {
+		try {
+			return new ResponseEntity<DiscussionUpsert>(
+					discussionService.addMessage(model), HttpStatus.OK);
+		} catch (Exception e) {
+			return new ResponseEntity<DiscussionUpsert>(
+					model, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
 
 }

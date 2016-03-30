@@ -20,7 +20,7 @@ public class UserAuthService extends AService<DiscussionMember> {
 	DiscussionJsonRepository discussionJsonRepository;
 
 	@Override
-	public DiscussionMember persist(DiscussionMember model) {
+	public DiscussionMember create(DiscussionMember model) {
 		LOGGER.info("Create discussion JSOn file: "+model.toString());
 		
 		return model;
@@ -53,6 +53,18 @@ public class UserAuthService extends AService<DiscussionMember> {
 	public List<DiscussionMember> search(String q) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public List<DiscussionMember> findByQuery(String q) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void replaceInsert(DiscussionMember model, String fragment) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

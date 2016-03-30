@@ -11,7 +11,6 @@ import com.mongodb.DBObject;
  */
 public abstract class AService<T extends AModel> {
 
-	
 	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
 
 	/**
@@ -21,7 +20,7 @@ public abstract class AService<T extends AModel> {
 	 *            : {@link AModel} to persist
 	 */
 
-	public abstract T persist(T model);
+	public abstract T create(T model);
 
 	/**
 	 * remove document
@@ -63,12 +62,17 @@ public abstract class AService<T extends AModel> {
 	 * @return {@link List} of all Documents
 	 */
 	public abstract List<T> findAll();
-	
+
 	/**
 	 * Search Models
+	 * 
 	 * @param q
 	 * @return {@link List} of found Models
 	 */
 	public abstract List<T> search(String q);
+
+	public abstract List<T> findByQuery(String q);
+
+	public abstract void replaceInsert(T model, String fragment);
 
 }
