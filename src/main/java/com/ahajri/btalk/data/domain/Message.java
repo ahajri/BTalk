@@ -19,7 +19,6 @@ public class Message extends AModel {
 	private static final SimpleDateFormat sdf = new SimpleDateFormat(
 			"yyyy:MM:dd HH:mm:ss");
 
-	private Discussion discussion;
 
 	private String text;
 
@@ -31,22 +30,15 @@ public class Message extends AModel {
 		super();
 	}
 
-	public Message(Discussion discussion, String text, boolean ackited,
+	public Message(String text, boolean ackited,
 			Timestamp creationTime) {
 		super();
-		this.discussion = discussion;
 		this.text = text;
 		this.ackited = ackited;
 		this.creationTime = creationTime;
 	}
 
-	public Discussion getDiscussion() {
-		return discussion;
-	}
-
-	public void setDiscussion(Discussion discussion) {
-		this.discussion = discussion;
-	}
+	
 
 	public String getText() {
 		return text;
@@ -79,8 +71,6 @@ public class Message extends AModel {
 		result = prime * result + (ackited ? 1231 : 1237);
 		result = prime * result
 				+ ((creationTime == null) ? 0 : creationTime.hashCode());
-		result = prime * result
-				+ ((discussion == null) ? 0 : discussion.hashCode());
 		result = prime * result + ((text == null) ? 0 : text.hashCode());
 		return result;
 	}
@@ -101,11 +91,7 @@ public class Message extends AModel {
 				return false;
 		} else if (!creationTime.equals(other.creationTime))
 			return false;
-		if (discussion == null) {
-			if (other.discussion != null)
-				return false;
-		} else if (!discussion.equals(other.discussion))
-			return false;
+		
 		if (text == null) {
 			if (other.text != null)
 				return false;
@@ -116,7 +102,7 @@ public class Message extends AModel {
 
 	@Override
 	public String toString() {
-		return "Message [discussion=" + discussion.getId() + ", text=" + text
+		return "Message [text=" + text
 				+ ", ackited=" + ackited + ", creationTime="
 				+ sdf.format(creationTime) + "]";
 	}

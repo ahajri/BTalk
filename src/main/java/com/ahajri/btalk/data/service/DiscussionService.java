@@ -1,5 +1,6 @@
 package com.ahajri.btalk.data.service;
 
+import java.sql.Timestamp;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
@@ -9,8 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.Message;
 import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
+import com.google.gson.Gson;
 import com.marklogic.client.io.DocumentMetadataHandle;
 
 /**
@@ -21,8 +24,9 @@ import com.marklogic.client.io.DocumentMetadataHandle;
 @Service
 public class DiscussionService extends AService<Discussion> {
 
+	private Gson gson =new Gson();
 	@Autowired
-	DiscussionJsonRepository discussionJsonRepository;
+	private DiscussionJsonRepository discussionJsonRepository;
 
 	@Override
 	public Discussion create(Discussion model) {
@@ -61,7 +65,6 @@ public class DiscussionService extends AService<Discussion> {
 	@Override
 	public Integer modify(Discussion query, Discussion update, boolean upsert,
 			boolean multi) throws Exception {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -85,12 +88,33 @@ public class DiscussionService extends AService<Discussion> {
 		discussionJsonRepository.replaceInsert(model, fragment);
 	}
 
-	public DiscussionUpsert addMessage(DiscussionUpsert model) throws Exception {
-		 List<Discussion> found = discussionJsonRepository.searchByExample("{ \"id\": \""+model.getModel().getId()+"\" }");
-		 if (CollectionUtils.isNotEmpty(found)) {
-			
+	/**
+	 * 
+	 * @param model
+	 * @return full {@link DiscussionUpsert}
+	 * @throws Exception
+	 */
+	public Discussion addMessage(DiscussionUpsert model) throws Exception {
+		List<Discussion> found = discussionJsonRepository
+				.searchByExample("{ \"id\": \"" + model.getModel().getId()
+						+ "\" }");
+		
+		if (CollectionUtils.isNotEmpty(found) && found.size() == 1) {
+			Discussion discuss = found.get(0);
+			Message msg = new Message();
+			msg.setAckited(false);
+			msg.setCreationTime(new Timestamp(System.currentTimeMillis()));
+			msg.setText(model.getFragment());
+			discuss.getMessages().add(msg);
+			discussionJsonRepository
+					.replaceInsert(discuss,gson.toJson(discuss.getMessages()));
+			List<Discussion> modifieds = search("{ \"id\": \""+discuss.getId()+"\" }");
+			return modifieds.get(0);
+		} else {
+			throw new Exception(
+					"Discussion not found or multiple discussions found");
 		}
-		return null;
+		
 	}
 
 }

@@ -140,7 +140,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	// ~~
 
 	private String getDocId(Discussion model) {
-		return String.format("/discuss/discussion_%d.json", model.getId());
+		return String.format("/discuss/discussion__%s.json", model.getId());
 	}
 
 	private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
@@ -189,6 +189,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public void update(Discussion model) {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
+		// :FIXME
 		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(
 				DISCUSS_DIR, Position.LAST_CHILD, "added:new data").build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
@@ -198,19 +199,19 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	public void replaceInsert(Discussion model, String fragment) {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
-		DocumentPatchHandle xmlPatch = jsonPatchBldr.replaceInsertFragment(
-				Discussion.docName, DISCUSS_DIR, Position.LAST_CHILD, fragment)
-				.build();
-		jsonDocumentManager.patch(getDocId(model), xmlPatch);
-
+		DocumentPatchHandle jsonPatch = jsonPatchBldr
+				.replaceInsertFragment(DISCUSS_DIR + model.getDocName(),
+						DISCUSS_DIR + model.getDocName(), Position.LAST_CHILD,
+						fragment).build();
+		jsonDocumentManager.patch(getDocId(model), jsonPatch);
 	}
 
 	public void insertFragment(Discussion model, String fragment) {
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
 				.newPatchBuilder();
-		DocumentPatchHandle jsonPatch = jsonPatchBldr.insertFragment(
-				"/" + DISCUSS_DIR + "/" + Discussion.docName,
-				Position.LAST_CHILD, fragment).build();
+		DocumentPatchHandle jsonPatch = jsonPatchBldr
+				.insertFragment(DISCUSS_DIR + model.getDocName(),
+						Position.LAST_CHILD, fragment).build();
 		jsonDocumentManager.patch(getDocId(model), jsonPatch);
 
 	}
@@ -245,7 +246,8 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public void persist(Discussion model) throws Exception {
-		String docName = "discussion__" + model.getId() + ".json";
+		String docName = model.getDocName();// "discussion__" + model.getId() +
+											// ".json";
 		JacksonHandle writeHandle = new JacksonHandle();
 		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
 				JsonNode.class);
@@ -253,7 +255,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
 		jsonDocumentManager.write(DISCUSS_DIR + docName,
 				new DocumentMetadataHandle(), stringHandle);
-		databaseClient.release();
+		// databaseClient.release();
 
 	}
 }

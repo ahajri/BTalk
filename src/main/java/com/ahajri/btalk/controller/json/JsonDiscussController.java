@@ -80,16 +80,19 @@ public class JsonDiscussController extends AController<Discussion> {
 		return new ResponseEntity<List<Discussion>>(
 				discussionService.search(q), HttpStatus.FOUND);
 	}
-	
+
 	@RequestMapping(value = "/discuss/json/addMessage", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)
-	public ResponseEntity<DiscussionUpsert> addMessage(@RequestBody DiscussionUpsert model) {
+	public ResponseEntity<Discussion> addMessage(
+			@RequestBody DiscussionUpsert model) {
 		try {
-			return new ResponseEntity<DiscussionUpsert>(
+			return new ResponseEntity<Discussion>(
 					discussionService.addMessage(model), HttpStatus.OK);
 		} catch (Exception e) {
-			return new ResponseEntity<DiscussionUpsert>(
-					model, HttpStatus.INTERNAL_SERVER_ERROR);
+			e.printStackTrace();
+			LOGGER.error(e);
+			return new ResponseEntity<Discussion>(model.getModel(),
+					HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 

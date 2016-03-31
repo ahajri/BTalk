@@ -27,7 +27,6 @@ public class Discussion extends AModel {
 	private List<DiscussionMember> members;
 	private List<Message> messages=new ArrayList<Message>();
 
-	public static transient final String docName = "discussion.json";
 	private static final transient SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
 
 	public Discussion() {
@@ -83,6 +82,10 @@ public class Discussion extends AModel {
 
 	public void setMessages(List<Message> messages) {
 		this.messages = messages;
+	}
+
+	public String getDocName() {
+		return "discussion__"+this.getId()+".json";
 	}
 
 	@Override
