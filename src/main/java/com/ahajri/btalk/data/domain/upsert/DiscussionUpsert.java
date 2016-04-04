@@ -2,6 +2,14 @@ package com.ahajri.btalk.data.domain.upsert;
 
 import com.ahajri.btalk.data.domain.Discussion;
 
+/**
+ * 
+ * @author
+ * 		<p>
+ *         ahajri
+ *         </p>
+ *
+ */
 public class DiscussionUpsert {
 
 	private Discussion model;

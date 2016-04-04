@@ -103,7 +103,7 @@ public class DiscussionService extends AService<Discussion> {
 			msg.setCreationTime(new Timestamp(System.currentTimeMillis()));
 			msg.setText(model.getFragment());
 			discuss.getMessages().add(msg);
-			discussionJsonRepository.replaceInsert(discuss, gson.toJson(discuss.getMessages()));
+			discussionJsonRepository.replaceInsert(discuss, gson.toJson(msg));
 			List<Discussion> modifieds = search("{ \"id\": \"" + discuss.getId() + "\" }");
 			return modifieds.get(0);
 		} else {
@@ -113,8 +113,7 @@ public class DiscussionService extends AService<Discussion> {
 	}
 
 	public boolean deleteMessage(Discussion model) throws Exception {
-		discussionJsonRepository.remove(model);
-		return false;
+		return discussionJsonRepository.remove(model);
 	}
 
 }

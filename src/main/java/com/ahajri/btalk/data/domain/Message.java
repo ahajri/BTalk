@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Message implements IModel {
 
 	/**
-	 * UID Serializaion
+	 * UID Serialization
 	 */
 	private static final long serialVersionUID = 2567331260181481195L;
 

@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.Discussion;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.google.gson.Gson;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.MarkLogicIOException;
 import com.marklogic.client.admin.QueryOptionsManager;
@@ -89,9 +90,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public boolean remove(Discussion model) {
-		//FIXME: search document
 		String q = "{\"id\":\""+model.getId()+"\"}";
-		System.out.println(q);
 		List<Discussion> found = searchByExample(q);
 		if (CollectionUtils.isNotEmpty(found) && found.size()==1) {
 			jsonDocumentManager.delete(getDocId(found.get(0)));
@@ -193,23 +192,21 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public void update(Discussion model) {
-		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager.newPatchBuilder();
-		// :FIXME
-		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(DISCUSS_DIR, Position.LAST_CHILD, "added:new data")
-				.build();
-		jsonDocumentManager.patch(getDocId(model), xmlPatch);
+//		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager.newPatchBuilder();
+//		// :FIXME
+//		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(DISCUSS_DIR, Position.LAST_CHILD, "added:new data")
+//				.build();
+//		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 	}
 
 	@Override
 	public void replaceInsert(Discussion model, String fragment) {
-
 		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager.newPatchBuilder();
+		System.out.println(new Gson().toJson(model));
 		DocumentPatchHandle jsonPatch = jsonPatchBldr
-				.insertFragment(/* DISCUSS_DIR + model.getDocName() , */
-						DISCUSS_DIR + model.getDocName(), Position.LAST_CHILD, fragment)
+				.insertFragment( "/messages", Position.LAST_CHILD, fragment)
 				.build();
 		jsonDocumentManager.patch(getDocId(model), jsonPatch);
-
 	}
 
 	// public void insertFragment(Discussion model, String fragment) {

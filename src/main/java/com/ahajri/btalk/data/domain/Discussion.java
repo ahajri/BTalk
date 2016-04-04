@@ -25,7 +25,7 @@ public class Discussion implements IModel {
 	private Date startTime;
 	private Date endTime;
 	private List<DiscussionMember> members;
-	private List<Message> messages=new ArrayList<Message>();
+	private List<Message> messages = new ArrayList<Message>();
 
 	private static final transient SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
 
@@ -37,8 +37,8 @@ public class Discussion implements IModel {
 		if (this.id == null) {
 			for (DiscussionMember member : this.members) {
 				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR.getValue())) {
-					String[] ids = member.getMember_id().split("\\.");
-					this.id = ids[0].replaceAll("@", "_")+"_"+sdf.format(new Date());
+					// String[] ids = member.getMember_id().split("\\.");
+					this.id = member.getMember_id()+"_" + sdf.format(new Date());
 				}
 			}
 		}
@@ -86,13 +86,13 @@ public class Discussion implements IModel {
 	}
 
 	public String getDocName() {
-		return "discussion__"+this.getId()+".json";
+		return "discussion__" + this.getId() + ".json";
 	}
 
 	@Override
 	public String toString() {
-		return "Discussion [id=" + id + ", startTime=" + startTime
-				+ ", endTime=" + endTime + ", members=" + members + "]";
+		return "Discussion [id=" + id + ", startTime=" + startTime + ", endTime=" + endTime + ", members=" + members
+				+ "]";
 	}
 
 	@Override
@@ -101,8 +101,7 @@ public class Discussion implements IModel {
 		int result = 1;
 		result = prime * result + ((endTime == null) ? 0 : endTime.hashCode());
 		result = prime * result + ((members == null) ? 0 : members.hashCode());
-		result = prime * result
-				+ ((startTime == null) ? 0 : startTime.hashCode());
+		result = prime * result + ((startTime == null) ? 0 : startTime.hashCode());
 		return result;
 	}
 
