@@ -27,7 +27,7 @@ public class JsonDiscussController extends AController<Discussion> {
 	@Autowired
 	protected DiscussionService discussionService;
 
-	@RequestMapping(value = "/discuss/json/search", method = RequestMethod.GET, params = { "q" })
+	@RequestMapping(value = "/discuss/json/qSearch", method = RequestMethod.GET, params = { "q" })
 	@ResponseStatus(HttpStatus.FOUND)
 	@Override
 	public ResponseEntity<List<Discussion>> findByQuery(
@@ -45,9 +45,16 @@ public class JsonDiscussController extends AController<Discussion> {
 		return null;
 	}
 
+	@RequestMapping(value = "/discuss/json/delete", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
 	@Override
-	public Integer delete(Discussion query) {
-		return null;
+	public ResponseEntity<String> delete(@RequestBody Discussion model) {
+		if (discussionService.remove(model)) {
+			return new ResponseEntity<String>("{\"status\":1}", HttpStatus.OK);
+		} else {
+			return new ResponseEntity<String>("{\"status\":-1}", HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+		
 	}
 
 	@RequestMapping(value = "/discuss/json/create", method = RequestMethod.POST)

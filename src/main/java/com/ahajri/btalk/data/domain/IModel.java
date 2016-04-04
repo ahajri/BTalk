@@ -9,7 +9,7 @@ import java.io.Serializable;
  *         </p>
  *
  */
-public abstract class AModel implements Serializable {
+public interface IModel extends Serializable {
 
 	
 

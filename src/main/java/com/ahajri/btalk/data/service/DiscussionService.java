@@ -17,14 +17,15 @@ import com.google.gson.Gson;
 import com.marklogic.client.io.DocumentMetadataHandle;
 
 /**
- * @author <p>
+ * @author
+ * 		<p>
  *         ahajri
  *         </p>
  */
 @Service
 public class DiscussionService extends AService<Discussion> {
 
-	private Gson gson =new Gson();
+	private Gson gson = new Gson();
 	@Autowired
 	private DiscussionJsonRepository discussionJsonRepository;
 
@@ -50,21 +51,18 @@ public class DiscussionService extends AService<Discussion> {
 	}
 
 	@Override
-	public Integer remove(Discussion model) throws Exception {
+	public boolean remove(Discussion model)  {
+		return discussionJsonRepository.remove(model);
+	}
+
+	@Override
+	public Integer modifyAll(Discussion query, Discussion update) throws Exception {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Integer modifyAll(Discussion query, Discussion update)
-			throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Integer modify(Discussion query, Discussion update, boolean upsert,
-			boolean multi) throws Exception {
+	public Integer modify(Discussion query, Discussion update, boolean upsert, boolean multi) throws Exception {
 		return null;
 	}
 
@@ -96,9 +94,8 @@ public class DiscussionService extends AService<Discussion> {
 	 */
 	public Discussion addMessage(DiscussionUpsert model) throws Exception {
 		List<Discussion> found = discussionJsonRepository
-				.searchByExample("{ \"id\": \"" + model.getModel().getId()
-						+ "\" }");
-		
+				.searchByExample("{ \"id\": \"" + model.getModel().getId() + "\" }");
+
 		if (CollectionUtils.isNotEmpty(found) && found.size() == 1) {
 			Discussion discuss = found.get(0);
 			Message msg = new Message();
@@ -106,15 +103,18 @@ public class DiscussionService extends AService<Discussion> {
 			msg.setCreationTime(new Timestamp(System.currentTimeMillis()));
 			msg.setText(model.getFragment());
 			discuss.getMessages().add(msg);
-			discussionJsonRepository
-					.replaceInsert(discuss,gson.toJson(discuss.getMessages()));
-			List<Discussion> modifieds = search("{ \"id\": \""+discuss.getId()+"\" }");
+			discussionJsonRepository.replaceInsert(discuss, gson.toJson(discuss.getMessages()));
+			List<Discussion> modifieds = search("{ \"id\": \"" + discuss.getId() + "\" }");
 			return modifieds.get(0);
 		} else {
-			throw new Exception(
-					"Discussion not found or multiple discussions found");
+			throw new Exception("Discussion not found or multiple discussions found");
 		}
-		
+
+	}
+
+	public boolean deleteMessage(Discussion model) throws Exception {
+		discussionJsonRepository.remove(model);
+		return false;
 	}
 
 }

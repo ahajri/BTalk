@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.ahajri.btalk.data.domain.AModel;
+import com.ahajri.btalk.data.domain.IModel;
 import com.ahajri.btalk.error.ClientErrorInformation;
 import com.marklogic.client.ResourceNotFoundException;
 
@@ -21,7 +21,7 @@ import com.marklogic.client.ResourceNotFoundException;
  *         ahajri
  *         </p>
  */
-public abstract class AController<T extends AModel> {
+public abstract class AController<T extends IModel> {
 
 
 	protected final int GT = 1;
@@ -44,7 +44,7 @@ public abstract class AController<T extends AModel> {
 	 * find models by query
 	 * 
 	 * @param query
-	 *            : query {@link AModel} Object
+	 *            : query {@link IModel} Object
 	 * @return: {@link ResponseEntity}
 	 */
 	public abstract ResponseEntity<List<T>> findByQuery(@RequestBody String query);
@@ -53,7 +53,7 @@ public abstract class AController<T extends AModel> {
 	 * find nuique model
 	 * 
 	 * @param query
-	 *            : query {@link AModel} Object
+	 *            : query {@link IModel} Object
 	 * @return {@link ResponseEntity}
 	 */
 	public abstract ResponseEntity<T> findOne(@RequestBody T query);
@@ -62,10 +62,10 @@ public abstract class AController<T extends AModel> {
 	 * remove {@link Model}
 	 * 
 	 * @param query
-	 *            : query {@link AModel} Object
+	 *            : query {@link IModel} Object
 	 * @return {@link Boolean}
 	 */
-	public abstract Integer delete(T query);
+	public abstract ResponseEntity<String> delete(T query);
 
 	/**
 	 * insert document ni collection

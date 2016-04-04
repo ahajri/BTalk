@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
 import com.ahajri.btalk.data.domain.Discussion;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.marklogic.client.DatabaseClient;
+import com.marklogic.client.MarkLogicIOException;
 import com.marklogic.client.admin.QueryOptionsManager;
 import com.marklogic.client.document.DocumentPatchBuilder;
 import com.marklogic.client.document.DocumentPatchBuilder.Position;
@@ -39,11 +41,9 @@ import com.marklogic.client.query.StructuredQueryDefinition;
 @Component("discussionJsonRepository")
 public class DiscussionJsonRepository implements IRepository<Discussion> {
 
-	private static final Logger LOGGER = Logger
-			.getLogger(DiscussionJsonRepository.class);
+	private static final Logger LOGGER = Logger.getLogger(DiscussionJsonRepository.class);
 
-	protected static final SimpleDateFormat sdf = new SimpleDateFormat(
-			"yyyyMMddhhmmss");
+	protected static final SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
 
 	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
 
@@ -74,23 +74,34 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		String docName = "discussion__" + model.getId() + ".json";
 
 		// List<UserDiscussions> openDiscussFound =
-		// userDiscussionsJsonRepository.searchByExample("{ \"endTime\": null }");
+		// userDiscussionsJsonRepository.searchByExample("{ \"endTime\": null
+		// }");
 
 		JacksonHandle writeHandle = new JacksonHandle();
-		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
-				JsonNode.class);
+		JsonNode writeDocument = writeHandle.getMapper().convertValue(model, JsonNode.class);
 		writeHandle.set(writeDocument);
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
-		jsonDocumentManager
-				.write(DISCUSS_DIR + docName, metadata, stringHandle);
+		jsonDocumentManager.write(DISCUSS_DIR + docName, metadata, stringHandle);
 
 		// databaseClient.release();
 
 	}
 
 	@Override
-	public void remove(Discussion model) {
-		jsonDocumentManager.delete("");
+	public boolean remove(Discussion model) {
+		//FIXME: search document
+		String q = "{\"id\":\""+model.getId()+"\"}";
+		System.out.println(q);
+		List<Discussion> found = searchByExample(q);
+		if (CollectionUtils.isNotEmpty(found) && found.size()==1) {
+			jsonDocumentManager.delete(getDocId(found.get(0)));
+			if(CollectionUtils.isEmpty(searchByExample(q))){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		return false;
 	}
 
 	/**
@@ -105,8 +116,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Override
 	public Long count() {
 		StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
-		StructuredQueryDefinition criteria = sb
-				.collection(DISCUSSION_COLLECTION);
+		StructuredQueryDefinition criteria = sb.collection(DISCUSSION_COLLECTION);
 		SearchHandle resultsHandle = new SearchHandle();
 		queryManager.search(criteria, resultsHandle);
 		return resultsHandle.getTotalResults();
@@ -114,8 +124,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public List<Discussion> findAll() {
-		StringQueryDefinition queryDef = queryManager
-				.newStringDefinition(OPTIONS_NAME);
+		StringQueryDefinition queryDef = queryManager.newStringDefinition(OPTIONS_NAME);
 		queryDef.setCollections(DISCUSSION_COLLECTION);
 		SearchHandle resultsHandle = new SearchHandle();
 		queryManager.setPageLength(PAGE_SIZE);
@@ -164,8 +173,7 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	private Discussion fetchDiscussion(JacksonHandle jacksonHandle) {
 		try {
 			JsonNode jsonNode = jacksonHandle.get();
-			return jacksonHandle.getMapper().readValue(jsonNode.toString(),
-					Discussion.class);
+			return jacksonHandle.getMapper().readValue(jsonNode.toString(), Discussion.class);
 		} catch (IOException e) {
 			throw new RuntimeException("Unable to cast to Discussion", e);
 		}
@@ -173,13 +181,11 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public Discussion findOne(Object... params) {
-		SearchHandle resultsHandle = queryManager.search(
-				queryBuilder.directory(true, DISCUSS_DIR), new SearchHandle());
+		SearchHandle resultsHandle = queryManager.search(queryBuilder.directory(true, DISCUSS_DIR), new SearchHandle());
 
 		MatchDocumentSummary[] docSummaries = resultsHandle.getMatchResults();
 		for (MatchDocumentSummary docSummary : docSummaries) {
-			InputStreamHandle docHandle = jsonDocumentManager.read(
-					docSummary.getUri(), new InputStreamHandle());
+			InputStreamHandle docHandle = jsonDocumentManager.read(docSummary.getUri(), new InputStreamHandle());
 
 		}
 		return null;
@@ -187,45 +193,42 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public void update(Discussion model) {
-		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
-				.newPatchBuilder();
+		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager.newPatchBuilder();
 		// :FIXME
-		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(
-				DISCUSS_DIR, Position.LAST_CHILD, "added:new data").build();
+		DocumentPatchHandle xmlPatch = jsonPatchBldr.insertFragment(DISCUSS_DIR, Position.LAST_CHILD, "added:new data")
+				.build();
 		jsonDocumentManager.patch(getDocId(model), xmlPatch);
 	}
 
 	@Override
 	public void replaceInsert(Discussion model, String fragment) {
-		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
-				.newPatchBuilder();
-		DocumentPatchHandle jsonPatch = jsonPatchBldr
-				.replaceInsertFragment(DISCUSS_DIR + model.getDocName(),
-						DISCUSS_DIR + model.getDocName(), Position.LAST_CHILD,
-						fragment).build();
-		jsonDocumentManager.patch(getDocId(model), jsonPatch);
-	}
 
-	public void insertFragment(Discussion model, String fragment) {
-		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
-				.newPatchBuilder();
+		DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager.newPatchBuilder();
 		DocumentPatchHandle jsonPatch = jsonPatchBldr
-				.insertFragment(DISCUSS_DIR + model.getDocName(),
-						Position.LAST_CHILD, fragment).build();
+				.insertFragment(/* DISCUSS_DIR + model.getDocName() , */
+						DISCUSS_DIR + model.getDocName(), Position.LAST_CHILD, fragment)
+				.build();
 		jsonDocumentManager.patch(getDocId(model), jsonPatch);
 
 	}
+
+	// public void insertFragment(Discussion model, String fragment) {
+	// DocumentPatchBuilder jsonPatchBldr = jsonDocumentManager
+	// .newPatchBuilder();
+	// DocumentPatchHandle jsonPatch = jsonPatchBldr
+	// .insertFragment(DISCUSS_DIR + model.getDocName(),
+	// Position.LAST_CHILD, fragment).build();
+	// jsonDocumentManager.patch(getDocId(model), jsonPatch);
+	//
+	// }
 
 	@Override
 	public List<Discussion> searchByExample(String q) {
 		// String jsonQuery = "{\"$query\": { \"id\": \"jleogmail\" }}";
 		String jsonQuery = "{\"$query\": " + q + "}";
-		StringHandle qbeHandle = new StringHandle(jsonQuery)
-				.withFormat(Format.JSON);
-		RawQueryByExampleDefinition query = queryManager
-				.newRawQueryByExampleDefinition(qbeHandle);
-		SearchHandle resultsHandle = queryManager.search(query,
-				new SearchHandle());
+		StringHandle qbeHandle = new StringHandle(jsonQuery).withFormat(Format.JSON);
+		RawQueryByExampleDefinition query = queryManager.newRawQueryByExampleDefinition(qbeHandle);
+		SearchHandle resultsHandle = queryManager.search(query, new SearchHandle());
 		queryManager.setPageLength(10);
 		return toSearchResult(resultsHandle);
 	}
@@ -233,12 +236,9 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 	@Override
 	public List<Discussion> findById(String id) {
 		String rawXMLQuery = "{ \"$query\": { \"id\": \"" + id + "\" } }";
-		StringHandle qbeHandle = new StringHandle(rawXMLQuery)
-				.withFormat(Format.JSON);
-		RawQueryByExampleDefinition query = queryManager
-				.newRawQueryByExampleDefinition(qbeHandle);
-		SearchHandle resultsHandle = queryManager.search(query,
-				new SearchHandle());
+		StringHandle qbeHandle = new StringHandle(rawXMLQuery).withFormat(Format.JSON);
+		RawQueryByExampleDefinition query = queryManager.newRawQueryByExampleDefinition(qbeHandle);
+		SearchHandle resultsHandle = queryManager.search(query, new SearchHandle());
 		query.setCollections(DISCUSSION_COLLECTION);
 		queryManager.setPageLength(PAGE_SIZE);
 		return toSearchResult(queryManager.search(query, resultsHandle));
@@ -249,12 +249,10 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 		String docName = model.getDocName();// "discussion__" + model.getId() +
 											// ".json";
 		JacksonHandle writeHandle = new JacksonHandle();
-		JsonNode writeDocument = writeHandle.getMapper().convertValue(model,
-				JsonNode.class);
+		JsonNode writeDocument = writeHandle.getMapper().convertValue(model, JsonNode.class);
 		writeHandle.set(writeDocument);
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
-		jsonDocumentManager.write(DISCUSS_DIR + docName,
-				new DocumentMetadataHandle(), stringHandle);
+		jsonDocumentManager.write(DISCUSS_DIR + docName, new DocumentMetadataHandle(), stringHandle);
 		// databaseClient.release();
 
 	}

@@ -26,6 +26,7 @@ import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.admin.QueryOptionsManager;
 import com.marklogic.client.document.JSONDocumentManager;
 import com.marklogic.client.document.XMLDocumentManager;
+import com.marklogic.client.io.Format;
 import com.marklogic.client.io.JAXBHandle;
 import com.marklogic.client.query.QueryManager;
 import com.marklogic.client.query.StructuredQueryBuilder;
@@ -35,8 +36,7 @@ import com.sun.jersey.api.client.filter.LoggingFilter;
 
 @Configuration
 @ComponentScan
-@PropertySource({ "classpath:ml-config.properties",
-		"classpath:application.properties", "classpath:jndi.properties" })
+@PropertySource({ "classpath:ml-config.properties", "classpath:application.properties", "classpath:jndi.properties" })
 public class MarkLogicConfig {
 
 	public static final Logger LOGGER = Logger.getLogger(MarkLogicConfig.class);
@@ -59,13 +59,11 @@ public class MarkLogicConfig {
 	@Bean
 	public DatabaseClient getDatabaseClient() {
 		try {
-			DatabaseClientFactory.getHandleRegistry().register(
-					JAXBHandle.newFactory(Discussion.class));
+			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(Discussion.class));
 		} catch (JAXBException e) {
 			LOGGER.error(e);
 		}
-		return DatabaseClientFactory.newClient(host,
-				Integer.parseInt(port.trim()), db, username, password,
+		return DatabaseClientFactory.newClient(host, Integer.parseInt(port.trim()), db, username, password,
 				DatabaseClientFactory.Authentication.DIGEST);
 	}
 
@@ -76,8 +74,7 @@ public class MarkLogicConfig {
 
 	@Bean
 	public QueryOptionsManager getQueryOptionsManager() {
-		return getDatabaseClient().newServerConfigManager()
-				.newQueryOptionsManager();
+		return getDatabaseClient().newServerConfigManager().newQueryOptionsManager();
 	}
 
 	@Bean
@@ -92,7 +89,9 @@ public class MarkLogicConfig {
 
 	@Bean
 	public JSONDocumentManager getJSONDocumentManager() {
-		return getDatabaseClient().newJSONDocumentManager();
+		JSONDocumentManager docManager = getDatabaseClient().newJSONDocumentManager();
+		docManager.setNonDocumentFormat(Format.JSON);
+		return docManager;
 	}
 
 	@Bean
@@ -116,8 +115,7 @@ public class MarkLogicConfig {
 		messageConverters.add(new ByteArrayHttpMessageConverter());
 		messageConverters.add(new StringHttpMessageConverter());
 		messageConverters.add(new MappingJackson2HttpMessageConverter());
-		messageConverters.add(new MarshallingHttpMessageConverter(
-				new XStreamMarshaller()));
+		messageConverters.add(new MarshallingHttpMessageConverter(new XStreamMarshaller()));
 		restTemplate.setMessageConverters(messageConverters);
 		return restTemplate;
 	}

@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @XmlRootElement(name = "discussion")
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Discussion extends AModel {
+public class Discussion implements IModel {
 
 	/**
 	 * UID of Serialization
@@ -37,7 +37,8 @@ public class Discussion extends AModel {
 		if (this.id == null) {
 			for (DiscussionMember member : this.members) {
 				if (member.getDiscussRole().equals(DiscussRole.DISCUSS_CREATOR.getValue())) {
-					this.id = member.getId().split("\\.")[0].replace("@", "_")+"_"+sdf.format(new Date());
+					String[] ids = member.getMember_id().split("\\.");
+					this.id = ids[0].replaceAll("@", "_")+"_"+sdf.format(new Date());
 				}
 			}
 		}

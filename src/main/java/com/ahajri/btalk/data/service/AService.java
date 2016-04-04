@@ -2,14 +2,13 @@ package com.ahajri.btalk.data.service;
 
 import java.util.List;
 
-import com.ahajri.btalk.data.domain.AModel;
-import com.mongodb.DBObject;
+import com.ahajri.btalk.data.domain.IModel;
 
 /**
  * 
  * @author ahajri
  */
-public abstract class AService<T extends AModel> {
+public abstract class AService<T extends IModel> {
 
 	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
 
@@ -17,7 +16,7 @@ public abstract class AService<T extends AModel> {
 	 * Persist document
 	 * 
 	 * @param model
-	 *            : {@link AModel} to persist
+	 *            : {@link IModel} to persist
 	 */
 
 	public abstract T create(T model);
@@ -28,7 +27,7 @@ public abstract class AService<T extends AModel> {
 	 * @param model
 	 * @throws Exception
 	 */
-	public abstract Integer remove(T model) throws Exception;
+	public abstract boolean remove(T model) ;
 
 	/**
 	 * modify all found documents

@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @XmlRootElement(name = "member")
-public class DiscussionMember extends AModel {
+public class DiscussionMember implements IModel {
 
 	/**
 	 * Serialization ID
@@ -18,7 +18,7 @@ public class DiscussionMember extends AModel {
 	/**
 	 * Fields
 	 */
-	private String id;
+	private String member_id;
 	private String password;
 	private String discussRole;
 	private String firstName;
@@ -80,12 +80,11 @@ public class DiscussionMember extends AModel {
 	 * 
 	 * @return Unique identifier
 	 */
-	public String getId() {
-		return id;
+	public String getMember_id() {
+		return member_id;
 	}
-
-	public void setId(String id) {
-		this.id = id;
+	public void setMember_id(String member_id) {
+		this.member_id = member_id;
 	}
 
 	public void setDiscussRole(String discussRole) {
@@ -102,7 +101,7 @@ public class DiscussionMember extends AModel {
 
 	@Override
 	public String toString() {
-		return "DiscussionMember [id=" + id + ", password=" + password
+		return "DiscussionMember [member_id= " + member_id + " , password=" + password
 				+ ", discussRole=" + discussRole + ", firstName=" + firstName
 				+ ", lastName=" + lastName + ", gender=" + gender + ", status="
 				+ status + ", birthday=" + birthday + "]";

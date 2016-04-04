@@ -36,7 +36,7 @@ public class UserController extends AController<DiscussionMember> {
 	}
 
 	@Override
-	public Integer delete(DiscussionMember query) {
+	public ResponseEntity<String> delete(DiscussionMember query) {
 		return null;
 	}
 

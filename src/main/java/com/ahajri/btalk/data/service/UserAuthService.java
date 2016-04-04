@@ -27,10 +27,9 @@ public class UserAuthService extends AService<DiscussionMember> {
 	}
 
 	@Override
-	public Integer remove(DiscussionMember model) throws Exception {
-		Integer count = Integer.parseInt("0");
+	public boolean remove(DiscussionMember model)  {
 		
-		return count;
+		return false;
 	}
 
 	@Override

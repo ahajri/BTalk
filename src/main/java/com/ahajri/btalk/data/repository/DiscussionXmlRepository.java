@@ -53,8 +53,9 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     }
 
     @Override
-    public void remove(Discussion d) {
+    public boolean remove(Discussion d) {
         xmlDocumentManager.delete("");
+        return false;
     }
 
   
@@ -102,7 +103,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     }
 
     private String getDocId(Long sku) {
-        return String.format("/products/%d.xml", sku);
+        return String.format("/discuss/%d.xml", sku);
     }
 
     private List<Discussion> toSearchResult(SearchHandle resultsHandle) {

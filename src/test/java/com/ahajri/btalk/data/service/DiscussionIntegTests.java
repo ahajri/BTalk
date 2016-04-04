@@ -66,12 +66,12 @@ public class DiscussionIntegTests {
 		LOGGER.info("<<<<<<<<<<<<<< Create >>>>>>>>>>>>> ");
 
 		DiscussionMember member1 = new DiscussionMember();
-		member1.setId("ahajri@auxia.com");
+		member1.setMember_id("ahajri@auxia.com");
 		member1.setStatus(DiscussStatus.ONLINE.getValue());
 		member1.setDiscussRole(DiscussRole.DISCUSS_CREATOR.getValue());
 
 		DiscussionMember member2 = new DiscussionMember();
-		member2.setId("aoulagha@auxia.com");
+		member2.setMember_id("aoulagha@auxia.com");
 		member2.setStatus(DiscussStatus.ONLINE.getValue());
 		member2.setDiscussRole(DiscussRole.DISCUSS_MEMBER.getValue());
 		List<DiscussionMember> members = new ArrayList<DiscussionMember>();
