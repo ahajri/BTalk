@@ -21,6 +21,8 @@ import org.springframework.oxm.xstream.XStreamMarshaller;
 import org.springframework.web.client.RestTemplate;
 
 import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.DiscussionMember;
+import com.ahajri.btalk.data.domain.Message;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.admin.QueryOptionsManager;
@@ -30,6 +32,8 @@ import com.marklogic.client.io.Format;
 import com.marklogic.client.io.JAXBHandle;
 import com.marklogic.client.query.QueryManager;
 import com.marklogic.client.query.StructuredQueryBuilder;
+import com.marklogic.client.semantics.GraphManager;
+import com.marklogic.client.semantics.SPARQLQueryManager;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.filter.HTTPDigestAuthFilter;
 import com.sun.jersey.api.client.filter.LoggingFilter;
@@ -60,11 +64,23 @@ public class MarkLogicConfig {
 	public DatabaseClient getDatabaseClient() {
 		try {
 			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(Discussion.class));
+			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(DiscussionMember.class));
+			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(Message.class));
 		} catch (JAXBException e) {
 			LOGGER.error(e);
 		}
 		return DatabaseClientFactory.newClient(host, Integer.parseInt(port.trim()), db, username, password,
 				DatabaseClientFactory.Authentication.DIGEST);
+	}
+
+	@Bean
+	public GraphManager getGraphManager() {
+		return getDatabaseClient().newGraphManager();
+	}
+
+	@Bean
+	public SPARQLQueryManager getSPARQLQueryManager() {
+		return getDatabaseClient().newSPARQLQueryManager();
 	}
 
 	@Bean
