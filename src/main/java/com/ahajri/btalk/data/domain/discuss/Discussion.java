@@ -1,4 +1,4 @@
-package com.ahajri.btalk.data.domain;
+package com.ahajri.btalk.data.domain.discuss;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -9,6 +9,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
+import com.ahajri.btalk.data.domain.IModel;
 import com.ahajri.btalk.utils.DiscussRole;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

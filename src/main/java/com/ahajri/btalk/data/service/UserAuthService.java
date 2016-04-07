@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ahajri.btalk.data.domain.DiscussionMember;
+import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
 
 @Service("userService")

@@ -9,9 +9,9 @@ import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.Message;
-import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
+import com.ahajri.btalk.data.domain.discuss.Discussion;
+import com.ahajri.btalk.data.domain.discuss.DiscussionUpsert;
+import com.ahajri.btalk.data.domain.discuss.Message;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
 import com.google.gson.Gson;
 import com.marklogic.client.io.DocumentMetadataHandle;

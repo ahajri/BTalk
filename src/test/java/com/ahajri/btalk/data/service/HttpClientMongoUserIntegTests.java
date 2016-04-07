@@ -24,8 +24,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import com.ahajri.btalk.config.AppConfig;
-import com.ahajri.btalk.data.domain.DiscussionMember;
 import com.ahajri.btalk.data.domain.IModel;
+import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

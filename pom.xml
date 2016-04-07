@@ -70,6 +70,12 @@
 		</dependency>
 		<!-- json -->
 		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160212</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path</artifactId>
 			<version>2.0.0</version>
@@ -101,6 +107,11 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.2</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-lang</groupId>
@@ -241,12 +252,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!--json -->
+		<!--json & XML -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+		
 
 	</dependencies>
 

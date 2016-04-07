@@ -1,4 +1,4 @@
-package com.ahajri.btalk.data.domain.upsert;
+package com.ahajri.btalk.data.domain.discuss;
 
 import java.io.Serializable;
 

@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ahajri.btalk.controller.AController;
-import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.upsert.DiscussionUpsert;
+import com.ahajri.btalk.data.domain.discuss.Discussion;
+import com.ahajri.btalk.data.domain.discuss.DiscussionUpsert;
 import com.ahajri.btalk.data.service.DiscussionService;
 
 @RestController

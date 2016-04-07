@@ -1,9 +1,10 @@
-package com.ahajri.btalk.data.domain;
+package com.ahajri.btalk.data.domain.discuss;
 
 import java.sql.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import com.ahajri.btalk.data.domain.IModel;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)

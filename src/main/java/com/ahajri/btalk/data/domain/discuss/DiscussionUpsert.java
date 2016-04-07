@@ -1,6 +1,4 @@
-package com.ahajri.btalk.data.domain.upsert;
-
-import com.ahajri.btalk.data.domain.Discussion;
+package com.ahajri.btalk.data.domain.discuss;
 
 /**
  * 

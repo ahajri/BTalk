@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.discuss.Discussion;
 import com.ahajri.btalk.data.repository.DiscussionXmlRepository;
 
 @RestController

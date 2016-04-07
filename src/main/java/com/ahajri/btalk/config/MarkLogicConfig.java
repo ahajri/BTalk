@@ -20,9 +20,9 @@ import org.springframework.http.converter.xml.MarshallingHttpMessageConverter;
 import org.springframework.oxm.xstream.XStreamMarshaller;
 import org.springframework.web.client.RestTemplate;
 
-import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.DiscussionMember;
-import com.ahajri.btalk.data.domain.Message;
+import com.ahajri.btalk.data.domain.discuss.Discussion;
+import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
+import com.ahajri.btalk.data.domain.discuss.Message;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.admin.QueryOptionsManager;

@@ -27,8 +27,8 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.ahajri.btalk.config.MarkLogicConfig;
-import com.ahajri.btalk.data.domain.Discussion;
-import com.ahajri.btalk.data.domain.DiscussionMember;
+import com.ahajri.btalk.data.domain.discuss.Discussion;
+import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
 import com.ahajri.btalk.utils.DiscussRole;
 import com.ahajri.btalk.utils.DiscussStatus;
 import com.google.gson.Gson;

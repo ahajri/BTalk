@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ahajri.btalk.data.domain.Discussion;
+import com.ahajri.btalk.data.domain.discuss.Discussion;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
 import com.marklogic.client.DatabaseClient;
