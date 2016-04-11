@@ -1,8 +1,10 @@
 package com.ahajri.btalk.error;
 
 /**
+ * Class to handle Web Service exception
  * 
- * @author <p>
+ * @author
+ *         <p>
  *         ahajri
  *         </p>
  *

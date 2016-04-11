@@ -3,6 +3,8 @@ package com.ahajri.btalk.data.domain;
 import java.io.Serializable;
 import java.util.HashSet;
 
+import org.springframework.http.HttpStatus;
+
 import com.ahajri.btalk.utils.ActionResultName;
 
 public class ActionResult implements Serializable {
@@ -12,22 +14,16 @@ public class ActionResult implements Serializable {
 	 */
 	private static final long serialVersionUID = 2215562584560868453L;
 
-	private int code;
 	private final HashSet<String> messages = new HashSet<String>();
 	private ActionResultName actionResultName;
 	private String jsonReturnData;
+	private HttpStatus status;
 
 	public ActionResult() {
 		super();
 	}
 
-	public int getCode() {
-		return code;
-	}
-
-	public void setCode(int code) {
-		this.code = code;
-	}
+	
 
 	public HashSet<String> getMessages() {
 		return messages;
@@ -49,4 +45,11 @@ public class ActionResult implements Serializable {
 		this.jsonReturnData = jsonReturnData;
 	}
 
+	public HttpStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(HttpStatus status) {
+		this.status = status;
+	}
 }

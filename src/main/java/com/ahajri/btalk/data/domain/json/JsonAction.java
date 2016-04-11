@@ -1,7 +1,13 @@
 package com.ahajri.btalk.data.domain.json;
 
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.commons.beanutils.DynaBean;
+
+import com.ahajri.btalk.data.domain.mapper.JsonDynaMapper;
+import com.google.gson.Gson;
 
 /**
  * Generic JAVA Model for content of web service
@@ -14,6 +20,7 @@ import java.util.Map;
  */
 public class JsonAction implements Serializable {
 
+	private transient Gson gson = new Gson();
 	/**
 	 * Serialization UID
 	 */
@@ -21,11 +28,11 @@ public class JsonAction implements Serializable {
 
 	private String actionName;
 
-	private Object data;
+	private DynaBean data;
 
 	private String document;
 
-	private Map<String, Object> metadata;
+	private Map<String, String> metadata=new HashMap<String,String>();
 
 	public JsonAction() {
 		super();
@@ -39,12 +46,12 @@ public class JsonAction implements Serializable {
 		this.actionName = actionName;
 	}
 
-	public Object getData() {
+	public DynaBean getData() {
 		return data;
 	}
 
 	public void setData(Object data) {
-		this.data = data;
+		this.data = JsonDynaMapper.mapDynaBean(gson.toJson(data));
 	}
 
 	public String getDocument() {
@@ -55,12 +62,12 @@ public class JsonAction implements Serializable {
 		this.document = document;
 	}
 
-	public Map<String, Object> getMetadata() {
+	public Map<String, String> getMetadata() {
 		return metadata;
 	}
 
-	public void setMetadata(Map<String, Object> metadata) {
-		this.metadata = metadata;
+	public void setMetadata(Map<String, String> map) {
+		this.metadata = map;
 	}
 
 	@Override
