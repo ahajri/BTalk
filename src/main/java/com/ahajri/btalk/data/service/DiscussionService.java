@@ -13,12 +13,13 @@ import com.ahajri.btalk.data.domain.discuss.Discussion;
 import com.ahajri.btalk.data.domain.discuss.DiscussionUpsert;
 import com.ahajri.btalk.data.domain.discuss.Message;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
+import com.ahajri.btalk.data.repository.XmlDataRepository;
 import com.google.gson.Gson;
 import com.marklogic.client.io.DocumentMetadataHandle;
 
 /**
  * @author
- * 		<p>
+ *         <p>
  *         ahajri
  *         </p>
  */
@@ -26,8 +27,13 @@ import com.marklogic.client.io.DocumentMetadataHandle;
 public class DiscussionService extends AService<Discussion> {
 
 	private Gson gson = new Gson();
+	
 	@Autowired
 	private DiscussionJsonRepository discussionJsonRepository;
+	
+	
+
+
 
 	@Override
 	public Discussion create(Discussion model) {
@@ -51,7 +57,7 @@ public class DiscussionService extends AService<Discussion> {
 	}
 
 	@Override
-	public boolean remove(Discussion model)  {
+	public boolean remove(Discussion model) {
 		return discussionJsonRepository.remove(model);
 	}
 

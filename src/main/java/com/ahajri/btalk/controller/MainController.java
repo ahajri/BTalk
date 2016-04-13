@@ -1,9 +1,6 @@
 package com.ahajri.btalk.controller;
 
-import java.util.Enumeration;
-
 import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.core.Context;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,12 +15,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.ahajri.btalk.data.domain.ActionResult;
-import com.ahajri.btalk.data.domain.json.JsonAction;
-import com.ahajri.btalk.data.service.GenericJsonService;
+import com.ahajri.btalk.data.domain.json.WebAction;
+import com.ahajri.btalk.data.domain.xml.XmlMap;
+import com.ahajri.btalk.data.service.DocumentService;
 import com.ahajri.btalk.error.ClientErrorInformation;
 import com.marklogic.client.ResourceNotFoundException;
 
@@ -34,21 +30,26 @@ import com.marklogic.client.ResourceNotFoundException;
  *
  */
 @RestController
-public class GenJsonController {
+public class MainController {
 
-	private static final Logger LOGGER = Logger.getLogger(GenJsonController.class);
+	private static final Logger LOGGER = Logger.getLogger(MainController.class);
 
 	@Autowired
-	protected GenericJsonService generciJsonService;
+	protected DocumentService generciJsonService;
 
 	@RequestMapping(value = "/data/createDocument", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
-	public ResponseEntity<String> create(@RequestBody JsonAction action, @RequestHeader HttpHeaders headers,
-			@CookieValue("position") String position) {
-		LOGGER.debug("Create Document....");
-		//TODO: Get position later in LAT/LON
+	public ResponseEntity<String> create(@RequestBody WebAction action, @RequestHeader HttpHeaders headers,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		LOGGER.debug("Create Document ....");
+		// TODO: Get position later in LAT/LON
 		action.getMetadata().putAll(headers.toSingleValueMap());
-		ActionResult result = generciJsonService.createDocument(action);
+		action.getMetadata().put("position", position);
+		XmlMap xmlMap = new XmlMap();
+		xmlMap.putAll(action.getMetadata());
+		xmlMap.put("document_id", action.getDocument());
+		System.out.println("#####Controller#####" + xmlMap);
+		ActionResult result = generciJsonService.createDocument(action, "DiscussionCollection");
 		return new ResponseEntity<String>(result.getJsonReturnData(), result.getStatus());
 
 	}

@@ -71,21 +71,16 @@ public class DiscussionJsonRepository implements IRepository<Discussion> {
 
 	@Override
 	public void persist(Discussion model, DocumentMetadataHandle metadata) {
-
 		String docName = "discussion__" + model.getId() + ".json";
-
 		// List<UserDiscussions> openDiscussFound =
 		// userDiscussionsJsonRepository.searchByExample("{ \"endTime\": null
 		// }");
-
 		JacksonHandle writeHandle = new JacksonHandle();
 		JsonNode writeDocument = writeHandle.getMapper().convertValue(model, JsonNode.class);
 		writeHandle.set(writeDocument);
 		StringHandle stringHandle = new StringHandle(writeDocument.toString());
 		jsonDocumentManager.write(DISCUSS_DIR + docName, metadata, stringHandle);
-
 		// databaseClient.release();
-
 	}
 
 	@Override

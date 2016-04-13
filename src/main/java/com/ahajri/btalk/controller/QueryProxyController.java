@@ -22,8 +22,7 @@ import com.sun.jersey.core.util.MultivaluedMapImpl;
 @RestController
 public class QueryProxyController {
 
-	private static final Logger LOGGER = Logger
-			.getLogger(JsonDiscussController.class);
+	private static final Logger LOGGER = Logger.getLogger(JsonDiscussController.class);
 
 	@Autowired
 	public Client jerseyClient;
@@ -35,11 +34,9 @@ public class QueryProxyController {
 	@ResponseBody
 	public ResponseEntity<String> query(HttpServletRequest req) {
 		LOGGER.info(req);
-		WebResource webResource = jerseyClient.resource(String.format(
-				"%s/v1/search", markLogicBaseURL));
+		WebResource webResource = jerseyClient.resource(String.format("%s/v1/search", markLogicBaseURL));
 		webResource.accept(javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE,
-				javax.ws.rs.core.MediaType.APPLICATION_ATOM_XML_TYPE,
-				javax.ws.rs.core.MediaType.APPLICATION_XML_TYPE);
+				javax.ws.rs.core.MediaType.APPLICATION_ATOM_XML_TYPE, javax.ws.rs.core.MediaType.APPLICATION_XML_TYPE);
 		webResource.setProperty("Content-type", "application/json");
 		String payload = "";
 		MultivaluedMap<String, String> queryParams = new MultivaluedMapImpl();
@@ -48,10 +45,9 @@ public class QueryProxyController {
 		queryParams.add("options", "all");
 		queryParams.add("start", "1");
 		queryParams.add("pageLength", "10");
-		ClientResponse response = webResource.queryParams(queryParams)
-				.type("application/json").post(ClientResponse.class, payload);
-		return new ResponseEntity<String>(response.getEntity(String.class),
-				HttpStatus.valueOf(response.getStatus()));
+		ClientResponse response = webResource.queryParams(queryParams).type("application/json")
+				.post(ClientResponse.class, payload);
+		return new ResponseEntity<String>(response.getEntity(String.class), HttpStatus.valueOf(response.getStatus()));
 	}
 
 }

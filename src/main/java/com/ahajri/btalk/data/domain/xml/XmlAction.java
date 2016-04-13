@@ -3,6 +3,8 @@ package com.ahajri.btalk.data.domain.xml;
 import java.io.Serializable;
 import java.util.Map;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 import com.ahajri.btalk.utils.ActionName;
 
 /**
@@ -14,6 +16,7 @@ import com.ahajri.btalk.utils.ActionName;
  *         </p>
  *
  */
+@XmlRootElement(name = "Discussion")
 public class XmlAction implements Serializable {
 
 	/**
@@ -23,11 +26,11 @@ public class XmlAction implements Serializable {
 
 	private ActionName actionName;
 
-	private XmlData data;
+	private String data;
 
-	private XmlDoc document;
+	private String document;
 
-	private Map<String, Object> metadata;
+	private Map<String, String> metadata;
 
 	public XmlAction() {
 		super();
@@ -41,27 +44,27 @@ public class XmlAction implements Serializable {
 		this.actionName = actionName;
 	}
 
-	public XmlData getData() {
+	public String getData() {
 		return data;
 	}
 
-	public void setData(XmlData data) {
+	public void setData(String data) {
 		this.data = data;
 	}
 
-	public XmlDoc getDocument() {
+	public String getDocument() {
 		return document;
 	}
 
-	public void setDocument(XmlDoc document) {
+	public void setDocument(String document) {
 		this.document = document;
 	}
 
-	public Map<String, Object> getMetadata() {
+	public Map<String, String> getMetadata() {
 		return metadata;
 	}
 
-	public void setMetadata(Map<String, Object> metadata) {
+	public void setMetadata(Map<String, String> metadata) {
 		this.metadata = metadata;
 	}
 

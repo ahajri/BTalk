@@ -2,11 +2,14 @@ package com.ahajri.btalk.data.domain.json;
 
 import java.io.Serializable;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.apache.commons.beanutils.DynaBean;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
-import com.ahajri.btalk.data.domain.mapper.JsonDynaMapper;
+import com.ahajri.btalk.data.domain.mapper.DataMapper;
+import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.google.gson.Gson;
 
 /**
@@ -16,25 +19,24 @@ import com.google.gson.Gson;
  *         <p>
  *         ahajri
  *         </p>
- *
  */
-public class JsonAction implements Serializable {
+@XmlRootElement(name = "action")
+public class WebAction implements Serializable {
 
-	private transient Gson gson = new Gson();
 	/**
 	 * Serialization UID
 	 */
 	private static final long serialVersionUID = -5292129591070639119L;
-
+	//
+	private final Gson gson = new Gson();
+	//
 	private String actionName;
-
-	private DynaBean data;
-
+	private String jsonData;
 	private String document;
 
-	private Map<String, String> metadata=new HashMap<String,String>();
+	private Map<String, String> metadata = new HashMap<String, String>();
 
-	public JsonAction() {
+	public WebAction() {
 		super();
 	}
 
@@ -46,13 +48,7 @@ public class JsonAction implements Serializable {
 		this.actionName = actionName;
 	}
 
-	public DynaBean getData() {
-		return data;
-	}
-
-	public void setData(Object data) {
-		this.data = JsonDynaMapper.mapDynaBean(gson.toJson(data));
-	}
+	
 
 	public String getDocument() {
 		return document;
@@ -70,13 +66,21 @@ public class JsonAction implements Serializable {
 		this.metadata = map;
 	}
 
+	public String getJsonData() {
+		return jsonData;
+	}
+
+	public void setJsonData(String jsonData) {
+		this.jsonData = jsonData;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((actionName == null) ? 0 : actionName.hashCode());
-		result = prime * result + ((data == null) ? 0 : data.hashCode());
 		result = prime * result + ((document == null) ? 0 : document.hashCode());
+		result = prime * result + ((jsonData == null) ? 0 : jsonData.hashCode());
 		result = prime * result + ((metadata == null) ? 0 : metadata.hashCode());
 		return result;
 	}
@@ -89,31 +93,35 @@ public class JsonAction implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		JsonAction other = (JsonAction) obj;
-		if (actionName != other.actionName)
-			return false;
-		if (data == null) {
-			if (other.data != null)
+		WebAction other = (WebAction) obj;
+		if (actionName == null) {
+			if (other.actionName != null)
 				return false;
-		} else if (!data.equals(other.data))
+		} else if (!actionName.equals(other.actionName))
 			return false;
 		if (document == null) {
 			if (other.document != null)
 				return false;
 		} else if (!document.equals(other.document))
 			return false;
+		if (jsonData == null) {
+			if (other.jsonData != null)
+				return false;
+		} else if (!jsonData.equals(other.jsonData))
+			return false;
 		if (metadata == null) {
 			if (other.metadata != null)
 				return false;
 		} else if (!metadata.equals(other.metadata))
 			return false;
+		
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "JsonAction [actionName=" + actionName + ", data=" + data + ", document=" + document + ", metadata="
-				+ metadata + "]";
+		return "WebAction [actionName=" + actionName + ", jsonData=" + jsonData + ", document="
+				+ document + ", metadata=" + metadata + "]";
 	}
 
 }
