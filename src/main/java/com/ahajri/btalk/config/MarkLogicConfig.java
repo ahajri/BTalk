@@ -20,11 +20,7 @@ import org.springframework.http.converter.xml.MarshallingHttpMessageConverter;
 import org.springframework.oxm.xstream.XStreamMarshaller;
 import org.springframework.web.client.RestTemplate;
 
-import com.ahajri.btalk.data.domain.discuss.Discussion;
-import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
-import com.ahajri.btalk.data.domain.discuss.Message;
 import com.ahajri.btalk.data.domain.xml.XmlMap;
-import com.ahajri.btalk.data.repository.XmlDataRepository;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.admin.QueryOptionsManager;
@@ -65,7 +61,6 @@ public class MarkLogicConfig {
 	@Bean
 	public DatabaseClient getDatabaseClient() {
 		try {
-
 			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(XmlMap.class));
 		} catch (JAXBException e) {
 			LOGGER.error(e);

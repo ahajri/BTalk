@@ -274,6 +274,11 @@
 			<version>2.4</version>
 			<classifier>jdk15</classifier>
 		</dependency>
+		<dependency>
+			<groupId>com.cedarsoftware</groupId>
+			<artifactId>json-io</artifactId>
+			<version>4.4.0</version>
+		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>xom</groupId> -->
 		<!-- <artifactId>xom</artifactId> -->

@@ -1,5 +1,13 @@
 package com.ahajri.btalk.controller;
 
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map.Entry;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
@@ -17,41 +25,91 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ahajri.btalk.data.domain.ActionResult;
+import com.ahajri.btalk.data.domain.converter.MapEntryConverter;
+import com.ahajri.btalk.data.domain.json.SearchCriteria;
 import com.ahajri.btalk.data.domain.json.WebAction;
 import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.ahajri.btalk.data.service.DocumentService;
 import com.ahajri.btalk.error.ClientErrorInformation;
 import com.marklogic.client.ResourceNotFoundException;
+import com.thoughtworks.xstream.XStream;
 
 /**
- * Generic Controller to manage given JSON data from the web service
+ * Common Discussion Controller to manage given JSON data from the web service
  * 
  * @author ahajri
  *
  */
 @RestController
-public class MainController {
+public class DiscussionController {
 
-	private static final Logger LOGGER = Logger.getLogger(MainController.class);
-
+	/** Logger */
+	private static final Logger LOGGER = Logger.getLogger(DiscussionController.class);
+	/** Discussion MarkLogic collections */
+	List<String> discussionCollections = Arrays.asList(new String[] { "DiscussionCollection" });
+	/**Date Formatter*/
+	private static final SimpleDateFormat sdf =new SimpleDateFormat("yyyyMMddHHmmss");
 	@Autowired
-	protected DocumentService generciJsonService;
+	protected DocumentService documentService;
 
-	@RequestMapping(value = "/data/createDocument", method = RequestMethod.POST)
+	@RequestMapping(value = "/discuss/createDocument", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<String> create(@RequestBody WebAction action, @RequestHeader HttpHeaders headers,
 			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
 		LOGGER.debug("Create Document ....");
+		// check doc exist or not
+
 		// TODO: Get position later in LAT/LON
-		action.getMetadata().putAll(headers.toSingleValueMap());
-		action.getMetadata().put("position", position);
-		XmlMap xmlMap = new XmlMap();
-		xmlMap.putAll(action.getMetadata());
-		xmlMap.put("document_id", action.getDocument());
-		System.out.println("#####Controller#####" + xmlMap);
-		ActionResult result = generciJsonService.createDocument(action, "DiscussionCollection");
+		
+		String docName = action.getDocument();
+		if (docName == null) {
+
+			//get max ID
+			docName="/discuss/discussion_"+sdf.format(new Date())+".xml";
+			action.setDocument(docName);
+		}
+		String xml = getXmlData(action, headers, position);
+		ActionResult result = documentService.createDocument(action, discussionCollections, xml);
 		return new ResponseEntity<String>(result.getJsonReturnData(), result.getStatus());
 
+	}
+	
+	@RequestMapping(value = "/discuss/searchDocument", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.FOUND)
+	public ResponseEntity<String> search(@RequestBody SearchCriteria criteria, @RequestHeader HttpHeaders headers,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		LOGGER.debug("Search Document ....");
+		// check doc exist or not
+
+		// TODO: Get position later in LAT/LON
+		
+	
+		ActionResult result = documentService.searchDocument(criteria, discussionCollections);
+		return new ResponseEntity<String>(result.getJsonReturnData(), result.getStatus());
+
+	}
+
+	private String getXmlData(WebAction action, HttpHeaders headers, String position) {
+		XmlMap xmlMap = new XmlMap();
+		xmlMap.putAll(headers.toSingleValueMap());
+		xmlMap.put("position", position);
+		xmlMap.put("document", action.getDocument());
+		xmlMap.putAll((LinkedHashMap) action.getJsonData());
+		Iterator<Entry<String, Object>> iterator = xmlMap.entrySet().iterator();
+		while (iterator.hasNext()) {
+			Entry<String, Object> entry = iterator.next();
+			Object value = entry.getValue();
+			Class valueClass = null;
+			if (value != null) {
+				valueClass = value.getClass();
+			}
+		}
+		XStream magicApi = new XStream();
+		magicApi.registerConverter(new MapEntryConverter());
+		magicApi.alias("discussion", XmlMap.class);
+
+		String xml = magicApi.toXML(xmlMap);
+		return xml;
 	}
 
 	/**
