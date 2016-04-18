@@ -11,7 +11,7 @@ package com.ahajri.btalk.utils;
  */
 public enum ActionResultName {
 
-	SECCESSFULL("S"), FAIL("F"), SECCESSFULL_WITH_WARNING("SW");
+	SUCCESSFULL("S"), FAIL("F"), SUCCESSFULL_WITH_WARNING("SW");
 
 	private String name;
 

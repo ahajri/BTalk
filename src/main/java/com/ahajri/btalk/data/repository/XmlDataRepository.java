@@ -4,7 +4,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import javax.xml.namespace.QName;
 
 import org.apache.commons.io.IOUtils;
 import org.fusesource.hawtbuf.DataByteArrayInputStream;
@@ -12,19 +19,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ahajri.btalk.data.domain.converter.MapEntryConverter;
+import com.ahajri.btalk.data.domain.json.SearchCriteria;
 import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.document.XMLDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
-import com.marklogic.client.io.Format;
 import com.marklogic.client.io.InputStreamHandle;
 import com.marklogic.client.io.SearchHandle;
-import com.marklogic.client.io.StringHandle;
+import com.marklogic.client.query.KeyValueQueryDefinition;
 import com.marklogic.client.query.MatchDocumentSummary;
 import com.marklogic.client.query.QueryManager;
 import com.marklogic.client.query.StringQueryDefinition;
-import com.sun.media.jfxmedia.track.Track.Encoding;
 import com.thoughtworks.xstream.XStream;
 
 @Component("xmlDataRepository")
@@ -76,20 +82,54 @@ public class XmlDataRepository {
 			// Assumption: summary URI refers to JSON document
 			InputStreamHandle handle = new InputStreamHandle();
 			xmlDocumentManager.read(summary.getUri(), handle);
-			models.add(fetchXmlData(handle));
+			models.add(fetchXmlData(handle, "discussion"));
 		}
 		return models;
 	}
-
-	private XmlMap fetchXmlData(InputStreamHandle handle) throws IOException {
-
+	/**
+	 * 
+	 * @param handle
+	 * @param rootName root
+	 * @return {@link XmlMap}
+	 * @throws IOException
+	 */
+	private XmlMap fetchXmlData(InputStreamHandle handle, String rootName) throws IOException {
 		InputStream is = handle.get();
 		String xml = IOUtils.toString(is, Charset.defaultCharset());
-		XStream magicApi = new XStream();
-		magicApi.registerConverter(new MapEntryConverter());
-		magicApi.alias("discussion", XmlMap.class);
-		XmlMap xmlMap = (XmlMap) magicApi.fromXML(xml);
+		XStream xStream = new XStream();
+		xStream.registerConverter(new MapEntryConverter());
+		xStream.alias(rootName, XmlMap.class);
+		xStream.aliasType("headers", LinkedHashMap.class);
+		xStream.aliasType("host", String.class);
+		HashMap map = (HashMap) xStream.fromXML(xml);
+		XmlMap xmlMap = new XmlMap();
+		xmlMap.putAll(map);
 		return xmlMap;
+	}
 
+	/**
+	 * 
+	 * @param criteria
+	 * @param discussCollections
+	 * @param metadata 
+	 * @return
+	 * @throws IOException
+	 */
+	@SuppressWarnings("deprecation")
+	public List<XmlMap> searchByKeyValue(SearchCriteria criteria, List<String> discussCollections, DocumentMetadataHandle metadata) throws IOException {
+		KeyValueQueryDefinition kvqdef = queryManager.newKeyValueDefinition();
+		LinkedHashMap<String, Object> keyValues = criteria.getKeyValues();
+		for (Iterator<Entry<String, Object>> iterator = keyValues.entrySet().iterator(); iterator.hasNext();) {
+			Entry<String, Object> entry = iterator.next();
+			String key = entry.getKey();
+			Object value = entry.getValue();
+			String vStr = null;
+			if (value != null) {
+				vStr = String.valueOf(value);
+			}
+			kvqdef.put(queryManager.newElementLocator(new QName(key)), String.valueOf(vStr));
+		}
+		SearchHandle results = queryManager.search(kvqdef, new SearchHandle());
+		return toSearchResult(results);
 	}
 }

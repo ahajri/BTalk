@@ -3,6 +3,7 @@ package com.ahajri.btalk.data.domain.converter;
 import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -35,7 +36,7 @@ public class MapEntryConverter implements Converter {
 	 * com.thoughtworks.xstream.io.HierarchicalStreamWriter,
 	 * com.thoughtworks.xstream.converters.MarshallingContext)
 	 */
-	@SuppressWarnings("rawtypes")
+	@SuppressWarnings({ "rawtypes" })
 	@Override
 	public void marshal(Object value, HierarchicalStreamWriter writer, MarshallingContext context) {
 		AbstractMap map = (AbstractMap) value;
@@ -46,33 +47,58 @@ public class MapEntryConverter implements Converter {
 			if (val instanceof List) {
 				List l = (List) val;
 				for (Object o : l) {
-					if (o instanceof Map) {
-
-						Map m = (Map) o;
-
+					if (o instanceof LinkedHashMap) {
+						LinkedHashMap m = (LinkedHashMap) o;
 						if (m.toString().contains("member_id")) {
-							writer.startNode("member");
-							for (@SuppressWarnings("unchecked")
-							Iterator<Entry<String, Object>> iterator = m.entrySet().iterator(); iterator.hasNext();) {
-								Entry<String, Object> e = iterator.next();
-								writer.startNode(e.getKey());
-								writer.setValue(e.getValue().toString());
-								writer.endNode();
-							}
-							writer.endNode();
+							createNode(writer, m, "member");
 						}
-						//TODO: check appropriate id name
-						
 					} else {
 						writer.setValue(o.toString());
 					}
+				}
+			} else if (val instanceof Map) {
+				Map mm = (Map) val;
+				if (mm.toString().contains("content-type")) {
+					createNode(writer, mm);
+				} else if (mm.toString().contains("remoteHost")) {
+					createNode(writer, mm);
 				}
 			} else if (null != val) {
 				writer.setValue(val.toString());
 			}
 			writer.endNode();
 		}
+		writer.close();
+	}
 
+	private void createNode(HierarchicalStreamWriter writer, Map m) {
+		createNode(writer, m, null);
+	}
+
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	private void createNode(HierarchicalStreamWriter writer, Map m, String nodeName) {
+		if (nodeName != null) {
+			writer.startNode(nodeName);
+		}
+		for (Iterator<Entry<String, Object>> iterator = m.entrySet().iterator(); iterator.hasNext();) {
+			Entry<String, Object> e = iterator.next();
+			String key = e.getKey();
+			Object value = e.getValue();
+			if (value instanceof Map) {
+				createNode(writer, (Map) value, key);
+			} else {
+				writer.startNode(key);
+				if (value == null) {
+					writer.setValue("");
+				} else {
+					writer.setValue(String.valueOf(value));
+				}
+				writer.endNode();
+			}
+		}
+		if (nodeName != null) {
+			writer.endNode();
+		}
 	}
 
 	@Override
@@ -80,9 +106,9 @@ public class MapEntryConverter implements Converter {
 		Map<String, String> map = new HashMap<String, String>();
 		while (reader.hasMoreChildren()) {
 			reader.moveDown();
-			String key = reader.getNodeName(); 
+			String key = reader.getNodeName();
 			String value = reader.getValue();
-			System.out.println("value class: "+value.getClass());
+			System.out.println(key+"######v######" + value);
 			map.put(key, value);
 			reader.moveUp();
 		}

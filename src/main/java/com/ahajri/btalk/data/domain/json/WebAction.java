@@ -1,12 +1,8 @@
 package com.ahajri.btalk.data.domain.json;
 
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Map;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
-import com.google.gson.Gson;
 
 /**
  * Generic JAVA Model for content of web service
@@ -25,7 +21,6 @@ public class WebAction implements Serializable {
 	private static final long serialVersionUID = -5292129591070639119L;
 
 	//
-	private String actionName;
 	private Object jsonData;
 	private String document;
 
@@ -33,13 +28,7 @@ public class WebAction implements Serializable {
 		super();
 	}
 
-	public String getActionName() {
-		return actionName;
-	}
 
-	public void setActionName(String actionName) {
-		this.actionName = actionName;
-	}
 
 	public String getDocument() {
 		return document;
@@ -61,7 +50,6 @@ public class WebAction implements Serializable {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((actionName == null) ? 0 : actionName.hashCode());
 		result = prime * result + ((document == null) ? 0 : document.hashCode());
 		result = prime * result + ((jsonData == null) ? 0 : jsonData.hashCode());
 		return result;
@@ -76,11 +64,6 @@ public class WebAction implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		WebAction other = (WebAction) obj;
-		if (actionName == null) {
-			if (other.actionName != null)
-				return false;
-		} else if (!actionName.equals(other.actionName))
-			return false;
 		if (document == null) {
 			if (other.document != null)
 				return false;
@@ -97,7 +80,7 @@ public class WebAction implements Serializable {
 
 	@Override
 	public String toString() {
-		return "WebAction [actionName=" + actionName + ", jsonData=" + jsonData + ", document=" + document + "]";
+		return "WebAction [jsonData=" + jsonData + ", document=" + document + "]";
 	}
 
 }

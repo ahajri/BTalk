@@ -13,7 +13,6 @@ import com.ahajri.btalk.data.domain.discuss.Discussion;
 import com.ahajri.btalk.data.domain.discuss.DiscussionUpsert;
 import com.ahajri.btalk.data.domain.discuss.Message;
 import com.ahajri.btalk.data.repository.DiscussionJsonRepository;
-import com.ahajri.btalk.data.repository.XmlDataRepository;
 import com.google.gson.Gson;
 import com.marklogic.client.io.DocumentMetadataHandle;
 

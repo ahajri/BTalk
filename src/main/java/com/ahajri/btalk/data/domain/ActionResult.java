@@ -16,7 +16,7 @@ public class ActionResult implements Serializable {
 
 	private final HashSet<String> messages = new HashSet<String>();
 	private ActionResultName actionResultName;
-	private String jsonReturnData;
+	private Object jsonReturnData;
 	private HttpStatus status;
 
 	public ActionResult() {
@@ -37,11 +37,11 @@ public class ActionResult implements Serializable {
 		this.actionResultName = actionResultName;
 	}
 
-	public String getJsonReturnData() {
+	public Object getJsonReturnData() {
 		return jsonReturnData;
 	}
 
-	public void setJsonReturnData(String jsonReturnData) {
+	public void setJsonReturnData(Object jsonReturnData) {
 		this.jsonReturnData = jsonReturnData;
 	}
 
