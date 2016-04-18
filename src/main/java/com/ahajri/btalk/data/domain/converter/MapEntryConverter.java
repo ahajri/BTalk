@@ -104,11 +104,13 @@ public class MapEntryConverter implements Converter {
 	@Override
 	public Object unmarshal(HierarchicalStreamReader reader, UnmarshallingContext context) {
 		Map<String, String> map = new HashMap<String, String>();
+
 		while (reader.hasMoreChildren()) {
 			reader.moveDown();
+			System.out.println("Node Name: " + reader.getNodeName());
 			String key = reader.getNodeName();
 			String value = reader.getValue();
-			System.out.println(key+"######v######" + value);
+			System.out.println(key + "######v######" + value);
 			map.put(key, value);
 			reader.moveUp();
 		}
