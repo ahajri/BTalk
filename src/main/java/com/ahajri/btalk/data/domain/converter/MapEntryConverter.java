@@ -107,8 +107,9 @@ public class MapEntryConverter implements Converter {
 
 		while (reader.hasMoreChildren()) {
 			reader.moveDown();
-			System.out.println("Node Name: " + reader.getNodeName());
 			String key = reader.getNodeName();
+			System.out.println("Node Name: " + key);
+			
 			String value = reader.getValue();
 			System.out.println(key + "######v######" + value);
 			map.put(key, value);

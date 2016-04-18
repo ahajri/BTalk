@@ -14,6 +14,7 @@ import com.ahajri.btalk.data.domain.json.WebAction;
 import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.ahajri.btalk.data.repository.XmlDataRepository;
 import com.ahajri.btalk.utils.ActionResultName;
+import com.ahajri.btalk.utils.ConversionUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.google.gson.Gson;
 import com.jayway.jsonpath.Criteria;
@@ -69,13 +70,9 @@ public class DocumentService {
 		result.setStatus(HttpStatus.FOUND);
 
 		try {
-			List<XmlMap> found = xmlDataRepository.searchDocument(criteria.getQuery());
-			StringBuffer buffer = new StringBuffer("{\"found\":[");
-			for (XmlMap xmlMap : found) {
-				buffer.append(new Gson().toJson(xmlMap));
-			}
-			buffer.append("]}");
-			result.setJsonReturnData(buffer.toString());
+			List<String> found = xmlDataRepository.searchDocument(criteria.getQuery());
+
+			result.setJsonReturnData(ConversionUtils.xml2Json(found.toString()));
 		} catch (IOException e) {
 			result = getErrorResult();
 			result.setJsonReturnData("{msg:+" + e.getMessage() + "}");
@@ -124,9 +121,9 @@ public class DocumentService {
 		if (!ListUtils.isEqualList(discussCollections, null)) {
 			metadata.getCollections().addAll(discussCollections);
 		}
-		List<XmlMap> foundData = null;
+		List<String> foundData = null;
 		try {
-			foundData = xmlDataRepository.searchByKeyValue(criteria, discussCollections, metadata);
+			foundData = xmlDataRepository.searchByKeyValue(criteria, discussCollections, metadata,"discussions");
 		} catch (IOException e) {
 			result.setActionResultName(ActionResultName.FAIL);
 			result.setStatus(HttpStatus.NOT_FOUND);

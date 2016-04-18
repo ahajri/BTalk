@@ -6,7 +6,9 @@ import java.util.List;
 import javax.xml.bind.JAXBException;
 
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -42,6 +44,7 @@ import com.sun.jersey.api.client.filter.LoggingFilter;
 public class MarkLogicConfig {
 
 	public static final Logger LOGGER = Logger.getLogger(MarkLogicConfig.class);
+	
 
 	@Value("${marklogic.host}")
 	public String host;
@@ -65,8 +68,10 @@ public class MarkLogicConfig {
 		} catch (JAXBException e) {
 			LOGGER.error(e);
 		}
-		return DatabaseClientFactory.newClient(host, Integer.parseInt(port.trim()), db, username, password,
-				DatabaseClientFactory.Authentication.DIGEST);
+		
+		DatabaseClient databaseClient = DatabaseClientFactory.newClient(host, Integer.parseInt(port.trim()), db,
+				username, password, DatabaseClientFactory.Authentication.DIGEST);
+		return databaseClient;
 	}
 
 	@Bean
