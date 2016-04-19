@@ -1,14 +1,14 @@
 package com.ahajri.btalk.config;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.bind.JAXBException;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -22,7 +22,6 @@ import org.springframework.http.converter.xml.MarshallingHttpMessageConverter;
 import org.springframework.oxm.xstream.XStreamMarshaller;
 import org.springframework.web.client.RestTemplate;
 
-import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.admin.QueryOptionsManager;
@@ -64,7 +63,7 @@ public class MarkLogicConfig {
 	@Bean
 	public DatabaseClient getDatabaseClient() {
 		try {
-			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(XmlMap.class));
+			DatabaseClientFactory.getHandleRegistry().register(JAXBHandle.newFactory(HashMap.class));
 		} catch (JAXBException e) {
 			LOGGER.error(e);
 		}

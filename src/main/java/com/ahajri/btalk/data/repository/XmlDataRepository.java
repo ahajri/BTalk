@@ -16,13 +16,11 @@ import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.apache.activemq.store.jdbc.adapter.DB2JDBCAdapter;
 import org.apache.commons.io.IOUtils;
+import org.apache.log4j.Logger;
 import org.fusesource.hawtbuf.DataByteArrayInputStream;
-import org.json.JSONObject;
-import org.json.XML;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -30,35 +28,41 @@ import org.w3c.dom.NodeList;
 
 import com.ahajri.btalk.data.domain.converter.MapEntryConverter;
 import com.ahajri.btalk.data.domain.json.SearchCriteria;
-import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.ahajri.btalk.utils.ConversionUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.FailedRequestException;
 import com.marklogic.client.ForbiddenUserException;
 import com.marklogic.client.ResourceNotFoundException;
+import com.marklogic.client.Transaction;
+import com.marklogic.client.document.DocumentPatchBuilder;
+import com.marklogic.client.document.DocumentPatchBuilder.PathLanguage;
+import com.marklogic.client.document.DocumentPatchBuilder.Position;
 import com.marklogic.client.document.XMLDocumentManager;
 import com.marklogic.client.io.DOMHandle;
 import com.marklogic.client.io.DocumentMetadataHandle;
 import com.marklogic.client.io.InputStreamHandle;
 import com.marklogic.client.io.SearchHandle;
+import com.marklogic.client.io.marker.DocumentPatchHandle;
+import com.marklogic.client.query.DeleteQueryDefinition;
 import com.marklogic.client.query.KeyValueQueryDefinition;
 import com.marklogic.client.query.MatchDocumentSummary;
 import com.marklogic.client.query.QueryManager;
 import com.marklogic.client.query.StringQueryDefinition;
 import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.persistence.XmlMap;
 
 @Component("xmlDataRepository")
 public class XmlDataRepository {
 
-	@Autowired
-	private ApplicationContext applicationContext;
+	/** LOGGER */
+	private static final Logger LOGGER = Logger.getLogger(XmlDataRepository.class);
 
 	@Value("${marklogic.host}")
 	public String host;
 
-	// @Value("${marklogic.port}")
 	public String port = "8000";
 
 	@Value("${marklogic.username}")
@@ -91,13 +95,13 @@ public class XmlDataRepository {
 			xmlDocumentManager.write(docPath, metadata, writeHandle);
 			databaseClient.release();
 		} catch (ResourceNotFoundException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} catch (ForbiddenUserException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} catch (FailedRequestException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} finally {
 			databaseClient.release();
@@ -128,19 +132,22 @@ public class XmlDataRepository {
 		DatabaseClient databaseClient = getDatabaseClient();
 		try {
 			List<String> jsons = new ArrayList<String>();
-
 			for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
 				System.out.println("  * found : " + summary.getUri());
+				// ExtractedResult extracts = summary.getExtracted();
+				// for (ExtractedItem extract : extracts) {
+				// System.out.println(" extracted content: " +
+				// extract.getAs(String.class));
+				// }
 				// Assumption: summary URI refers to JSON document
 				InputStreamHandle handle = new InputStreamHandle();
 				XMLDocumentManager xmlDocumentManager = databaseClient.newXMLDocumentManager();
 				InputStreamHandle xml = xmlDocumentManager.read(summary.getUri(), handle);
 				jsons.add(ConversionUtils.xml2Json(IOUtils.toString(xml.get(), Charset.defaultCharset())));
 			}
-
 			return jsons;
 		} catch (Exception e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} finally {
 			databaseClient.release();
@@ -155,27 +162,24 @@ public class XmlDataRepository {
 	 * @return {@link XmlMap}
 	 * @throws IOException
 	 */
-	private XmlMap fetchXmlData(InputStreamHandle handle, String rootName, InputStreamHandle xml) throws IOException {
-		// InputStream is = handle.get();
-		// String xml = IOUtils.toString(is, Charset.defaultCharset());
+	@SuppressWarnings({ "rawtypes", "unused" })
+	private Map fetchXmlData(InputStreamHandle handle, String rootName, InputStreamHandle xml) throws IOException {
 		XStream xStream = new XStream();
 		xStream.registerConverter(new MapEntryConverter());
 		xStream.alias(rootName, HashMap.class);
-		// xStream.aliasType("headers", LinkedHashMap.class);
-		// xStream.aliasType("host", String.class);
-
-		HashMap map = (HashMap) xStream.fromXML(IOUtils.toString(xml.get(), Charset.defaultCharset()));
-		XmlMap xmlMap = new XmlMap();
-		xmlMap.putAll(map);
-		return xmlMap;
+		return (Map) xStream.fromXML(ConversionUtils.getXml(xml));
 	}
 
 	/**
+	 * Search By Key Value
 	 * 
-	 * @param criteria
-	 * @param discussCollections
+	 * @param criteria:
+	 *            {@link SearchCriteria}
+	 * @param discussCollections:
+	 *            List of collection names
 	 * @param metadata
-	 * @return
+	 *            {@link DocumentMetadataHandle}
+	 * @return List of XML content of found documents
 	 * @throws IOException
 	 */
 	@SuppressWarnings("deprecation")
@@ -217,38 +221,126 @@ public class XmlDataRepository {
 			Document document = dh.get();
 			return document;
 		} catch (ResourceNotFoundException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} catch (ForbiddenUserException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} catch (FailedRequestException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} finally {
 			databaseClient.release();
 		}
 	}
 
+	/**
+	 * 
+	 * @param criteria:
+	 *            {@link SearchCriteria}
+	 * @param DIR:
+	 *            directory to delete
+	 * @return {@link Boolean} while the directory was deleted or not
+	 */
+	public boolean deleteDirectory(SearchCriteria criteria, String DIR) {
+		boolean isDeleted = false;
+		DatabaseClient databaseClient = getDatabaseClient();
+		try {
+			QueryManager queryManager = databaseClient.newQueryManager();
+			DeleteQueryDefinition dqDef = queryManager.newDeleteDefinition();
+			dqDef.setDirectory(DIR);
+			queryManager.delete(dqDef);
+			isDeleted = true;
+		} catch (Exception e) {
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isDeleted;
+	}
+
+	/**
+	 * 
+	 * @param docID:
+	 *            Document ID
+	 * @param fragment:
+	 *            XML fragment to add
+	 * @return: {@link Boolean}while fragment inserted or not
+	 */
+	public boolean patchDocument(String docID, String xmlFragment,String tag) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.insertFragment(tag, Position.LAST_CHILD, xmlFragment);
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle,transaction);
+		} catch (Exception e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			transaction.commit();
+			databaseClient.release();
+			isPatched = true;
+		}
+		return isPatched;
+	}
+
+	/**
+	 * Update XML node value
+	 * @param docID: document ID
+	 * @param xmlFragment: XML to update
+	 * @param path: path to tag
+	 * @return {@link Boolean} while fragment updated or not
+	 */
+	public boolean replacePatchValue(String docID, String xmlFragment,String path) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.pathLanguage(PathLanguage.XPATH);
+			dpBuilder.replaceValue(path, xmlFragment);
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle,transaction);
+		} catch (Exception e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			transaction.commit();
+			databaseClient.release();
+			isPatched = true;
+		}
+		return isPatched;
+	}
+	/**
+	 * Read Binary Content
+	 * 
+	 * @param docID:
+	 *            ID of document
+	 * @return: binary content of Document
+	 * @throws IOException
+	 */
 	public String readBinaryContent(String docID) throws IOException {
 		DatabaseClient databaseClient = getDatabaseClient();
 		try {
 			XMLDocumentManager xmlDocumentManager = databaseClient.newXMLDocumentManager();
 			InputStream is = xmlDocumentManager.read(docID, new InputStreamHandle()).get();
-
 			String xml = IOUtils.toString(is, Charset.defaultCharset());
-			System.out.println(xml);
 			return xml;
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 			throw e;
 		} finally {
 			databaseClient.release();
 		}
 	}
 
-	public static Map<String, String> convertNodesFromXml(String xml) throws Exception {
-
+	@SuppressWarnings("unused")
+	private Map<String, String> convertNodesFromXml(String xml) throws Exception {
 		InputStream is = new ByteArrayInputStream(xml.getBytes());
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		dbf.setNamespaceAware(true);
@@ -265,7 +357,6 @@ public class XmlDataRepository {
 					if (!org.apache.commons.lang3.StringUtils.isEmpty(grantChildNodes.item(k).getTextContent())) {
 						Map<String, String> map = new HashMap<String, String>();
 						map.put(grantChildNodes.item(k).getNodeName(), grantChildNodes.item(k).getTextContent());
-						System.out.println("##############" + map);
 					}
 				}
 			}
@@ -273,7 +364,7 @@ public class XmlDataRepository {
 		return createMap(document.getDocumentElement());
 	}
 
-	public static Map<String, String> createMap(Node node) {
+	private Map<String, String> createMap(Node node) {
 		Map<String, String> map = new HashMap<String, String>();
 		NodeList nodeList = node.getChildNodes();
 		for (int i = 0; i < nodeList.getLength(); i++) {

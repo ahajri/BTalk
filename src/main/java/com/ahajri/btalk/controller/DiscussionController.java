@@ -4,11 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
@@ -28,13 +26,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ahajri.btalk.data.domain.ActionResult;
-import com.ahajri.btalk.data.domain.converter.MapEntryConverter;
 import com.ahajri.btalk.data.domain.json.SearchCriteria;
-import com.ahajri.btalk.data.domain.xml.XmlMap;
 import com.ahajri.btalk.data.service.DocumentService;
 import com.ahajri.btalk.error.ClientErrorInformation;
+import com.ahajri.btalk.utils.ConversionUtils;
 import com.marklogic.client.ResourceNotFoundException;
-import com.thoughtworks.xstream.XStream;
 
 /**
  * Common Discussion Controller to manage given JSON data from the web service
@@ -55,9 +51,10 @@ public class DiscussionController {
 	@Autowired
 	protected DocumentService documentService;
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/discuss/createDocument", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
-	public ResponseEntity<Object> create(@RequestBody XmlMap action, @RequestHeader HttpHeaders headers,
+	public ResponseEntity<Object> create(@RequestBody Map action, @RequestHeader HttpHeaders headers,
 			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position,
 			@Context HttpServletRequest req) {
 		LOGGER.debug("Create Document ....");
@@ -67,6 +64,7 @@ public class DiscussionController {
 		metadata.put("remoteHost", req.getRemoteHost());
 		metadata.put("remoteUser", req.getRemoteUser());
 		metadata.put("remotePort", req.getRemotePort());
+		//
 		String docName = (String) action.get("document");
 		if (docName == null) {
 			docName = "/discuss/discussion_" + sdf.format(new Date()) + ".xml";
@@ -88,6 +86,17 @@ public class DiscussionController {
 		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@RequestMapping(value = "/discuss/addMessage", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<Object> patchMessage(@RequestBody Map map,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		map.put("position", position);
+		LOGGER.debug("Patch Document ...." + map.toString());
+		ActionResult result = documentService.patchFragment(map);
+		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
+	}
+
 	/**
 	 * 
 	 * @param action
@@ -98,30 +107,17 @@ public class DiscussionController {
 	 */
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	private String getXmlData(XmlMap action, HttpHeaders headers, HashMap<String, Object> metadata, String position) {
-		XmlMap xmlMap = new XmlMap();
-		xmlMap.put("headers", headers.toSingleValueMap());
-		xmlMap.put("metadata", (Map<String, Object>) metadata);
-		xmlMap.put("position", position);
-		xmlMap.put("document", (String) action.get("document"));
-		xmlMap.put("messages", null);// to add messages under this element later
-		xmlMap.put("startTime", new Date());
-		xmlMap.put("endTime", null);
-		xmlMap.putAll((LinkedHashMap) action.get("jsonData"));
-		return getXml(xmlMap, DISCUSS_ROOT_NODE);
-	}
-
-	/**
-	 * 
-	 * @param xmlMap
-	 * @param rootName
-	 * @return
-	 */
-	private String getXml(XmlMap xmlMap, String rootName) {
-		XStream magicApi = new XStream();
-		magicApi.registerConverter(new MapEntryConverter());
-		magicApi.alias(rootName, XmlMap.class);
-		return magicApi.toXML(xmlMap);
+	private String getXmlData(Map action, HttpHeaders headers, HashMap<String, Object> metadata, String position) {
+		Map map = new HashMap<>();
+		map.put("headers", headers.toSingleValueMap());
+		map.put("metadata", (Map<String, Object>) metadata);
+		map.put("position", position);
+		map.put("document", (String) action.get("document"));
+		map.put("messages", null);// to add messages under this element later
+		map.put("startTime", new Date());
+		map.put("endTime", null);
+		map.putAll((LinkedHashMap) action.get("jsonData"));
+		return ConversionUtils.getXml(map, DISCUSS_ROOT_NODE);
 	}
 
 	/**
@@ -133,7 +129,7 @@ public class DiscussionController {
 	 *            {@link ResourceNotFoundException}
 	 * @return {@link ClientErrorInformation}
 	 */
-	@ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Resource Not Found")
+	@ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Resource Not Found, Please ensure the document already exists")
 	@ExceptionHandler(ResourceNotFoundException.class)
 	public ResponseEntity<ClientErrorInformation> handleResourceNotFoundException(HttpServletRequest req,
 			ResourceNotFoundException ex) {
@@ -150,12 +146,12 @@ public class DiscussionController {
 	 *            {@link Exception}
 	 * @return {@link ClientErrorInformation}
 	 */
-	@ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR, reason = "Oooops, Internal Server Error")
-	@ExceptionHandler(Exception.class)
-	public ResponseEntity<ClientErrorInformation> handleException(HttpServletRequest req, Exception ex) {
-		ex.printStackTrace();
-		ClientErrorInformation e = new ClientErrorInformation(ex.getMessage(),
-				HttpStatus.INTERNAL_SERVER_ERROR.toString());
-		return new ResponseEntity<ClientErrorInformation>(e, HttpStatus.INTERNAL_SERVER_ERROR);
-	}
+//	@ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+//	@ExceptionHandler(Exception.class)
+//	public ResponseEntity<ClientErrorInformation> handleException(HttpServletRequest req, Exception ex) {
+//		ex.printStackTrace();
+//		ClientErrorInformation e = new ClientErrorInformation(ex.getMessage(),
+//				HttpStatus.INTERNAL_SERVER_ERROR.toString());
+//		return new ResponseEntity<ClientErrorInformation>(e, HttpStatus.INTERNAL_SERVER_ERROR);
+//	}
 }

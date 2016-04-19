@@ -56,13 +56,15 @@ public class MapEntryConverter implements Converter {
 						writer.setValue(o.toString());
 					}
 				}
-			} else if (val instanceof Map) {
+			} else if (val instanceof LinkedHashMap) {
 				Map mm = (Map) val;
-				if (mm.toString().contains("content-type")) {
-					createNode(writer, mm);
-				} else if (mm.toString().contains("remoteHost")) {
-					createNode(writer, mm);
-				}
+				// if (mm.toString().contains("content-type")) {
+				createNode(writer, mm);
+				// } else if (mm.toString().contains("remoteHost")) {
+				// createNode(writer, mm);
+				// }else if(mm.toString().contains("senderID")){
+				// createNode(writer, mm,"sender");
+				// }
 			} else if (null != val) {
 				writer.setValue(val.toString());
 			}
@@ -84,6 +86,7 @@ public class MapEntryConverter implements Converter {
 			Entry<String, Object> e = iterator.next();
 			String key = e.getKey();
 			Object value = e.getValue();
+			System.out.println("#####value####" + value);
 			if (value instanceof Map) {
 				createNode(writer, (Map) value, key);
 			} else {
@@ -109,7 +112,7 @@ public class MapEntryConverter implements Converter {
 			reader.moveDown();
 			String key = reader.getNodeName();
 			System.out.println("Node Name: " + key);
-			
+
 			String value = reader.getValue();
 			System.out.println(key + "######v######" + value);
 			map.put(key, value);
