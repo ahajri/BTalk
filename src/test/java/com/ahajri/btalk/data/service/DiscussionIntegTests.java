@@ -4,7 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -27,8 +29,6 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.ahajri.btalk.config.MarkLogicConfig;
-import com.ahajri.btalk.data.domain.discuss.Discussion;
-import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
 import com.ahajri.btalk.utils.DiscussRole;
 import com.ahajri.btalk.utils.DiscussStatus;
 import com.google.gson.Gson;
@@ -48,7 +48,7 @@ public class DiscussionIntegTests {
 
 	private static HttpHeaders httpHeaders;
 	private final static Gson gson = new Gson();
-	private DiscussionMember created = null;
+	private Map<String, Object> created = null;
 
 	@Autowired
 	private RestTemplate restTemplate;
@@ -60,33 +60,31 @@ public class DiscussionIntegTests {
 		httpHeaders.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Test
 	public void aShouldCreate() throws Exception {
 
 		LOGGER.info("<<<<<<<<<<<<<< Create >>>>>>>>>>>>> ");
 
-		DiscussionMember member1 = new DiscussionMember();
-		member1.setMember_id("ahajri@auxia.com");
-		member1.setStatus(DiscussStatus.ONLINE.getValue());
-		member1.setDiscussRole(DiscussRole.DISCUSS_CREATOR.getValue());
+		HashMap member1 = new HashMap();
+		member1.put("member_id","ahajri@auxia.com");
+		member1.put("status",DiscussStatus.ONLINE.getValue());
+		member1.put("discuss_role",DiscussRole.DISCUSS_CREATOR.getValue());
 
-		DiscussionMember member2 = new DiscussionMember();
-		member2.setMember_id("aoulagha@auxia.com");
-		member2.setStatus(DiscussStatus.ONLINE.getValue());
-		member2.setDiscussRole(DiscussRole.DISCUSS_MEMBER.getValue());
-		List<DiscussionMember> members = new ArrayList<DiscussionMember>();
+		HashMap member2 = member1;
+		List<HashMap> members = new ArrayList<HashMap>();
 		members.addAll(Arrays.asList(member1, member2));
 
-		Discussion discuss = new Discussion();
-		discuss.setStartTime(new Date(System.currentTimeMillis()));
-		discuss.setMembers(members);
+		HashMap discuss = new HashMap();
+		discuss.put("start_time",new Date(System.currentTimeMillis()));
+		discuss.put("members",members);
 
 		System.out.println(gson.toJsonTree(discuss));
-		HttpEntity<Discussion> entity = new HttpEntity<Discussion>(discuss,
+		HttpEntity<Map> entity = new HttpEntity<Map>(discuss,
 				httpHeaders);
-		ResponseEntity<DiscussionMember> responseEntity = restTemplate
+		ResponseEntity<HashMap> responseEntity = restTemplate
 				.exchange(BASE_URL + "/discuss/json/create", HttpMethod.POST,
-						entity, DiscussionMember.class);
+						entity, HashMap.class);
 		created = responseEntity.getBody();
 		System.out.println("-------------  created  ---------------- "
 				+ created);

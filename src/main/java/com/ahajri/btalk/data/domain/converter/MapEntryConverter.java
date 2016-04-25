@@ -47,24 +47,25 @@ public class MapEntryConverter implements Converter {
 			if (val instanceof List) {
 				List l = (List) val;
 				for (Object o : l) {
-					if (o instanceof LinkedHashMap) {
+					if (o instanceof Map) {
 						LinkedHashMap m = (LinkedHashMap) o;
-						if (m.toString().contains("member_id")) {
+						if (m.toString().contains("memberId")) {
 							createNode(writer, m, "member");
 						}
+
 					} else {
 						writer.setValue(o.toString());
 					}
 				}
 			} else if (val instanceof LinkedHashMap) {
 				Map mm = (Map) val;
-				// if (mm.toString().contains("content-type")) {
-				createNode(writer, mm);
-				// } else if (mm.toString().contains("remoteHost")) {
-				// createNode(writer, mm);
-				// }else if(mm.toString().contains("senderID")){
-				// createNode(writer, mm,"sender");
-				// }
+				if (mm.toString().contains("content-type")) {
+					createNode(writer, mm);
+				} else if (mm.toString().contains("remoteHost")) {
+					createNode(writer, mm);
+				} else if (mm.toString().contains("senderID")) {
+					createNode(writer, mm, "sender");
+				}
 			} else if (null != val) {
 				writer.setValue(val.toString());
 			}
@@ -73,6 +74,7 @@ public class MapEntryConverter implements Converter {
 		writer.close();
 	}
 
+	@SuppressWarnings("rawtypes")
 	private void createNode(HierarchicalStreamWriter writer, Map m) {
 		createNode(writer, m, null);
 	}
@@ -86,7 +88,6 @@ public class MapEntryConverter implements Converter {
 			Entry<String, Object> e = iterator.next();
 			String key = e.getKey();
 			Object value = e.getValue();
-			System.out.println("#####value####" + value);
 			if (value instanceof Map) {
 				createNode(writer, (Map) value, key);
 			} else {
@@ -111,10 +112,7 @@ public class MapEntryConverter implements Converter {
 		while (reader.hasMoreChildren()) {
 			reader.moveDown();
 			String key = reader.getNodeName();
-			System.out.println("Node Name: " + key);
-
 			String value = reader.getValue();
-			System.out.println(key + "######v######" + value);
 			map.put(key, value);
 			reader.moveUp();
 		}

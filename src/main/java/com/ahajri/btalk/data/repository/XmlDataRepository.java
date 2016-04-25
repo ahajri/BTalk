@@ -16,7 +16,6 @@ import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import org.apache.activemq.store.jdbc.adapter.DB2JDBCAdapter;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 import org.fusesource.hawtbuf.DataByteArrayInputStream;
@@ -31,10 +30,13 @@ import com.ahajri.btalk.data.domain.json.SearchCriteria;
 import com.ahajri.btalk.utils.ConversionUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.hp.hpl.jena.sparql.pfunction.library.alt;
 import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.FailedRequestException;
 import com.marklogic.client.ForbiddenUserException;
+import com.marklogic.client.MarkLogicIOException;
 import com.marklogic.client.ResourceNotFoundException;
 import com.marklogic.client.Transaction;
 import com.marklogic.client.document.DocumentPatchBuilder;
@@ -133,13 +135,7 @@ public class XmlDataRepository {
 		try {
 			List<String> jsons = new ArrayList<String>();
 			for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
-				System.out.println("  * found : " + summary.getUri());
-				// ExtractedResult extracts = summary.getExtracted();
-				// for (ExtractedItem extract : extracts) {
-				// System.out.println(" extracted content: " +
-				// extract.getAs(String.class));
-				// }
-				// Assumption: summary URI refers to JSON document
+				LOGGER.info(" URI * found : " + summary.getUri());
 				InputStreamHandle handle = new InputStreamHandle();
 				XMLDocumentManager xmlDocumentManager = databaseClient.newXMLDocumentManager();
 				InputStreamHandle xml = xmlDocumentManager.read(summary.getUri(), handle);
@@ -175,11 +171,15 @@ public class XmlDataRepository {
 	 * 
 	 * @param criteria:
 	 *            {@link SearchCriteria}
+	 * 
 	 * @param discussCollections:
 	 *            List of collection names
+	 * 
 	 * @param metadata
 	 *            {@link DocumentMetadataHandle}
+	 * 
 	 * @return List of XML content of found documents
+	 * 
 	 * @throws IOException
 	 */
 	@SuppressWarnings("deprecation")
@@ -245,13 +245,44 @@ public class XmlDataRepository {
 	public boolean deleteDirectory(SearchCriteria criteria, String DIR) {
 		boolean isDeleted = false;
 		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
 		try {
 			QueryManager queryManager = databaseClient.newQueryManager();
 			DeleteQueryDefinition dqDef = queryManager.newDeleteDefinition();
 			dqDef.setDirectory(DIR);
-			queryManager.delete(dqDef);
+			queryManager.delete(dqDef, transaction);
+			transaction.commit();
+			isDeleted = true;
+		} catch (ForbiddenUserException e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} catch (FailedRequestException e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isDeleted;
+	}
+
+	/**
+	 * Delete document with its URI
+	 * 
+	 * @param docURIs:
+	 *            Document URI
+	 * @return True if document deleted, false if not
+	 */
+	public boolean deleteDocument(String[] docURIs) {
+		boolean isDeleted = false;
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			documentManager.delete(transaction, docURIs);
+			transaction.commit();
 			isDeleted = true;
 		} catch (Exception e) {
+			transaction.rollback();
 			LOGGER.error(e);
 		} finally {
 			databaseClient.release();
@@ -267,7 +298,7 @@ public class XmlDataRepository {
 	 *            XML fragment to add
 	 * @return: {@link Boolean}while fragment inserted or not
 	 */
-	public boolean patchDocument(String docID, String xmlFragment,String tag) {
+	public boolean patchDocument(String docID, String xmlFragment, String tag) {
 		DatabaseClient databaseClient = getDatabaseClient();
 		Transaction transaction = databaseClient.openTransaction();
 		boolean isPatched = false;
@@ -276,7 +307,190 @@ public class XmlDataRepository {
 			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
 			dpBuilder.insertFragment(tag, Position.LAST_CHILD, xmlFragment);
 			DocumentPatchHandle handle = dpBuilder.build();
-			documentManager.patch(docID, handle,transaction);
+			documentManager.patch(docID, handle, transaction);
+			transaction.commit();
+			isPatched = true;
+		} catch (ForbiddenUserException e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} catch (FailedRequestException e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} catch (MarkLogicIOException e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isPatched;
+	}
+
+	/**
+	 * Delete Tag
+	 * 
+	 * @param docID:
+	 *            Document ID
+	 * @param path:
+	 *            Tag path <code>Example: /root/child</code>
+	 * @return <code>true</code>if Tag was deleted, <code>false</code>if not
+	 */
+	public boolean deleteTag(String docID, String path) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.pathLanguage(PathLanguage.XPATH);
+			dpBuilder.replaceFragment(path, null);
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle, transaction);
+			transaction.commit();
+			isPatched = true;
+		} catch (Exception e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isPatched;
+	}
+
+	/**
+	 * Replace XML Tag Value
+	 * 
+	 * @param docID:
+	 *            Document ID
+	 * 
+	 * @param path:
+	 *            Tag path
+	 * 
+	 * @param xmlFragment:
+	 *            Value to change
+	 * 
+	 * @return <code>true</code> IF value replaced else <code>false</code>
+	 */
+	public boolean replaceTagValue(String docID, String path, String xmlFragment) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.pathLanguage(PathLanguage.XPATH);
+			dpBuilder.replaceValue(path, xmlFragment);
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle, transaction);
+			transaction.commit();
+			isPatched = true;
+		} catch (Exception e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isPatched;
+	}
+
+	/**
+	 * Insert new Tag in given Path
+	 * 
+	 * @param docID:
+	 *            document ID
+	 * @param path:
+	 *            Tag Path
+	 * @param newTagName:
+	 *            new Tag name
+	 * @param xmlValue:
+	 *            New Tag Value
+	 * @return <code>true</code> IF value inserted else <code>false</code>
+	 */
+	public boolean insertTag(String docID, String path, String newTagName, String xmlValue) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.pathLanguage(PathLanguage.XPATH);
+			ObjectMapper mapper = new ObjectMapper();
+			dpBuilder.replaceValue(path, mapper.createObjectNode().put(newTagName, xmlValue));
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle, transaction);
+			transaction.commit();
+			isPatched = true;
+		} catch (Exception e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isPatched;
+	}
+
+	/**
+	 * insert an array in given path in XML document
+	 * 
+	 * @param docID:
+	 *            document ID
+	 * @param path:
+	 *            tag array path, example
+	 *            <code>/parent/array-node('child')</code>
+	 * @param newTagName:
+	 *            new Tag name
+	 * @param xmlValues:
+	 *            Array of XML tags content
+	 * @return <code>true</code> IF values inserted else <code>false</code>
+	 */
+	public boolean insertTagArray(String docID, String path, List<String> xmlValues) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.pathLanguage(PathLanguage.XPATH);
+			ObjectMapper mapper = new ObjectMapper();
+			ArrayNode array = mapper.createArrayNode();
+			for (int i = 0; i < xmlValues.size(); i++) {
+				array.add(xmlValues.get(i));
+			}
+			dpBuilder.replaceFragment(path, array);
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle, transaction);
+			transaction.commit();
+			isPatched = true;
+		} catch (Exception e) {
+			transaction.rollback();
+			LOGGER.error(e);
+		} finally {
+			databaseClient.release();
+		}
+		return isPatched;
+	}
+
+	/**
+	 * Update XML node value
+	 * 
+	 * @param docID:
+	 *            document ID
+	 * @param xmlFragment:
+	 *            XML to update
+	 * @param path:
+	 *            path to tag
+	 * @return {@link Boolean} while fragment updated or not
+	 */
+	public boolean replacePatch(String docID, String xmlFragment, String path) {
+		DatabaseClient databaseClient = getDatabaseClient();
+		Transaction transaction = databaseClient.openTransaction();
+		boolean isPatched = false;
+		try {
+			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
+			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
+			dpBuilder.pathLanguage(PathLanguage.XPATH);
+			dpBuilder.replaceFragment(path, xmlFragment);
+			DocumentPatchHandle handle = dpBuilder.build();
+			documentManager.patch(docID, handle, transaction);
 		} catch (Exception e) {
 			transaction.rollback();
 			LOGGER.error(e);
@@ -288,34 +502,6 @@ public class XmlDataRepository {
 		return isPatched;
 	}
 
-	/**
-	 * Update XML node value
-	 * @param docID: document ID
-	 * @param xmlFragment: XML to update
-	 * @param path: path to tag
-	 * @return {@link Boolean} while fragment updated or not
-	 */
-	public boolean replacePatchValue(String docID, String xmlFragment,String path) {
-		DatabaseClient databaseClient = getDatabaseClient();
-		Transaction transaction = databaseClient.openTransaction();
-		boolean isPatched = false;
-		try {
-			XMLDocumentManager documentManager = databaseClient.newXMLDocumentManager();
-			DocumentPatchBuilder dpBuilder = documentManager.newPatchBuilder();
-			dpBuilder.pathLanguage(PathLanguage.XPATH);
-			dpBuilder.replaceValue(path, xmlFragment);
-			DocumentPatchHandle handle = dpBuilder.build();
-			documentManager.patch(docID, handle,transaction);
-		} catch (Exception e) {
-			transaction.rollback();
-			LOGGER.error(e);
-		} finally {
-			transaction.commit();
-			databaseClient.release();
-			isPatched = true;
-		}
-		return isPatched;
-	}
 	/**
 	 * Read Binary Content
 	 * 

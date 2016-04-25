@@ -2,7 +2,6 @@ package com.ahajri.btalk.data.repository;
 
 import java.util.List;
 
-import com.ahajri.btalk.data.domain.IModel;
 import com.marklogic.client.io.DocumentMetadataHandle;
 
 /**

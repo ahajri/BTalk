@@ -18,6 +18,7 @@ import com.ahajri.btalk.data.domain.json.WebAction;
 import com.ahajri.btalk.data.repository.XmlDataRepository;
 import com.ahajri.btalk.utils.ActionResultName;
 import com.ahajri.btalk.utils.ConversionUtils;
+import com.ahajri.btalk.utils.SecurityUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.jayway.jsonpath.Criteria;
 import com.marklogic.client.io.DocumentMetadataHandle;
@@ -154,9 +155,7 @@ public class DocumentService {
 		String docID = (String) map.get("docID");
 		String fragment = (String) map.get("fragment");
 		String tag = (String) map.get("tag");
-
-		Map senderID = (Map) map.get("senderID");
-
+		String senderID = (String) map.get("senderID");
 		ActionResult result = new ActionResult();
 		result.setJsonReturnData(docID);
 		Map m = new HashMap<>();
@@ -164,6 +163,7 @@ public class DocumentService {
 		m.put("senderID", senderID);
 		m.put("datetime", sdf.format(new Date()));
 		m.put("acquitted", false);
+		m.put("messageID", SecurityUtils.genUUID());
 		String xmlFragment = ConversionUtils.getXml(m, "message");
 		boolean isPathced = xmlDataRepository.patchDocument(docID, xmlFragment, tag);
 		if (isPathced) {
@@ -182,7 +182,7 @@ public class DocumentService {
 		String docID = (String) map.get("docID");
 		String fragment = (String) map.get("fragment");
 		String path = (String) map.get("path");
-		Map senderID = (Map) map.get("senderID");
+		String senderID = (String) map.get("senderID");
 		boolean acquitted = (Boolean) map.get("acquitted");
 		ActionResult result = new ActionResult();
 		result.setJsonReturnData(docID);
@@ -192,8 +192,72 @@ public class DocumentService {
 		m.put("datetime", sdf.format(new Date()));
 		m.put("acquitted", acquitted);
 		String xmlFragment = ConversionUtils.getXml(m, "message");
-		System.out.println("#1#" + xmlFragment);
-		boolean isPathced = xmlDataRepository.replacePatchValue(docID, xmlFragment, path);
+		boolean isPathced = xmlDataRepository.replacePatch(docID, xmlFragment, path);
+		if (isPathced) {
+			result.setStatus(HttpStatus.OK);
+			result.setActionResultName(ActionResultName.SUCCESSFULL);
+		} else {
+			result.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
+			result.setActionResultName(ActionResultName.FAIL);
+			result.getMessages().add("PAtrching fragment fails on " + docID);
+		}
+		return result;
+	}
+
+	/**
+	 * delete documents
+	 * 
+	 * @param docURIs:
+	 *            document URI tab
+	 * @return {@link ActionResultName}
+	 */
+	public ActionResult deleteDocument(String[] docURIs) {
+		ActionResult result = new ActionResult();
+		if (xmlDataRepository.deleteDocument(docURIs)) {
+			result.setActionResultName(ActionResultName.SUCCESSFULL);
+			result.setStatus(HttpStatus.OK);
+			Map<String, String> resultDetails = new HashMap<>();
+			resultDetails.put("msf", "Documents removed");
+			result.setJsonReturnData(resultDetails);
+		} else {
+			result.setActionResultName(ActionResultName.FAIL);
+			result.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
+			result.getMessages().add("Error while deleteing documents");
+		}
+		return result;
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public ActionResult endDiscussion(Map action) {
+		ActionResult result = null;
+		String docID = (String) action.get("docID");
+		String xpath = (String) action.get("xpath");
+		Map m = new HashMap<>();
+		m.put("endTime", sdf.format(new Date()));
+		String xml = ConversionUtils.getXml(m, "endTime");
+		System.out.println(xml);
+		xmlDataRepository.replacePatch(docID, xml, xpath);
+		return result;
+	}
+
+	/**
+	 * 
+	 * @param map
+	 *            : JSON data <code>
+	 * Example: {
+	 * 			"docID":"/discuss/discussion_20160420151917.xml",
+     *  		"path":"discussion/metadata/remoteUser"
+	 *  		}
+	 *			</code>
+	 * 
+	 * @return {@link ActionResultName}
+	 */
+	public ActionResult deleteTag(Map map) {
+		String docID = (String) map.get("docID");
+		String path = (String) map.get("path");
+		ActionResult result = new ActionResult();
+		result.setJsonReturnData(docID);
+		boolean isPathced = xmlDataRepository.deleteTag(docID, path);
 		if (isPathced) {
 			result.setStatus(HttpStatus.OK);
 			result.setActionResultName(ActionResultName.SUCCESSFULL);

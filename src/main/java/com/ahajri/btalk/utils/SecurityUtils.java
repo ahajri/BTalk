@@ -2,6 +2,7 @@ package com.ahajri.btalk.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.UUID;
 
 import org.apache.log4j.Logger;
 
@@ -26,7 +27,7 @@ public final class SecurityUtils {
 	 *            Character to encrypt
 	 * @return encrypted MD5 character
 	 */
-	public static String md5(String value) {
+	public static final String md5(String value) {
 		try {
 			MessageDigest md;
 
@@ -46,4 +47,7 @@ public final class SecurityUtils {
 		}
 	}
 
+	public static final String genUUID() {
+		return UUID.randomUUID().toString();
+	}
 }

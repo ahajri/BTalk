@@ -1,5 +1,8 @@
 package com.ahajri.btalk.data.service;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHost;
@@ -24,8 +27,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import com.ahajri.btalk.config.AppConfig;
-import com.ahajri.btalk.data.domain.IModel;
-import com.ahajri.btalk.data.domain.discuss.DiscussionMember;
+import com.ahajri.btalk.utils.DiscussRole;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -52,7 +54,7 @@ public class HttpClientMongoUserIntegTests {
 
 	private static final Gson gson = new Gson();
 
-	private static IModel created;
+	private static Map<String, Object> created;
 
 	@BeforeClass
 	public static void setUp() {
@@ -60,6 +62,7 @@ public class HttpClientMongoUserIntegTests {
 
 	}
 
+	@SuppressWarnings({ "unchecked", "deprecation", "rawtypes" })
 	@Test
 	public void atestHttpClientCreate() throws Exception {
 
@@ -72,9 +75,9 @@ public class HttpClientMongoUserIntegTests {
 			// specify the get request
 			HttpPost postRequest = new HttpPost("/msgsys/createUser");
 
-			DiscussionMember model = new DiscussionMember();
-			model.setMember_id("ahajri@auxia.com");
-			model.setDiscussRole("");
+			HashMap model = new HashMap();
+			model.put("member_id","ahajri@auxia.com");
+			model.put("discuss_role",DiscussRole.DISCUSS_CREATOR.getValue());
 
 			StringEntity input = new StringEntity(gson.toJson(model));
 			input.setContentType("application/json");
@@ -95,7 +98,7 @@ public class HttpClientMongoUserIntegTests {
 				String json = EntityUtils.toString(entity, CHARSET);
 				JsonElement jelem = gson.fromJson(json, JsonElement.class);
 				JsonObject jobj = jelem.getAsJsonObject();
-				created = gson.fromJson(jobj, DiscussionMember.class);
+				created = gson.fromJson(jobj, Map.class);
 				System.out.println("created : " + created);
 
 			} else {

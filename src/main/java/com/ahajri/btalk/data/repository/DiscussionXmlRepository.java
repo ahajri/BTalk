@@ -2,6 +2,7 @@ package com.ahajri.btalk.data.repository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -11,7 +12,6 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ahajri.btalk.data.domain.discuss.Discussion;
 import com.marklogic.client.document.XMLDocumentManager;
 import com.marklogic.client.io.DocumentMetadataHandle;
 import com.marklogic.client.io.JAXBHandle;
@@ -29,7 +29,7 @@ import com.marklogic.client.query.StructuredQueryDefinition;
  * @author Anis HAJRI
  */
 @Component("discussionXMLRepository")
-public class DiscussionXmlRepository implements IRepository<Discussion> {
+public class DiscussionXmlRepository implements IRepository<Map> {
 
     private static final Logger logger = Logger.getLogger(DiscussionXmlRepository.class);
 
@@ -43,17 +43,17 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     protected XMLDocumentManager xmlDocumentManager;
 
     @Override
-    public void persist(Discussion Discussion) {
+    public void persist(Map Map) {
         // Add this document to a dedicated collection for later retrieval
         DocumentMetadataHandle metadata = new DocumentMetadataHandle();
         metadata.getCollections().add(COLLECTION_REF);
         JAXBHandle contentHandle = getProductHandle();
-        contentHandle.set(Discussion);
+        contentHandle.set(Map);
         xmlDocumentManager.write("{}", metadata, contentHandle);
     }
 
     @Override
-    public boolean remove(Discussion d) {
+    public boolean remove(Map d) {
         xmlDocumentManager.delete("");
         return false;
     }
@@ -70,7 +70,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     }
 
     @Override
-    public List<Discussion> findAll() {
+    public List<Map> findAll() {
         StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
         StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
 
@@ -80,7 +80,7 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
     }
 
     @Override
-    public List<Discussion> findByQuery(String q) {
+    public List<Map> findByQuery(String q) {
         KeyValueQueryDefinition query = queryManager.newKeyValueDefinition();
         queryManager.setPageLength(PAGE_SIZE);
         query.put(queryManager.newElementLocator(new QName("name")), q);
@@ -95,10 +95,10 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
 
     private JAXBHandle getProductHandle() {
         try {
-            JAXBContext context = JAXBContext.newInstance(Discussion.class);
+            JAXBContext context = JAXBContext.newInstance(Map.class);
             return new JAXBHandle(context);
         } catch (JAXBException e) {
-            throw new RuntimeException("Unable to create Discussion JAXB context", e);
+            throw new RuntimeException("Unable to create Map JAXB context", e);
         }
     }
 
@@ -106,47 +106,50 @@ public class DiscussionXmlRepository implements IRepository<Discussion> {
         return String.format("/discuss/%d.xml", sku);
     }
 
-    private List<Discussion> toSearchResult(SearchHandle resultsHandle) {
-        List<Discussion> products = new ArrayList<>();
+    private List<Map> toSearchResult(SearchHandle resultsHandle) {
+        List<Map> products = new ArrayList<>();
         for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
             JAXBHandle contentHandle = getProductHandle();
             logger.info("  * found {}"+summary.getUri());
             xmlDocumentManager.read(summary.getUri(), contentHandle);
-            products.add((Discussion) contentHandle.get(Discussion.class));
+            products.add((Map) contentHandle.get(Map.class));
         }
         return null;
     }
 
-	@Override
-	public Discussion findOne(Object... params) {
-		return null;
-	}
+	
 
 	@Override
-	public void update(Discussion model) {
+	public void update(Map model) {
 		// TODO Auto-generated method stub
 	}
 
 	@Override
-	public void replaceInsert(Discussion model,String fragment) {
+	public void replaceInsert(Map model,String fragment) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public List<Discussion> searchByExample(String example) {
+	public List<Map> searchByExample(String example) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Discussion> findById(String id) {
+	public List<Map> findById(String id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void persist(Discussion model, DocumentMetadataHandle metadata) {
+	public void persist(Map model, DocumentMetadataHandle metadata) {
 		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public Map findOne(Object... params) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

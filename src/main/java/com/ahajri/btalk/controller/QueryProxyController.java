@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ahajri.btalk.controller.json.JsonDiscussController;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
@@ -22,7 +21,7 @@ import com.sun.jersey.core.util.MultivaluedMapImpl;
 @RestController
 public class QueryProxyController {
 
-	private static final Logger LOGGER = Logger.getLogger(JsonDiscussController.class);
+	private static final Logger LOGGER = Logger.getLogger(QueryProxyController.class);
 
 	@Autowired
 	public Client jerseyClient;

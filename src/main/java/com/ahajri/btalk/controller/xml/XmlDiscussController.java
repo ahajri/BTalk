@@ -1,6 +1,7 @@
 package com.ahajri.btalk.controller.xml;
 
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +19,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.ahajri.btalk.data.domain.discuss.Discussion;
 import com.ahajri.btalk.data.repository.DiscussionXmlRepository;
 
 @RestController
@@ -32,12 +32,12 @@ public class XmlDiscussController {
 
 	@RequestMapping(value = "/products", method = RequestMethod.POST, consumes = MediaType.APPLICATION_XML_VALUE)
 	public ResponseEntity<String> createProduct(
-			@RequestBody Discussion Discussion, UriComponentsBuilder builder) {
-		discussionXmlRepository.persist(Discussion);
+			@RequestBody Map Map, UriComponentsBuilder builder) {
+		discussionXmlRepository.persist(Map);
 
 		HttpHeaders headers = new HttpHeaders();
 //		headers.setLocation(builder.path("/auth/{id}.xml")
-//				.buildAndExpand(Discussion.getSku()).toUri());
+//				.buildAndExpand(Map.getSku()).toUri());
 
 		return new ResponseEntity<>("", headers, HttpStatus.CREATED);
 	}
@@ -49,12 +49,12 @@ public class XmlDiscussController {
 	}
 
 //	@RequestMapping(value = "/auth/{sku}.xml", method = RequestMethod.GET, produces = MediaType.APPLICATION_XML_VALUE)
-//	public Discussion readProduct(@PathVariable("sku") Long sku) {
+//	public Map readProduct(@PathVariable("sku") Long sku) {
 //		return discussionXmlRepository.findBySku(sku);
 //	}
 
 	@RequestMapping(value = "/products.xml", method = RequestMethod.GET, produces = MediaType.APPLICATION_XML_VALUE)
-	public List<Discussion> searchProducts(
+	public List<Map> searchProducts(
 			@RequestParam(required = false, value = "name") String name) {
 		if (StringUtils.isEmpty(name)) {
 			logger.info("Lookup all {} products..."+

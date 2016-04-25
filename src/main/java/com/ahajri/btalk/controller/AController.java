@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.ahajri.btalk.data.domain.IModel;
+
 import com.ahajri.btalk.error.ClientErrorInformation;
 import com.marklogic.client.ResourceNotFoundException;
 
@@ -21,7 +21,7 @@ import com.marklogic.client.ResourceNotFoundException;
  *         ahajri
  *         </p>
  */
-public abstract class AController<T extends IModel> {
+public abstract class AController<T> {
 
 
 	protected final int GT = 1;

@@ -2,13 +2,11 @@ package com.ahajri.btalk.data.service;
 
 import java.util.List;
 
-import com.ahajri.btalk.data.domain.IModel;
-
 /**
  * 
  * @author ahajri
  */
-public abstract class AService<T extends IModel> {
+public abstract class AService<T> {
 
 	public static final String DISCUSSION_COLLECTION = "/DiscussionCollection";
 

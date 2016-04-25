@@ -11,6 +11,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -30,6 +31,7 @@ import com.ahajri.btalk.data.domain.json.SearchCriteria;
 import com.ahajri.btalk.data.service.DocumentService;
 import com.ahajri.btalk.error.ClientErrorInformation;
 import com.ahajri.btalk.utils.ConversionUtils;
+import com.ahajri.btalk.utils.SecurityUtils;
 import com.marklogic.client.ResourceNotFoundException;
 
 /**
@@ -41,6 +43,7 @@ import com.marklogic.client.ResourceNotFoundException;
 @RestController
 public class DiscussionController {
 
+	private static final String XML_PREFIX = ".xml";
 	private static final String DISCUSS_ROOT_NODE = "discussion";
 	/** Logger */
 	private static final Logger LOGGER = Logger.getLogger(DiscussionController.class);
@@ -51,15 +54,15 @@ public class DiscussionController {
 	@Autowired
 	protected DocumentService documentService;
 
-	@SuppressWarnings("unchecked")
-	@RequestMapping(value = "/discuss/createDocument", method = RequestMethod.POST)
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@RequestMapping(value = "/discuss/createDiscussion", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<Object> create(@RequestBody Map action, @RequestHeader HttpHeaders headers,
 			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position,
 			@Context HttpServletRequest req) {
 		LOGGER.debug("Create Document ....");
 		// TODO: Get position later in LAT/LON
-		HashMap<String, Object> metadata = new HashMap<String, Object>();
+		Map<String, Object> metadata = new LinkedHashMap<String, Object>();
 		metadata.put("remoteAddr", req.getRemoteAddr());
 		metadata.put("remoteHost", req.getRemoteHost());
 		metadata.put("remoteUser", req.getRemoteUser());
@@ -67,11 +70,21 @@ public class DiscussionController {
 		//
 		String docName = (String) action.get("document");
 		if (docName == null) {
-			docName = "/discuss/discussion_" + sdf.format(new Date()) + ".xml";
-			action.put("document", docName);
+			docName = "/discuss/discussion_" + sdf.format(new Date()) + XML_PREFIX;
 		}
+		action.put("document", docName);
 		String xml = getXmlData(action, headers, metadata, position);
 		ActionResult result = documentService.createDocument(action, DISCUSS_COLLECTIONS, xml);
+		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
+
+	}
+
+	@RequestMapping(value = "/discuss/endDiscussion", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<Object> endDiscussion(@RequestBody Map action,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		LOGGER.debug("End discussion ...." + action.toString());
+		ActionResult result = documentService.endDiscussion(action);
 		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
 
 	}
@@ -96,6 +109,31 @@ public class DiscussionController {
 		ActionResult result = documentService.patchFragment(map);
 		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
 	}
+	
+	@RequestMapping(value = "/discuss/deleteTag", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<Object> deleteFragment(@RequestBody Map map,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		map.put("position", position);
+		LOGGER.debug("Patch Document ...." + map.toString());
+		ActionResult result = documentService.deleteTag(map);
+		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@RequestMapping(value = "/discuss/deleteDiscussion", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<Object> deleteMessage(@RequestBody Map map,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		LOGGER.debug("delete Document ...." + map.toString());
+		List<String> urilList = (List<String>) map.get("docURIs");
+		String[] docURIs = new String[urilList.size()];
+		for (int i = 0; i < urilList.size(); i++) {
+			docURIs[i] = urilList.get(0);
+		}
+		ActionResult result = documentService.deleteDocument(docURIs);
+		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
+	}
 
 	/**
 	 * 
@@ -107,7 +145,7 @@ public class DiscussionController {
 	 */
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	private String getXmlData(Map action, HttpHeaders headers, HashMap<String, Object> metadata, String position) {
+	private String getXmlData(Map action, HttpHeaders headers, Map<String, Object> metadata, String position) {
 		Map map = new HashMap<>();
 		map.put("headers", headers.toSingleValueMap());
 		map.put("metadata", (Map<String, Object>) metadata);
@@ -116,6 +154,7 @@ public class DiscussionController {
 		map.put("messages", null);// to add messages under this element later
 		map.put("startTime", new Date());
 		map.put("endTime", null);
+		map.put("discussID", SecurityUtils.genUUID());
 		map.putAll((LinkedHashMap) action.get("jsonData"));
 		return ConversionUtils.getXml(map, DISCUSS_ROOT_NODE);
 	}
@@ -146,12 +185,14 @@ public class DiscussionController {
 	 *            {@link Exception}
 	 * @return {@link ClientErrorInformation}
 	 */
-//	@ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
-//	@ExceptionHandler(Exception.class)
-//	public ResponseEntity<ClientErrorInformation> handleException(HttpServletRequest req, Exception ex) {
-//		ex.printStackTrace();
-//		ClientErrorInformation e = new ClientErrorInformation(ex.getMessage(),
-//				HttpStatus.INTERNAL_SERVER_ERROR.toString());
-//		return new ResponseEntity<ClientErrorInformation>(e, HttpStatus.INTERNAL_SERVER_ERROR);
-//	}
+	// @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+	// @ExceptionHandler(Exception.class)
+	// public ResponseEntity<ClientErrorInformation>
+	// handleException(HttpServletRequest req, Exception ex) {
+	// ex.printStackTrace();
+	// ClientErrorInformation e = new ClientErrorInformation(ex.getMessage(),
+	// HttpStatus.INTERNAL_SERVER_ERROR.toString());
+	// return new ResponseEntity<ClientErrorInformation>(e,
+	// HttpStatus.INTERNAL_SERVER_ERROR);
+	// }
 }
