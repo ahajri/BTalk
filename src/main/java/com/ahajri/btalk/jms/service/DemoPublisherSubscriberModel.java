@@ -12,24 +12,20 @@ public class DemoPublisherSubscriberModel implements javax.jms.MessageListener {
 	private TopicConnection connection;
 
 	private final static String topicName = "msgTopic";
-	private final static String username = "mercure";
-	private final static String password = "mercurepass";
+	private final static String username = "admin";
+	private final static String password = "admin";
 
 	/* Establish JMS publisher and subscriber */
-	public DemoPublisherSubscriberModel(String topicName, String username,
-			String password) throws Exception {
+	public DemoPublisherSubscriberModel(String topicName, String username, String password) throws Exception {
 		// Obtain a JNDI connection
 		InitialContext jndi = new InitialContext();
 		// Look up a JMS connection factory
-		TopicConnectionFactory conFactory = (TopicConnectionFactory) jndi
-				.lookup("topicConnectionFactry");
+		TopicConnectionFactory conFactory = (TopicConnectionFactory) jndi.lookup("topicConnectionFactry");
 		// Create a JMS connection
 		connection = conFactory.createTopicConnection(username, password);
 		// Create JMS session objects for publisher and subscriber
-		pubSession = connection.createTopicSession(false,
-				Session.AUTO_ACKNOWLEDGE);
-		TopicSession subSession = connection.createTopicSession(false,
-				Session.AUTO_ACKNOWLEDGE);
+		pubSession = connection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
+		TopicSession subSession = connection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
 		// Look up a JMS topic
 		Topic chatTopic = (Topic) jndi.lookup(topicName);
 		// Create a JMS publisher and subscriber
@@ -55,7 +51,7 @@ public class DemoPublisherSubscriberModel implements javax.jms.MessageListener {
 		try {
 			TextMessage textMessage = (TextMessage) message;
 			String text = textMessage.getText();
-			System.out.println(text);
+			System.out.println("[Message=" + text + "]");
 		} catch (JMSException jmse) {
 			jmse.printStackTrace();
 		}
@@ -64,10 +60,8 @@ public class DemoPublisherSubscriberModel implements javax.jms.MessageListener {
 	public static void main(String[] args) {
 		BasicConfigurator.configure();
 		try {
-			DemoPublisherSubscriberModel demo = new DemoPublisherSubscriberModel(
-					topicName, username, password);
-			BufferedReader commandLine = new java.io.BufferedReader(
-					new InputStreamReader(System.in));
+			DemoPublisherSubscriberModel demo = new DemoPublisherSubscriberModel(topicName, username, password);
+			BufferedReader commandLine = new java.io.BufferedReader(new InputStreamReader(System.in));
 			// closes the connection and exit the system when 'exit' enters in
 			// the command line
 			while (true) {

@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
-@Import({ MarkLogicConfig.class})
+@Import({ MarkLogicConfig.class,JmsConfig.class})
 public class AppConfig {
 
 }

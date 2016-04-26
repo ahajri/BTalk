@@ -38,7 +38,7 @@ import com.sun.jersey.api.client.filter.LoggingFilter;
 
 @Configuration
 @ComponentScan
-@PropertySource({ "classpath:ml-config.properties", "classpath:application.properties", "classpath:jndi.properties" })
+@PropertySource({ "classpath:ml-config.properties", "classpath:application.properties", "classpath:jms.properties" })
 public class MarkLogicConfig {
 
 	public static final Logger LOGGER = Logger.getLogger(MarkLogicConfig.class);
@@ -123,7 +123,7 @@ public class MarkLogicConfig {
 	}
 
 	@Bean
-	public RestTemplate restTemplateInfocentre() {
+	public RestTemplate restTemplate() {
 		RestTemplate restTemplate = new RestTemplate();
 		List<HttpMessageConverter<?>> messageConverters = new ArrayList<HttpMessageConverter<?>>();
 		messageConverters.add(new FormHttpMessageConverter());

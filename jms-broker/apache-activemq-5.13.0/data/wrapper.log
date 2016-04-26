@@ -1,0 +1,134 @@
+STATUS | wrapper  | 2016/04/25 17:18:18 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/04/25 17:18:18 | Launching a JVM...
+INFO   | jvm 1    | 2016/04/25 17:18:20 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/04/25 17:18:20 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/04/25 17:18:20 | 
+INFO   | jvm 1    | 2016/04/25 17:18:20 | Java Runtime: Oracle Corporation 1.8.0_45 C:\Program Files\Java\jre1.8.0_45
+INFO   | jvm 1    | 2016/04/25 17:18:20 |   Heap sizes: current=125952k  free=116617k  max=932352k
+INFO   | jvm 1    | 2016/04/25 17:18:20 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=7FGxdJYsCSrzxqqH -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10108 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/04/25 17:18:20 | Extensions classpath:
+INFO   | jvm 1    | 2016/04/25 17:18:20 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/04/25 17:18:20 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/04/25 17:18:20 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/04/25 17:18:20 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/04/25 17:18:20 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/04/25 17:18:20 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/04/25 17:18:20 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@72d29c12: startup date [Mon Apr 25 17:18:20 CEST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | PListStore:[C:\Users\Dell1\git\BTalk\jms-broker\apache-activemq-5.13.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Dell1\git\BTalk\jms-broker\apache-activemq-5.13.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-59648-1461597502636-0:1) is starting
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Listening for connections at: tcp://Dell:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Listening for connections at: amqp://Dell:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Listening for connections at: stomp://Dell:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Listening for connections at: mqtt://Dell:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/25 17:18:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/04/25 17:18:23 |  INFO | Listening for connections at ws://Dell:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/25 17:18:23 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/04/25 17:18:23 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-59648-1461597502636-0:1) started
+INFO   | jvm 1    | 2016/04/25 17:18:23 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/04/25 17:18:23 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2016/04/25 17:18:24 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/04/25 17:18:24 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/04/25 17:18:24 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/04/25 17:18:24 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2016/04/25 17:18:25 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/04/25 17:20:35 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2016/04/25 17:50:54 |  INFO | Connector vm://localhost stopped
+STATUS | wrapper  | 2016/04/25 17:58:24 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-59648-1461597502636-0:1) is shutting down
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/04/25 17:58:26 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | PListStore:[C:\Users\Dell1\git\BTalk\jms-broker\apache-activemq-5.13.0\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-59648-1461597502636-0:1) uptime 40 minutes
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-59648-1461597502636-0:1) is shutdown
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@72d29c12: startup date [Mon Apr 25 17:18:20 CEST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/04/25 17:58:26 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2016/04/25 17:58:27 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/04/26 09:01:30 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/04/26 09:01:30 | Launching a JVM...
+INFO   | jvm 1    | 2016/04/26 09:01:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/04/26 09:01:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/04/26 09:01:31 | 
+INFO   | jvm 1    | 2016/04/26 09:01:31 | Java Runtime: Oracle Corporation 1.8.0_45 C:\Program Files\Java\jre1.8.0_45
+INFO   | jvm 1    | 2016/04/26 09:01:31 |   Heap sizes: current=125952k  free=116617k  max=932352k
+INFO   | jvm 1    | 2016/04/26 09:01:31 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=9XqQn5k0HXoUUtcW -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6272 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/04/26 09:01:31 | Extensions classpath:
+INFO   | jvm 1    | 2016/04/26 09:01:31 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/04/26 09:01:31 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/04/26 09:01:31 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/04/26 09:01:31 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/04/26 09:01:31 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/04/26 09:01:32 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/04/26 09:01:32 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@788b783e: startup date [Tue Apr 26 09:01:32 CEST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/04/26 09:01:33 |  INFO | PListStore:[C:\Users\Dell1\git\BTalk\jms-broker\apache-activemq-5.13.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/04/26 09:01:33 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Dell1\git\BTalk\jms-broker\apache-activemq-5.13.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/04/26 09:01:34 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/04/26 09:01:34 |  INFO | Recovering from the journal @1:504
+INFO   | jvm 1    | 2016/04/26 09:01:34 |  INFO | Recovery replayed 477 operations from the journal in 0.071 seconds.
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-64353-1461654094934-0:1) is starting
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Listening for connections at: tcp://Dell:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Listening for connections at: amqp://Dell:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Listening for connections at: stomp://Dell:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Listening for connections at: mqtt://Dell:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Listening for connections at ws://Dell:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-64353-1461654094934-0:1) started
+INFO   | jvm 1    | 2016/04/26 09:01:35 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/04/26 09:01:36 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2016/04/26 09:01:37 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/04/26 09:01:37 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/04/26 09:01:37 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/04/26 09:01:37 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2016/04/26 09:01:38 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/04/26 09:22:53 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2016/04/26 09:55:36 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2016/04/26 10:34:37 | java.io.IOException: Frame size of 1140 MB larger than max allowed 100 MB
+INFO   | jvm 1    | 2016/04/26 10:34:37 | 	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:269)
+INFO   | jvm 1    | 2016/04/26 10:34:37 | 	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+INFO   | jvm 1    | 2016/04/26 10:34:37 | 	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+INFO   | jvm 1    | 2016/04/26 10:34:37 | 	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+INFO   | jvm 1    | 2016/04/26 10:34:37 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2016/04/26 10:34:37 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:49803 failed: java.io.IOException: Frame size of 1140 MB larger than max allowed 100 MB
+INFO   | jvm 1    | 2016/04/26 10:34:47 | java.io.EOFException
+INFO   | jvm 1    | 2016/04/26 10:34:47 | 	at java.io.DataInputStream.readInt(Unknown Source)
+INFO   | jvm 1    | 2016/04/26 10:34:47 | 	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:267)
+INFO   | jvm 1    | 2016/04/26 10:34:47 | 	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+INFO   | jvm 1    | 2016/04/26 10:34:47 | 	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+INFO   | jvm 1    | 2016/04/26 10:34:47 | 	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+INFO   | jvm 1    | 2016/04/26 10:34:47 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2016/04/26 10:34:47 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:49804 failed: java.io.EOFException
+STATUS | wrapper  | 2016/04/26 15:50:45 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-64353-1461654094934-0:1) is shutting down
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/04/26 15:50:46 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2016/04/26 15:50:46 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | PListStore:[C:\Users\Dell1\git\BTalk\jms-broker\apache-activemq-5.13.0\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-64353-1461654094934-0:1) uptime 6 hours 49 minutes
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Apache ActiveMQ 5.13.0 (localhost, ID:Dell-64353-1461654094934-0:1) is shutdown
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@788b783e: startup date [Tue Apr 26 09:01:32 CEST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/04/26 15:50:46 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2016/04/26 15:50:47 | <-- Wrapper Stopped

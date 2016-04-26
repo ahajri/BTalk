@@ -11,7 +11,6 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 
-import org.apache.commons.lang3.ArrayUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -30,6 +29,7 @@ import com.ahajri.btalk.data.domain.ActionResult;
 import com.ahajri.btalk.data.domain.json.SearchCriteria;
 import com.ahajri.btalk.data.service.DocumentService;
 import com.ahajri.btalk.error.ClientErrorInformation;
+import com.ahajri.btalk.jms.service.ProducerService;
 import com.ahajri.btalk.utils.ConversionUtils;
 import com.ahajri.btalk.utils.SecurityUtils;
 import com.marklogic.client.ResourceNotFoundException;
@@ -43,16 +43,23 @@ import com.marklogic.client.ResourceNotFoundException;
 @RestController
 public class DiscussionController {
 
+	
 	private static final String XML_PREFIX = ".xml";
+	/**Root node name*/
 	private static final String DISCUSS_ROOT_NODE = "discussion";
+	private static final String MESSAGE_ROOT_NODE = "message";
 	/** Logger */
 	private static final Logger LOGGER = Logger.getLogger(DiscussionController.class);
 	/** Discussion MarkLogic collections */
 	private static final List<String> DISCUSS_COLLECTIONS = Arrays.asList(new String[] { "DiscussionCollection" });
 	/** Date Formatter */
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+	
 	@Autowired
 	protected DocumentService documentService;
+	
+	@Autowired
+	protected ProducerService producerService;
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@RequestMapping(value = "/discuss/createDiscussion", method = RequestMethod.POST)
@@ -76,9 +83,33 @@ public class DiscussionController {
 		String xml = getXmlData(action, headers, metadata, position);
 		ActionResult result = documentService.createDocument(action, DISCUSS_COLLECTIONS, xml);
 		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
-
 	}
-
+	
+	/**
+	 * Send Message Via JMS Broker and save it on database 
+	 * @param action: {@link Map} from JSON data
+	 * @param position: Latitude/Longitude position
+	 * @return {@link ResponseEntity}
+	 */
+	@RequestMapping(value = "/discuss/sendMessage", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<Object> sendMessage(@RequestBody Map<String,Object> action, 
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		LOGGER.debug("Create Document ....");
+		action.put("position", position);
+		action.put("messageID", SecurityUtils.genUUID());
+		String xml = ConversionUtils.getXml(action, MESSAGE_ROOT_NODE);
+		producerService.sendTextMessage(action);
+		ActionResult result = documentService.createDocument(action, DISCUSS_COLLECTIONS, xml);
+		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
+	}
+	
+	/**
+	 * 
+	 * @param action
+	 * @param position
+	 * @return
+	 */
 	@RequestMapping(value = "/discuss/endDiscussion", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)
 	public ResponseEntity<Object> endDiscussion(@RequestBody Map action,
