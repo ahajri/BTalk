@@ -172,7 +172,7 @@ public class DocumentService {
 		} else {
 			result.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
 			result.setActionResultName(ActionResultName.FAIL);
-			result.getMessages().add("Patching fragment fails on " + docID);
+			result.getTechMessages().add("Patching fragment fails on " + docID);
 		}
 		return result;
 	}
@@ -199,7 +199,7 @@ public class DocumentService {
 		} else {
 			result.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
 			result.setActionResultName(ActionResultName.FAIL);
-			result.getMessages().add("PAtrching fragment fails on " + docID);
+			result.getTechMessages().add("PAtrching fragment fails on " + docID);
 		}
 		return result;
 	}
@@ -222,7 +222,7 @@ public class DocumentService {
 		} else {
 			result.setActionResultName(ActionResultName.FAIL);
 			result.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
-			result.getMessages().add("Error while deleteing documents");
+			result.getTechMessages().add("Error while deleteing documents");
 		}
 		return result;
 	}
@@ -264,7 +264,7 @@ public class DocumentService {
 		} else {
 			result.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
 			result.setActionResultName(ActionResultName.FAIL);
-			result.getMessages().add("PAtrching fragment fails on " + docID);
+			result.getTechMessages().add("PAtrching fragment fails on " + docID);
 		}
 		return result;
 	}

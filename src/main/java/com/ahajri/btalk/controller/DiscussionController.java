@@ -8,6 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.jms.JMSException;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 
@@ -29,24 +30,27 @@ import com.ahajri.btalk.data.domain.ActionResult;
 import com.ahajri.btalk.data.domain.json.SearchCriteria;
 import com.ahajri.btalk.data.service.DocumentService;
 import com.ahajri.btalk.error.ClientErrorInformation;
-import com.ahajri.btalk.jms.service.ProducerService;
+import com.ahajri.btalk.utils.ActionResultName;
 import com.ahajri.btalk.utils.ConversionUtils;
 import com.ahajri.btalk.utils.SecurityUtils;
 import com.marklogic.client.ResourceNotFoundException;
 
 /**
- * Common Discussion Controller to manage given JSON data from the web service
+ * Common Discussion Controller to manage messaging system
  * 
- * @author ahajri
+ * @author
+ *         <p>
+ *         ahajri
+ *         <p>
  *
  */
 @RestController
 public class DiscussionController {
 
-	
 	private static final String XML_PREFIX = ".xml";
-	/**Root node name*/
+	/** discussion root node name */
 	private static final String DISCUSS_ROOT_NODE = "discussion";
+	/** message root node name */
 	private static final String MESSAGE_ROOT_NODE = "message";
 	/** Logger */
 	private static final Logger LOGGER = Logger.getLogger(DiscussionController.class);
@@ -54,12 +58,9 @@ public class DiscussionController {
 	private static final List<String> DISCUSS_COLLECTIONS = Arrays.asList(new String[] { "DiscussionCollection" });
 	/** Date Formatter */
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
-	
+
 	@Autowired
 	protected DocumentService documentService;
-	
-	@Autowired
-	protected ProducerService producerService;
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@RequestMapping(value = "/discuss/createDiscussion", method = RequestMethod.POST)
@@ -84,26 +85,57 @@ public class DiscussionController {
 		ActionResult result = documentService.createDocument(action, DISCUSS_COLLECTIONS, xml);
 		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
 	}
-	
+
 	/**
-	 * Send Message Via JMS Broker and save it on database 
-	 * @param action: {@link Map} from JSON data
-	 * @param position: Latitude/Longitude position
+	 * Send Message Via JMS Broker and save it on database
+	 * 
+	 * @param action:
+	 *            {@link Map} from JSON data
+	 * @param position:
+	 *            Latitude/Longitude position
 	 * @return {@link ResponseEntity}
 	 */
 	@RequestMapping(value = "/discuss/sendMessage", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)
-	public ResponseEntity<Object> sendMessage(@RequestBody Map<String,Object> action, 
+	public ResponseEntity<Object> sendMessage(@RequestBody Map<String, Object> action,
 			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
-		LOGGER.debug("Create Document ....");
+		LOGGER.debug("Send Message ....");
 		action.put("position", position);
 		action.put("messageID", SecurityUtils.genUUID());
-		String xml = ConversionUtils.getXml(action, MESSAGE_ROOT_NODE);
-		producerService.sendTextMessage(action);
-		ActionResult result = documentService.createDocument(action, DISCUSS_COLLECTIONS, xml);
-		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
+		String topicName = (String) action.get("topicName");
+		String discussionID = (String) action.get("discussionID");
+		String text = (String) action.get("textMessage");
+		ActionResult jmsResult = null;
+
+		if (!jmsResult.getActionResultName().equals(ActionResultName.FAIL)) {
+			// TODO: Save Message in database
+
+		}
+		// ActionResult result = documentService.createDocument(action,
+		// DISCUSS_COLLECTIONS, xml);
+		return new ResponseEntity<Object>(jmsResult.getJsonReturnData(), jmsResult.getStatus());
 	}
-	
+
+	@RequestMapping(value = "/discuss/readMessage", method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<Object> readMessage(@RequestBody Map<String, Object> action,
+			@CookieValue(value = "position", defaultValue = "48.890019, 2.316873") String position) {
+		LOGGER.debug("Read message ....");
+		action.put("position", position);
+		action.put("messageID", SecurityUtils.genUUID());
+		String topicName = (String) action.get("topicName");
+		String discussionID = (String) action.get("discussionID");
+		ActionResult jmsResult = null;
+
+		if (jmsResult != null && !jmsResult.getActionResultName().equals(ActionResultName.FAIL)) {
+			// TODO: change message status
+
+		}
+		// ActionResult result = documentService.createDocument(action,
+		// DISCUSS_COLLECTIONS, xml);
+		return new ResponseEntity<Object>(jmsResult.getJsonReturnData(), jmsResult.getStatus());
+	}
+
 	/**
 	 * 
 	 * @param action
@@ -140,7 +172,7 @@ public class DiscussionController {
 		ActionResult result = documentService.patchFragment(map);
 		return new ResponseEntity<Object>(result.getJsonReturnData(), result.getStatus());
 	}
-	
+
 	@RequestMapping(value = "/discuss/deleteTag", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)
 	public ResponseEntity<Object> deleteFragment(@RequestBody Map map,

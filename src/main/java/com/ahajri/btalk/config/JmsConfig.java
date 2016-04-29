@@ -18,7 +18,8 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @ComponentScan
-@PropertySource({ "classpath:jms.properties", "classpath:jndi.properties" })
+@PropertySource({ "classpath:jms.properties", "classpath:jndi.properties", "classpath:apache-activemq-jms.xml",
+		"classpah:apache-activemq-properties.xml" })
 public class JmsConfig {
 
 	private static final Logger LOGGER = Logger.getLogger(JmsConfig.class);

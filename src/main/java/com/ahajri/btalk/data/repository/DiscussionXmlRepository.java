@@ -23,101 +23,96 @@ import com.marklogic.client.query.StructuredQueryBuilder;
 import com.marklogic.client.query.StructuredQueryDefinition;
 
 /**
- * Sample implementation of the {@link IRepository}
- * making use of MarkLogic's {@link XMLDocumentManager}.
+ * Sample implementation of the {@link IRepository} making use of MarkLogic's
+ * {@link XMLDocumentManager}.
  *
  * @author Anis HAJRI
  */
 @Component("discussionXMLRepository")
+@SuppressWarnings({ "rawtypes", "unchecked", "deprecation", "unused" })
 public class DiscussionXmlRepository implements IRepository<Map> {
 
-    private static final Logger logger = Logger.getLogger(DiscussionXmlRepository.class);
+	private static final Logger logger = Logger.getLogger(DiscussionXmlRepository.class);
 
-    public static final String COLLECTION_REF = "/products.xml";
-    public static final int PAGE_SIZE = 10;
+	public static final String COLLECTION_REF = "/products.xml";
+	public static final int PAGE_SIZE = 10;
 
-    @Autowired
-    protected QueryManager queryManager;
+	@Autowired
+	protected QueryManager queryManager;
 
-    @Autowired
-    protected XMLDocumentManager xmlDocumentManager;
+	@Autowired
+	protected XMLDocumentManager xmlDocumentManager;
 
-    @Override
-    public void persist(Map Map) {
-        // Add this document to a dedicated collection for later retrieval
-        DocumentMetadataHandle metadata = new DocumentMetadataHandle();
-        metadata.getCollections().add(COLLECTION_REF);
-        JAXBHandle contentHandle = getProductHandle();
-        contentHandle.set(Map);
-        xmlDocumentManager.write("{}", metadata, contentHandle);
-    }
+	@Override
+	public void persist(Map Map) {
+		// Add this document to a dedicated collection for later retrieval
+		DocumentMetadataHandle metadata = new DocumentMetadataHandle();
+		metadata.getCollections().add(COLLECTION_REF);
+		JAXBHandle contentHandle = getProductHandle();
+		contentHandle.set(Map);
+		xmlDocumentManager.write("{}", metadata, contentHandle);
+	}
 
-    @Override
-    public boolean remove(Map d) {
-        xmlDocumentManager.delete("");
-        return false;
-    }
+	@Override
+	public boolean remove(Map d) {
+		xmlDocumentManager.delete("");
+		return false;
+	}
 
-  
-    @Override
-    public Long count() {
-        StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
-        StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
+	@Override
+	public Long count() {
+		StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
+		StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
 
-        SearchHandle resultsHandle = new SearchHandle();
-        queryManager.search(criteria, resultsHandle);
-        return resultsHandle.getTotalResults();
-    }
+		SearchHandle resultsHandle = new SearchHandle();
+		queryManager.search(criteria, resultsHandle);
+		return resultsHandle.getTotalResults();
+	}
 
-    @Override
-    public List<Map> findAll() {
-        StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
-        StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
+	@Override
+	public List<Map> findAll() {
+		StructuredQueryBuilder sb = queryManager.newStructuredQueryBuilder();
+		StructuredQueryDefinition criteria = sb.collection(COLLECTION_REF);
 
-        SearchHandle resultsHandle = new SearchHandle();
-        queryManager.search(criteria, resultsHandle);
-        return toSearchResult(resultsHandle);
-    }
+		SearchHandle resultsHandle = new SearchHandle();
+		queryManager.search(criteria, resultsHandle);
+		return toSearchResult(resultsHandle);
+	}
 
-    @Override
-    public List<Map> findByQuery(String q) {
-        KeyValueQueryDefinition query = queryManager.newKeyValueDefinition();
-        queryManager.setPageLength(PAGE_SIZE);
-        query.put(queryManager.newElementLocator(new QName("name")), q);
-        // TODO: How to restrict either to XML or JSON document types?
-        SearchHandle resultsHandle = new SearchHandle();
-        queryManager.search(query, resultsHandle);
-        return toSearchResult(resultsHandle);
-    }
+	@Override
+	public List<Map> findByQuery(String q) {
+		KeyValueQueryDefinition query = queryManager.newKeyValueDefinition();
+		queryManager.setPageLength(PAGE_SIZE);
+		query.put(queryManager.newElementLocator(new QName("name")), q);
+		// TODO: How to restrict either to XML or JSON document types?
+		SearchHandle resultsHandle = new SearchHandle();
+		queryManager.search(query, resultsHandle);
+		return toSearchResult(resultsHandle);
+	}
 
-   
+	private JAXBHandle getProductHandle() {
+		try {
+			JAXBContext context = JAXBContext.newInstance(Map.class);
+			return new JAXBHandle(context);
+		} catch (JAXBException e) {
+			throw new RuntimeException("Unable to create Map JAXB context", e);
+		}
+	}
 
+	private String getDocId(Long sku) {
+		return String.format("/discuss/%d.xml", sku);
+	}
 
-    private JAXBHandle getProductHandle() {
-        try {
-            JAXBContext context = JAXBContext.newInstance(Map.class);
-            return new JAXBHandle(context);
-        } catch (JAXBException e) {
-            throw new RuntimeException("Unable to create Map JAXB context", e);
-        }
-    }
-
-    private String getDocId(Long sku) {
-        return String.format("/discuss/%d.xml", sku);
-    }
-
-    private List<Map> toSearchResult(SearchHandle resultsHandle) {
-        List<Map> products = new ArrayList<>();
-        for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
-            JAXBHandle contentHandle = getProductHandle();
-            logger.info("  * found {}"+summary.getUri());
-            xmlDocumentManager.read(summary.getUri(), contentHandle);
-            products.add((Map) contentHandle.get(Map.class));
-        }
-        return null;
-    }
-
-	
+	private List<Map> toSearchResult(SearchHandle resultsHandle) {
+		List<Map> products = new ArrayList<>();
+		for (MatchDocumentSummary summary : resultsHandle.getMatchResults()) {
+			JAXBHandle contentHandle = getProductHandle();
+			logger.info("  * found {}" + summary.getUri());
+			xmlDocumentManager.read(summary.getUri(), contentHandle);
+			products.add((Map) contentHandle.get(Map.class));
+		}
+		return null;
+	}
 
 	@Override
 	public void update(Map model) {
@@ -125,9 +120,9 @@ public class DiscussionXmlRepository implements IRepository<Map> {
 	}
 
 	@Override
-	public void replaceInsert(Map model,String fragment) {
+	public void replaceInsert(Map model, String fragment) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override

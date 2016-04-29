@@ -14,7 +14,8 @@ public class ActionResult implements Serializable {
 	 */
 	private static final long serialVersionUID = 2215562584560868453L;
 
-	private final HashSet<String> messages = new HashSet<String>();
+	/** Set for technical message */
+	private final HashSet<String> techMessages = new HashSet<String>();
 	private ActionResultName actionResultName;
 	private Object jsonReturnData;
 	private HttpStatus status;
@@ -23,10 +24,8 @@ public class ActionResult implements Serializable {
 		super();
 	}
 
-	
-
-	public HashSet<String> getMessages() {
-		return messages;
+	public HashSet<String> getTechMessages() {
+		return techMessages;
 	}
 
 	public ActionResultName getActionResultName() {
