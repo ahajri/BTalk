@@ -1,0 +1,114 @@
+package com.example.ldapauth.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import com.example.ldapauth.service.LdapAuthService;
+import com.example.ldapauth.util.JwtUtil;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/api/test")
+@CrossOrigin(origins = "*", maxAge = 3600)
+public class TestController {
+
+    @Autowired
+    private LdapAuthService ldapAuthService;
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
+    /**
+     * Simple health check endpoint
+     * GET /api/test/ping
+     */
+    @GetMapping("/ping")
+    public ResponseEntity<Map<String, Object>> ping() {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "API is running");
+        response.put("timestamp", java.time.LocalDateTime.now());
+        response.put("status", "UP");
+        return ResponseEntity.ok(response);
+    }
+
+    /**
+     * Test LDAP connection
+     * GET /api/test/ldap
+     */
+    @GetMapping("/ldap")
+    public ResponseEntity<Map<String, Object>> testLdap() {
+        Map<String, Object> response = new HashMap<>();
+        
+        try {
+            boolean connected = ldapAuthService.testConnection();
+            response.put("ldapConnected", connected);
+            response.put("status", connected ? "Connected" : "Disconnected");
+            response.put("timestamp", java.time.LocalDateTime.now());
+            
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            response.put("ldapConnected", false);
+            response.put("status", "Error");
+            response.put("error", e.getMessage());
+            response.put("timestamp", java.time.LocalDateTime.now());
+            
+            return ResponseEntity.status(500).body(response);
+        }
+    }
+
+    /**
+     * Protected endpoint for testing authentication
+     * GET /api/test/protected
+     */
+    @GetMapping("/protected")
+    public ResponseEntity<Map<String, Object>> protectedEndpoint(
+            @RequestHeader("Authorization") String authHeader) {
+        
+        Map<String, Object> response = new HashMap<>();
+        
+        try {
+            if (authHeader == null || !authHeader.startsWith("Bearer ")) {
+                response.put("error", "Missing or invalid authorization header");
+                return ResponseEntity.status(401).body(response);
+            }
+
+            String token = authHeader.substring(7);
+            
+            if (!jwtUtil.validateToken(token)) {
+                response.put("error", "Invalid or expired token");
+                return ResponseEntity.status(401).body(response);
+            }
+
+            String username = jwtUtil.extractUsername(token);
+            
+            response.put("message", "Access granted to protected resource");
+            response.put("username", username);
+            response.put("timestamp", java.time.LocalDateTime.now());
+            
+            return ResponseEntity.ok(response);
+            
+        } catch (Exception e) {
+            response.put("error", "Authentication error: " + e.getMessage());
+            return ResponseEntity.status(500).body(response);
+        }
+    }
+
+    /**
+     * Get application info
+     * GET /api/test/info
+     */
+    @GetMapping("/info")
+    public ResponseEntity<Map<String, Object>> getInfo() {
+        Map<String, Object> response = new HashMap<>();
+        response.put("application", "LDAP Authentication API");
+        response.put("version", "1.0.0");
+        response.put("description", "Spring Boot 3 LDAP Authentication REST API");
+        response.put("java.version", System.getProperty("java.version"));
+        response.put("spring.version", org.springframework.core.SpringVersion.getVersion());
+        response.put("timestamp", java.time.LocalDateTime.now());
+        
+        return ResponseEntity.ok(response);
+    }
+}
