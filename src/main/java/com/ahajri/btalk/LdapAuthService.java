@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ldap.core.AttributesMapper;
 import org.springframework.ldap.core.LdapTemplate;
+import org.springframework.ldap.core.support.LdapContextSource;
+import org.springframework.ldap.support.LdapNameBuilder;
 import org.springframework.ldap.support.LdapUtils;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.naming.directory.Attributes;
 import javax.naming.directory.DirContext;
+import javax.naming.ldap.LdapName;
 import javax.naming.NamingException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,6 +28,9 @@ public class LdapAuthService {
 
     @Autowired
     private LdapTemplate ldapTemplate;
+
+    @Value("${spring.ldap.base}")
+    private String baseDn;
 
     @Value("${app.ldap.user-search-base}")
     private String userSearchBase;
@@ -49,10 +55,11 @@ public class LdapAuthService {
                 return false;
             }
 
-            // Attempt to bind with user credentials
+            // Get the context source and attempt to bind with user credentials
+            LdapContextSource contextSource = (LdapContextSource) ldapTemplate.getContextSource();
             DirContext ctx = null;
             try {
-                ctx = ldapTemplate.getContextSource().getContext(userDn, password);
+                ctx = contextSource.getContext(userDn, password);
                 logger.info("Successfully authenticated user: {}", username);
                 return true;
             } catch (Exception e) {
@@ -79,36 +86,22 @@ public class LdapAuthService {
     private String findUserDn(String username) {
         try {
             String filter = userSearchFilter.replace("{0}", username);
-            List<String> dns = ldapTemplate.search(
+            
+            // Use search to find the user and get their DN
+            List<String> results = ldapTemplate.search(
                 userSearchBase,
                 filter,
-                (AttributesMapper<String>) attrs -> {
-                    try {
-                        return attrs.get("dn") != null ? attrs.get("dn").get().toString() : null;
-                    } catch (NamingException e) {
-                        return null;
-                    }
-                }
+                (ctx, dn) -> dn.toString()  // This will give us the relative DN
             );
 
-            if (!dns.isEmpty()) {
-                // Build full DN
-                String relativeDn = dns.get(0);
-                return userSearchFilter.replace("({0})", "(" + username + ")").contains("uid") ?
-                    "uid=" + username + "," + userSearchBase + "," + ldapTemplate.getContextSource().getBaseLdapPath() :
-                    relativeDn;
+            if (!results.isEmpty()) {
+                String relativeDn = results.get(0);
+                // Build the full DN by combining relative DN with base DN
+                return relativeDn + "," + baseDn;
             }
 
-            // Alternative approach: search and get DN from search result
-            return ldapTemplate.search(
-                userSearchBase,
-                filter,
-                1,
-                (AttributesMapper<String>) attrs -> {
-                    // This will be called with the full DN context
-                    return null; // We'll get the DN from the search context
-                }
-            ).stream().findFirst().orElse(null);
+            // Fallback: construct DN based on common patterns
+            return constructUserDn(username);
 
         } catch (Exception e) {
             logger.error("Error finding user DN for: {}", username, e);
@@ -121,7 +114,6 @@ public class LdapAuthService {
      * Construct user DN based on common LDAP patterns
      */
     private String constructUserDn(String username) {
-        String baseDn = ldapTemplate.getContextSource().getBaseLdapPath().toString();
         return String.format("uid=%s,%s,%s", username, userSearchBase, baseDn);
     }
 
@@ -164,7 +156,7 @@ public class LdapAuthService {
 
             String filter = groupSearchFilter.replace("{0}", userDn);
             
-            return ldapTemplate.search(
+            List<String> groups = ldapTemplate.search(
                 groupSearchBase,
                 filter,
                 (AttributesMapper<String>) attrs -> {
@@ -175,8 +167,40 @@ public class LdapAuthService {
                     }
                 }
             );
+
+            return groups.isEmpty() ? Collections.singletonList("ROLE_USER") : groups;
+
         } catch (Exception e) {
             logger.error("Error getting user groups for: {}", username, e);
+            return Collections.singletonList("ROLE_USER");
+        }
+    }
+
+    /**
+     * Alternative method to get user groups by username
+     */
+    private List<String> getUserGroupsByUsername(String username) {
+        try {
+            // Search for groups where the user is a member by username
+            String filter = String.format("(&(objectClass=groupOfNames)(member=uid=%s,%s,%s))", 
+                username, userSearchBase, baseDn);
+            
+            List<String> groups = ldapTemplate.search(
+                groupSearchBase,
+                filter,
+                (AttributesMapper<String>) attrs -> {
+                    try {
+                        return attrs.get("cn") != null ? "ROLE_" + attrs.get("cn").get().toString().toUpperCase() : null;
+                    } catch (NamingException e) {
+                        return null;
+                    }
+                }
+            );
+
+            return groups.isEmpty() ? Collections.singletonList("ROLE_USER") : groups;
+
+        } catch (Exception e) {
+            logger.error("Error getting user groups by username for: {}", username, e);
             return Collections.singletonList("ROLE_USER");
         }
     }
@@ -192,6 +216,11 @@ public class LdapAuthService {
             user.setUsername(getAttributeValue(attrs, "uid"));
             user.setFullName(getAttributeValue(attrs, "cn"));
             user.setEmail(getAttributeValue(attrs, "mail"));
+            
+            // Set default username if uid is not available
+            if (user.getUsername() == null || user.getUsername().isEmpty()) {
+                user.setUsername(getAttributeValue(attrs, "sAMAccountName")); // For Active Directory
+            }
             
             return user;
         }
@@ -211,10 +240,49 @@ public class LdapAuthService {
      */
     public boolean testConnection() {
         try {
+            // Simple search to test connection
             ldapTemplate.search("", "(objectClass=*)", 1, (AttributesMapper<String>) attrs -> "test");
+            logger.info("LDAP connection test successful");
             return true;
         } catch (Exception e) {
             logger.error("LDAP connection test failed", e);
+            return false;
+        }
+    }
+
+    /**
+     * Search for users (utility method)
+     */
+    public List<UserInfo> searchUsers(String searchTerm) {
+        try {
+            String filter = String.format("(|(uid=*%s*)(cn=*%s*)(mail=*%s*))", 
+                searchTerm, searchTerm, searchTerm);
+            
+            return ldapTemplate.search(
+                userSearchBase,
+                filter,
+                new UserAttributesMapper()
+            );
+        } catch (Exception e) {
+            logger.error("Error searching users with term: {}", searchTerm, e);
+            return new ArrayList<>();
+        }
+    }
+
+    /**
+     * Check if user exists in LDAP
+     */
+    public boolean userExists(String username) {
+        try {
+            String filter = userSearchFilter.replace("{0}", username);
+            List<String> results = ldapTemplate.search(
+                userSearchBase,
+                filter,
+                (ctx, dn) -> dn.toString()
+            );
+            return !results.isEmpty();
+        } catch (Exception e) {
+            logger.error("Error checking if user exists: {}", username, e);
             return false;
         }
     }
