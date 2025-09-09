@@ -160,7 +160,7 @@ class UserInfo {
 }
 
 // Error Response DTO
-class ErrorResponse {
+public class ErrorResponse {
     
     @JsonProperty("success")
     private boolean success = false;
