@@ -27,9 +27,20 @@ public class SecurityConfig {
                 .requestMatchers("/api/auth/health").permitAll()
                 .requestMatchers("/actuator/health").permitAll()
                 .requestMatchers("/api/auth/validate").permitAll()
+                .requestMatchers("/api/test/ping").permitAll()
+                .requestMatchers("/api/test/info").permitAll()
+                // Swagger/OpenAPI endpoints
+                .requestMatchers("/swagger-ui/**").permitAll()
+                .requestMatchers("/swagger-ui.html").permitAll()
+                .requestMatchers("/api-docs/**").permitAll()
+                .requestMatchers("/v3/api-docs/**").permitAll()
+                .requestMatchers("/swagger-resources/**").permitAll()
+                .requestMatchers("/webjars/**").permitAll()
+                // Authenticated endpoints
                 .requestMatchers("/api/auth/me").authenticated()
                 .requestMatchers("/api/auth/refresh").authenticated()
                 .requestMatchers("/api/auth/logout").authenticated()
+                .requestMatchers("/api/test/protected").authenticated()
                 .anyRequest().authenticated()
             );
 
