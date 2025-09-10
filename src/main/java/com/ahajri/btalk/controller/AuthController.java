@@ -123,8 +123,20 @@ public class AuthController {
      * Get current user info
      * GET /api/auth/me
      */
+    @Operation(
+        summary = "Get Current User",
+        description = "Get current authenticated user information from LDAP",
+        security = @SecurityRequirement(name = "bearerAuth")
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "User information retrieved", 
+                    content = @Content(schema = @Schema(implementation = UserInfo.class))),
+        @ApiResponse(responseCode = "401", description = "Unauthorized")
+    })
     @GetMapping("/me")
-    public ResponseEntity<?> getCurrentUser(@RequestHeader("Authorization") String authHeader) {
+    public ResponseEntity<?> getCurrentUser(
+        @Parameter(description = "Authorization header with Bearer token", required = true)
+        @RequestHeader("Authorization") String authHeader) {
         try {
             if (authHeader == null || !authHeader.startsWith("Bearer ")) {
                 return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
