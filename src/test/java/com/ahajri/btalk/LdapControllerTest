@@ -24,6 +24,11 @@ public class TestController {
      * Simple health check endpoint
      * GET /api/test/ping
      */
+    @Operation(
+        summary = "API Health Check",
+        description = "Simple ping endpoint to check if API is running"
+    )
+    @ApiResponse(responseCode = "200", description = "API is running")
     @GetMapping("/ping")
     public ResponseEntity<Map<String, Object>> ping() {
         Map<String, Object> response = new HashMap<>();
